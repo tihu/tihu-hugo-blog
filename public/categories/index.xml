@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on 醍醐堂記_TihuBlogs</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in Categories on 醍醐堂記_TihuBlogs</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 06 May 2020 22:05:32 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>播客手账</title>
+      <link>http://localhost:1313/categories/%E6%92%AD%E5%AE%A2%E6%89%8B%E8%B4%A6/</link>
+      <pubDate>Wed, 06 May 2020 22:05:32 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E6%92%AD%E5%AE%A2%E6%89%8B%E8%B4%A6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>读书笔记</title>
+      <link>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 04 May 2020 22:04:00 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>非虚构类</title>
+      <link>http://localhost:1313/categories/%E9%9D%9E%E8%99%9A%E6%9E%84%E7%B1%BB/</link>
+      <pubDate>Thu, 30 Jan 2020 20:40:00 +0800</pubDate>
+      <guid>http://localhost:1313/categories/%E9%9D%9E%E8%99%9A%E6%9E%84%E7%B1%BB/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>虚构类</title>
+      <link>http://localhost:1313/categories/%E8%99%9A%E6%9E%84%E7%B1%BB/</link>
+      <pubDate>Wed, 16 Jan 2019 08:36:54 +0000</pubDate>
+      <guid>http://localhost:1313/categories/%E8%99%9A%E6%9E%84%E7%B1%BB/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

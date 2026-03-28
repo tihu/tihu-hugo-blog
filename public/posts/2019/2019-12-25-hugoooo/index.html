@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>再一次重启部落格 | 醍醐堂記_TihuBlogs</title>
+<meta name="keywords" content="六州杂记">
+<meta name="description" content="
+本文是Hugo下第一篇测试文档。
+
+可能是孕妇效应吧，因为关注了几个推友的个人博客，才后知后觉地发现仍在孜孜不倦、默默耕耘个人博客的blogger很多。我是一个被wordpress伤透了心的人（抑或懒的借口），再也不想去折腾那个臃肿而又过度设计的系统了，我只想能简单地在一亩三分地写写字。于是，我后知后觉地发现原来很多博主（大约从2014年左右）就开始用静态(博客)网站生成工具来打理自己的博客，没有冗繁的后台，没有数据库，没有服务器，简简单单，网站页面免费挂在github一类可以托管页面的平台即可，稍微有点追求的，将页面解析到自己的域名即可。剩下的，就是打开任意一种支持markdown的应用，专心码字就行了。
+竟然有此神器！那还等什么，部落格复活计划就此展开。
+但其实还是掉了很多坑，从本月18日到今天，我才算基本把blog搞定，剩下一些“轻装修”的事情，留待慢慢研究和精装。我也不想写什么攻略，简单记录一下搭建静态博客过程中的一些坑。
+首先是选择哪个工具了。用户量最大的是Jekyll，做为GitHub Pages官方绑定的构建工具，具有得天独厚的优势，然而它是用我一窍不通并且无甚兴趣的Ruby语言写的，遂放弃；第二看中的是Pelican，因为它使用我相对熟悉并且感兴趣的Python编写，然而通过搜索，发现pelican的生态貌似比较单薄，官方文档更新的也很慢，遂放弃；接着我又看中了Hexo，虽然Node.js也挺复杂，但勉强不是天书。而且hexo的生态非常活跃，检索出的结果非常多。于是下决心搞，然而，经过几个小时的研究，我发现我搞不定，比如无论我怎么根据攻略配置，用命令行始终无法运行本地程序。
+无缘hexo，只有搞最后一个选择：hugo了。hugo使用更洋气年轻一些的go语言编写，和hexo有点同父异母的感觉。最终，我终于愉快地使用上了hugo搭建的静态博客——以及一个及其简约的theme。:)
+其次，无论再认真自己的hugo攻略撰写者们，都会有意无意忽略掉一些他觉得非常浅显、是个人就应该知道，而恰恰你并不知道的细节！比如，几乎所有的作者在写到将网页发布到github page的环节时，写的都是：
+
+1.	git push
+2.等几分钟刷新页面即可 
+就完了！因为他们真的这样就发布成功了！而你并不是，你根本不会发不成功，因为作为一个github萌新来说，你不知道有权限push，还需要生成Github的SSH公钥并配置！对于程序员来说，天哪！这样用说吗？你难道连github都不会吗？对我来说，我……我真的不会，并且直到现在，无论是终端还是github desktop，我仍然没有打通——我使用了原始而又low逼的web页面Upload，拖拽，妥妥的！
+
+第三，当解析域名时，攻略里的A记录解析的IP地址都是失效的，只有当你无法调通时，github设置里才会提示你：你可能使用的是过期IP，请点击XXXX获取最新的IP地址。
+
+顺便奉上最新的可供ub Pages的IP地址：
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+
+第四，在iA Writer里，如果你在拼音输入发现，“”会自动变成中文半角双引号，导致格式错误，你必须切换回英文，再输出双引号。
+第五，在github page里想要让个人域名使用https，需要绑定个人域名后等待24小时——我的差不多18个小时方生效。
+第六，我至今还没搞定本theme的foot信息在哪里修改……:-(。。。搞定一个能用的主题不难，但如果没有任何基础的话，搞定一个自己看得上的主题千难万难。
+第七，godaddy域名搞活动，还不错。特别是现在有中文站并且支持支付宝了，没理由不挑选一个自己的域名回来。我的域名tihu.me就是过期两年后，这次又从godaddy“赎身”回来了，耗资45元。当然，我花大价格（60元/年）同时购买了域名信息安全服务，这事儿极其非常特别尤其重要！上一次我险些因此GG，以后有时间（胆子大的时候）再讲这个故事。
+第八，运行hugo服务时的两个报错（因hugo主题中过期的无效命令引起）至今没有找到调整位置……还好不影响发布。
+总之，静态页面博客很好，从内而外散发着无印良品一般的性冷淡风，只需要对着.md格式发呆即可。迁移成本和维护成本极低，可以将精力集中在书写上——当然前期还是得折腾，时间长短取决于个人。我花比较小的代价将能收拢的旧博文也一并纳入进来，它就像我个人的惜字塔一般，收拢了我的碎碎念。
+在整个大家过程中，我最心水的Hugo主题是消夏录，然而作者并没有分享主题。最后给予我的能力，我选择了一个非常简单的主题，来自小明plus。感谢作者，我也希望自己能在这个简单主题的基础上，逐步慢慢地改造出真正属于自己的博客theme。">
+<meta name="author" content="Tihu">
+<link rel="canonical" href="http://localhost:1313/posts/2019/2019-12-25-hugoooo/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2019/2019-12-25-hugoooo/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="醍醐堂記_TihuBlogs (Alt + H)">醍醐堂記_TihuBlogs</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/" title="首页">
+                    <span>首页</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/posts/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      再一次重启部落格
+    </h1>
+    <div class="post-meta"><span title='2019-12-25 09:51:35 +0000 UTC'>December 25, 2019</span>&nbsp;·&nbsp;<span>Tihu</span>
+
+</div>
+  </header> 
+  <div class="post-content"><blockquote>
+<p>本文是Hugo下第一篇测试文档。</p>
+</blockquote>
+<p>可能是孕妇效应吧，因为关注了几个推友的个人博客，才后知后觉地发现仍在孜孜不倦、默默耕耘个人博客的blogger很多。我是一个被wordpress伤透了心的人（抑或懒的借口），再也不想去折腾那个臃肿而又过度设计的系统了，我只想能简单地在一亩三分地写写字。于是，我后知后觉地发现原来很多博主（大约从2014年左右）就开始用静态(博客)网站生成工具来打理自己的博客，没有冗繁的后台，没有数据库，没有服务器，简简单单，网站页面免费挂在github一类可以托管页面的平台即可，稍微有点追求的，将页面解析到自己的域名即可。剩下的，就是打开任意一种支持markdown的应用，专心码字就行了。</p>
+<p>竟然有此神器！那还等什么，部落格复活计划就此展开。</p>
+<p>但其实还是掉了很多坑，从本月18日到今天，我才算基本把blog搞定，剩下一些“轻装修”的事情，留待慢慢研究和精装。我也不想写什么攻略，简单记录一下搭建静态博客过程中的一些坑。</p>
+<p>首先是选择哪个工具了。用户量最大的是<em>Jekyll</em>，做为GitHub Pages官方绑定的构建工具，具有得天独厚的优势，然而它是用我一窍不通并且无甚兴趣的Ruby语言写的，遂放弃；第二看中的是<em>Pelican</em>，因为它使用我相对熟悉并且感兴趣的Python编写，然而通过搜索，发现pelican的生态貌似比较单薄，官方文档更新的也很慢，遂放弃；接着我又看中了<em>Hexo</em>，虽然Node.js也挺复杂，但勉强不是天书。而且hexo的生态非常活跃，检索出的结果非常多。于是下决心搞，然而，经过几个小时的研究，我发现我搞不定，比如无论我怎么根据攻略配置，用命令行始终无法运行本地程序。</p>
+<p>无缘hexo，只有搞最后一个选择：<em>hugo</em>了。hugo使用更洋气年轻一些的go语言编写，和hexo有点同父异母的感觉。最终，我终于愉快地使用上了hugo搭建的静态博客——以及一个及其简约的theme。:<em>)</em></p>
+<p>其次，无论再认真自己的hugo攻略撰写者们，都会有意无意忽略掉一些他觉得非常浅显、是个人就应该知道，而恰恰你并不知道的细节！比如，几乎所有的作者在写到将网页发布到github page的环节时，写的都是：</p>
+<blockquote>
+<p>1.	git push
+2.等几分钟刷新页面即可 
+就完了！因为他们真的这样就发布成功了！而你并不是，你根本不会发不成功，因为作为一个github萌新来说，你不知道有权限push，还需要生成Github的SSH公钥并配置！对于程序员来说，天哪！这样用说吗？你难道连github都不会吗？对我来说，我……我真的不会，并且直到现在，无论是终端还是github desktop，我仍然没有打通——我使用了原始而又low逼的web页面Upload，拖拽，妥妥的！</p>
+</blockquote>
+<p>第三，当解析域名时，攻略里的A记录解析的IP地址都是失效的，只有当你无法调通时，github设置里才会提示你：你可能使用的是过期IP，请点击XXXX获取最新的IP地址。</p>
+<blockquote>
+<p>顺便奉上最新的可供ub Pages的IP地址：
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153</p>
+</blockquote>
+<p>第四，在iA Writer里，如果你在拼音输入发现，“”会自动变成中文半角双引号，导致格式错误，你必须切换回英文，再输出双引号。</p>
+<p>第五，在github page里想要让个人域名使用https，需要绑定个人域名后等待24小时——我的差不多18个小时方生效。</p>
+<p>第六，我至今还没搞定本theme的foot信息在哪里修改……:-(。。。搞定一个能用的主题不难，但如果没有任何基础的话，搞定一个自己看得上的主题千难万难。</p>
+<p>第七，godaddy域名搞活动，还不错。特别是现在有中文站并且支持支付宝了，没理由不挑选一个自己的域名回来。我的域名<a href="https://tihu.me/">tihu.me</a>就是过期两年后，这次又从godaddy“赎身”回来了，耗资45元。当然，我花大价格（60元/年）同时购买了域名信息安全服务，这事儿极其非常特别尤其重要！上一次我险些因此GG，以后有时间（胆子大的时候）再讲这个故事。</p>
+<p>第八，运行hugo服务时的两个报错（因hugo主题中过期的无效命令引起）至今没有找到调整位置……还好不影响发布。</p>
+<p>总之，静态页面博客很好，从内而外散发着无印良品一般的性冷淡风，只需要对着.md格式发呆即可。迁移成本和维护成本极低，可以将精力集中在书写上——当然前期还是得折腾，时间长短取决于个人。我花比较小的代价将能收拢的旧博文也一并纳入进来，它就像我个人的惜字塔一般，收拢了我的碎碎念。</p>
+<p>在整个大家过程中，我最心水的Hugo主题是<a href="https://clt6.com//">消夏录</a>，然而作者并没有分享主题。最后给予我的能力，我选择了一个非常简单的主题，来自<a href="https://xiaomingplus.com/">小明plus</a>。感谢作者，我也希望自己能在这个简单主题的基础上，逐步慢慢地改造出真正属于自己的博客theme。</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/%E5%85%AD%E5%B7%9E%E6%9D%82%E8%AE%B0/">六州杂记</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">醍醐堂記_TihuBlogs</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
