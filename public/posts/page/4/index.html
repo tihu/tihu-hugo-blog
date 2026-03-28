@@ -162,6 +162,25 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Hugo成功添加字数统计和阅读时间
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>hugo还真是厉害！看到别人的blog里能显示”本文共XXX字，阅读大约需要XX分钟“，感觉挺高级的。话说阅读推荐时间最早还是在可能吧的公众号看到的。
+仔细研究了一下，又看了一下maupassant的readme，发现hugo有函数支持这两个功能需求，于是动手搞了一下，一次成功！
+需修改的页面地址 单篇文章修改，需要找到 layouts &gt; _default &gt; single.html
+blog首页列表修改，需要找到 layouts &gt; index.html
+修改代码 在single.html找到
+{{ if .Site.Params.busuanzi }} &lt;div class=&#34;post-meta&#34;&gt; &lt;span id=&#34;busuanzi_container_page_pv&#34;&gt;|&lt;span id=&#34;busuanzi_value_page_pv&#34;&gt;&lt;/span&gt;&lt;span&gt; 阅读 &lt;/span&gt;&lt;/span&gt;|&lt;span class=&#34;post-date&#34;&gt;共{{ .WordCount }}字&lt;/span&gt;，阅读约&lt;span class=&#34;more-meta&#34;&gt; {{ .ReadingTime }} 分钟&lt;/span&gt; &lt;/div&gt; {{ end }} 在index.html找到
+&lt;date class=&#34;post-meta meta-date&#34;&gt; {{ .Date.Year }}年{{ printf &#34;%d&#34; .Date.Month }}月{{ .Date.Day }}日|&lt;span class=&#34;post-date&#34;&gt;共{{ .WordCount }}字&lt;/span&gt;，阅读约&lt;span class=&#34;more-meta&#34;&gt; {{ .ReadingTime }} 分钟&lt;/span&gt; &lt;/date&gt; 首页没有加阅读量是因为，第一加载有问题，只有第一条能加载出来，并且字段位置明显会有读取卡顿；第二是因为阅读量太低，就不好意思放了。
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-01-19 23:08:11 +0000 UTC'>January 19, 2020</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>61 words</span>&nbsp;·&nbsp;<span>Tihu</span></footer>
+  <a class="entry-link" aria-label="post link to Hugo成功添加字数统计和阅读时间" href="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-19-wordcount/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">新播客节目2082FM上线，以及播客平台管理端简单评测
     </h2>
   </header>
@@ -315,19 +334,6 @@ Scarlett 2i2和上一代产品相比，变化有以下几点：
   </div>
   <footer class="entry-footer"><span title='2019-01-13 08:36:54 -0700 -0700'>January 13, 2019</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>4 words</span>&nbsp;·&nbsp;<span>Tihu</span></footer>
   <a class="entry-link" aria-label="post link to 冯疯子" href="http://localhost:1313/tihu-hugo-blog/posts/2019/2019-01-13-fengfengzi/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">马昇
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>温江人马昇，九十年代末除恶打黑时被枪决。他小的时候很内向，总是一个人呆着，话也不多。他家世代屠户，每天马昇的父母在肉摊上忙活时，他就一个人在旁边玩耍。八九岁大小时，马昇在集市上遇见一个人，后来谁也回忆不起当时是怎样一个人，马昇自己也闭口不提，但从此以后，马昇不再吃肉，说话的次数也愈发少了。十二岁时，马昇早上出门上学，下午放学时却没有回家，从此再也没回过家。他的家人报案，一直没有侦破。吊诡的是，街坊甚至家里人偶然能在街上远远地看到马昇，颜貌如初，他会微微一笑，转眼便踪迹全无。 就这样过了二十年，马昇突然回了家，身上穿着竟然是十二岁时的那套衣服，已经破烂不堪，勉强套在脖子上而已。家人问话，他也不多言，只说是跟师傅出去学本事了。带着去医院检查，甚至做了精神鉴定，都没什么问题。但已经三十多岁的人了，马昇也不出去做活路，就待在家里，似乎并没有什么本事。 有一天全家人吃晚饭，马昇依旧只低头吃饭，并不说话。他奶奶低头念叨了一句，好想吃龙泉的枇杷噢。马昇听到话后耳朵一动，把筷子一搁就出去了，家人喊他也不应。过了没多久，马昇低着头提了个篮子进了屋，放在奶奶脚下。里边是满满一篮子枇杷，似乎是摘得匆忙，有些连枝杈叶子都扯下来了。从温江到龙泉至少有七十公里，当时还没有高速，开车至少要两个小时。 后来马昇的父亲要开铺子做生意，却被人骗了钱。马昇便让父亲在家里坐着，告知他债人的姓名地址，取出一叠厚纸，用毛笔写了字迹投入火盆中。纸燃火灭，从灰烬中取出几颗金锭子，拿去金店折了现，正是那人欠钱的数目。当时民间骗局颇多，受害者众，马昇又帮家族其他几个也收不回欠债的亲戚依此法收回了钱。又过了没多久，公安便上了门，再过没几天，便传来了马昇被枪毙的死讯。
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2019-01-12 08:36:54 +0000 UTC'>January 12, 2019</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>4 words</span>&nbsp;·&nbsp;<span>Tihu</span></footer>
-  <a class="entry-link" aria-label="post link to 马昇" href="http://localhost:1313/tihu-hugo-blog/posts/2019/2019-01-12-masheng/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">

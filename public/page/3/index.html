@@ -152,6 +152,20 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Whistleblower与锟斤拷
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>《 ゥレン ウー 》 ベイ シャン ウエン ： ファー シャオ ズー ディー ゥレン
+2019 ニエン 12 ユエ 30 ゥリー ， アイ フェン ズオン ナー ダオ グオ イー フェン ブゥ ミーン フェイ イエン ビーン ゥレン ディー ビーン ドゥ ジエン ツォーァ バオ ガオ ， ター ヨーン ホーン ソーァ チュエン チュウ 「 SARS グワン ジュワーン ビーン ドゥ 」 ズー ヤーン ， ダーン ダー シュエ トーン シュエ ウエン チイ シー ， ター ジアーン ジョーァ フェン バオ ガオ パイ シア ライ チュワン ゲイ リヤオ ジョーァ ウエイ トーン シー イー シュヨン ディー トーン シュエ 。 ダーン ワン ， ジョーァ フェン バオ ガオ チュワン ビエン リヤオ ウー ハン ディー イー シュヨン チュエン ， ジュワン ファー ジョーァ フェン バオ ガオ ディー ゥレン ジウ バオ クオ ナー 8 ウエイ ベイ ジーン ファーン シュイン ジエ ディー イー シュヨン 。 ジョーァ ゲイ アイ フェン ダイ ライ リヤオ マー ファン ， ズゥオ ウエイ チュワン ボー ディー ユエン トウ ， ター ベイ イー ユエン ジー ウエイ ユエ タン ， ザオ ショウ リヤオ 「 チエン スゥオ ウエイ ヨウ ディー 、 イエン リー ディー チー ゾーァ 」 ， チュヨン ター シー ズゥオ ウエイ ジュワン イエ ゥレン シー ザイ ザオ ヤオ 。 ツー チエン ディー イー シエ バオ ダオ ， アイ フェン ベイ チュヨン ウエイ 「 ヨウ イー ゴーァ ベイ シュイン ジエ ディー n锟斤拷 イー シュヨン フゥ チュウ シュウイ ミエン 」 ， イエ ヨウ ゥレン ジアーン ター チュヨン ウエイ 「 チュウイ シャオ ゥレン 」 ， アイ フェン ジウ ジュヨン リヤオ ジョーァ ゴーァ シュオ ファー ， ター シュオ ズー ジー ブゥ シー チュウイ シャオ ゥレン ， シー ナー ゴーァ 「 ファー シャオ ズー ディー ゥレン 」 。 ジョーァ シー 《 ゥレン ウー 》 3 ユエ カン フオン ミエン 《 ウー ハン イー シュヨン 》 ディー ディー アル ピエン バオ ダオ 。 ウエン ｜ ゴーン ジーン チイ
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-03-11 12:47:35 +0800 CST'>March 11, 2020</span>&nbsp;·&nbsp;<span>40 min</span>&nbsp;·&nbsp;<span>8422 words</span>&nbsp;·&nbsp;<span>Tihu</span></footer>
+  <a class="entry-link" aria-label="post link to Whistleblower与锟斤拷" href="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-03-11-whistleblower/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">曼巴精神：认真地写一本自传
     </h2>
   </header>
@@ -321,25 +335,6 @@
   </div>
   <footer class="entry-footer"><span title='2020-01-28 00:18:33 +0800 CST'>January 28, 2020</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>58 words</span>&nbsp;·&nbsp;<span>Tihu</span></footer>
   <a class="entry-link" aria-label="post link to 血色女王与她的红色房间" href="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-28-thehotzone/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Hugo成功添加字数统计和阅读时间
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>hugo还真是厉害！看到别人的blog里能显示”本文共XXX字，阅读大约需要XX分钟“，感觉挺高级的。话说阅读推荐时间最早还是在可能吧的公众号看到的。
-仔细研究了一下，又看了一下maupassant的readme，发现hugo有函数支持这两个功能需求，于是动手搞了一下，一次成功！
-需修改的页面地址 单篇文章修改，需要找到 layouts &gt; _default &gt; single.html
-blog首页列表修改，需要找到 layouts &gt; index.html
-修改代码 在single.html找到
-{{ if .Site.Params.busuanzi }} &lt;div class=&#34;post-meta&#34;&gt; &lt;span id=&#34;busuanzi_container_page_pv&#34;&gt;|&lt;span id=&#34;busuanzi_value_page_pv&#34;&gt;&lt;/span&gt;&lt;span&gt; 阅读 &lt;/span&gt;&lt;/span&gt;|&lt;span class=&#34;post-date&#34;&gt;共{{ .WordCount }}字&lt;/span&gt;，阅读约&lt;span class=&#34;more-meta&#34;&gt; {{ .ReadingTime }} 分钟&lt;/span&gt; &lt;/div&gt; {{ end }} 在index.html找到
-&lt;date class=&#34;post-meta meta-date&#34;&gt; {{ .Date.Year }}年{{ printf &#34;%d&#34; .Date.Month }}月{{ .Date.Day }}日|&lt;span class=&#34;post-date&#34;&gt;共{{ .WordCount }}字&lt;/span&gt;，阅读约&lt;span class=&#34;more-meta&#34;&gt; {{ .ReadingTime }} 分钟&lt;/span&gt; &lt;/date&gt; 首页没有加阅读量是因为，第一加载有问题，只有第一条能加载出来，并且字段位置明显会有读取卡顿；第二是因为阅读量太低，就不好意思放了。
-</p>
-  </div>
-  <footer class="entry-footer"><span title='2020-01-19 23:08:11 +0000 UTC'>January 19, 2020</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>61 words</span>&nbsp;·&nbsp;<span>Tihu</span></footer>
-  <a class="entry-link" aria-label="post link to Hugo成功添加字数统计和阅读时间" href="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-19-wordcount/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
