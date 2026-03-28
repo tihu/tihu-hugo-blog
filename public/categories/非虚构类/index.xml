@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>非虚构类 on 醍醐堂記_TihuBlogs</title>
-    <link>http://localhost:1313/categories/%E9%9D%9E%E8%99%9A%E6%9E%84%E7%B1%BB/</link>
+    <link>http://localhost:1313/tihu-hugo-blog/categories/%E9%9D%9E%E8%99%9A%E6%9E%84%E7%B1%BB/</link>
     <description>Recent content in 非虚构类 on 醍醐堂記_TihuBlogs</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Thu, 30 Jan 2020 20:40:00 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/%E9%9D%9E%E8%99%9A%E6%9E%84%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tihu-hugo-blog/categories/%E9%9D%9E%E8%99%9A%E6%9E%84%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>家庭生存EDC/PSK装备清单【长期更新】</title>
-      <link>http://localhost:1313/posts/2020/2020-01-30-survive/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-30-survive/</link>
       <pubDate>Thu, 30 Jan 2020 20:40:00 +0800</pubDate>
-      <guid>http://localhost:1313/posts/2020/2020-01-30-survive/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-30-survive/</guid>
       <description>&lt;p&gt;适用人群：1-3名家庭成员；
 使用时间：不同装备后有备注；&lt;/p&gt;
 &lt;p&gt;放在一个背包里、随时可以拿到的物品：——一个45升的背包常年待命，卧室内是一个25升的满负载的徒步包；
@@ -39,9 +39,9 @@
     </item>
     <item>
       <title>逐字稿：别让绵羊替你排队</title>
-      <link>http://localhost:1313/posts/2019/2019-01-01-sheep/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2019/2019-01-01-sheep/</link>
       <pubDate>Tue, 01 Jan 2019 00:22:11 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2019/2019-01-01-sheep/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2019/2019-01-01-sheep/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;在TED演讲的准备中，有一种最笨的办法，叫做&lt;em&gt;逐字稿法&lt;/em&gt;，即将你要演讲的内容，包括口语化的部分，完全地逐字逐句预写出来，然后彩排，一遍又一遍的修正。这种办法适用于初次进行TED式演讲的人士，事半功倍，得不偿失。&lt;/p&gt;
 &lt;/blockquote&gt;

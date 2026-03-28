@@ -3,9 +3,57 @@ languageCode = "zh-cn"
 title = "醍醐堂記_TihuBlogs"
 theme = "PaperMod"
 
+
 [params]
   author = "Tihu"
   description = "醍醐,tihu,志怪,阅读,笔记体,南北朝,科幻,奇幻,播客,2082,2082ALT"
+
+# ----------------- 主题模式 -----------------
+  defaultTheme = "auto"          # auto / light / dark
+  disableThemeToggle = false      # 禁止切换明暗主题
+  showThemeToggle = true
+
+  # ----------------- 页面顶部 -----------------
+  ShowTitle = true
+  ShowReadingTime = true         # 显示阅读时间
+  ShowWordCount = true           # 显示字数统计
+  ShowRssButtonInSectionTermList = true
+  ShowFullTextinRSS = false
+
+  # ----------------- 文章内容 -----------------
+  showToc = true                 # 显示目录
+  TocSide = "right"              # 目录位置 right / left
+  ShowToc = true
+  TocOpen = true                # 目录默认展开/关闭
+
+  # ----------------- 文章底部 -----------------
+  ShowPostNavLinks = true        # 上一篇/下一篇
+  ShowBreadCrumbs = true         # 显示路径导航
+  ShowShareButtons = false        # 分享按钮
+  ShowCodeCopyButtons = false     # 代码复制按钮
+  ShowTags = false                # 显示标签
+  ShowLinkFooter = false
+
+  # ----------------- 首页/列表 ----------------
+  hideDescriptionInHome = false
+  hideMetaInHome = false
+  hideDateInHome = false
+  noindex = false
+  env = "production"
+
+  # ----------------- 搜索页 -----------------
+  disableSearch = false
+
+  # ----------------- 评论 -----------------
+  comments = false
+
+  # ----------------- 图片 -----------------
+  cover = false
+  hideSummaryCoverInPost = false
+  images = []
+
+# ==============================================
+
 
 [menu]
   [[menu.main]]

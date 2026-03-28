@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto" data-theme="auto">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/tihu-hugo-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=tihu-hugo-blog/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
+<meta name="robots" content="index, follow">
 <title>正则表达式 | 醍醐堂記_TihuBlogs</title>
 <meta name="keywords" content="六州杂记">
 <meta name="description" content="昨天在从深圳回来的路上，松哥帮了我大忙，用两则小小的正则表达式拯救了我。
@@ -14,16 +14,16 @@
 从深圳到成都，空中时间两小时20分钟抛去前后起飞降落电脑关闭时间，100分钟，全搞定了。顺带手还给页面加上了暗黑/光明切换模式，真是深得我心。
 现在唯一问题是，我还无法通过git模式更新到github。不用git更新的hugo还能叫blog吗？继续研究中。我感觉快了。">
 <meta name="author" content="Tihu">
-<link rel="canonical" href="http://localhost:1313/posts/2020/2020-01-15-regular/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="canonical" href="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-15-regular/">
+<link crossorigin="anonymous" href="/tihu-hugo-blog/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/tihu-hugo-blog/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/tihu-hugo-blog/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/tihu-hugo-blog/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/tihu-hugo-blog/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/tihu-hugo-blog/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/2020/2020-01-15-regular/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-15-regular/">
 <noscript>
     <style>
         #theme-toggle,
@@ -75,13 +75,91 @@
         document.querySelector("html").dataset.theme = 'light';
     }
 
+</script><meta property="og:url" content="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-15-regular/">
+  <meta property="og:site_name" content="醍醐堂記_TihuBlogs">
+  <meta property="og:title" content="正则表达式">
+  <meta property="og:description" content="昨天在从深圳回来的路上，松哥帮了我大忙，用两则小小的正则表达式拯救了我。
+首先能说出这句话，说明我还不是一名程序员，虽然html也摸了这么多年了。但会写html能叫自己是程序员吗？！
+自从我将2005年至2010年间的blog备份复活之后，一直在一点一点地整理混乱的文档格式，按着我的效率，保守估计，再来一个月也够呛。因为太多的标点符号啊，乱码，文本标准不统一，需要一点一点来纠正。
+还好松哥说，这个很简单啊，我来帮你弄。
+从深圳到成都，空中时间两小时20分钟抛去前后起飞降落电脑关闭时间，100分钟，全搞定了。顺带手还给页面加上了暗黑/光明切换模式，真是深得我心。
+现在唯一问题是，我还无法通过git模式更新到github。不用git更新的hugo还能叫blog吗？继续研究中。我感觉快了。">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2020-01-15T23:43:20+00:00">
+    <meta property="article:modified_time" content="2020-01-15T23:43:20+00:00">
+    <meta property="article:tag" content="六州杂记">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="正则表达式">
+  <meta name="twitter:description" content="昨天在从深圳回来的路上，松哥帮了我大忙，用两则小小的正则表达式拯救了我。
+首先能说出这句话，说明我还不是一名程序员，虽然html也摸了这么多年了。但会写html能叫自己是程序员吗？！
+自从我将2005年至2010年间的blog备份复活之后，一直在一点一点地整理混乱的文档格式，按着我的效率，保守估计，再来一个月也够呛。因为太多的标点符号啊，乱码，文本标准不统一，需要一点一点来纠正。
+还好松哥说，这个很简单啊，我来帮你弄。
+从深圳到成都，空中时间两小时20分钟抛去前后起飞降落电脑关闭时间，100分钟，全搞定了。顺带手还给页面加上了暗黑/光明切换模式，真是深得我心。
+现在唯一问题是，我还无法通过git模式更新到github。不用git更新的hugo还能叫blog吗？继续研究中。我感觉快了。">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:1313/tihu-hugo-blog/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "正则表达式",
+      "item": "http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-15-regular/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "正则表达式",
+  "name": "正则表达式",
+  "description": "昨天在从深圳回来的路上，松哥帮了我大忙，用两则小小的正则表达式拯救了我。\n首先能说出这句话，说明我还不是一名程序员，虽然html也摸了这么多年了。但会写html能叫自己是程序员吗？！\n自从我将2005年至2010年间的blog备份复活之后，一直在一点一点地整理混乱的文档格式，按着我的效率，保守估计，再来一个月也够呛。因为太多的标点符号啊，乱码，文本标准不统一，需要一点一点来纠正。\n还好松哥说，这个很简单啊，我来帮你弄。\n从深圳到成都，空中时间两小时20分钟抛去前后起飞降落电脑关闭时间，100分钟，全搞定了。顺带手还给页面加上了暗黑/光明切换模式，真是深得我心。\n现在唯一问题是，我还无法通过git模式更新到github。不用git更新的hugo还能叫blog吗？继续研究中。我感觉快了。\n",
+  "keywords": [
+    "六州杂记"
+  ],
+  "articleBody": "昨天在从深圳回来的路上，松哥帮了我大忙，用两则小小的正则表达式拯救了我。\n首先能说出这句话，说明我还不是一名程序员，虽然html也摸了这么多年了。但会写html能叫自己是程序员吗？！\n自从我将2005年至2010年间的blog备份复活之后，一直在一点一点地整理混乱的文档格式，按着我的效率，保守估计，再来一个月也够呛。因为太多的标点符号啊，乱码，文本标准不统一，需要一点一点来纠正。\n还好松哥说，这个很简单啊，我来帮你弄。\n从深圳到成都，空中时间两小时20分钟抛去前后起飞降落电脑关闭时间，100分钟，全搞定了。顺带手还给页面加上了暗黑/光明切换模式，真是深得我心。\n现在唯一问题是，我还无法通过git模式更新到github。不用git更新的hugo还能叫blog吗？继续研究中。我感觉快了。\n",
+  "wordCount" : "6",
+  "inLanguage": "en",
+  "datePublished": "2020-01-15T23:43:20Z",
+  "dateModified": "2020-01-15T23:43:20Z",
+  "author":{
+    "@type": "Person",
+    "name": "Tihu"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-15-regular/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "醍醐堂記_TihuBlogs",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/tihu-hugo-blog/favicon.ico"
+    }
+  }
+}
 </script>
 </head>
 <body id="top">
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="醍醐堂記_TihuBlogs (Alt + H)">醍醐堂記_TihuBlogs</a>
+            <a href="http://localhost:1313/tihu-hugo-blog/" accesskey="h" title="醍醐堂記_TihuBlogs (Alt + H)">醍醐堂記_TihuBlogs</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -107,17 +185,17 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/" title="首页">
+                <a href="http://localhost:1313/tihu-hugo-blog/" title="首页">
                     <span>首页</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/posts/" title="归档">
+                <a href="http://localhost:1313/tihu-hugo-blog/posts/" title="归档">
                     <span>归档</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about/" title="关于">
+                <a href="http://localhost:1313/tihu-hugo-blog/about/" title="关于">
                     <span>关于</span>
                 </a>
             </li>
@@ -128,14 +206,15 @@
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="http://localhost:1313/tihu-hugo-blog/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/tihu-hugo-blog/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       正则表达式
     </h1>
-    <div class="post-meta"><span title='2020-01-15 23:43:20 +0000 UTC'>January 15, 2020</span>&nbsp;·&nbsp;<span>Tihu</span>
+    <div class="post-meta"><span title='2020-01-15 23:43:20 +0000 UTC'>January 15, 2020</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>6 words</span>&nbsp;·&nbsp;<span>Tihu</span>
 
 </div>
   </header> 
+
   <div class="post-content"><p>昨天在从深圳回来的路上，松哥帮了我大忙，用两则小小的正则表达式拯救了我。</p>
 <p>首先能说出这句话，说明我还不是一名程序员，虽然html也摸了这么多年了。但会写html能叫自己是程序员吗？！</p>
 <p>自从我将2005年至2010年间的blog备份复活之后，一直在一点一点地整理混乱的文档格式，按着我的效率，保守估计，再来一个月也够呛。因为太多的标点符号啊，乱码，文本标准不统一，需要一点一点来纠正。</p>
@@ -148,14 +227,27 @@
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="http://localhost:1313/tags/%E5%85%AD%E5%B7%9E%E6%9D%82%E8%AE%B0/">六州杂记</a></li>
+      <li><a href="http://localhost:1313/tihu-hugo-blog/tags/%E5%85%AD%E5%B7%9E%E6%9D%82%E8%AE%B0/">六州杂记</a></li>
     </ul>
+<nav class="paginav">
+  <a class="prev" href="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-16-firstsh/">
+    <span class="title">« Prev</span>
+    <br>
+    <span>第一个blog更新脚本</span>
+  </a>
+  <a class="next" href="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-15-focusrite/">
+    <span class="title">Next »</span>
+    <br>
+    <span>新年新货：Focusrite 2i2与Casio CT-S200</span>
+  </a>
+</nav>
+
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/">醍醐堂記_TihuBlogs</a></span> · 
+        <span>&copy; 2026 <a href="http://localhost:1313/tihu-hugo-blog/">醍醐堂記_TihuBlogs</a></span> · 
 
     <span>
         Powered by

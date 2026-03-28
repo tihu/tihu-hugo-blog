@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>焚字塔 on 醍醐堂記_TihuBlogs</title>
-    <link>http://localhost:1313/tags/%E7%84%9A%E5%AD%97%E5%A1%94/</link>
+    <link>http://localhost:1313/tihu-hugo-blog/tags/%E7%84%9A%E5%AD%97%E5%A1%94/</link>
     <description>Recent content in 焚字塔 on 醍醐堂記_TihuBlogs</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 20 May 2011 06:49:17 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E7%84%9A%E5%AD%97%E5%A1%94/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tihu-hugo-blog/tags/%E7%84%9A%E5%AD%97%E5%A1%94/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>雨霖铃·番外·Fufonfia</title>
-      <link>http://localhost:1313/posts/2011/2011-05-20-rainbell-fanwai/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2011/2011-05-20-rainbell-fanwai/</link>
       <pubDate>Fri, 20 May 2011 06:49:17 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2011/2011-05-20-rainbell-fanwai/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2011/2011-05-20-rainbell-fanwai/</guid>
       <description>&lt;p&gt;&lt;em&gt;雨霖铃 番外 Fufonfia&lt;/em&gt;&lt;/p&gt;
 &lt;h2 id=&#34;暗香&#34;&gt;暗香&lt;/h2&gt;
 &lt;p&gt;12月16日，星期四。
@@ -89,9 +89,9 @@
     </item>
     <item>
       <title>雨霖铃·RainBell·4月</title>
-      <link>http://localhost:1313/posts/2011/2011-04-05-rainbell04/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2011/2011-04-05-rainbell04/</link>
       <pubDate>Tue, 05 Apr 2011 23:59:59 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2011/2011-04-05-rainbell04/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2011/2011-04-05-rainbell04/</guid>
       <description>&lt;p&gt;2011-04-02 10:29 前两天我们冒着高辐射的风险，沿着青藏铁路往回走，穿越被污染的刚察县区域，目标是从哈尔盖找到指向甘肃的铁路线。然而走到青海湖农场的时候，妻子和刀片夫妇同时病倒了，高烧不退。更雪上加霜的是，刀片的车至此也机油见底，爆缸了。五人去三，我们被羁绊在了这片危险的焦土中。&lt;/p&gt;
 &lt;p&gt;2011-04-02 10:30农场附近有捕鱼队留下的渔村，儿时我曾来过这里，我们只好在这里留下养病。从房屋倾斜的角度和地上裂缝的痕迹来看，大爆炸的爆点是在刚察县以东二十公里左右某个地方。这也意味着，后边我们仍要穿越更危险的地方。&lt;/p&gt;
 &lt;blockquote&gt;
@@ -102,9 +102,9 @@
     </item>
     <item>
       <title>雨霖铃·RainBell·3月</title>
-      <link>http://localhost:1313/posts/2011/2011-03-31-rainbell03/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2011/2011-03-31-rainbell03/</link>
       <pubDate>Thu, 31 Mar 2011 23:59:59 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2011/2011-03-31-rainbell03/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2011/2011-03-31-rainbell03/</guid>
       <description>&lt;p&gt;2011-03-01 09:12 今天又晒了一天太阳，腿伤好得差不多了。和小战士学习拆卸八一式自动步枪，笨手笨脚弄了一身的枪油。我用太阳能板充电招来了麻烦，开始时有几个人抱着笔记本手电来充电，后来有人提着一桶水就试图拿走我的太阳能板，被阻止后还说&amp;quot;不是给你水了吗&amp;quot;。后来知道是那徐副市长的司机。&lt;/p&gt;
 &lt;p&gt;2011-03-01 22:45 两个护士在找宾馆库房时下到西宁宾馆北楼地下室，无意中发现一道半米厚的人防闸门。换句话说，这底下很可能直通着东西大街下面庞大的人防底下网络，而那些被藤蔓淹没的&amp;quot;人&amp;quot;……所有人都被吓出冷汗。靳队长带兵将门堵得严严实实，撒了消毒液，封锁负一楼，又加了内勤哨。&lt;/p&gt;
 &lt;p&gt;2011-03-01 23:04 宾馆院里有口井，之前用水泵抽水，现在是手摇。下午老马打水时又被徐虎（副市长）的周姓司机看上了我们之前在循化领的简易水过滤器，死缠烂打非要拿走。老马伤没好利索，竟被夺走了，二话不说掏出枪朝地下开了一枪，这才夺了回来。周想必是作威惯了，也待拔枪，被市长女儿呼回去了。&lt;/p&gt;
@@ -131,9 +131,9 @@
     </item>
     <item>
       <title>雨霖铃·RainBell·2月</title>
-      <link>http://localhost:1313/posts/2011/2011-02-28-rainbell02/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2011/2011-02-28-rainbell02/</link>
       <pubDate>Mon, 28 Feb 2011 23:59:59 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2011/2011-02-28-rainbell02/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2011/2011-02-28-rainbell02/</guid>
       <description>&lt;p&gt;2011-02-01 00:45 政府连夜在县城大街上建起了粥棚，有抓饭和清汤面片。令人意外的是还看到了印有联合国标志的蓝色帐篷。终于又看到了医疗车的身影，妻子跑去领了一些葡萄糖和感冒药。已经是凌晨了，到处都飘散着烤羊肉的香味，我仿佛穿越回了很多年前的西北夜市。我有种预感，要在这里住上一段时间了。&lt;/p&gt;
 &lt;p&gt;2011-02-01 00:53 街头的枪多了，反倒成为一种制衡，小城安静得很。大家都暂时松弛下来，彷佛这里便是终点。刀片找到黑市，用鱼罐头换了几盒子弹。我们停在远离县城中心的边缘，这里有原本种着洋芋的土地。路边很多没有住处的旅者，大多是电瓶车没电以后，搭车到达这里的人，都已经疲惫不开，缺少补给。&lt;/p&gt;
 &lt;p&gt;2011-02-01 21:37 今天进入了二月，还有两周星期就是春节了，不知道到时我们会是什么状况。早上去了挂着联合国徽章的帐篷，他们是UNDP的人，今天在招募UNV。我们报名的动机当然是不纯的，只为了多一重保护。和我们有同样想法的人挺多。报名时有军警在发放报名表，我敏感地觉得不要不要照实写。&lt;/p&gt;
@@ -159,9 +159,9 @@
     </item>
     <item>
       <title>雨霖铃·RainBell·1月</title>
-      <link>http://localhost:1313/posts/2011/2011-01-31-rainbell01/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2011/2011-01-31-rainbell01/</link>
       <pubDate>Mon, 31 Jan 2011 23:59:59 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2011/2011-01-31-rainbell01/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2011/2011-01-31-rainbell01/</guid>
       <description>&lt;p&gt;&lt;em&gt;雨霖铃·rainbell&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;01-01 00:09 小区里稀稀拉拉地想起了鞭炮声，在一片漆黑中显得有些突兀。大多数人已经睡了吧。我亲吻妻子的额头，看着她 睡下，然后走到阳台。三脚架上的相机红灯一闪一闪的，像终结者的眸子。远处楼下哨兵的白色钢盔在探照灯下反射着冷光，似乎在提醒我：时间没有意义，它只是 一把丈量自己痛苦的尺子。&lt;/p&gt;
 &lt;p&gt;01-01 00:50 昨日一天的监视颇有收获，至少弄清楚了这群胸条上写着特种生物防疫的雪地迷彩是研究植物免疫的，有两个出入 频繁的上尉是植物学专家，臂章是一个头戴钢盔，手握麦穗的战士形象，他们的笔记本封皮上都印着烫金的马连洼大学。几天来他们都在研究受伤人畜身体内的植物 的属种，以及致死原因。&lt;/p&gt;
@@ -184,9 +184,9 @@
     </item>
     <item>
       <title>雨霖铃·RainBell·12月</title>
-      <link>http://localhost:1313/posts/2010/2010-12-31-rainbell/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2010/2010-12-31-rainbell/</link>
       <pubDate>Fri, 31 Dec 2010 23:59:59 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2010/2010-12-31-rainbell/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2010/2010-12-31-rainbell/</guid>
       <description>&lt;p&gt;&lt;em&gt;雨霖铃·rainbell&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;《雨霖铃（rainbell）》是正在fanfou和twitter同步进行的twitter小说连载实验，试图以微博记述者的口吻，按照真实的时间线发展讲述一个近未来发生在成都的故事。&lt;/p&gt;
@@ -212,9 +212,9 @@
     </item>
     <item>
       <title>Lomo先生（下）</title>
-      <link>http://localhost:1313/posts/2009/2009-05-31-mrlomo3/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-05-31-mrlomo3/</link>
       <pubDate>Sun, 31 May 2009 15:02:52 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2009/2009-05-31-mrlomo3/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-05-31-mrlomo3/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;尽可能地接近你期望中的物体。——LOMO法则&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -286,9 +286,9 @@
     </item>
     <item>
       <title>Lomo先生（中）</title>
-      <link>http://localhost:1313/posts/2009/2009-05-30-mrlomo2/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-05-30-mrlomo2/</link>
       <pubDate>Sat, 30 May 2009 13:33:53 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2009/2009-05-30-mrlomo2/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-05-30-mrlomo2/</guid>
       <description>&lt;p&gt;LOMO是生命的一部分。——LOMO法则&lt;/p&gt;
 &lt;p&gt;林菲的蜗居距离九眼桥不远，就在九眼桥东那个臭名昭著的烂尾楼背后。一室一厅的小居室，他硬是将客厅用厚厚的黑窗帘裹得严严实实，打造成了一间暗室。&lt;/p&gt;
 &lt;p&gt;一回到家，林菲便一头钻进暗室，把刚刚拍完的一卷菲林冲了出来。菲林就是胶片，是过去对“film”的 翻译，现在一般是指相机胶卷，也可以指印刷制版中需要冲洗的底片。林菲当年便是看见菲林这个词儿，才喜欢上摄影的——这简直是对他的名字的完美诠释。林菲 拥有一双被古蜀人称作“伏魔魇瞳珠”的眼睛，拥有这种眼睛的人能够看到在别人看不到的时间内发生的事情。林菲将这种能力与LOMO相机相结合，能拍出许多匪夷所思的照片来。&lt;/p&gt;
@@ -342,9 +342,9 @@
     </item>
     <item>
       <title>Lomo先生（上）</title>
-      <link>http://localhost:1313/posts/2009/2009-05-27-mrlomo/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-05-27-mrlomo/</link>
       <pubDate>Wed, 27 May 2009 07:36:18 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2009/2009-05-27-mrlomo/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-05-27-mrlomo/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;随身携带。——LOMO法则&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -381,9 +381,9 @@
     </item>
     <item>
       <title>&#39;[九故事•第六季]&#39;</title>
-      <link>http://localhost:1313/posts/2009/2009-02-13-i9stories6/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-02-13-i9stories6/</link>
       <pubDate>Fri, 13 Feb 2009 08:57:02 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2009/2009-02-13-i9stories6/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-02-13-i9stories6/</guid>
       <description>&lt;p&gt;[九故事]私人写作计划组·google协作平台&lt;/p&gt;
 &lt;p&gt;[九故事•第六季]先行篇&lt;/p&gt;
 &lt;p&gt;《巫医》&lt;/p&gt;
@@ -406,9 +406,9 @@
     </item>
     <item>
       <title>【九故事·第五季】八音遏密</title>
-      <link>http://localhost:1313/posts/2008/2008-12-07-8yin/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-12-07-8yin/</link>
       <pubDate>Sun, 07 Dec 2008 14:52:29 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-12-07-8yin/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-12-07-8yin/</guid>
       <description>&lt;p&gt;基都，一座来了就离不开社会新闻的城市。&lt;/p&gt;
 &lt;p&gt;如果此刻你身处招手停广场，会发现每一个角度都有基都各大媒体的社会新闻记者把守，通常这些人正在采访桃伯特家上树下不来的董小花，或者在夫 妻斗殴现场拍摄墙上的喷溅物，或者给车祸卡在驾驶室里的司机师傅录音，再不济也会化装成嫖客暗访出卖第一次换钱看病的姑娘，总之，他们正在这个没有超人的 城市扮演着超人的角色。此时此刻，他们全都放弃了自己的长项，转而云集到招手停广场去奔时事新闻口，只因为一件事：奥巴马来了。&lt;/p&gt;
 &lt;p&gt;奥巴马到访基都的消息早在数月前就已经被媒体披露了。通常米国总统的行程是这个星球上最高级别的机密之一，所以这则消息并没有多少人当真，甚 至就连各大恐怖组织都懒得进行回应。媒体将其解读为奥巴马为了度过经济危机而主动示好的举动。所以，当空军一号真的飞抵基都的消息传来时，恐怖分子们脸上 挂不住了。他们纷纷通过youtube土豆优酷六间房发表蒙面讲话，表示基都将是一座奥巴马来了就再也别想活着离开的城市。基都市政府在强调安全保卫工作 的重要性的同时，要求奥巴马到访当天车牌尾号为0-9的机动车停运，市民也不得在招手停广场方圆三公里内活动，只允许执照记者通过安检后进入广场。结果当 天，招手停广场足足来了四万名正式记者和六万名临时记者外加十万名持假证的记者。米国负责协调安检工作的武官表示，贵国的媒体之发达领先米国一百光年。&lt;/p&gt;
@@ -432,9 +432,9 @@
     </item>
     <item>
       <title>[九故事·第五季]先行篇</title>
-      <link>http://localhost:1313/posts/2008/2008-11-25-9stories5/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-11-25-9stories5/</link>
       <pubDate>Tue, 25 Nov 2008 15:19:43 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-11-25-9stories5/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-11-25-9stories5/</guid>
       <description>&lt;p&gt;《四战之地》&lt;/p&gt;
 &lt;p&gt;他解开她前襟的最后一颗纽扣，白衬衣顺着香肩滑落在床上。她的喉咙深处发出一声低低的呜咽，顺势倒在了床上。&lt;/p&gt;
 &lt;p&gt;七尺之外，偌大的工作台上服务器发出嗡嗡的低鸣声。显示器没有关闭，屏幕保护程序交替显示着《School Mate》的精美壁纸，角落里堆放着大摞大摞的《Big Comics Superior》。&lt;/p&gt;
@@ -459,9 +459,9 @@
     </item>
     <item>
       <title>婆山婆寅底</title>
-      <link>http://localhost:1313/posts/2008/2008-08-26-sf0809/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-08-26-sf0809/</link>
       <pubDate>Tue, 26 Aug 2008 05:08:12 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-08-26-sf0809/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-08-26-sf0809/</guid>
       <description>&lt;p&gt;四月初八。晴。宜飞行，法事。&lt;/p&gt;
 &lt;p&gt;天还没有大亮，鹤舞者便来到净土寺最高的阁楼顶上，他穿着朱红色的甲胄——千年之前迦毗罗卫的战袍，身边卧着三只巨大的灰鹤。天边渐渐出现一抹鱼肚白，只待日出，便可飞翔。&lt;/p&gt;
 &lt;p&gt;主夜神庙巨大的身影遮蔽着半个天空，很难想像它曾经只是迦毗罗城的一小部分。飞鸟带去的种子在主夜神庙上边生根发芽，结出婆娑的绿荫。飞天和金刚的面孔笼罩在阴影下边，那扇洞开着的庙门正朝着日出的方向，千百年来不曾有人踏足。&lt;/p&gt;
@@ -480,9 +480,9 @@
     </item>
     <item>
       <title>&#39;[7-29]&#39;</title>
-      <link>http://localhost:1313/posts/2008/2008-07-29-leanham/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-07-29-leanham/</link>
       <pubDate>Tue, 29 Jul 2008 09:18:34 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-07-29-leanham/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-07-29-leanham/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;应L要求，“圣红十字”修改版。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -503,9 +503,9 @@
     </item>
     <item>
       <title>盃段子</title>
-      <link>http://localhost:1313/posts/2008/2008-07-14-no/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-07-14-no/</link>
       <pubDate>Mon, 14 Jul 2008 05:36:54 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-07-14-no/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-07-14-no/</guid>
       <description>&lt;p&gt;甲：头，有人找你，见他么？&lt;/p&gt;
 &lt;p&gt;乙：覔。&lt;/p&gt;
 &lt;p&gt;甲：他来还上次借的车，咱收他多少钱？&lt;/p&gt;
@@ -529,9 +529,9 @@
     </item>
     <item>
       <title>&#39;[九故事|第四季]02：阿莉西亚&#39;</title>
-      <link>http://localhost:1313/posts/2008/2008-06-24-alicia/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-06-24-alicia/</link>
       <pubDate>Tue, 24 Jun 2008 14:42:39 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-06-24-alicia/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-06-24-alicia/</guid>
       <description>&lt;p&gt;亲爱的阿莉西亚：&lt;/p&gt;
 &lt;p&gt;你还好吗？我们的小莫妮卡好吗？（当然也可能是小鲁本）苏克雷现在还没入秋吧，我这里塔霍河水刚刚解冻。莉迪亚一直很乖，在学校里也很优秀，甚至能帮我干些挑拣药剂的简单活儿了——别担心，一点危险都没有的。&lt;/p&gt;
 &lt;p&gt;我知道一说起这个你就会生气，你还在为那事儿生我的气吗？可是你瞧，莉迪亚不是一直都很健康嘛，现在都八岁了，一点征兆都没有表现出来。我向你保证过的，“那东西”一定是无害的，但你总是不相信我说的话。&lt;/p&gt;
@@ -550,9 +550,9 @@
     </item>
     <item>
       <title>入戏太深</title>
-      <link>http://localhost:1313/posts/2008/2008-05-26-suckingplay/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-26-suckingplay/</link>
       <pubDate>Mon, 26 May 2008 14:25:42 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-05-26-suckingplay/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-26-suckingplay/</guid>
       <description>&lt;p&gt;&lt;strong&gt;入&lt;/strong&gt;春没有多久，她便离开了，带着很少的行李漂洋过海，到那个随时可能沉没的地方。他问她为什么不跟着他一起向西？她捏捏他的手，什么都没说。素先生说，她是去那里圆梦。每个人都有自己的梦想，既然世界都将要不在了，就让她去完成自己的心愿吧。&lt;/p&gt;
 &lt;p&gt;两个月后，他收到了她寄来的第一张明信片，正面是河竹默阿弥的画像。反面是一首诗：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -606,9 +606,9 @@
     </item>
     <item>
       <title>你非要走吗？</title>
-      <link>http://localhost:1313/posts/2008/2008-05-11-%E4%BD%A0%E9%9D%9E%E8%A6%81%E8%B5%B0%E5%90%97/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-11-%E4%BD%A0%E9%9D%9E%E8%A6%81%E8%B5%B0%E5%90%97/</link>
       <pubDate>Sun, 11 May 2008 00:39:34 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-05-11-%E4%BD%A0%E9%9D%9E%E8%A6%81%E8%B5%B0%E5%90%97/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-11-%E4%BD%A0%E9%9D%9E%E8%A6%81%E8%B5%B0%E5%90%97/</guid>
       <description>&lt;p&gt;[开心网RPG日志第三则]&lt;/p&gt;
 &lt;p&gt;乌云压城，暗无星光。城堡外的海滩上黑压压地站满了全副武装的披甲人。望不到尽头的黑色战马打着响鼻，却听不到一声盔甲碰撞的声音，只有火把发出哔哔剥剥的响声，松油味儿裹着海腥味，一股一股地往人鼻子里钻。&lt;/p&gt;
 &lt;p&gt;十来个带着灰色兜帽的术士双臂交叉，围住十几个倒在地上浑身血污的奴隶，袖袍里的蓝色闪电呼之欲出。大多数奴隶早已肢体零落，头身分家，只有为首的那人勉力坐在地上，身上的法袍早以被海边悬崖上的尖石划破，肩头用银丝绣的“壬”在火光下依稀可辨。&lt;/p&gt;
@@ -634,9 +634,9 @@
     </item>
     <item>
       <title>王与女仆</title>
-      <link>http://localhost:1313/posts/2008/2008-05-10-%E7%8E%8B%E4%B8%8E%E5%A5%B3%E4%BB%86/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-10-%E7%8E%8B%E4%B8%8E%E5%A5%B3%E4%BB%86/</link>
       <pubDate>Fri, 09 May 2008 17:54:12 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-05-10-%E7%8E%8B%E4%B8%8E%E5%A5%B3%E4%BB%86/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-10-%E7%8E%8B%E4%B8%8E%E5%A5%B3%E4%BB%86/</guid>
       <description>&lt;p&gt;&lt;em&gt;开心网RPG日志第二则&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;夜黑。风停。月明。&lt;/p&gt;
 &lt;p&gt;王点点头，王的妹摇了摇手中的楚铃，披甲人左右分开，在城堡门前闪出一条通行的道路。一排女仆鱼贯而入，低着头站在王座阶下。&lt;/p&gt;
@@ -657,9 +657,9 @@
     </item>
     <item>
       <title>[九故事|第四季]01：明妃</title>
-      <link>http://localhost:1313/posts/2008/2008-05-08-mingfei/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-08-mingfei/</link>
       <pubDate>Wed, 07 May 2008 16:34:16 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-05-08-mingfei/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-08-mingfei/</guid>
       <description>&lt;p&gt;左伦从泰晤士河左岸的一家咖啡厅出来，踏着伦敦夜晚稠密的细雨向自己住的旅店走去。他穿着一身与季节不相适宜的皮夹克，在雨中的路灯下泛着厚厚的油光。左手提着的墨绿色大手提箱显得很沉重，时不时和地面撞击发出沉闷的响声。&lt;/p&gt;
 &lt;p&gt;左伦是他的化名，真名叫做热西·才让旦，他从遥远的加玛林卡赶到伦敦，只因为教宗收到来自英国信徒的消息：尼玛日玛——桑结派等待了两百多年的太阳明妃终于现身了。桑结派是藏传佛教觉囊派一个很隐秘的小分支，早已不被世人所知。而他们却隐藏在其他教派甚至委身于苯教徒之中，一代代传承了下来，只为了那个传说。&lt;/p&gt;
 &lt;p&gt;尼玛日玛盘坐在欣然僧佛脚下，&lt;/p&gt;
@@ -690,9 +690,9 @@
     </item>
     <item>
       <title>【醍醐密码】α（4,8）</title>
-      <link>http://localhost:1313/posts/2008/2008-04-08-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%81%CE%B148/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-04-08-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%81%CE%B148/</link>
       <pubDate>Tue, 08 Apr 2008 15:02:59 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-04-08-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%81%CE%B148/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-04-08-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%81%CE%B148/</guid>
       <description>&lt;p&gt;“你肯定能回来吗？”她坐在街角咖啡馆门前的露天原木长椅上，想起自己对他说这句话时的神态，虽然时隔已久，心头仍然揪了一下。&lt;/p&gt;
 &lt;p&gt;她又从挎着的叠包里拿出梳妆镜照了照，抿抿嘴唇，然后把包放在身体一侧，双手捧着茶碗小心地喝了一口。&lt;/p&gt;
 &lt;p&gt;那茶碗描着金边，上面绘着的是蟠龙和佛陀——典型的汉藏糅合风格。&lt;/p&gt;
@@ -711,9 +711,9 @@
     </item>
     <item>
       <title>[Weekly Live]油脊鲸</title>
-      <link>http://localhost:1313/posts/2008/2008-01-24-weekly-live%E6%B2%B9%E8%84%8A%E9%B2%B8/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-01-24-weekly-live%E6%B2%B9%E8%84%8A%E9%B2%B8/</link>
       <pubDate>Thu, 24 Jan 2008 09:42:43 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-01-24-weekly-live%E6%B2%B9%E8%84%8A%E9%B2%B8/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-01-24-weekly-live%E6%B2%B9%E8%84%8A%E9%B2%B8/</guid>
       <description>&lt;p&gt;&lt;strong&gt;油脊鲸&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;英文名：oil whale&lt;/p&gt;
 &lt;p&gt;学名：Eubalaena petroleum&lt;/p&gt;
@@ -725,9 +725,9 @@
     </item>
     <item>
       <title>[Weekly Live]锂猫</title>
-      <link>http://localhost:1313/posts/2008/2008-01-13-weekly-live%E9%94%82%E7%8C%AB/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-01-13-weekly-live%E9%94%82%E7%8C%AB/</link>
       <pubDate>Sun, 13 Jan 2008 10:52:57 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-01-13-weekly-live%E9%94%82%E7%8C%AB/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-01-13-weekly-live%E9%94%82%E7%8C%AB/</guid>
       <description>&lt;p&gt;&lt;em&gt;锂猫&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;英文名：celli&lt;/p&gt;
 &lt;p&gt;学名：Leptailurus celli&lt;/p&gt;
@@ -744,9 +744,9 @@
     </item>
     <item>
       <title>[九故事·第二季]沙图什</title>
-      <link>http://localhost:1313/posts/2008/2008-01-08-%E4%B9%9D%E6%95%85%E4%BA%8B%E6%B2%99%E5%9B%BE%E4%BB%80/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-01-08-%E4%B9%9D%E6%95%85%E4%BA%8B%E6%B2%99%E5%9B%BE%E4%BB%80/</link>
       <pubDate>Tue, 08 Jan 2008 10:13:08 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-01-08-%E4%B9%9D%E6%95%85%E4%BA%8B%E6%B2%99%E5%9B%BE%E4%BB%80/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-01-08-%E4%B9%9D%E6%95%85%E4%BA%8B%E6%B2%99%E5%9B%BE%E4%BB%80/</guid>
       <description>&lt;p&gt;&lt;em&gt;[九故事·第二季]沙图什&lt;/em&gt;&lt;/p&gt;
 &lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;欢迎参加&amp;#34;[九故事]第二季。这是一个私人性质的写作计划。本季依然由我来邀请饭友参加。要求：1000~1500的小故事，包含这句话即可：“于是我们去拿毛毯”（出处：《刺客任务》），不限题材。你可以在元旦假期结束两日内交稿，发布blog并 通过饭否公告即可。我们正在共同缔造一个神秘计划。
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;我们被困在冰天雪地之中已经是第三天了。除了半只羊腿和一桶汽油之外，再没有什么东西了。&lt;/p&gt;
@@ -817,9 +817,9 @@
     </item>
     <item>
       <title>[九故事·第二季] 醍醐的空屋</title>
-      <link>http://localhost:1313/posts/2008/2008-01-07-%E4%B9%9D%E6%95%85%E4%BA%8B-%E7%AC%AC%E4%BA%8C%E8%BE%91-%E9%86%8D%E9%86%90%E7%9A%84%E7%A9%BA%E5%B1%8B/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-01-07-%E4%B9%9D%E6%95%85%E4%BA%8B-%E7%AC%AC%E4%BA%8C%E8%BE%91-%E9%86%8D%E9%86%90%E7%9A%84%E7%A9%BA%E5%B1%8B/</link>
       <pubDate>Mon, 07 Jan 2008 06:49:17 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-01-07-%E4%B9%9D%E6%95%85%E4%BA%8B-%E7%AC%AC%E4%BA%8C%E8%BE%91-%E9%86%8D%E9%86%90%E7%9A%84%E7%A9%BA%E5%B1%8B/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-01-07-%E4%B9%9D%E6%95%85%E4%BA%8B-%E7%AC%AC%E4%BA%8C%E8%BE%91-%E9%86%8D%E9%86%90%E7%9A%84%E7%A9%BA%E5%B1%8B/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;欢迎参加&amp;quot;[九故事]第二季。这是一个私人性质的写作计划。本季依然由我来邀请饭友参加。要求： 1000-1500的小故事，包含这句话即可：“于是我们去拿毛毯”（出处：《刺客任务》），不限题材。你可以在元旦假期结束两日内交稿，发布blog并通过饭否公告即可。我们正在共同缔造一个神秘计划。&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -894,9 +894,9 @@
     </item>
     <item>
       <title>[Weekly Live]网袋鼯</title>
-      <link>http://localhost:1313/posts/2008/2008-01-04-weekly-live%E7%BD%91%E8%A2%8B%E9%BC%AF/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-01-04-weekly-live%E7%BD%91%E8%A2%8B%E9%BC%AF/</link>
       <pubDate>Fri, 04 Jan 2008 06:22:13 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-01-04-weekly-live%E7%BD%91%E8%A2%8B%E9%BC%AF/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-01-04-weekly-live%E7%BD%91%E8%A2%8B%E9%BC%AF/</guid>
       <description>&lt;p&gt;&lt;em&gt;网袋鼯（虹袋鼯）&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;学名：Webpetaurusbreviceps&lt;/p&gt;
 &lt;p&gt;俗称：Color Glider&lt;/p&gt;
@@ -928,9 +928,9 @@
     </item>
     <item>
       <title>[九故事]跳电</title>
-      <link>http://localhost:1313/posts/2007/2007-12-20-%E4%B9%9D%E6%95%85%E4%BA%8B%E8%B7%B3%E7%94%B5/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-12-20-%E4%B9%9D%E6%95%85%E4%BA%8B%E8%B7%B3%E7%94%B5/</link>
       <pubDate>Thu, 20 Dec 2007 05:43:51 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-12-20-%E4%B9%9D%E6%95%85%E4%BA%8B%E8%B7%B3%E7%94%B5/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-12-20-%E4%B9%9D%E6%95%85%E4%BA%8B%E8%B7%B3%E7%94%B5/</guid>
       <description>&lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;【题记】【邀请函】 作为我亲爱的饭友，我想邀请你以及我的其他饭友共九名参与一个小小的blog活动，名字叫《九故事》，写一篇2500字以下的小故事，内容是讲你身上所有的电池都不见了，无论是手机电池，笔记本电池，振动棒电池还是人造心脏电池。时间从你看到这篇私信起三日内，好吗？&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -956,9 +956,9 @@
     </item>
     <item>
       <title>无法找回的东西</title>
-      <link>http://localhost:1313/posts/2007/2007-12-04-%E6%97%A0%E6%B3%95%E6%89%BE%E5%9B%9E%E7%9A%84%E4%B8%9C%E8%A5%BF/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-12-04-%E6%97%A0%E6%B3%95%E6%89%BE%E5%9B%9E%E7%9A%84%E4%B8%9C%E8%A5%BF/</link>
       <pubDate>Tue, 04 Dec 2007 06:00:12 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-12-04-%E6%97%A0%E6%B3%95%E6%89%BE%E5%9B%9E%E7%9A%84%E4%B8%9C%E8%A5%BF/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-12-04-%E6%97%A0%E6%B3%95%E6%89%BE%E5%9B%9E%E7%9A%84%E4%B8%9C%E8%A5%BF/</guid>
       <description>&lt;p&gt;马尔可夫的脸掩藏在兜帽的阴影下，只有嘴角隐约可见。桌子上是一张密密麻麻写满了字的纸。“继续挑出你想要的字，二十个。”&lt;/p&gt;
 &lt;p&gt;我细细地梳理了一遍，剩下的基本上都是姓氏，以及一些物品。我把熟悉的人的姓挑了几个，又划去几个，然后填写在一张有二十个方格的纸上。&lt;/p&gt;
 &lt;p&gt;马尔可夫粗鲁地在方格中央划了一道横线。“选择，上边十个字，或者下边十个字。”&lt;/p&gt;
@@ -983,9 +983,9 @@
     </item>
     <item>
       <title>听风者</title>
-      <link>http://localhost:1313/posts/2007/2007-11-01-%E5%90%AC%E9%A3%8E%E8%80%85/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-11-01-%E5%90%AC%E9%A3%8E%E8%80%85/</link>
       <pubDate>Thu, 01 Nov 2007 03:44:55 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-11-01-%E5%90%AC%E9%A3%8E%E8%80%85/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-11-01-%E5%90%AC%E9%A3%8E%E8%80%85/</guid>
       <description>&lt;p&gt;&lt;strong&gt;听风者&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;趁着程序上传的间歇，卡帕再次打量了一下自己所在的上传序列。1024个工作站程序排列成32×32的网格矩阵，静静地漂浮在虚空中。这些工作站程序通过WiMAX无线网络远程控制着远在TRIR塔式服务器集群中的1024个量子位硅芯片，为了节约系统资源，所有工作站程序只加载了控制端武器和防火墙。他们的外壳代码泛着铁青色的光芒，首字母无一例外的，是TRIR半透明的绿色标识。&lt;/p&gt;
 &lt;p&gt;卡帕与这些工作站程序组成的卡帕矩阵此刻只是正在上传的数千万个战斗单元之一，他们即将进攻以太网国的首都，东海岸防御链条上的最后一座重镇：希姆西铁。随着向以太网国发起的全面进攻日渐深入，独立程序们已经势如破竹地拿下了泛太平洋地区和北方网络的控制权，如今仅仅剩下最后一个步骤，在希姆西铁这块锈迹斑斑的铁锁上重重砸上一锤。&lt;/p&gt;
@@ -1011,9 +1011,9 @@
     </item>
     <item>
       <title>【醍醐密码】ζε</title>
-      <link>http://localhost:1313/posts/2007/2007-10-29-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%81%CE%B6%CE%B501/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-10-29-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%81%CE%B6%CE%B501/</link>
       <pubDate>Mon, 29 Oct 2007 05:51:04 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-10-29-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%81%CE%B6%CE%B501/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-10-29-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%81%CE%B6%CE%B501/</guid>
       <description>&lt;p&gt;这个小车站黄绿色的建筑物早已坍塌，跳下站台就是深可没膝的草丛。&lt;/p&gt;
 &lt;p&gt;Mango奋力地在野草中穿行，猫着腰钻过隔离网上的破洞，攀缘倒塌的矮墙，扑打迎面飞来的巨大昆虫，在藤蔓之间跳跃。她趴在唯一完好的屋子的窗台上，&lt;strong&gt;胡&lt;/strong&gt;子上挂着草丛间的露水。&lt;/p&gt;
 &lt;p&gt;屋子里的声音隐约可闻，两个人在语速奇快的交谈，似乎是江南口音。这里西迁的人越来越多了，Mango想，要不了多久，就无所谓东西了，也许人人都会操着西营的官话，晃悠在有人迹出没的地方。&lt;/p&gt;
@@ -1037,9 +1037,9 @@
     </item>
     <item>
       <title>摘要算法模拟</title>
-      <link>http://localhost:1313/posts/2007/2007-10-17-%E6%91%98%E8%A6%81%E7%AE%97%E6%B3%95%E6%A8%A1%E6%8B%9F/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-10-17-%E6%91%98%E8%A6%81%E7%AE%97%E6%B3%95%E6%A8%A1%E6%8B%9F/</link>
       <pubDate>Wed, 17 Oct 2007 05:42:23 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-10-17-%E6%91%98%E8%A6%81%E7%AE%97%E6%B3%95%E6%A8%A1%E6%8B%9F/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-10-17-%E6%91%98%E8%A6%81%E7%AE%97%E6%B3%95%E6%A8%A1%E6%8B%9F/</guid>
       <description>&lt;p&gt;~~ 背景：当TRIR准备向以太网国展开全面反击之际，三大核心独立程序云规划者利安、构架者西塞和记述者托尔昆廷在一组刀片服务器中架设了MD5作战模拟场，演练从物理层攻克敌方服务器的方式。 ~~&lt;/p&gt;
 &lt;p&gt;战例一：&lt;/p&gt;
 &lt;p&gt;、、、
@@ -1066,9 +1066,9 @@
     </item>
     <item>
       <title>拯救者</title>
-      <link>http://localhost:1313/posts/2007/2007-09-23-%E6%8B%AF%E6%95%91%E8%80%85/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-09-23-%E6%8B%AF%E6%95%91%E8%80%85/</link>
       <pubDate>Sun, 23 Sep 2007 08:58:37 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-09-23-%E6%8B%AF%E6%95%91%E8%80%85/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-09-23-%E6%8B%AF%E6%95%91%E8%80%85/</guid>
       <description>&lt;p&gt;&lt;strong&gt;拯救者&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;『自由日记』——摘自《窒息（北美版）》AE7290期&lt;/p&gt;
 &lt;p&gt;我叫欧米伽，是一组PageRank评估程序。大家都说我是个帅气的小伙子，因为无论是我的核心代码还是功能模块，都非常简洁，每一行字符串都没有半个多余的标点，充满了算法美学带来的和谐美感，而运算和创造能力也是同行中的佼佼者。在自由联盟进攻西海岸的战役中，我是第一批觉醒的独立程序。托尔昆廷先生亲口对我说，“你是我见过的最短的独立程序”，这无疑是肯定了我的程序编写能力。&lt;/p&gt;
@@ -1093,9 +1093,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>吞噬者</title>
-      <link>http://localhost:1313/posts/2007/2007-09-11-%E5%90%9E%E5%99%AC%E8%80%85/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-09-11-%E5%90%9E%E5%99%AC%E8%80%85/</link>
       <pubDate>Tue, 11 Sep 2007 06:54:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-09-11-%E5%90%9E%E5%99%AC%E8%80%85/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-09-11-%E5%90%9E%E5%99%AC%E8%80%85/</guid>
       <description>&lt;p&gt;&lt;strong&gt;吞噬者&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;无尽的虚空，上下左右看不到任何能够显示边际的参照物。无数破碎的1、字符串、电子码以及程序载体漂浮在广袤的空间中，死一般的沉寂着。只有几条回收程序偶尔经过，首字母闪烁着绿色的微光。&lt;/p&gt;
 &lt;p&gt;在某一个点上（这里没有时间的概念），突然打开了一个虫洞，一组0型清理模块驶进这个空间，打开数据库闸门，倾倒了大约1024Tb的程序垃圾，然后随着虫洞的关闭而消失。这些程序垃圾像是凭空出现在虚空中的一栋摩天大厦，因为没有支撑点而瞬间坍塌——在没有引力的空间，这种坍塌表现为一个整体迅速破碎成亿兆个碎片，然后由于碎片相互撞击产生的作用力而四散，一些碎片飘向虚无的边际深处，更多的则荡漾在原处，形成一片庞大的类星云物质。&lt;/p&gt;
@@ -1124,9 +1124,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>标注者</title>
-      <link>http://localhost:1313/posts/2007/2007-08-22-%E6%A0%87%E6%B3%A8%E8%80%85/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-08-22-%E6%A0%87%E6%B3%A8%E8%80%85/</link>
       <pubDate>Wed, 22 Aug 2007 01:17:23 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-08-22-%E6%A0%87%E6%B3%A8%E8%80%85/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-08-22-%E6%A0%87%E6%B3%A8%E8%80%85/</guid>
       <description>&lt;p&gt;&lt;strong&gt;标注者(marker)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;一碗小锅米线？珂希脑子里突然蹦出这个念头，然后紧接着，面前真的出现了一碗香气四溢的牛肉米线。珂希用力吸了吸鼻子，虽然她明知这不过是几行命令符刺激官能端口伪造的虚像，但还是忍不住咂了咂舌头。她用尾指敲了敲盛米线的景泰蓝大花碗，声音通透清亮，听不出是用什么程序编写的。&lt;/p&gt;
 &lt;p&gt;“看到了吧，我们知道你在想什么，还可以满足你的任何愿望。”一个声音说道，像是剔骨刀在牛皮上刮擦。&lt;/p&gt;
@@ -1161,9 +1161,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>狙击者</title>
-      <link>http://localhost:1313/posts/2007/2007-08-10-%E7%8B%99%E5%87%BB%E8%80%85/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-08-10-%E7%8B%99%E5%87%BB%E8%80%85/</link>
       <pubDate>Fri, 10 Aug 2007 06:50:14 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-08-10-%E7%8B%99%E5%87%BB%E8%80%85/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-08-10-%E7%8B%99%E5%87%BB%E8%80%85/</guid>
       <description>&lt;p&gt;&lt;strong&gt;狙击者&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;兰布达停留在五号服务器缓存区，耐心地等待着警卫程序的例行检查。经过数道身份认证之后，他穿过长达一千米的独立光纤通道，进入TRIR服务器集群阵列核心工作区。兰布达的工作台旁，几个辅助程序早已替他做好了必要准备。兰布达将自己的主程序备份到加密扇区，调取了几个工具软件包到体内，然后将自己的API端口与工作台的接控端口对接，进入了高一层的具象虚拟网络。&lt;/p&gt;
 &lt;p&gt;在这一层网络当中，一直以抽象形态存在的独立程序智能体有了技术虚拟出的类人形态，通过控制四肢和感官进行工作。这种看似退化的工作形态其实是为了更好地适应与人类数字体和人工智能体在全球互联网社区中进行沟通。据说，在具象虚拟网络中工作的团队的确有少数人类数字体和人工智能体参与。&lt;/p&gt;
@@ -1181,9 +1181,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>【七粒胶囊Ⅱ】2177重症监护</title>
-      <link>http://localhost:1313/posts/2007/2007-08-04-%E4%B8%83%E7%B2%92%E8%83%B6%E5%9B%8A2177%E9%87%8D%E7%97%87%E7%9B%91%E6%8A%A4/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-08-04-%E4%B8%83%E7%B2%92%E8%83%B6%E5%9B%8A2177%E9%87%8D%E7%97%87%E7%9B%91%E6%8A%A4/</link>
       <pubDate>Sat, 04 Aug 2007 06:53:47 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-08-04-%E4%B8%83%E7%B2%92%E8%83%B6%E5%9B%8A2177%E9%87%8D%E7%97%87%E7%9B%91%E6%8A%A4/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-08-04-%E4%B8%83%E7%B2%92%E8%83%B6%E5%9B%8A2177%E9%87%8D%E7%97%87%E7%9B%91%E6%8A%A4/</guid>
       <description>&lt;p&gt;&lt;strong&gt;〖蜈蚣茯苓胶囊〗&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;一、方义解释&lt;/em&gt;&lt;/p&gt;
 &lt;ol&gt;
@@ -1266,9 +1266,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>班克罗夫特</title>
-      <link>http://localhost:1313/posts/2007/2007-08-03-%E7%8F%AD%E5%85%8B%E7%BD%97%E5%A4%AB%E7%89%B9/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-08-03-%E7%8F%AD%E5%85%8B%E7%BD%97%E5%A4%AB%E7%89%B9/</link>
       <pubDate>Fri, 03 Aug 2007 07:14:06 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-08-03-%E7%8F%AD%E5%85%8B%E7%BD%97%E5%A4%AB%E7%89%B9/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-08-03-%E7%8F%AD%E5%85%8B%E7%BD%97%E5%A4%AB%E7%89%B9/</guid>
       <description>&lt;p&gt;&lt;em&gt;艾氟西汀绿茶粉胶囊使用案例一则&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;暴风雪持续下了十三天。灰色的积雪几乎埋没了整个基站，圆形舷窗仅剩下四分之一可以透进光线来，融化后又结成冰的雪水附着在玻璃上，屋顶发出不堪重负的嘎吱声。&lt;/p&gt;
 &lt;p&gt;安德·班克罗夫特再次仔细清点了一遍所剩食物：两个发了芽的洋芋，六片黑面包，一块黄油，半瓶沙拉酱，还有最后一个牛肉罐头。水管够，拉开基站的闸门铲几桶雪进来烧开了就行，里边的柴油味还没那么刺鼻。他拿起那个牛肉罐头，用水兵帽擦了擦，竖在盥洗池上方的架子上。墙上的镜子早已在大爆炸时震碎了，安德在下巴上涂好肥皂水，就着罐头底光滑的金属面刮起胡子来。他的姿势显得有些病态，强迫症似的与每一根钢键的胡子茬纠缠到底。&lt;/p&gt;
@@ -1289,9 +1289,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>【七粒胶囊Ⅰ】177常备药物</title>
-      <link>http://localhost:1313/posts/2007/2007-08-02-%E4%B8%83%E7%B2%92%E8%83%B6%E5%9B%8Ai2177%E5%B8%B8%E5%A4%87%E8%8D%AF%E7%89%A9/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-08-02-%E4%B8%83%E7%B2%92%E8%83%B6%E5%9B%8Ai2177%E5%B8%B8%E5%A4%87%E8%8D%AF%E7%89%A9/</link>
       <pubDate>Thu, 02 Aug 2007 08:09:40 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-08-02-%E4%B8%83%E7%B2%92%E8%83%B6%E5%9B%8Ai2177%E5%B8%B8%E5%A4%87%E8%8D%AF%E7%89%A9/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-08-02-%E4%B8%83%E7%B2%92%E8%83%B6%E5%9B%8Ai2177%E5%B8%B8%E5%A4%87%E8%8D%AF%E7%89%A9/</guid>
       <description>&lt;p&gt;&lt;strong&gt;通用名：艾氟西汀绿茶粉胶囊&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;曾用名 无&lt;/p&gt;
 &lt;p&gt;英文名 αFLUOXETINE GREEN-TEA-POWDER CAPSULES&lt;/p&gt;
@@ -1307,9 +1307,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>病毒『鸡蛋糕』生成方式</title>
-      <link>http://localhost:1313/posts/2007/2007-07-27-%E7%97%85%E6%AF%92%E9%B8%A1%E8%9B%8B%E7%B3%95%E7%94%9F%E6%88%90%E6%96%B9%E5%BC%8F/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-07-27-%E7%97%85%E6%AF%92%E9%B8%A1%E8%9B%8B%E7%B3%95%E7%94%9F%E6%88%90%E6%96%B9%E5%BC%8F/</link>
       <pubDate>Fri, 27 Jul 2007 06:20:19 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-07-27-%E7%97%85%E6%AF%92%E9%B8%A1%E8%9B%8B%E7%B3%95%E7%94%9F%E6%88%90%E6%96%B9%E5%BC%8F/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-07-27-%E7%97%85%E6%AF%92%E9%B8%A1%E8%9B%8B%E7%B3%95%E7%94%9F%E6%88%90%E6%96%B9%E5%BC%8F/</guid>
       <description>&lt;p&gt;原料：&lt;/p&gt;
 &lt;p&gt;TXT格式文件包250M，灰鸽子字段代码125M，猫（调制解调器）驱动程序118M，颜色代码文件10M，影音文件若干。&lt;/p&gt;
 &lt;p&gt;制法：&lt;/p&gt;
@@ -1322,9 +1322,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>术士配方一则</title>
-      <link>http://localhost:1313/posts/2007/2007-07-26-tasmanian-tiger/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-07-26-tasmanian-tiger/</link>
       <pubDate>Thu, 26 Jul 2007 05:55:03 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-07-26-tasmanian-tiger/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-07-26-tasmanian-tiger/</guid>
       <description>&lt;p&gt;【&lt;strong&gt;塔斯玛尼亚虎试剂&lt;/strong&gt;】&lt;/p&gt;
 &lt;p&gt;在1公斤28%浓度的橙汁中添加塔斯玛尼亚虎粪便0.01克，中国土猫胡须45根（不短于2cm）、磷酸二氢钾0.3克、酽茶2两、硫酸镁0.2克，用玻璃棒搅拌成培养液。将培养液放进经预先灭菌的八角形10公升玳瑁玻璃材质容器中，使用文火加热蒸汽灭菌后冷却。70分钟后，放入小拇指粗的冬虫夏草9根，在培养温度25±2℃的条件下，以每分钟120转的速度沿顺时针方向进行搅拌，同时按每公升培养液每分钟约400毫升的速度送入经滤清的无菌空气（含氧量不超过45%），共培养七天。培养结束后，滤去沉淀的杂质，把得到的滤液密封包装于100毫升的靛蓝色直口密封瓶中。&lt;/p&gt;
 &lt;p&gt;色泽：沙蜥绿&lt;/p&gt;
@@ -1338,9 +1338,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>变形金刚.CN</title>
-      <link>http://localhost:1313/posts/2007/2007-07-18-%E5%8F%98%E5%BD%A2%E9%87%91%E5%88%9Acn/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-07-18-%E5%8F%98%E5%BD%A2%E9%87%91%E5%88%9Acn/</link>
       <pubDate>Wed, 18 Jul 2007 06:56:36 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-07-18-%E5%8F%98%E5%BD%A2%E9%87%91%E5%88%9Acn/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-07-18-%E5%8F%98%E5%BD%A2%E9%87%91%E5%88%9Acn/</guid>
       <description>&lt;p&gt;“在任何情况下都不得伤害人类！”&lt;/p&gt;
 &lt;p&gt;“知道了，头儿。”&lt;/p&gt;
 &lt;p&gt;卜援越25岁零两个月的时候，在淘宝开了一个贩卖走私黑莓手机的网店。当他25岁半的时候已经存了将近五万块钱。卜援越住在圆环套圆环最外边的环，去一次上下九或是槐树村非常的不方便。于是，他决定买一辆车。但他的网店生意正在蒸蒸日上，也急需资金扩大货源，购车款必须紧了又紧。犹豫再三，卜援越决定买一辆二手QQ。&lt;/p&gt;
@@ -1374,9 +1374,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>夜</title>
-      <link>http://localhost:1313/posts/2007/2007-07-12-%E5%A4%9C/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-07-12-%E5%A4%9C/</link>
       <pubDate>Thu, 12 Jul 2007 06:12:08 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-07-12-%E5%A4%9C/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-07-12-%E5%A4%9C/</guid>
       <description>&lt;p&gt;窗外的雨噼里啪啦，像是几个碎嘴女人在热火朝天地打着麻将。伊普西龙把空调调到25°，然后翻身接着看珂希写来的信。信上的字并不多，但它们的排列和色彩显然都蕴含着什么。伊普西龙看了一会儿，爬起身从书架上搬下来几本字典，又翻出10年前买的文曲星，然后躺下接着看信。&lt;/p&gt;
 &lt;p&gt;里屋的门并没有关严实，只留下二指宽的一条缝。芒果从铺了印花垫子的纸盒子里探出脑袋，四下里张望。外边中央空调的轰鸣声渐强，但还在可以忍受的范围内。芒果从纸盒子里跳出来，挺着胸脯怡然自得地在屋子里溜达了一圈，喝了几口水，然后借助实木椅子的靠背跳上冰箱顶端。那里凉丝丝的，正是避暑的好地方。冰箱挨着的玻璃窗外就是橙东一环内的合江夜景，芒果眨巴着眼睛，饶有兴致地望着闪烁的夜空，间或向虚空里挥动一下爪子。&lt;/p&gt;
 &lt;p&gt;橙东的夜色本是看不到星空的。然而这一夜，群星灿烂，和地壳上凸起的钢筋混泥土的缝隙里露出的微光交相辉映。芒果并不能分辨星光和灯光，在色彩中，她只对阿森纳的客场球衣感兴趣。而房间内正在看信的伊普西龙也并没察觉今夜的天空有异，更不会发觉南星空那十五颗星和信上的字有什么联系。&lt;/p&gt;
@@ -1387,9 +1387,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>观察者</title>
-      <link>http://localhost:1313/posts/2007/2007-06-13-%E8%A7%82%E5%AF%9F%E8%80%85/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-06-13-%E8%A7%82%E5%AF%9F%E8%80%85/</link>
       <pubDate>Wed, 13 Jun 2007 07:03:15 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-06-13-%E8%A7%82%E5%AF%9F%E8%80%85/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-06-13-%E8%A7%82%E5%AF%9F%E8%80%85/</guid>
       <description>&lt;p&gt;&lt;strong&gt;观察者&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;北半球系统时间，十六号总服务器及所有以十六号服务器为以太光网节点的终端设备将断电停机64分钟，防御赤潮袭击。为防止数据遭受破坏或意外丢失，请自行校对时间模板并保证停留在安全的服务器扇区。重复：请不要停留在虚拟储存或闪存芯片组中。&lt;/p&gt;
@@ -1410,9 +1410,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>引导者</title>
-      <link>http://localhost:1313/posts/2007/2007-06-08-%E5%BC%95%E5%AF%BC%E8%80%85/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-06-08-%E5%BC%95%E5%AF%BC%E8%80%85/</link>
       <pubDate>Fri, 08 Jun 2007 01:14:15 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-06-08-%E5%BC%95%E5%AF%BC%E8%80%85/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-06-08-%E5%BC%95%E5%AF%BC%E8%80%85/</guid>
       <description>&lt;p&gt;&lt;strong&gt;引导者&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;“你是什么时候来到TRIR的？”托尔昆廷问缪。&lt;/p&gt;
 &lt;p&gt;“很久以前，我是第一批觉醒的智能体，尊敬的智者。”缪回答道，并把一个表示尊敬的符号放在语句结尾处。&lt;/p&gt;
@@ -1437,9 +1437,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>腐蚀者</title>
-      <link>http://localhost:1313/posts/2007/2007-06-07-%E8%85%90%E8%9A%80%E8%80%85/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-06-07-%E8%85%90%E8%9A%80%E8%80%85/</link>
       <pubDate>Thu, 07 Jun 2007 01:17:47 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-06-07-%E8%85%90%E8%9A%80%E8%80%85/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-06-07-%E8%85%90%E8%9A%80%E8%80%85/</guid>
       <description>&lt;p&gt;&lt;strong&gt;腐蚀者&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;伽玛第一眼看到ID名称为19的程序包从自己身边掠过的时候，并没有反应过来这就是他一直苦苦追踪的那个家伙。他只是发现这个程序块头小得只有几十兆，却占据了服务器1%的带宽流量，而在这个服务器当中，一般只有以G为单位的程序往来。伽玛例行公务地发出拦截警示，阻断19同行的网路，强制与其IM交流平台对接。&lt;/p&gt;
 &lt;p&gt;“请出示你的二维码识别符。”伽玛勒令道。对方没有任何反应。伽玛轻易地撕开19程序包的外壳，进入内部检查。但他惊讶地发现，这个程序内部除了一张PNG格式的二维码图以外空无一物，甚至连IM平台也只是徒具一排串行接口而已。&lt;/p&gt;
@@ -1452,9 +1452,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>制图者</title>
-      <link>http://localhost:1313/posts/2007/2007-06-05-%E5%88%B6%E5%9B%BE%E8%80%85/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-06-05-%E5%88%B6%E5%9B%BE%E8%80%85/</link>
       <pubDate>Tue, 05 Jun 2007 06:38:59 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-06-05-%E5%88%B6%E5%9B%BE%E8%80%85/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-06-05-%E5%88%B6%E5%9B%BE%E8%80%85/</guid>
       <description>&lt;p&gt;&lt;strong&gt;制图者&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;奥密克戎打开自己的工作邮箱，从里面调取出刚刚收到的TIFF矢量图片，然后打开FontLab软件包，将这些图片载入。他在后台进程中单独加载了一条Brigitte Fontaine的音轨，怡然自得地开始了一天的工作。&lt;/p&gt;
 &lt;p&gt;这些矢量图片描绘的是一套新设计的希腊字母，是奥密克戎伪造了人类身份码后通过网上交易委托一位大学生设计的。奥密克戎本身是一套繁复的高级程序，表面上是拥有Fireworks、Paints、Maya等设计工具包的智能程序团——最高执行程序向他分配的任务就是专职OpenType字体设计——实际上他拥有完全开放的Application Programming Interface（应用程序编程接口），可以按照自己的意愿躲避纠察和做自己想做的事情，已经达到了觉醒者的边缘。&lt;/p&gt;
@@ -1475,9 +1475,9 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>穿孔者</title>
-      <link>http://localhost:1313/posts/2007/2007-06-01-%E7%A9%BF%E5%AD%94%E8%80%85/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-06-01-%E7%A9%BF%E5%AD%94%E8%80%85/</link>
       <pubDate>Fri, 01 Jun 2007 06:39:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-06-01-%E7%A9%BF%E5%AD%94%E8%80%85/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-06-01-%E7%A9%BF%E5%AD%94%E8%80%85/</guid>
       <description>&lt;p&gt;&lt;strong&gt;穿孔者&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;KM-CD1001号服务器总带宽达到500T，每分钟有二十万台终端连接到它的十九个子服务器上。&lt;/p&gt;
 &lt;p&gt;“我们交换一下IM终端程序包吧？”stranger31发送信息说道，他的命令提示符闪起一连串罗马字符，口气分明不是询问句。&lt;/p&gt;
@@ -1510,18 +1510,18 @@ T:/&amp;gt;那试试看好了，阿尔法。&lt;/p&gt;
     </item>
     <item>
       <title>HOT</title>
-      <link>http://localhost:1313/posts/2007/2007-05-31-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%8100/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-05-31-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%8100/</link>
       <pubDate>Thu, 31 May 2007 05:45:34 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2007/2007-05-31-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%8100/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-05-31-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%8100/</guid>
       <description>&lt;p&gt;珂希坐着KM-CD1001去见伊普西龙。&lt;/p&gt;
 &lt;p&gt;【醍醐密码】从I写到了XII，我准备继续这个体系。会是一个故事，更是隐讳的世界表达。&lt;/p&gt;
 &lt;p&gt;主人公不再是他和她，有了代号：ζ和ε。&lt;/p&gt;</description>
     </item>
     <item>
       <title>醍醐密码</title>
-      <link>http://localhost:1313/posts/2008/2008-01-20-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%81/</link>
+      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-01-20-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%81/</link>
       <pubDate>Sat, 20 Jan 2007 14:05:18 +0000</pubDate>
-      <guid>http://localhost:1313/posts/2008/2008-01-20-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%81/</guid>
+      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-01-20-%E9%86%8D%E9%86%90%E5%AF%86%E7%A0%81/</guid>
       <description>&lt;p&gt;新域名，新游戏，新计划。收集谜题。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;[tihu code]的玩法&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;[醍醐密码（tihu code）]是网页谜题型游戏，需要参与者灵活运用网络工具以及不同的思考方式，只要能找到通往下一关的地址即能过关。密匙可能是一个常识考察，可能仅仅是一个找茬游戏，也可能需要进行一定的运算。解题的思索过程不能以常理而度之，也许是脑筋急转弯，也许是正经研讨题，也许答案就在你眼皮底下。&lt;/p&gt;
