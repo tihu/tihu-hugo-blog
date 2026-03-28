@@ -1,4 +1,4 @@
-baseURL = "https://tihu.github.io/"
+baseURL = "https://tihu.github.io/tihu-hugo-blog/"
 languageCode = "zh-cn"
 title = "醍醐堂記_TihuBlogs"
 theme = "PaperMod"
