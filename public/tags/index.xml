@@ -1,89 +1,19 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on 醍醐堂記_TihuBlogs</title>
+    <title>醍醐堂記_TihuBlogs – Tags</title>
     <link>http://localhost:1313/tihu-hugo-blog/tags/</link>
     <description>Recent content in Tags on 醍醐堂記_TihuBlogs</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 06 Jan 2026 23:25:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tihu-hugo-blog/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>六州杂记</title>
-      <link>http://localhost:1313/tihu-hugo-blog/tags/%E5%85%AD%E5%B7%9E%E6%9D%82%E8%AE%B0/</link>
-      <pubDate>Tue, 06 Jan 2026 23:25:31 +0800</pubDate>
-      <guid>http://localhost:1313/tihu-hugo-blog/tags/%E5%85%AD%E5%B7%9E%E6%9D%82%E8%AE%B0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>诸仙众神</title>
-      <link>http://localhost:1313/tihu-hugo-blog/tags/%E8%AF%B8%E4%BB%99%E4%BC%97%E7%A5%9E/</link>
-      <pubDate>Sun, 21 Nov 2021 00:05:45 +0800</pubDate>
-      <guid>http://localhost:1313/tihu-hugo-blog/tags/%E8%AF%B8%E4%BB%99%E4%BC%97%E7%A5%9E/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>2082FM</title>
-      <link>http://localhost:1313/tihu-hugo-blog/tags/2082fm/</link>
-      <pubDate>Wed, 06 May 2020 22:05:32 +0800</pubDate>
-      <guid>http://localhost:1313/tihu-hugo-blog/tags/2082fm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cyber Life</title>
-      <link>http://localhost:1313/tihu-hugo-blog/tags/cyber-life/</link>
-      <pubDate>Sun, 19 Jan 2020 23:08:11 +0000</pubDate>
-      <guid>http://localhost:1313/tihu-hugo-blog/tags/cyber-life/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>成都异闻杂录</title>
-      <link>http://localhost:1313/tihu-hugo-blog/tags/%E6%88%90%E9%83%BD%E5%BC%82%E9%97%BB%E6%9D%82%E5%BD%95/</link>
-      <pubDate>Wed, 16 Jan 2019 08:36:54 +0000</pubDate>
-      <guid>http://localhost:1313/tihu-hugo-blog/tags/%E6%88%90%E9%83%BD%E5%BC%82%E9%97%BB%E6%9D%82%E5%BD%95/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>译异录</title>
-      <link>http://localhost:1313/tihu-hugo-blog/tags/%E8%AF%91%E5%BC%82%E5%BD%95/</link>
-      <pubDate>Wed, 09 Jan 2019 08:36:54 -0700</pubDate>
-      <guid>http://localhost:1313/tihu-hugo-blog/tags/%E8%AF%91%E5%BC%82%E5%BD%95/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>毗卢遮那</title>
-      <link>http://localhost:1313/tihu-hugo-blog/tags/%E6%AF%97%E5%8D%A2%E9%81%AE%E9%82%A3/</link>
-      <pubDate>Sat, 11 Aug 2018 08:36:54 +0000</pubDate>
-      <guid>http://localhost:1313/tihu-hugo-blog/tags/%E6%AF%97%E5%8D%A2%E9%81%AE%E9%82%A3/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>键上话</title>
-      <link>http://localhost:1313/tihu-hugo-blog/tags/%E9%94%AE%E4%B8%8A%E8%AF%9D/</link>
-      <pubDate>Fri, 07 Feb 2014 08:36:54 +0000</pubDate>
-      <guid>http://localhost:1313/tihu-hugo-blog/tags/%E9%94%AE%E4%B8%8A%E8%AF%9D/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>焚字塔</title>
-      <link>http://localhost:1313/tihu-hugo-blog/tags/%E7%84%9A%E5%AD%97%E5%A1%94/</link>
-      <pubDate>Fri, 20 May 2011 06:49:17 +0000</pubDate>
-      <guid>http://localhost:1313/tihu-hugo-blog/tags/%E7%84%9A%E5%AD%97%E5%A1%94/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>瞳者菲林</title>
-      <link>http://localhost:1313/tihu-hugo-blog/tags/%E7%9E%B3%E8%80%85%E8%8F%B2%E6%9E%97/</link>
-      <pubDate>Sun, 23 Aug 2009 13:23:46 +0000</pubDate>
-      <guid>http://localhost:1313/tihu-hugo-blog/tags/%E7%9E%B3%E8%80%85%E8%8F%B2%E6%9E%97/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>醍醐堂记</title>
-      <link>http://localhost:1313/tihu-hugo-blog/tags/%E9%86%8D%E9%86%90%E5%A0%82%E8%AE%B0/</link>
-      <pubDate>Wed, 03 Dec 2008 07:55:42 +0000</pubDate>
-      <guid>http://localhost:1313/tihu-hugo-blog/tags/%E9%86%8D%E9%86%90%E5%A0%82%E8%AE%B0/</guid>
-      <description></description>
-    </item>
+    
+	  <atom:link href="http://localhost:1313/tihu-hugo-blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
   </channel>
 </rss>

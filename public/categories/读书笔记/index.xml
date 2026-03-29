@@ -1,19 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>读书笔记 on 醍醐堂記_TihuBlogs</title>
+    <title>醍醐堂記_TihuBlogs – 读书笔记</title>
     <link>http://localhost:1313/tihu-hugo-blog/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
     <description>Recent content in 读书笔记 on 醍醐堂記_TihuBlogs</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 06 Jan 2026 23:25:31 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tihu-hugo-blog/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+	  <atom:link href="http://localhost:1313/tihu-hugo-blog/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
     <item>
       <title>巨著与草稿之间：读《五胡史纲》可不止一点遗憾</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2026/2026-01-06-wuhu/</link>
       <pubDate>Tue, 06 Jan 2026 23:25:31 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2026/2026-01-06-wuhu/</guid>
-      <description>&lt;p&gt;版权归作者所有，任何形式转载请联系作者。
+      <description>
+        
+        
+        &lt;p&gt;版权归作者所有，任何形式转载请联系作者。
 作者：醍醐（来自豆瓣）
 来源：https://book.douban.com/review/17383603/&lt;/p&gt;
 &lt;p&gt;三秦出版社于2021年引进出版了这套由台湾省学者赵丕承先生“历30年时间撰写”的110余万字的五卷本《五胡史纲》。我是2023年年底买的，并在2024年的年度阅读计划里加入了它。结果拖拖拉拉，直到2025年底才算真正啃完。其实在读了第一卷一大半的时候，我就明白了：为什么这套煌煌巨著在豆瓣上至今是“零书评”。原因并不在于它“没有学术价值”，而在于它的出版“状态”足以把大多数读者挡在门外。&lt;/p&gt;
@@ -28,71 +39,84 @@
 &lt;p&gt;二、突厥部分的框架处理清晰。用“前后突厥—西突厥”的提法梳理世系，读起来确实更顺，也更便于抓住线索。&lt;/p&gt;
 &lt;p&gt;三、作为材料库的潜力很大。全书内容详实驳杂，若有一个认真精校的版本，它完全可能成为南北朝、五胡史爱好者案头可用的工具书。&lt;/p&gt;
 &lt;p&gt;最后说购买建议：不建议购买。除非有朝一日出版社愿意下决心重做一套“精校版”（这部书值得投入，也值得被认真对待），那时再考虑入手不迟。现在这个版本，与其说是出版物，不如说是把一部巨著的“初稿”原样装订成册——读者付出的，不只是钱，还有耐心与信任。&lt;/p&gt;
-&lt;p&gt;最后，我仔细搜索了一下赵丕承先生，可惜网上资料不多，并没有更多收获。只知道他“生卒年为1917—2003，祖籍陕西省西安市高陵区，是任职于台北商学院的学者，一生深耕魏晋南北朝史研究”。台北商学院今天已经更名为台北商业大学，是一个较为纯粹的商科院校。&lt;/p&gt;</description>
+&lt;p&gt;最后，我仔细搜索了一下赵丕承先生，可惜网上资料不多，并没有更多收获。只知道他“生卒年为1917—2003，祖籍陕西省西安市高陵区，是任职于台北商学院的学者，一生深耕魏晋南北朝史研究”。台北商学院今天已经更名为台北商业大学，是一个较为纯粹的商科院校。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>2025年醍醐书单：茶馆里的流人与星海深处的金瓯缺</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2025/2025-12-31-readlist/</link>
       <pubDate>Wed, 31 Dec 2025 23:57:43 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2025/2025-12-31-readlist/</guid>
-      <description>&lt;h1 id=&#34;2025年醍醐书单茶馆里的流人与星海深处的金瓯缺&#34;&gt;2025年醍醐书单：茶馆里的流人与星海深处的金瓯缺》&lt;/h1&gt;
-&lt;p&gt;2025年的阅读，全年统计读完37本书，相较2024年的55本有所减少，主要是因为统计范围的变化。例如，像《五胡史纲》这样的多卷本著作，实际阅读体量远超“一本”的计数；微信读书等渠道的非正式出版物，以及《中国历代政治得失》这类重读经典，都未纳入正式统计。此外，今年为放松消遣而阅读的网文数量不少，但最终完整读完并统计的仅《橙红年代》一本。这些“未被统计”的阅读，共同构成了我2025年丰富而扎实的阅读图景，彻底告别了“速览式阅读”。书架上新增的藏书依旧远超读完的数量，这“买书如山倒，读书如抽丝”的魔咒，看来是年年难破，也年年有新期待。&lt;/p&gt;
+      <description>
+        
+        
+        &lt;h1&gt;2025年醍醐书单：茶馆里的流人与星海深处的金瓯缺》&lt;/h1&gt;&lt;p&gt;2025年的阅读，全年统计读完37本书，相较2024年的55本有所减少，主要是因为统计范围的变化。例如，像《五胡史纲》这样的多卷本著作，实际阅读体量远超“一本”的计数；微信读书等渠道的非正式出版物，以及《中国历代政治得失》这类重读经典，都未纳入正式统计。此外，今年为放松消遣而阅读的网文数量不少，但最终完整读完并统计的仅《橙红年代》一本。这些“未被统计”的阅读，共同构成了我2025年丰富而扎实的阅读图景，彻底告别了“速览式阅读”。书架上新增的藏书依旧远超读完的数量，这“买书如山倒，读书如抽丝”的魔咒，看来是年年难破，也年年有新期待。&lt;/p&gt;
 &lt;p&gt;在这些书中，&lt;strong&gt;科幻类&lt;/strong&gt;依然是我的心头好，12本几乎都是厚重的长篇系列，从星际史诗到月球探险，硬核设定与宏大叙事占据了我大部分的阅读时光。&lt;strong&gt;悬疑推理类&lt;/strong&gt;紧随其后，10本作品涵盖法庭辩论、间谍角逐和本土罪案，每一场纸上探案都引人入胜。&lt;strong&gt;历史类&lt;/strong&gt;读了6本，聚焦秦汉、魏晋等古代王朝，微观史学与史料考据的视角，仍是我的偏爱。其余9本则风格驳杂，包括本土悬疑、经典网络文学与历史演义，虽非主流，却各有其独到之处。&lt;/p&gt;
-&lt;h2 id=&#34;年度推荐&#34;&gt;年度推荐&lt;/h2&gt;
-&lt;h3 id=&#34;米克赫伦流人系列新作&#34;&gt;米克·赫伦「流人」系列新作&lt;/h3&gt;
-&lt;ul&gt;
+&lt;h2&gt;年度推荐&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;年度推荐&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%b9%b4%e5%ba%a6%e6%8e%a8%e8%8d%90&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;米克·赫伦「流人」系列新作&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;米克赫伦流人系列新作&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%b1%b3%e5%85%8b%e8%b5%ab%e4%bc%a6%e6%b5%81%e4%ba%ba%e7%b3%bb%e5%88%97%e6%96%b0%e4%bd%9c&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;类型：&lt;/strong&gt; 悬疑&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;出版社：&lt;/strong&gt; 新星出版社&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;「流人」系列在2025年推出的三本新作，无疑是我的年度最佳阅读体验。米克·赫伦标志性的犀利幽默，将间谍世界的黑暗与荒诞刻画得入木三分，人物的复杂与真实感始终是系列的核心。新作叙事节奏紧凑，文字流畅简洁，间谍交锋中的阴谋与反转设计精巧，让人读罢对后续作品充满期待。&lt;/p&gt;
-&lt;h3 id=&#34;nemesis-games--james-sa-corey&#34;&gt;《Nemesis Games》- James S.A. Corey&lt;/h3&gt;
-&lt;ul&gt;
+&lt;h3&gt;《Nemesis Games》- James S.A. Corey&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;nemesis-games--james-sa-corey&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#nemesis-games--james-sa-corey&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;类型：&lt;/strong&gt; 科幻&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;版本：&lt;/strong&gt; 非正式出版译本&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;作为“苍穹浩瀚”系列的第五部，尽管此前正式出版计划夭折，我有幸读到了译本。作者对星际格局的把控堪称精妙，各个人物线索在广袤星际间自然交织。硬科幻设定扎实却不晦涩，宇宙的宏大与星际间的权力博弈、冒险探索融合得恰到好处。听说2026年该系列将重新引进正式出版，届时我定会购入正版，对比译本与正式版本的差异。&lt;/p&gt;
-&lt;h3 id=&#34;史蒂夫卡瓦纳-艾迪弗林系列&#34;&gt;史蒂夫·卡瓦纳 艾迪·弗林系列&lt;/h3&gt;
-&lt;ul&gt;
+&lt;h3&gt;史蒂夫·卡瓦纳 艾迪·弗林系列&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;史蒂夫卡瓦纳-艾迪弗林系列&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%8f%b2%e8%92%82%e5%a4%ab%e5%8d%a1%e7%93%a6%e7%ba%b3-%e8%89%be%e8%bf%aa%e5%bc%97%e6%9e%97%e7%b3%bb%e5%88%97&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;类型：&lt;/strong&gt; 悬疑&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;出版社：&lt;/strong&gt; 北京日报出版社、百花文艺出版社等&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;2025年我读完了艾迪·弗林系列所有已出版作品。该系列的核心魅力，在于主角艾迪·弗林在法庭上的唇枪舌剑。每一次庭审辩论都峰回路转、出人意料，充满张力。从骗子转型为律师的艾迪·弗林，人物形象立体且富有层次。尽管部分桥段略显夸张，但紧凑的叙事节奏丝毫不影响阅读的沉浸感。&lt;/p&gt;
-&lt;h3 id=&#34;王安石强辩考&#34;&gt;《王安石“强辩”考》&lt;/h3&gt;
-&lt;ul&gt;
+&lt;h3&gt;《王安石“强辩”考》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;王安石强辩考&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%8e%8b%e5%ae%89%e7%9f%b3%e5%bc%ba%e8%be%a9%e8%80%83&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;类型：&lt;/strong&gt; 历史&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;出版社：&lt;/strong&gt; 贵州人民出版社&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这是一本被书名耽误的历史佳作，读来颇有新意。书中对王安石相关争议的考据与解读角度独特，史料梳理扎实，打破了我对部分历史人物的固有认知，也让我对这一历史阶段有了更全面的理解。同期阅读的历史非虚构类书籍还有《夹缝中的总督》《康熙的红票》《侯景之乱》《崖山》，它们各有不同的叙事视角与考据价值，共同构成了我今年严肃历史阅读的重要组成。&lt;/p&gt;
-&lt;h2 id=&#34;值得商榷&#34;&gt;值得商榷&lt;/h2&gt;
-&lt;h3 id=&#34;金瓯缺&#34;&gt;《金瓯缺》&lt;/h3&gt;
-&lt;ul&gt;
+&lt;h2&gt;值得商榷&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;值得商榷&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%80%bc%e5%be%97%e5%95%86%e6%a6%b7&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;《金瓯缺》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;金瓯缺&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%87%91%e7%93%af%e7%bc%ba&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;类型：&lt;/strong&gt; 历史演义&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;出版社：&lt;/strong&gt; 河南文艺出版社&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;这部大名鼎鼎的作品读来尚可，但并未带来惊艳之感。书中主角的人物塑造过于完美，全程的悲情基调略显刻意。人物的行为与选择少了几分真实的人性肌理，过于“苦哈哈”的走向，让整体故事表达显得单薄。&lt;/p&gt;
-&lt;h3 id=&#34;茶馆2&#34;&gt;《茶馆2》&lt;/h3&gt;
-&lt;ul&gt;
+&lt;h3&gt;《茶馆2》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;茶馆2&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%8c%b6%e9%a6%862&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;类型：&lt;/strong&gt; 非虚构&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;出版社：&lt;/strong&gt; 广西师范大学出版社&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;与五星评价的《茶馆1》相比，这本重新出版的作品显得平淡如水。与港版仔细对比后，发现所谓的删改内容并不多，也并无过于尖锐的表达。核心问题并非内容删减，而是作品本身的创作与出版存在明显的时空错位。本书叙述时间截止2000年，实际用例不超过2003年，成书于2013年前后，如今出版却未做任何内容更新与视角补充。1950年后的茶馆，在失去哥老会参与和民间基层生活管理的功能后，仅留存普通消费属性，内容本身的看点本就有所减少，再加上与当下时代的严重脱节，诸多观察与论点显得刻意甚至失真，这也是我为其仅打3星的原因。&lt;/p&gt;
-&lt;h3 id=&#34;五胡史纲--赵丕承&#34;&gt;《五胡史纲》- 赵丕承&lt;/h3&gt;
-&lt;ul&gt;
+&lt;h3&gt;《五胡史纲》- 赵丕承&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;五胡史纲--赵丕承&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%ba%94%e8%83%a1%e5%8f%b2%e7%ba%b2--%e8%b5%b5%e4%b8%95%e6%89%bf&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;类型：&lt;/strong&gt; 历史&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;出版社：&lt;/strong&gt; 三秦出版社&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;历时两年，我终于啃完了这套五卷本的著作，并专门撰写了书评《巨著与草稿之间：读〈五胡史纲〉可不止一点遗憾》[1]。这套书并非毫无学术价值，作者提出“五胡史应至北周/隋代才结束”的史观颇具野心，将传统“五胡十六国”扩展为二十二政权记述，突厥部分的世系梳理也清晰易懂，全书内容详实驳杂，本有成为五胡史研究工具书的潜力。但它的出版状态近乎“草稿”，配图与地图混乱无注释、人名地名体例不统一、排版结构频繁出错、校对存在诸多疏漏，这些问题持续消耗读者的阅读体验，当下的版本并不值得入手。除非出版社愿意下决心重做一套“精校版”，否则不建议购买。&lt;/p&gt;
-&lt;h2 id=&#34;阅读节奏与展望&#34;&gt;阅读节奏与展望&lt;/h2&gt;
-&lt;p&gt;2025年，我的阅读节奏很明确：上半年啃硬骨头，历史考据、硬核科幻这些大部头，恨不得把每个字都嚼烂了；下半年就放飞自我，轻松点的悬疑、小说，图个乐呵。这一年，我更看重和书的对话，而不是读了多少本。书架上那些还没拆封的，经典科幻、历史典籍，都还在那儿等着我呢。希望2026年，这份阅读的从容劲儿能继续保持，在纸间世界里，发现更多好书，也把那些老伙计们好好读完。当然，今年还有不少重读的作品，以及通过微信读书等网络渠道阅读的图书，因篇幅与书单定位的原因，并未一一列入。&lt;/p&gt;
-&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;p&gt;[1] 醍醐. (2026, January 6). &lt;em&gt;巨著与草稿之间：读《五胡史纲》可不止一点遗憾&lt;/em&gt;. 豆瓣. &lt;a href=&#34;https://book.douban.com/review/17383603/&#34;&gt;https://book.douban.com/review/17383603/&lt;/a&gt;&lt;/p&gt;</description>
+&lt;h2&gt;阅读节奏与展望&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;阅读节奏与展望&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%98%85%e8%af%bb%e8%8a%82%e5%a5%8f%e4%b8%8e%e5%b1%95%e6%9c%9b&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;2025年，我的阅读节奏很明确：上半年啃硬骨头，历史考据、硬核科幻这些大部头，恨不得把每个字都嚼烂了；下半年就放飞自我，轻松点的悬疑、小说，图个乐呵。这一年，我更看重和书的对话，而不是读了多少本。书架上那些还没拆封的，经典科幻、历史典籍，都还在那儿等着我呢。希望2026年，这份阅读的从容劲儿能继续保持，在纸间世界里，发现更多好书，也把那些老伙计们好好读完。当然，今年还有不少重读的作品，以及通过微信读书等网络渠道阅读的图书，因篇幅与书单定位的原因，并未一一列入。&lt;/p&gt;
+&lt;h2&gt;References&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;references&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#references&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;[1] 醍醐. (2026, January 6). &lt;em&gt;巨著与草稿之间：读《五胡史纲》可不止一点遗憾&lt;/em&gt;. 豆瓣. &lt;a href=&#34;https://book.douban.com/review/17383603/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://book.douban.com/review/17383603/&lt;/a&gt;&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>2024年醍醐书单：迷雾中的猛虎与红海上的耍猴人 </title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2024/2024-12-31-readlist/</link>
       <pubDate>Tue, 31 Dec 2024 20:57:43 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2024/2024-12-31-readlist/</guid>
-      <description>&lt;p&gt;2024年飞速划过，像地铁隧道里一闪而过的广告牌。这一年对我来说，是过去十多年中极为独特的一年。全年共读了55本书，正好达到每周一本的平均速度，略胜于前几年年均40多本的水平。不过，这并不是值得骄傲的事，毕竟“买书如山倒，读书如抽丝”依然是我生活中的主旋律。&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;2024年飞速划过，像地铁隧道里一闪而过的广告牌。这一年对我来说，是过去十多年中极为独特的一年。全年共读了55本书，正好达到每周一本的平均速度，略胜于前几年年均40多本的水平。不过，这并不是值得骄傲的事，毕竟“买书如山倒，读书如抽丝”依然是我生活中的主旋律。&lt;/p&gt;
 &lt;p&gt;在这55本书中，历史类依旧稳坐阅读榜的头把交椅，共14本。这其中既有计划之内的书，如《司马迁的记忆之野》，也有那些消化“当代文化工业”的成果，比如《洛阳大火》。其次是奇幻类，共13本，看起来很多，其实分布极为集中——要么是西式奇幻系列，如《迷雾之子》《绅士盗贼》，要么是国内作家的民俗题材作品如《南宋四大道场》《虎辞山》，风格各异，却各自精彩。文化类书籍今年读了8本，大多和巴蜀文化有关；至于科幻类，仅5本，科幻文学虽然是我的心头好，但身体似乎更加诚实。最后是悬疑和间谍小说，一共4本，数量不多，但每一本都深得我心。&lt;/p&gt;
 &lt;p&gt;当然，买书的数量就没有这么“节制”了——全年新增藏书一百余本，读完的只占冰山一角。比如《五胡史纲》，一年过去了，我连封面都没翻开。希望2025年会有奇迹吧。&lt;/p&gt;
 &lt;p&gt;在所有的阅读中，这几本书让我特别惊喜，按推荐程度排序如下：&lt;/p&gt;
@@ -155,45 +179,67 @@
 &lt;p&gt;（类型：历史，出版社：北京大学出版社，译者：邹秋筠）&lt;/p&gt;
 &lt;p&gt;这是我在2024年读的第一本书，也是2023年的一部热门作品。作为一本兼具学术性和通俗性的历史读物，《洛阳大火》的编排让我一开始感到不适应：注释集中在篇末而非页脚，查找起来颇为不便。然而读到后面我明白了，这种设计是为了方便通读，注释大多仅标注出处，而非释义。&lt;/p&gt;
 &lt;p&gt;全书的内容翔实，叙述流畅，但翻译腔显得稍显生硬，有些句子甚至让人读起来不太通顺。如果编辑能再细心些，这本书的可读性会更强。总体来说，作为后汉史的普及读物，它值得一读，尽管遗憾仍在。&lt;/p&gt;
-&lt;p&gt;12.《夜谭十记》 - 马识途&lt;/p&gt;</description>
+&lt;p&gt;12.《夜谭十记》 - 马识途&lt;/p&gt;
+&lt;p&gt;（类型：文学，出版社：人民文学出版社）&lt;/p&gt;
+&lt;p&gt;2024年3月28日，革命家、作家、书法家马识途先生去世，享年110岁。为了缅怀他，我重读了这本多年前读过的《夜谭十记》。这本书的结构让人很容易联想到《十日谈》或《一千零一夜》，一个个故事在现实与梦幻之间切换。当年初读时，我并不知道马老是一位资深的地下工作者。如今，带着对他革命经历和解放后际遇的了解，再次阅读这本书，不禁从中读出了更多隐喻与深意。马老在书中构建了一个复杂的故事框架，将历史与文学交织在一起，既有趣又耐人寻味。&lt;/p&gt;
+&lt;p&gt;13.《边水往事》 - 沈星星&lt;/p&gt;
+&lt;p&gt;（类型：文学，出版社：天津人民出版社）&lt;/p&gt;
+&lt;p&gt;这本书是因为一部大热剧集的推荐而进入我的视野的，读完后发现自己非常幸运没有错过一本这样的书。剧集将原著作为一个巨型素材库予取予求，重新架构了一整个故事。而原著是由一系列小故事构成，每个故事都带着一种淡淡的痛感和独特的人物。特别是书中的第五个故事，读罢让人肝肠寸断。遗憾的是，我并不了解作者的背景，也未读过相关访谈，所以始终不清楚书中有多少内容来源于作者的真实经历，又有多少是纯粹的虚构。但正因这种模糊不清的真实感，这本书的文字显得格外动人。&lt;/p&gt;
+&lt;p&gt;此外，还有一本需要单独提一句。《中国科幻口述史 (第一卷)》&lt;/p&gt;
+&lt;p&gt;这本书让我感慨万分，因为书中的人物我大多认识，甚至其中一些可以算作熟人。我买下这本书的初衷，是为了阅读关于姚海军的部分。看到这些记录，唏嘘不已。现在还没到对这段历史和这个人物盖棺定论的时刻。我只想说，当年阿来曾扶持后辈、培养新人、打造团队，遗憾的是，他接手后，却没有延续这些重要的工作。&lt;/p&gt;
+&lt;p&gt;以上是我2024年的阅读旅程中值得分享的部分。从奇幻到历史，从科幻到文化，每一本书都有它独特的故事，记录了我与它们相伴的时光。希望2025年有更多时间，翻开那些尚未读完的书，也期待更多惊喜出现在下一年的书单里。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>2023年醍醐书单：年度大众阅读推荐</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2023/2023-12-31-readlist/</link>
       <pubDate>Mon, 01 Jan 2024 23:29:43 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2023/2023-12-31-readlist/</guid>
-      <description>&lt;p&gt;2023年转瞬即逝，一年前的环境和心境与今日相比差不多算是云泥之别了。照例在年关整理一下一年来的阅读心得。仍是那句老话：汝之敝帚，彼之珍宝，个人的年度阅读数据对他人来说没有任何分享价值，就拣一些值得一说的聊做记录。&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;2023年转瞬即逝，一年前的环境和心境与今日相比差不多算是云泥之别了。照例在年关整理一下一年来的阅读心得。仍是那句老话：汝之敝帚，彼之珍宝，个人的年度阅读数据对他人来说没有任何分享价值，就拣一些值得一说的聊做记录。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;关于读书、买书与计划&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;翻看了一下去年立下的年度读书计划，唯一完成的是好歹读完了《玫瑰与蠕虫》。《五胡史纲》完全没开始读，《晋书》读了一小部分，但有新的史书计划提前列了进来。《浩瀚苍穹3》读了一些，但也被其他阅读打断了。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKiaGRI3X1vFdTibY04e0R4dyGqibiccpM5701JlibosreOGtwydrUkDm9JcUZomU1h0we75HUYBcZ8ZuYA/640?wx_fmt=png&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=0&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKiaGRI3X1vFdTibY04e0R4dyGqibiccpM5701JlibosreOGtwydrUkDm9JcUZomU1h0we75HUYBcZ8ZuYA/640?wx_fmt=png&amp;amp;from=appmsg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=0&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;**《人类灭绝》**出人意料地在包括微信读书在内的多个平台反响强烈，取得了“神作”的称号。它原本的分类是推理小说，但大家都更愿意分到科幻小说里去。作为高野和明唯三的有中文版的小说，这本质量无疑是极高的，非常有画面感，也很值得影视化。&lt;/p&gt;
 &lt;p&gt;唐缺的**《无尽长门I》**差不多写于十年前了， 我今年才看完，非常好，用句烂俗的褒扬就是“中国版魔戒”，也非常值得影视化。唯一可惜的是这本书属于九州书系，深度使用了九州设定，唐缺也无疑是后九州最高产高质的作家。但是但是，这本书的背景要是改成汉唐，估计早就“长门十二时辰”了。不过唐缺大大版税和版权都卖了，咱们也不用操这份闲心……&lt;/p&gt;
 &lt;p&gt;我今年无意中发现一套凤凰出版社在大约十年前出版的丛书**“古代文史名著选译丛书”**，装帧复古，很容易错过。其中二十四史选译本，每一本都是摘选了十多个人物传记，且是挑挑拣拣后译成文言白话对照的。对于基础很好的读者来说，这套书“太浅了”。但是，这套书基本上都是各门类里的老先生亲自选译的，挑选哪些人物非常有讲究，而且看他们的白话文译文，可以加深自己对文辞的理解，我个人觉得是一套不可多得的深入浅出的丛书。今年这套书我将唐以前基本上挑挑拣拣都读完了，不过完整通读的只有三本，所以在年度读书记录里只记了三本进去。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKiaGRI3X1vFdTibY04e0R4dyG5w9t6NcADoIPcZPYy6v4Bd9PU2atsue0DvM3htOlufmEX9MefO6Fzg/640?wx_fmt=jpeg&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKiaGRI3X1vFdTibY04e0R4dyG5w9t6NcADoIPcZPYy6v4Bd9PU2atsue0DvM3htOlufmEX9MefO6Fzg/640?wx_fmt=jpeg&amp;amp;from=appmsg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=1&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;今年历史类的通俗读物非常多，比如《太后西奔》《门阀》《弃长安》《沙陀往事》《洛阳大火》等等，但让我挑一本作为无门槛推荐，《太后西奔》排第二，第一我的选择是**《大汉帝国在巴蜀》**。说起这本书有点意思，当时一看这个书名，我天然地认为是讲东西汉四百余年的历史里巴蜀地区的政治变迁。于是在看了1/3的时候忍不住摔书骂娘，妥妥地标题党啊，怎么只讲了三国期间蜀汉的事儿？甚至大部分篇幅刘备都还在东奔西走，根本没有入川。但继续往下看、往后看，才终于理解本书书名的含义。本书的副标题是“蜀汉天命的振扬与沉坠”，刘备政权摇摇欲坠地坚持了许多年，为的是试图坚持大汉帝国的法统不灭失。可以说本书从一个新的视角又重新演绎了一遍三国时代的大历史。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;年度分类推荐&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKiaGRI3X1vFdTibY04e0R4dyG3mg2RtRQIwoQJ78em0XnISFzeKZcicCelbslXn3Nm6FNn9r2rwDm5DQ/640?wx_fmt=png&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKiaGRI3X1vFdTibY04e0R4dyG3mg2RtRQIwoQJ78em0XnISFzeKZcicCelbslXn3Nm6FNn9r2rwDm5DQ/640?wx_fmt=png&amp;amp;from=appmsg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=2&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;**《玫瑰与蠕虫》**科幻世界的世界科幻大师系列，俄罗斯科幻作家罗伯特·伊巴图林创作于2015年的赛博朋克小说，获得了包括斯特鲁加茨基奖（俄罗斯科幻最高奖）在内的多个奖项。读完以后你会发现书名即剧透。这本书有《深渊上的火》和《雪崩》的影子，本来已经非常厚了，但作者很多叙述都太急了，整本书的内容如果分成两本小说可能会更从容些。&lt;/p&gt;
 &lt;p&gt;**《胭脂与焉支》**是郑张尚芳老先生当年的新浪博客文章结集，本书在2019年时曾横扫各大读书年度榜，一定不要错过。&lt;/p&gt;
 &lt;p&gt;天下霸唱的**《窦占龙憋宝》**一共写了两本，《七杆八金刚》和《九死十三灾》，我读了一本半。这本书可以看做是《江湖丛谈》民宿传说小说版，挺有意思的，书荒的人可以一看。&lt;/p&gt;
 &lt;p&gt;**《翦商》&lt;strong&gt;和&lt;/strong&gt;《最早的帝国》**这两本书在2023年都是破圈的“热搜级”作品了，前者我在书店里已经看到很多装帧一模一样的《X商》模仿作品了，后者因为意外上市即下市，所以看了电子版，坦率说并不那么敏感。这两本书都需要一定门槛——这个门槛不是指知识储备，而是说你至少对考古和文明起源有一定的兴趣，才有可能读得进去。&lt;/p&gt;
 &lt;p&gt;因为俄乌关系紧张，今年选读了两本书。一本是**《欧洲之门》&lt;strong&gt;这本书很不错，将罗斯与今日该地区冲突的历史基本讲清了。我花了一些时间，想弄清作者沙希利·浦洛基的国籍到底是哪里，他出生于俄罗斯，在乌克兰长大，目前定居在美国。在一些采访中，都显示他是乌克兰作家。另一本是苏联政坛活化石、最后一任苏联部长会议主席尼古拉·伊万诺维奇·雷日科夫写的&lt;/strong&gt;《大国悲剧：苏联解体的前因后果》**。这本书当然是一本甩锅大作，但从历史当事人口中听到一些事情的叙述，仍是难得的机会。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKiaGRI3X1vFdTibY04e0R4dyG7PwtahjZgic0foIrvehP9456ibyeMael3fgWppK2Pcgbeby346j2UBQQ/640?wx_fmt=png&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKiaGRI3X1vFdTibY04e0R4dyG7PwtahjZgic0foIrvehP9456ibyeMael3fgWppK2Pcgbeby346j2UBQQ/640?wx_fmt=png&amp;amp;from=appmsg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=3&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;2023年网文阅读挺少的，但破例有两部没读完的作品一定要列入年度书单。一本是**《诡秘之主》&lt;strong&gt;，度过的人都说好。我原本是对本书无感的，无奈看到桶叔（骑桶人）不止一次地在微博上对本书大加褒扬，那我必须得认真看一下。其实我开始无感的缘故是西式背景，但读进去后就还好，这本书的设定的确太牛了，极其完整驳杂。目前我已购买全本，读了50%了。每当想换脑子的时候，就会看上十几章。另一本是亲王在微博上推荐的“家族休闲类”的网文&lt;/strong&gt;《修真门派掌门路》**，说实话这个书名如何断句我至今都不知道。网文发展到今天，如何另辟蹊径已经像博士毕业论文破题一样难上加难了，这本书在看腻了修真类小说后，难得的有一种新鲜感。没有金手指，没有无敌男主，只有筚路蓝缕。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2023年完整书单&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKiaGRI3X1vFdTibY04e0R4dyGVF9zaOLU4u5nBvlibpyWvVROwiauofRibp3FOTAvo69dnVBt2y2PylA4A/640?wx_fmt=png&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKiaGRI3X1vFdTibY04e0R4dyGVF9zaOLU4u5nBvlibpyWvVROwiauofRibp3FOTAvo69dnVBt2y2PylA4A/640?wx_fmt=png&amp;amp;from=appmsg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=4&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;2024：让读书像呼吸一样&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;今年的待读书单一个个蓄势待发，此时此刻正在读的就有**《造神年代》《最后的耍猴人》**。今年主要计划是按部就班地消化笔记小说相关资料，实体书阅读时间要占据绝对比例。尽可能地不受到市场上流行读物的干扰而打乱阅读节奏（比如亲王的《大医》我至今没读）。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;希望每个人都成为爱书人。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKiaGRI3X1vFdTibY04e0R4dyGibHriaQib5U42hE9v8ibEJgYNcdVHXX31JuqAjUbbnctp6Bp6xqfZYs6Wg/640?wx_fmt=png&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=5&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;附豆瓣书单：2023年读完的书&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKiaGRI3X1vFdTibY04e0R4dyGibHriaQib5U42hE9v8ibEJgYNcdVHXX31JuqAjUbbnctp6Bp6xqfZYs6Wg/640?wx_fmt=png&amp;amp;from=appmsg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=5&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;附豆瓣书单：2023年读完的书&lt;/strong&gt;&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>永明十年的兰陵萧氏</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2023/2023-11-23-xiaoshi/</link>
       <pubDate>Thu, 23 Nov 2023 09:27:43 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2023/2023-11-23-xiaoshi/</guid>
-      <description>&lt;p&gt;公元492年，中国历史进入南北朝时期已经七十二年了，正合地煞之术。北方的拓跋魏政权年号太和十五年，南方的萧齐年号永明十年。&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;公元492年，中国历史进入南北朝时期已经七十二年了，正合地煞之术。北方的拓跋魏政权年号太和十五年，南方的萧齐年号永明十年。&lt;/p&gt;
 &lt;p&gt;黄河以北，拓跋鲜卑部建立的北魏政权在两年前失去了他们乾纲独断的冯太后，终于走到了平城时代末期，迎来了真正的改革时期。孝文帝拓跋宏大展拳脚，整顿吏治，行均田制，并且，正在为一年后的惊天大计划——迁都洛阳——做各种各样、明里暗里的准备工作，例如将自己改名为元宏。&lt;/p&gt;
 &lt;p&gt;这一年的四月初四祈天仪式，对拓跋皇室来说，显得尤为具有象征意义。他们提前一年派使前往南边的萧齐政权，以便对方能有重要的使臣出席今年的祈天仪式。国都平城的城西建造了巨大的祠天坛，树立起七七四十九根高大的木人。其中最中心的是七根巨木。这便是草原政权神秘的七木主天神祭祀。&lt;/p&gt;
 &lt;p&gt;萧齐朝廷如约派出了由两位官员领先的出使队伍。可惜的是，在北魏政权看来，来使地位不显，实属一般。要知道，前一年北魏派往萧齐的使臣可是御史中丞李彪和太常少卿蒋少游。&lt;/p&gt;
@@ -202,51 +248,64 @@
 &lt;p&gt;年仅十二岁的萧琛，祖父萧僧珍父亲萧慧训都已经不是什么显贵忠诚，只有一个堂伯父萧慧开属于皇舅房的嫡系，继承了一个县侯的爵位。所以，已经是没落第三代的萧琛凭什么能当上南朝使臣的首席呢？注意，在《梁书》的记述里，有萧琛在永明九年智对北朝使臣李彪的桥段，但我认为是不大可信的，当时他年仅十一岁，受职区区司徒记事，在齐武帝萧赜的御宴上是压根没有发言的机会和资格的。&lt;/p&gt;
 &lt;p&gt;萧琛能够出头，一是在小小年纪就攀上了尚书右仆射王俭老大人，成为了他的主簿——按照他当时不足十岁的年纪，其实就是书童一类的角色。第二点则是他很早就进入了南朝非常非常重要的“永明文人圈”。混圈子，年纪不是问题，资历才是最重要的。&lt;/p&gt;
 &lt;p&gt;这便要提到永明十年访问北魏的南朝副使，范云，时年41岁。一个四十多岁的中年人甘居人下，给十二岁的娃娃做副手，凭什么？凭的是他二人都是竟陵王萧子良的属臣，此次的出使北朝也是由竟陵王一手操办的。“永明文人圈”即是以竟陵王萧子良为中心的南朝文士集合。夸张地说，这个圈子对日后中国文学史和佛教史都产生了举足轻重的影响力。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKhYd2icecJJyT1a3Een8QWSczq8T0cozn6mZngJC5K7PvuamdibtHXDyVSia34IQYMwcRNGpWGPVjibbQ/640?wx_fmt=png&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=0&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKhYd2icecJJyT1a3Een8QWSczq8T0cozn6mZngJC5K7PvuamdibtHXDyVSia34IQYMwcRNGpWGPVjibbQ/640?wx_fmt=png&amp;amp;from=appmsg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=0&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;“竟陵八友”&lt;/p&gt;
 &lt;p&gt;竟陵王萧子良，齐武帝萧赜的次子，文惠太子最亲密的二弟，后来也险些成为萧齐皇帝，可惜功亏一篑。历代都有如萧子良一类的“贤王”角色，身边能人辈出，但自己最终一事无成。萧子良有两大贡献，一是集合南朝文人于自己左右，史书上留下了“竟陵八友”的名号，重要产出是“永明新体诗”。讽刺的是，“竟陵八友”里并不包括萧子良自己，说是因为他是王爷所以没被列入吧，这八友里竟然还混进去一个后来更加史书留名的梁武帝萧衍。&lt;/p&gt;
 &lt;p&gt;“竟陵八友”的名号或许并不完全是依据萧子良诸多文士（或者君臣）在文学史上的贡献，后人硬攒出来的。看一下永明十年这八友的年纪，最大的沈约51岁，范云41岁次之，萧子良自己也将将32岁，萧衍28岁，正是能谈得到一起的年龄。只有一个奇怪的萧琛年方12岁，竟也混在八友里边，着实有些奇怪。&lt;/p&gt;
 &lt;p&gt;萧子良的第二大贡献便是礼佛，常常聚集起在京城活动的僧侣搞斋戒，大理推动佛教文化在南朝的推广。他的粉丝梁武帝萧衍后来变本加厉，留下了很多史书上的笑话。但也正是得力于这二位的大力推广，我们直到今天仍念念不忘“南朝四百八十寺”。&lt;/p&gt;
 &lt;p&gt;多说一句，萧衍实际上是比萧子良高一辈的。萧子良是兰陵萧氏-齐梁房-齐这一脉里齐武帝萧赜的次子，而萧衍的父亲萧顺之是和齐高帝萧道成一辈的，也就是说他和齐武帝萧赜一辈，那他本人算是萧子良的族叔了。而萧琛作为另一房的子嗣，已经很难论了，只能勉强按年龄算个子侄辈，毕竟他可是和梁武帝同为“八友”的。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKhYd2icecJJyT1a3Een8QWScvcPh9EWUtwjKicCRQyrUhUfoLYJmXJ0lCV5jZUuFBGRVC9Erj7nWvlA/640?wx_fmt=png&amp;from=appmsg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKhYd2icecJJyT1a3Een8QWScvcPh9EWUtwjKicCRQyrUhUfoLYJmXJ0lCV5jZUuFBGRVC9Erj7nWvlA/640?wx_fmt=png&amp;amp;from=appmsg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=1&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;难能可贵的是，十二岁的娃娃萧琛在永明十年出访北魏的见闻，被史书记录了下来，成为了后世研究神秘的草原政权的重要史料。&lt;/p&gt;
 &lt;p&gt;最后需要说明的是，兰陵萧氏作为南朝两朝的缔造者，对文学和文化的继承传播史功不可没的。虽然皇家不遗余力的推行佛教，但当时道教在江南的发展也是极为蓬勃的。&lt;/p&gt;
 &lt;p&gt;还是在永明十年，有一个年仅五岁的萧氏子弟，名叫萧子云，他是竟陵王萧子良的堂弟，他的老爹萧嶷是齐武帝萧赜的二弟。萧子云在正史中最大贡献是写了《晋书》一百一十卷，是一位妥妥的皇家史官。最后却是和篡了他亲大伯位子的族叔梁武帝萧衍，一起在侯景之乱中活活饿死的，也算是尽忠”萧“事了。&lt;/p&gt;
 &lt;p&gt;但是萧子云在道教谱系系统里却留下了自己的痕迹，这在崇佛的南朝似乎另类，但在当时实属平常。萧氏当国时，大量的兰陵萧氏子弟过起了魏晋名士一般的隐遁生活。萧子云在庐陵（今属江西吉安）找到了一座福地洞天：玉笥山郁木洞，过起了修仙生活。《道藏·天地宫府图》里明确录写了萧子云隐居于道家七十二福地里排名第九的郁木洞，与地仙赤鲁班一起快乐做神仙。他也是早期道教里为数不多的皇族成仙的人物了。&lt;/p&gt;
-&lt;p&gt;注：本文图片均由AI draw绘制。&lt;/p&gt;</description>
+&lt;p&gt;注：本文图片均由AI draw绘制。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>写在乐夏3开播之时：没有什么是永远不变的</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2023/2023-08-12-music3/</link>
       <pubDate>Sat, 12 Aug 2023 10:04:44 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2023/2023-08-12-music3/</guid>
-      <description>&lt;h1 id=&#34;写在乐夏3开播之时没有什么是永远不变的&#34;&gt;写在乐夏3开播之时：没有什么是永远不变的&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKjOFic37UvB7PtYmLuL5ycYUN8XyD8GURxtTHsZUp1Zr69icKmIg0PGnDRUxVBVjUg5HPvgjr38NjyA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=0&#34;&gt;&lt;/p&gt;
+      <description>
+        
+        
+        &lt;h1&gt;写在乐夏3开播之时：没有什么是永远不变的&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKjOFic37UvB7PtYmLuL5ycYUN8XyD8GURxtTHsZUp1Zr69icKmIg0PGnDRUxVBVjUg5HPvgjr38NjyA/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=0&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;二十四年前，还在上高中的我，收到了在西安读大学的哥哥给我寄来了这张超级市场的新专辑：《七种武器》。&lt;/p&gt;
 &lt;p&gt;这张专辑的好听不再复述，但在当时，令人惊诧的是，虽然可以清晰地听到每一支曲子都有大量的人声，但是专辑却未附歌词，甚至连曲目都以S1-S8来指代。&lt;/p&gt;
 &lt;p&gt;所以这张专辑虽然我当时已经买了，但已经进入高校，有着大把时间的我哥，硬生生地靠过人的听力，连蒙带猜地，听写下了这张专辑的所有歌词。很多歌词都引起了我们哥俩旷日持久地讨论争执，因为确实听不清在唱什么。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKjOFic37UvB7PtYmLuL5ycYUbdoorFlQpN1KdIVibW4gJR48prvTv10AOqScTCibhQ2qtPlSMiamCsIwg/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKjOFic37UvB7PtYmLuL5ycYUbdoorFlQpN1KdIVibW4gJR48prvTv10AOqScTCibhQ2qtPlSMiamCsIwg/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=1&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;这也成了我最珍惜的一盘磁带，历史地位高于我拥有的嘉树老师馈赠的窦仙儿五连装《不一样》签名CD。&lt;/p&gt;
 &lt;p&gt;时隔多年，昨天偶然在朋友圈看到有人转发了超级市场的一首歌，于是点进QQ音乐，一下午摸鱼时间都在听。忽然，我一瞥之下，发现数码版的《七种武器》居然有歌词！！当年的点滴瞬间涌上心头。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKjOFic37UvB7PtYmLuL5ycYUrOia8aPnribd0pibTDytIIiaiagdJ5KicWU7ia8UQRXlSZyiaNVwYicNSqgdR0A/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKjOFic37UvB7PtYmLuL5ycYUrOia8aPnribd0pibTDytIIiaiagdJ5KicWU7ia8UQRXlSZyiaNVwYicNSqgdR0A/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=2&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;想到那些没听清的歌词终于要有官方答案，我急不可耐地点开了《七种武器》这张专辑的数字版本 ，切换到歌词模式，认真听了下去。&lt;/p&gt;
 &lt;p&gt;那张当年的磁带专辑当然不可能随时在我手边，但以我二十多年听了不知多少遍的肌肉记忆，我发觉数字版本似乎和记忆不那么一致。我带着狐疑继续往下听，直到听到《S3》，我确定，歌词变了。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKjOFic37UvB7PtYmLuL5ycYU8CEPaCCXHJQFtpibYibiaz77l8wrlQZuKPqCibhpy6VovS2EpUg3IRbuicg/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=3&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKjOFic37UvB7PtYmLuL5ycYUPvUCNFSeVJLBcI38nCoslRPCQGSrfGicbvwuV7jc73lFA2nQbb1T1Mw/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKjOFic37UvB7PtYmLuL5ycYU8CEPaCCXHJQFtpibYibiaz77l8wrlQZuKPqCibhpy6VovS2EpUg3IRbuicg/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=3&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKjOFic37UvB7PtYmLuL5ycYUPvUCNFSeVJLBcI38nCoslRPCQGSrfGicbvwuV7jc73lFA2nQbb1T1Mw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=4&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;这都没什么。石家庄人都可以杀不死，郑州的记忆也可以不见，又有什么是不能变的呢？&lt;/p&gt;
-&lt;p&gt;听说乐夏3超级市场也会出场，我还是会抽出宝贵时间一睹为快的（不保证不快进）。&lt;/p&gt;</description>
+&lt;p&gt;听说乐夏3超级市场也会出场，我还是会抽出宝贵时间一睹为快的（不保证不快进）。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>2022年醍醐书单：我的年度大众阅读推荐</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2022/2022-12-30-readlist/</link>
       <pubDate>Fri, 30 Dec 2022 23:34:44 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2022/2022-12-30-readlist/</guid>
-      <description>&lt;p&gt;无论多么糟糕，2022年还是过去了。今年的阅读计划如同现实一样，几经变化，不可捉摸。汝之敝帚，彼之珍宝，我越发觉得阅读是件极其私人的事情，单纯的一些年度总结陈词对别人来说可能没有任何价值。所以今年的年度书单，我决定分三个部分，首先推荐几本适合大众阅读的图书，其次谈一下今年的阅读计划和实际阅读的偏差，最后规划一下2023年的阅读计划。看荐书的只看第一部分就可以了。&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;无论多么糟糕，2022年还是过去了。今年的阅读计划如同现实一样，几经变化，不可捉摸。汝之敝帚，彼之珍宝，我越发觉得阅读是件极其私人的事情，单纯的一些年度总结陈词对别人来说可能没有任何价值。所以今年的年度书单，我决定分三个部分，首先推荐几本适合大众阅读的图书，其次谈一下今年的阅读计划和实际阅读的偏差，最后规划一下2023年的阅读计划。看荐书的只看第一部分就可以了。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;年度大众推荐&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;今年一共读了36本书（包括四套多卷本的小说），2021年读了56本书，2020年则是48本。在这些书中，如果抛却个人偏好，适合大众阅读的，有五本书。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKiaXn2KWJMGNlrVjppNqJiaibyRKuBvldRvbFo51VicOjJMIFcqS1yoOIuG9g5BVic4kUc5xKOGBugTQ5A/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=0&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKiaXn2KWJMGNlrVjppNqJiaibyRKuBvldRvbFo51VicOjJMIFcqS1yoOIuG9g5BVic4kUc5xKOGBugTQ5A/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=0&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;知道《夜晚的潜水艇》非常偶然，作者陈春成据说非常年轻，他的文字清秀，想象诡谲，波澜不惊的叙述中却有股“晓月过残垒，繁星宿故关，寒禽与衰草，处处伴愁颜”的味道。这本短篇集算是年度最偶然发现，惊为天人。另外，在这本书实体书到手之前，意外地发现某些出版商绕过电子版权授权的邪门办法。&lt;/p&gt;
-&lt;p&gt;《关羽：由凡入神的历史与想象》是荷兰汉学家田海的作品，此书出现之际，我正好在研究宋以前民间神祗祭祀崇拜，正如关二爷手中的青龙偃月刀是明代产物一般，现如今的诸天神佛，乡祠野庙与一千年前也已迥然不同。很多绵延上千年的祭祀崇拜比如对姜子牙的祭祀烟消云散，而关羽却从汉末一员偏将最终登基成为玉皇大帝，其中的变化非常有意思。我在夏天对本书写过一篇衍生读后感&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MjM5MzI5NTQyMA==&amp;amp;mid=2247483897&amp;amp;idx=1&amp;amp;sn=71b9d3e968817bb86516aebb60f18aba&amp;amp;chksm=a6987caa91eff5bc3cfaa27ed8445473da93d8e8389f3d6acf7a383515804db66a52db6ae4f4&amp;amp;scene=21#wechat_redirect&#34;&gt;《跨时代的敕封：宋徽宗赵佶与汉将关羽的一段往事》&lt;/a&gt;。这本书被新星收入了名为“绿杧文库”的书系，值得期待。目前该书系只有两本，另一本是2021年出版的哥伦比亚中国文学史（全8卷）。&lt;/p&gt;
+&lt;p&gt;《关羽：由凡入神的历史与想象》是荷兰汉学家田海的作品，此书出现之际，我正好在研究宋以前民间神祗祭祀崇拜，正如关二爷手中的青龙偃月刀是明代产物一般，现如今的诸天神佛，乡祠野庙与一千年前也已迥然不同。很多绵延上千年的祭祀崇拜比如对姜子牙的祭祀烟消云散，而关羽却从汉末一员偏将最终登基成为玉皇大帝，其中的变化非常有意思。我在夏天对本书写过一篇衍生读后感&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MjM5MzI5NTQyMA==&amp;amp;mid=2247483897&amp;amp;idx=1&amp;amp;sn=71b9d3e968817bb86516aebb60f18aba&amp;amp;chksm=a6987caa91eff5bc3cfaa27ed8445473da93d8e8389f3d6acf7a383515804db66a52db6ae4f4&amp;amp;scene=21#wechat_redirect&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;《跨时代的敕封：宋徽宗赵佶与汉将关羽的一段往事》&lt;/a&gt;。这本书被新星收入了名为“绿杧文库”的书系，值得期待。目前该书系只有两本，另一本是2021年出版的哥伦比亚中国文学史（全8卷）。&lt;/p&gt;
 &lt;p&gt;《苍穹浩瀚》1和2是我今年唯二读完的科幻小说。知道它当然是因为由其改编的同名美剧，可以说是近年来最精良的科幻太空歌剧。与2021年读过的《星之继承者》系列可以说是不分伯仲。目前该书只出了1和2，据可靠消息3和4已经校对完毕，就等兔鹰关系缓和后出版上市了。&lt;/p&gt;
 &lt;p&gt;《盛世的崩塌》是郭建龙老师今年的新书，那没办法，只有第一时间赶紧读了。2021年是《汴京之围》，今年还顺带手读了郭老师“帝国密码三部曲”唯一没有电子化的《中央帝国的军事密码》，客观的说，这本是三部曲里最弱的一本，倒不是郭老师写的不好，而是当你看过前两本财政密码和哲学密码后，会觉得单纯的说军事事实已经很难触及到事物本质和成因了。&lt;/p&gt;
 &lt;p&gt;《长安的荔枝》是亲王妖孽之作，我应该是第一时间在“得到”上购买的电子版本。但亲王实在太高产了，并且如今的他已经深谙商业写作之道，我毅然决然地放弃了下半年阅读《大医》，让温度降一降吧，还有那么多书没读呢。《长安的荔枝》可以说标志着亲王的这种论文考据派历史小说写作模型的彻底成熟，自此以后他就是一台奔驰着的人形写作机器了。需要新读者注意的是，无论是《两京十五日》还是《长安的荔枝》都是小说，不要将其和历史类读物混为一谈。&lt;/p&gt;
@@ -294,9 +353,9 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKiaXn2KWJMGNlrVjppNqJiaiby6eh9PAtzicDO9HaDIUGEhmb7PE99lp88ial1gEyf6ibRbyqxJZhOQ2eYQ/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKiaXn2KWJMGNlrVjppNqJiaiby6eh9PAtzicDO9HaDIUGEhmb7PE99lp88ial1gEyf6ibRbyqxJZhOQ2eYQ/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=1&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;《黑毡上的北魏皇帝（修订本）》是我年度最喜欢的历史类图书，只是它相对更为小众和分类具体，受众肯定是不如《盛世的崩塌》这类书的。作者罗新老师作为魏晋史学者，今年更火的是他的另一本新书《漫长的余生：一个北魏宫女和她的时代》，但从内容价值上我觉得《黑毡》绝对会成为一本跨不过去的必读书。我非常支持历史学者成为畅销书作家，这样他们才会写更多我这种学术圈以外的票友看得懂的小书。这两本书都被列入了理想国·罗新作品书系，该书系还有一本是《有所不为的反叛者 : 批判、怀疑与想象力 》&lt;/p&gt;
-&lt;p&gt;《九州·刺龙》是2022年我读的第一本书，对它和对骑桶人的喜爱毋庸多言，年初我就专门写了一篇数据化读后感&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MjM5MzI5NTQyMA==&amp;amp;mid=2247483889&amp;amp;idx=1&amp;amp;sn=4ec5805efadadf7c0f62c0d4ffa04245&amp;amp;chksm=a6987ca291eff5b48d9f911e1bfd3a95c75531d907a67710f080d1784e016cd798149a9cc59d&amp;amp;scene=21#wechat_redirect&#34;&gt;《九州·刺龙》的故事图谱&lt;/a&gt;，并为此做了大量obsidian分类笔记。遗憾的是，九州设定下的小说阅读门槛是不低的，这也是我未能将本书放入年度大众推荐的原因。&lt;/p&gt;
+&lt;p&gt;《九州·刺龙》是2022年我读的第一本书，对它和对骑桶人的喜爱毋庸多言，年初我就专门写了一篇数据化读后感&lt;a href=&#34;http://mp.weixin.qq.com/s?__biz=MjM5MzI5NTQyMA==&amp;amp;mid=2247483889&amp;amp;idx=1&amp;amp;sn=4ec5805efadadf7c0f62c0d4ffa04245&amp;amp;chksm=a6987ca291eff5b48d9f911e1bfd3a95c75531d907a67710f080d1784e016cd798149a9cc59d&amp;amp;scene=21#wechat_redirect&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;《九州·刺龙》的故事图谱&lt;/a&gt;，并为此做了大量obsidian分类笔记。遗憾的是，九州设定下的小说阅读门槛是不低的，这也是我未能将本书放入年度大众推荐的原因。&lt;/p&gt;
 &lt;p&gt;《扫鼠岭》是小明同学强烈向我安利的推理作家呼延云代表作，我对他的推荐向来是没有免疫力的。推理罪案在众多小说中已经成为一个反映社会问题的门类了，且是最接近现实社会的题材，在《扫鼠岭》中，慈善基金会指的是谁就差念身份证号了。小说角色是群像式的，没有绝对的一号人物，而作者给了一个在我看来是最不能接受的结局，何其残忍。&lt;/p&gt;
 &lt;p&gt;《祥瑞：王莽和他的时代》是一本比较好的讲述新朝前后的小书，讲清楚了这个拧巴的时代。从史实普及的角度来说，本书还原了王莽登基的合理性，解释了刘秀为什么继承了大量王莽时代的政策。&lt;/p&gt;
 &lt;p&gt;《秋风醉了》是刘醒龙早年的一个短篇，我是偶然刷到一部老电影《背靠背，脸对脸》想起找来读一读的，结果在今年最炎热的季节，一气儿看了《沧浪之水》《驻京办主任》《苍黄》等小说。这些小说现在看来仍能感受到职业作家们的厚重笔力，可惜俱往矣。&lt;/p&gt;
@@ -653,14 +712,22 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;附豆瓣书单：2022年读完的书&lt;/p&gt;</description>
+&lt;p&gt;附豆瓣书单：2022年读完的书&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKiaXn2KWJMGNlrVjppNqJiaiby7WC6rK1O7jn4ibRvW2svpVaKOBajYzOKpVsdaNFhdj7rRWFnaazAmrQ/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=2&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>水泊梁山宋江军事集团的籍贯问题</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2022/2022-10-01-shuihu/</link>
       <pubDate>Sat, 01 Oct 2022 23:27:44 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2022/2022-10-01-shuihu/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;一、黄河夺济&lt;/strong&gt;&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;&lt;strong&gt;一、黄河夺济&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;中古中国，天下有五岳、五镇、四渎享受国家配祀。江、河、淮、济，是为四渎。&lt;/p&gt;
 &lt;p&gt;四渎之中，母亲河黄河因为地理原因，问题最大。早在五代之前，黄泛区便季节性地出现。黄河决口在水文上危害之一便是会抢夺其他河流的河道。北宋时，尚能控制黄河上游部分地区的宋廷便常常为防范黄河夺淮入海而伤透脑筋。&lt;/p&gt;
 &lt;p&gt;五代时期，黄河中下游的支脉汶水，从滑州决口，一路淹没汴、曹、单、濮、郓五州，最终在梁山以北汇入济水。并在这一代形成湖泊。这便是北宋时的梁山泊。今天济宁以北诸湖是其残存。&lt;/p&gt;
@@ -671,7 +738,7 @@
 &lt;p&gt;二是真实历史中的宋江义军。与其叫做义军，不如称作是宋江三十六悍匪，转略十郡，行踪遍及山东、河北、淮河一带。堪称是宋代民间游击术大师。这里最明显的特征，除了规模小以外，就是宋江并没有固定的地盘。&lt;/p&gt;
 &lt;p&gt;三是洞庭湖钟相杨幺大起义。洞庭湖义军的地理环境，武装成员，甚至其最鼎盛时期的军队规模，与《水浒传》中水泊梁山最强大时的十万部众几乎一致。额外补充一句，洞庭湖义军后来是被岳飞岳武穆剿灭的。&lt;/p&gt;
 &lt;p&gt;可以说，《水浒传》在漫长的数百年成书过程中，不断地糅杂包括以上三点在内的各种资料，最终形成了书中版本。这也能很好地解释为什么作为偏安一隅的地方武装，为何人员构成如此复杂。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKia0Q76j6FAdM0OsOUzktdJywQmB1eO1eaz7KSicT6qQOanC9kzZIp3DMC7ckDIfk3zVGlunNxiaBKzA/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=0&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKia0Q76j6FAdM0OsOUzktdJywQmB1eO1eaz7KSicT6qQOanC9kzZIp3DMC7ckDIfk3zVGlunNxiaBKzA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=0&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;三、梁山将领的籍贯&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;《水浒传》作为显学，历来研究籍贯问题的文章不在少数。本文限于水平，不在考据一途多加论述。但一些相关文章内关于中古地理名称的一些常见错误，需要为读者特别指出。&lt;/p&gt;
 &lt;p&gt;一是同名地名的甄别。例如书中来自北京大名府的将领不下五人，但他们并不是指今天的北京，而是河北邯郸。所谓山东呼保义，河北玉麒麟，并不会变成北京玉麒麟。而在全书中唯一一位北京人，则是排名第五十七的地兽星紫髯伯皇甫端，正经幽州人。&lt;/p&gt;
@@ -788,30 +855,45 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;从梁山将领的籍贯分布情况，我将其分为四个梯度，三大地域集团。&lt;/p&gt;</description>
+&lt;p&gt;从梁山将领的籍贯分布情况，我将其分为四个梯度，三大地域集团。&lt;/p&gt;
+&lt;p&gt;独占第一档的自然是山东本地势力。他们中天罡星高达十三人，士农工商各个阶层都有，以底层吏员为统治核心。这其中，山东集团又分为三大势力，一是梁山土著将领，后来都为底层将领和情报系统；二是梁山草创集团，以花石纲饭醉团伙为核心；三是最大的宋江势力集团，这是他真正的心腹骨干。&lt;/p&gt;
+&lt;p&gt;第二档是河南、河北、江苏、江西，很明显地可以看出，这是包括山东在内的北宋京东路（后分为京东东路+京东西路）的东部主战场。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKia0Q76j6FAdM0OsOUzktdJyqre67QzScMCd2P9tIZriabrbLj3dastOzf7osotEH5NuEWXYqa4bl5Q/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=1&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这一集团以河淮两条明确的地理界限，可以分为河北、中原、淮河三大阵营。但这三十五人中，籍贯并不是联系他们的纽带，相反，文官、武官和底层胥吏泾渭分明，身份认同才是第一位的。&lt;/p&gt;
+&lt;p&gt;第三档人数最少，但都能独当一面，或有过人的本领。因为他们来自战事更加激烈，环境更为恶劣的陕西路，是宋、辽西夏交战的前线。在北宋一朝，西军的战斗力都是被肯定的。来自西军地方的将领往往桀骜不驯，独立性远高于其他地方。&lt;/p&gt;
+&lt;p&gt;第四档的十一个人来自八个省份，且天南海北极其分散，所以不可能再以地域为纽带形成独立势力。这些人物的籍贯也与其能力或剧情没有关联，只是单纯的背景介绍。&lt;/p&gt;
+&lt;p&gt;附表&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKia0Q76j6FAdM0OsOUzktdJyRialZiaicxC8gLTWqtbVOdzYCNn8nWDUmTZuiae4wKUcyBv7GibbIhHDAgw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=2&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>《九州·刺龙》的故事图谱</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2022/2022-03-11-9zhou/</link>
       <pubDate>Fri, 11 Mar 2022 20:18:44 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2022/2022-03-11-9zhou/</guid>
-      <description>&lt;p&gt;2021年读完的第一本书是桶叔的**《九州·刺龙》**，以我的阅读速度而言，读的很慢，花了将近一个月时间。原因是自从去年年末将笔记系统切换到Obsidian后，发现双链-图谱的模式非常适合记笔记。而这本书恰巧又是设定流特征极强的故事，故而很认真地做了笔记，为每一个人物、城邦、生物乃至名词都创建了词条，成果如下图：&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKgYI31zajfRsiawEdJXiaCdvMs9pE3W64N8bntu2a8Zsm7r5vMCdQiaYq7upAUBX7yQf3Xsv5hku96bA/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=0&#34;&gt;&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;2021年读完的第一本书是桶叔的**《九州·刺龙》**，以我的阅读速度而言，读的很慢，花了将近一个月时间。原因是自从去年年末将笔记系统切换到Obsidian后，发现双链-图谱的模式非常适合记笔记。而这本书恰巧又是设定流特征极强的故事，故而很认真地做了笔记，为每一个人物、城邦、生物乃至名词都创建了词条，成果如下图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKgYI31zajfRsiawEdJXiaCdvMs9pE3W64N8bntu2a8Zsm7r5vMCdQiaYq7upAUBX7yQf3Xsv5hku96bA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=0&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;关于Obsidian的讨论就不深入了，网上有大量的文章和视频，每个人都能用出不一样的特色，这里回到刺龙。&lt;/p&gt;
 &lt;p&gt;《九州·刺龙》不能放在九州架构下评点，那样的话桶版九州的魅力被设定的汪洋大海吞噬，它与九州的前作也没有太多可比性。但这本书又不能不放在九州架构下点评，否则很多概念就都无从说起了——这也是设定流的通病，阅读门槛高。&lt;/p&gt;
 &lt;p&gt;举一个例子，比如九州八大种族之一的崑人。我看到这里是懵的，因为以前看过的九州是人族，什么时候变成崑人了？&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKgYI31zajfRsiawEdJXiaCdvMmNjHxuhQZ8oWK0dflzzXxFd4cFHDad5RwlPHw68ypeRrSKJudVaNtw/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKgYI31zajfRsiawEdJXiaCdvMmNjHxuhQZ8oWK0dflzzXxFd4cFHDad5RwlPHw68ypeRrSKJudVaNtw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=1&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;我在读完本书后的豆瓣短评是：核心设定是崑人的推出，但是并没有诠释崑人的定义。窃以为崑岳，万山之祖，崑人，昆仑山中人是也。&lt;/p&gt;
 &lt;p&gt;结果，后来我去问桶叔，桶叔向我科普道：崑人是从暗月纪来的，星降在暗月纪之后，暗月纪时人族的主要皇朝是崑朝，所以把以前的华族称为崑人。&lt;/p&gt;
 &lt;p&gt;好吧，是我的无知。这他喵的谁知道？&lt;/p&gt;
 &lt;p&gt;再比如，你知道八大种族之一是河络还是河洛吗？是不是不确定了，要去翻书核实一下了？这又涉及到南北九州之争的陈年往事，遥远的可能比印池初次出现在天空还要久远。&lt;/p&gt;
 &lt;p&gt;当然这还带来了另一个问题，我知道桶叔写本书是严格按照九州设定集进行的创作，但我无法知道在庞杂繁冗的九州世界里，桶叔自己本次创作又为这个世界增添了哪些新的设定，抑或夹杂了哪些他自己的”私活“和”恶趣味“。——他有空了可以在这套图谱里标记一下原创印记。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKgYI31zajfRsiawEdJXiaCdvM6UpSXs9rATZTKtcxAuFzjEh2s51L7K0kIlAcIleib4AnWPSRWeVS18w/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=2&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKgYI31zajfRsiawEdJXiaCdvM18eIEI8BFvDVic4bdGrlJwjMgSJcgvyy5icb2mzkQ4xxJwQmjMh4CCPg/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=3&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKgYI31zajfRsiawEdJXiaCdvM6UpSXs9rATZTKtcxAuFzjEh2s51L7K0kIlAcIleib4AnWPSRWeVS18w/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=2&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKgYI31zajfRsiawEdJXiaCdvM18eIEI8BFvDVic4bdGrlJwjMgSJcgvyy5icb2mzkQ4xxJwQmjMh4CCPg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=3&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;《九州·刺龙》明线讲的是晋北盟支离氏的家族史，很像九州版的白鹿原，支离家一代一代的俊杰盛开然后凋落，留下无尽遗憾。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKgYI31zajfRsiawEdJXiaCdvM8B427FeT24SLYiaGI5rtiayWJZERaPozibibicianZmchgTg3IR7xxiaUdibfg/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKgYI31zajfRsiawEdJXiaCdvM8B427FeT24SLYiaGI5rtiayWJZERaPozibibicianZmchgTg3IR7xxiaUdibfg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=4&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;节点文例&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;节点文例&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;-  [[支离海]]&lt;/p&gt;
 &lt;p&gt;#### 别名：&lt;/p&gt;
 &lt;p&gt;#### 描述：第十代[[支离氏]]宗主；继承了[[羽人]]外祖母的外貌和身高；身长八尺，眉目俊秀如画，灰黑色长发；年轻时伤于龙焰，最终也死于龙焰；&lt;/p&gt;
@@ -827,24 +909,33 @@
 &lt;p&gt;- 部曲[[马卵子]]&lt;/p&gt;
 &lt;p&gt;- 部曲[[牛虫儿]]&lt;/p&gt;
 &lt;p&gt;- 部曲[[陈皮匠]]&lt;/p&gt;
+
 &lt;/blockquote&gt;
 &lt;p&gt;暗线则用无数条支线所慢慢勾勒，甚至直到剧终也未揭晓答案（也可能是我没领悟到），那就是真龙的真实身份。故事的最大疑团就是大宗师朱悲临死前在真龙耳边说了什么？&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKgYI31zajfRsiawEdJXiaCdvMLCxmxACCPotoscWUW8pppjjjdgia6dsXBRW2FzM4k0ZuHlngMD2U91A/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKgYI31zajfRsiawEdJXiaCdvMLCxmxACCPotoscWUW8pppjjjdgia6dsXBRW2FzM4k0ZuHlngMD2U91A/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=5&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;我脑补的画面是这样的：&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;朱悲临死前说：&amp;ldquo;汝本为崑人，死而为魅，杀死世上最后一只真龙，冒名化形为龙。汝自号紫阳先生，故新朝名熹，我朱家祠堂里还有汝的牌位。&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+  &lt;p&gt;&lt;strong&gt;朱悲临死前说：&amp;ldquo;汝本为崑人，死而为魅，杀死世上最后一只真龙，冒名化形为龙。汝自号紫阳先生，故新朝名熹，我朱家祠堂里还有汝的牌位。&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;
+
 &lt;/blockquote&gt;
 &lt;p&gt;总之，《九州·刺龙》是用无数小故事构建起的一个跨越岁月的王朝兴亡史。这很骑桶人。&lt;/p&gt;
-&lt;p&gt;最后，还是推荐Obisidian，如果你对你当前的笔记系统和书写工具正巧不满的话。&lt;/p&gt;</description>
+&lt;p&gt;最后，还是推荐Obisidian，如果你对你当前的笔记系统和书写工具正巧不满的话。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>整理2021年书单的乐趣</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-12-31-readlist/</link>
       <pubDate>Fri, 31 Dec 2021 23:55:44 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-12-31-readlist/</guid>
-      <description>&lt;p&gt;熬到最后一天，做一年的读书小结。那些急冲冲在十二月中就做各种书影音盘点的平台，是大家觉着最后十天都不读书看电影了吗？&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;熬到最后一天，做一年的读书小结。那些急冲冲在十二月中就做各种书影音盘点的平台，是大家觉着最后十天都不读书看电影了吗？&lt;/p&gt;
 &lt;p&gt;读书毕竟是一件很私人的事情。我所爱读的书未必其他人会喜欢——况且我读的书很多挺偏门的，比如《金国虎啸》这本书，讲一个南宋使臣出使金国，看到女真人政权内部种种问题的故事，豆瓣上点了读过的只有三个人。再比如《卷舒开合任天真：八圣人传》，豆瓣评分不咋样，我身边和桶叔很熟悉的人都有不知道这是他写的书，我却很喜欢。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKiaMe51PicsSw2rJUC2B67jS09RiaRFsy1TJq4lTTJ1K5gIwvETE0fO7muD3iaCnRl4cDFINc0YjabgYA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=0&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKiaMe51PicsSw2rJUC2B67jS09RiaRFsy1TJq4lTTJ1K5gIwvETE0fO7muD3iaCnRl4cDFINc0YjabgYA/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=0&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;我在整理书单过程中有很多收获，比如发掘出版社和出品方的关系变化，发现“宝库”一般的丛书书系。这比我用粗浅的统计学基础去分析寥寥几十本书更有意义。2022年大抵还是要读这些个书的。&lt;/p&gt;
 &lt;p&gt;本文将着重介绍今天我读过的书目，如果正好有你也感兴趣的那就是有缘人了。另外更值得分享的是另一篇《2021年书单里的丛书推荐》，介绍了我梳理的几个值得收藏的书系，那里可能更容易找到你感兴趣的书目。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;历史书（东汉至隋唐）是我读书的重点范围&lt;/strong&gt;&lt;/p&gt;
@@ -985,30 +1076,137 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;&lt;strong&gt;科幻类的年度好书和遗憾&lt;/strong&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;strong&gt;科幻类的年度好书和遗憾&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;今年年度最好书无疑是《交错的世界》，虽然不是小说，而是一本世界科幻图史，但基本拿着这本书，你就能把科幻史上叫得上名字的名著和明星作家认识个遍，书荒的时候，按图索骥即可。并且读这本书的意外之喜，是系统了解了美国图书和杂志出版发展史。今年上半年，我还邀请到了来自世纪文景这本书的责任编辑在2082FM录了一期节目，做了一次直播。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;书名&lt;/th&gt;
+          &lt;th&gt;作者&lt;/th&gt;
+          &lt;th&gt;译者&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;安迪密恩的觉醒&lt;/td&gt;
+          &lt;td&gt;[美]丹·西蒙斯&lt;/td&gt;
+          &lt;td&gt;潘振华&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;安迪密恩&lt;/td&gt;
+          &lt;td&gt;[美]丹·西蒙斯&lt;/td&gt;
+          &lt;td&gt;潘振华&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;海伯利安的陨落&lt;/td&gt;
+          &lt;td&gt;[美]丹·西蒙斯&lt;/td&gt;
+          &lt;td&gt;潘振华/李懿&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;海伯利安&lt;/td&gt;
+          &lt;td&gt;[美]丹·西蒙斯&lt;/td&gt;
+          &lt;td&gt;潘振华/官善明/李懿&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;沙丘&lt;/td&gt;
+          &lt;td&gt;[美]弗兰克·赫伯特&lt;/td&gt;
+          &lt;td&gt;潘振华&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;星之继承者&lt;/td&gt;
+          &lt;td&gt;[英]詹姆斯·P.霍根&lt;/td&gt;
+          &lt;td&gt;[加]仇春卉&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;星之继承者2温柔的伽星巨人&lt;/td&gt;
+          &lt;td&gt;[英]詹姆斯·P.霍根&lt;/td&gt;
+          &lt;td&gt;[加]仇春卉&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;献给阿尔吉侬的花束&lt;/td&gt;
+          &lt;td&gt;[美]丹尼尔·凯斯&lt;/td&gt;
+          &lt;td&gt;陈澄和&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;废土&lt;/td&gt;
+          &lt;td&gt;[美]约翰·约瑟夫·亚当斯&lt;/td&gt;
+          &lt;td&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;交错的世界&lt;/td&gt;
+          &lt;td&gt;[美]詹姆斯·冈恩&lt;/td&gt;
+          &lt;td&gt;姜倩&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;其他留下深刻印象的好书&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;我读《剑来》时，还以为作者是个初出茅庐的雏儿，后来才发现他写《雪中悍刀行》并实体出版是在2013年。《雪刀》400多万字，在网文里是个很合适的长度。那句著名的台词“剑来！”原来就出自这里但本书最大问题是作者对历史朝代文化背景毫不在意，官职姓氏一把抓过来乱用一气，关公战秦琼的荒唐设定多到发指。&lt;/p&gt;
+&lt;p&gt;读客版《金阁寺》是我好友汪洋翻译的，这本书属于收藏版，如果没看过三岛由纪夫那这本再合适不过，且汪洋的翻译功底确实在经典小说领域独树一帜。&lt;/p&gt;
+&lt;p&gt;《纸上寻仙记》是本不错的笔记志怪小说通俗本，将中国古代志怪类小说的各种设定分门别类说了个遍。&lt;/p&gt;
+&lt;p&gt;《八圣人传》是桶叔为数不多的非虚构类作品，旁征博引功夫下得很足，很奇怪奇幻圈里很多人都不知道这本书。&lt;/p&gt;
+&lt;p&gt;《市舶司沉船案》这本书挺有意思，马伯庸写考据类历史小说上了瘾。据说他的灵感来源是在知网翻论文看，是个很实在的办法，我现在也时常在知网下载论文。最近因为各种事件，知网的论文价格大幅降价，值得买入。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;书名&lt;/th&gt;
+          &lt;th&gt;作者&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;雪中悍刀行&lt;/td&gt;
+          &lt;td&gt;烽火戏诸侯&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;纸上寻仙记&lt;/td&gt;
+          &lt;td&gt;锦翼&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;金阁寺&lt;/td&gt;
+          &lt;td&gt;[日]三岛由纪夫&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;卷舒开合任天真：八圣人传&lt;/td&gt;
+          &lt;td&gt;骑桶人&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;市舶司沉船案&lt;/td&gt;
+          &lt;td&gt;马伯庸&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;也没太多可分享的了，就这样吧，我要去看书（刷手机）去了。&lt;/p&gt;
+&lt;p&gt;附豆瓣书单：2021年读完的书&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKiaMe51PicsSw2rJUC2B67jS00XcYHInhYwRIk5QiaF1POFnxeAOt3VhziaznhUVWslNBWF2oLnm7Hmaw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=1&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>观石塔寺石塔后记：整理了一份全国重点文物保护单位名单</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-12-09-shita/</link>
       <pubDate>Thu, 09 Dec 2021 00:59:45 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-12-09-shita/</guid>
-      <description>&lt;h1 id=&#34;观石塔寺石塔后记整理了一份全国重点文物保护单位名单&#34;&gt;观石塔寺石塔后记：整理了一份全国重点文物保护单位名单&lt;/h1&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vSmJiaCcicHIhJhFebvEsZXcYLAGcQOVRibbzzjdInaPCMLxnwoGNNJjgg/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=0&#34;&gt;&lt;/p&gt;
+      <description>
+        
+        
+        &lt;h1&gt;观石塔寺石塔后记：整理了一份全国重点文物保护单位名单&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vSmJiaCcicHIhJhFebvEsZXcYLAGcQOVRibbzzjdInaPCMLxnwoGNNJjgg/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=0&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;周末从邛崃出发，沿着西河向南三十公里，专门去看了一趟石塔寺石塔。地图上和现实中的石塔寺都被宏大的红军长征纪念馆所包围，如果不是专程前往，很难发现这里还有一座仅存一进院落、僧去庙空的寺院。&lt;/p&gt;
 &lt;p&gt;石塔寺石塔是第五批全国重点文物保护单位，历史和文化价值极高，这也是我对其如今境遇的错愕。全国目前共公布了八批五千余个国保（全国重点文物保护单位的缩写，以下同），四川共有229个（不含近现代重要史迹及代表性建筑），成都有20个，下辖的邛崃市共有3个。&lt;/p&gt;
 &lt;p&gt;这并不能显示石塔寺石塔的地位。换个角度描述：杜甫草堂、三星堆、武侯祠都是以整个文物建筑群落的身份获得国保身份的；邛窑遗址、邛崃石刻甚至是以多个不同地点的文物群组团才获得了国保身份；而石塔寺石塔，独指的是这座17米高、始建于南宋的石塔孑然一身就获得了国保荣誉，那个明清时代重建的石塔寺并不包括在内！&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vmxeuPqJyroqFycnHMyyjQialAS9riaEGTEjiafAZknQneqSN9Otmnjic6Q/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=1&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vmxeuPqJyroqFycnHMyyjQialAS9riaEGTEjiafAZknQneqSN9Otmnjic6Q/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=1&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;这座石塔为何历史和文化价值极高呢？除了年代久远之外，主要是塔的造型非常少见。我手边有一本《中国古塔大观》（值得收藏，基本汇聚了国内所有的塔文物）是这样描述石塔寺石塔的：&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1v9mEagExtQ0wic2sv3k2QLTXMEpqhfBMWYJLnxiafcmeN0N6DibKS5hgJg/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1v9mEagExtQ0wic2sv3k2QLTXMEpqhfBMWYJLnxiafcmeN0N6DibKS5hgJg/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=2&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;核心独特之处是石塔有两层须弥座，其中很高的上层居然设计了由12根八棱形石柱支撑的回廊。&lt;/p&gt;
 &lt;p&gt;石塔寺里已经没有任何佛教造像了，我只在后院大殿屋檐下发现了一座风化严重的无首观音坐像，也没有任何的保护措施。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vWsDXD52ic59ClEUd7v9OznOwn5Ee5HicRbFd8Nyw3qQ0pCvmbzG8UkXA/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=3&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vll5tkemDiabkAXMJ4m4WMYb8W6pIsrxyo4cEShvea6KibcUQ152uEJLw/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=4&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vWsDXD52ic59ClEUd7v9OznOwn5Ee5HicRbFd8Nyw3qQ0pCvmbzG8UkXA/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=3&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vll5tkemDiabkAXMJ4m4WMYb8W6pIsrxyo4cEShvea6KibcUQ152uEJLw/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=4&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;大殿右侧的游廊上，还保存着十几座历代石碑，以特殊的形式保存了下来，记录了间隔一千多年的文字对话和时代痕迹。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vvhSlWFIickNoldDVHV0abicE8xEJpPBAkZtFqOkcW88dIXxIsZyBE4zQ/640?wx_fmt=jpeg&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=5&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_jpg/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vvhSlWFIickNoldDVHV0abicE8xEJpPBAkZtFqOkcW88dIXxIsZyBE4zQ/640?wx_fmt=jpeg&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=5&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;川内有很多国保，仅是成都市内我甚至还有没造访过的地方（比如李建墓）。我在国家文物局查询最官方的国保名单，发现即便是最新版的页面下，名单也很难查询，例如筛选某个地点或某个年代的国保信息，于是我花了两个晚上的时间，将八批全国重点文物名单全部整理成了一份excel文档，希望能给文物爱好者一点点帮助——其实主要是方便我自己。&lt;/p&gt;
 &lt;p&gt;【腾讯文档】全国重点文物保护单位名单&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://docs.qq.com/sheet/DVmt1dUp6Q0JCSExt&#34;&gt;https://docs.qq.com/sheet/DVmt1dUp6Q0JCSExt&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://docs.qq.com/sheet/DVmt1dUp6Q0JCSExt&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://docs.qq.com/sheet/DVmt1dUp6Q0JCSExt&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;限于时间，只做了几个简单的归纳，也是挺有意思的。&lt;/p&gt;
 &lt;p&gt;表一：四川国保的分类数据&lt;/p&gt;
 &lt;table&gt;
@@ -1098,21 +1296,28 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;表三：第一批国保，公认的价值最高的国保，国保中的国宝，四川共有12个：&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vCRVX2HibyhiauzkP3EmaO42Zu0Sp4Tu5q7lhszwZVic5NmK4zIe0wiapJA/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=6&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vCRVX2HibyhiauzkP3EmaO42Zu0Sp4Tu5q7lhszwZVic5NmK4zIe0wiapJA/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=6&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;表四：第二到五批国保中的古建筑&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vE8vbmBzrQHyJoqBuFRcjagyBeWCiaodIoicQV4fTF93BnIpjZr9gJFTQ/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=7&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vE8vbmBzrQHyJoqBuFRcjagyBeWCiaodIoicQV4fTF93BnIpjZr9gJFTQ/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=7&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;表五：第二到五批国保中的石窟寺、石刻及其他&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vAFTUoKjmBcGp6coLX5sLmfjAO4kia5s5SEibppFXelnUNKfohxKiaibnkg/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=8&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vAFTUoKjmBcGp6coLX5sLmfjAO4kia5s5SEibppFXelnUNKfohxKiaibnkg/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=8&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;表六：第二到五批国保中的古遗址、古墓葬&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;图片&#34; loading=&#34;lazy&#34; src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vaZibX2RLMT1Cggm4eQDFRCzM4Tabn0rNUDtAk05R4N0FlyicNibic3jOMw/640?wx_fmt=png&amp;tp=webp&amp;wxfrom=5&amp;wx_lazy=1#imgIndex=9&#34;&gt;&lt;/p&gt;
-&lt;p&gt;希望在未来能实地到访尽可能多的国保。&lt;/p&gt;</description>
+&lt;p&gt;&lt;img src=&#34;https://mmbiz.qpic.cn/mmbiz_png/cD9pDxKnBKhFcUBic4KibicrBeDElK9TF1vaZibX2RLMT1Cggm4eQDFRCzM4Tabn0rNUDtAk05R4N0FlyicNibic3jOMw/640?wx_fmt=png&amp;amp;tp=webp&amp;amp;wxfrom=5&amp;amp;wx_lazy=1#imgIndex=9&#34; alt=&#34;图片&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;希望在未来能实地到访尽可能多的国保。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>女青：道教神祇中消失的隐官大人</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-11-21-nvqing/</link>
       <pubDate>Sun, 21 Nov 2021 00:05:45 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-11-21-nvqing/</guid>
-      <description>&lt;p&gt;道教的神祇体系，直到北宋开始才逐渐形成完整系统，这主要体现在三方面，一是道教最高神的位次最终确认，在此之前三清之间的排序，特别是元始天尊和太上老君之间的尊奉顺序始终未能固定；二是对佛教观念的学习和吸收成系统化，例如冥府、十八层地狱的概念已经深入人心，故纳入道教体系；三是对原始崇拜神的保留，例如城隍、土地；四是对俗神（流传于民间而为道教吸收赋予神格）的神仙占比和影响力加大，例如关帝、吕洞宾、王灵官、妈祖、张三丰等等。
+      <description>
+        
+        
+        &lt;p&gt;道教的神祇体系，直到北宋开始才逐渐形成完整系统，这主要体现在三方面，一是道教最高神的位次最终确认，在此之前三清之间的排序，特别是元始天尊和太上老君之间的尊奉顺序始终未能固定；二是对佛教观念的学习和吸收成系统化，例如冥府、十八层地狱的概念已经深入人心，故纳入道教体系；三是对原始崇拜神的保留，例如城隍、土地；四是对俗神（流传于民间而为道教吸收赋予神格）的神仙占比和影响力加大，例如关帝、吕洞宾、王灵官、妈祖、张三丰等等。
 在这个过程中，道教早期神的地位不免下降直至彻底消失，很多已不可考。其中一位已经消失但因特殊原因保存下来的神祇，名叫女青。
 图片&lt;/p&gt;
 &lt;p&gt;1997年，在江西南昌新火车站３号墓出土了一块鉴定为东晋永和八年（公元352年）的雷陔衣物疏，记云：“物疏如女青诏书，不得志者。”这是现已知最早带有“女青”字样的出土材料。迄今为止，累计共出土过上百件买地券、镇墓文类的古代文献，上边往往会镌刻“女青诏书”、“女青律令”，内容不必展开，而结尾一句套话说出来大家都似曾相识：
@@ -1123,14 +1328,21 @@
 这部《女青鬼律》叙述众鬼、鬼主居处，姓名及神通、危害，劝众人严守禁戒以免冒犯诸鬼，念符咒、呼鬼名都可以治鬼和避鬼。简单说，祂的逻辑是，天下的鬼都是有名有姓的，只要你知道了它的真名，就能治住它了。其中天师张道陵敕教鬼神，执掌此玄都鬼律的则是女青。
 至于女青，是其假名，而不是真名。女青是传递律令的神使，在不同时期，她传递的是天尊、太上老君或五帝的律令。原理我猜和《女青鬼律》里知道了鬼的真名就能够捉拿它一个道理，如果知道了传递鬼律的神祇的真名，鬼律便会失效，因此，道教天师也从不直呼女青的真名。传之后来，就真的没有人能够知道女青真名了。其实，女青是男是女我都没有找到可靠的证据，所有文献、论文中似乎都凭借女字而默认这是一位女子神。有学者认为女青也是道教从佛教的青鬼中借鉴而来的。我对此持怀疑态度。&lt;/p&gt;
 &lt;p&gt;早期道教，特别是天师道被称为“鬼道”，原因之一是原始崇拜在民间的影响至深，老百姓信鬼神而不奉大道。在《女青鬼律》出现之前，天界的律法是一个笼统的概念。汉代镇墓文中出自于最高神天帝的“律令”并没有真实的文本与之相对应，直至魏晋时期这一情况并没有太大的改变，作为天界法律文本的“律令”仍只是信仰者的一种宗教观念。
-北宋中期以后，道教经籍不再提及女青，她也就逐渐从人们的视野中消失了。&lt;/p&gt;</description>
+北宋中期以后，道教经籍不再提及女青，她也就逐渐从人们的视野中消失了。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>太公补遗：《封神》里有两个姜子牙，还给自己封了神</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-11-10-jiangziya/</link>
       <pubDate>Wed, 10 Nov 2021 23:19:45 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-11-10-jiangziya/</guid>
-      <description>&lt;p&gt;人们知道姜子牙大都是从《封神演义》而来，这部书影响太大，大到书中凭空杜撰出来的神仙人物，比如鸿钧老祖，后来也被一些庙观追封为神主，塑了尊像供奉。由于许仲琳文笔确实太过欠奉(和四大名著一样，作者存疑)，情节漏洞又多，文学性差了一截。但因为有关中国神祇的材料实在太过海量，作者写书时又的确下了极大功夫，所以后人推导研究时，发现了很多细节，一点也不比演绎《西游记》逊色。&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;人们知道姜子牙大都是从《封神演义》而来，这部书影响太大，大到书中凭空杜撰出来的神仙人物，比如鸿钧老祖，后来也被一些庙观追封为神主，塑了尊像供奉。由于许仲琳文笔确实太过欠奉(和四大名著一样，作者存疑)，情节漏洞又多，文学性差了一截。但因为有关中国神祇的材料实在太过海量，作者写书时又的确下了极大功夫，所以后人推导研究时，发现了很多细节，一点也不比演绎《西游记》逊色。&lt;/p&gt;
 &lt;p&gt;今天说到姜子牙在《封神演义》里的一件秘事：世人皆知姜子牙封神未封自己，其实不然，他也是为自己留了一条退路的。&lt;/p&gt;
 &lt;p&gt;图片&lt;/p&gt;
 &lt;p&gt;一切，都从一个“岳”字说起。&lt;/p&gt;
@@ -1159,14 +1371,21 @@
 &lt;p&gt;其次，泰山之所以是五岳至尊，源于祂的特殊性。在魏晋之前，佛教尚未把幽冥地府一十八重地狱的概念提炼出来并扎根中土前，《山海经》的神仙体系里，阴间的通道是在泰山桃树东南枝之上，负责阴司一应事务的是泰山府君，后来这个位置越来越重要，一路升格到了东岳大帝。泰山和桃树在道教系统里都是重要的地址和道具。这套阴司系统其实至今也仍然并行不悖。&lt;/p&gt;
 &lt;p&gt;至于东岳大帝那个总管天地人间吉凶祸福的职能，反而是最虚的，并没有什么可说到的。&lt;/p&gt;
 &lt;p&gt;黄飞虎的儿子，骑玉麒麟的黄天化，被封为“三山正神炳灵公”。三山一般来说是瀛洲、蓬莱、方丈，但因为这三座神山都无实指，现在也被指黄山、庐山和雁荡山。这都不重要，重要的是炳灵公。这位就是历史上赫赫有名，不，应该是臭名昭著的泰山三郎。最喜欢强抢民女，草菅人命。其神之恶迹，在魏晋笔记小说里出场率极高。泰山三郎的老爹，正是泰山正神东岳大帝。&lt;/p&gt;
-&lt;p&gt;许仲琳在这种小细节上扣的仔细，令人回味无穷，这也是《封神演义》虽然文笔糟糕，但读起来仍不忍释卷的缘由。&lt;/p&gt;</description>
+&lt;p&gt;许仲琳在这种小细节上扣的仔细，令人回味无穷，这也是《封神演义》虽然文笔糟糕，但读起来仍不忍释卷的缘由。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>鲍靓（二十六仙话之二）</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-11-07-baoliang/</link>
       <pubDate>Sun, 07 Nov 2021 00:01:45 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-11-07-baoliang/</guid>
-      <description>&lt;p&gt;道教在宋以后，庞杂的神祇系统初具规模，太清、灵宝等派相互妥协，加上宋朝皇室的影响，神仙们的位次逐渐确立下来。其中最高神，是由三清、四御、东王公、西王母组成的。
+      <description>
+        
+        
+        &lt;p&gt;道教在宋以后，庞杂的神祇系统初具规模，太清、灵宝等派相互妥协，加上宋朝皇室的影响，神仙们的位次逐渐确立下来。其中最高神，是由三清、四御、东王公、西王母组成的。
 西王母有据可查的女儿大约有二十多位。其中一位小女儿名叫太真夫人，嫁给了玄都太真王有子，王有子本来顶着一个部委司直的好工作，结果因为误事，被降职为了东岳府君。那个时代佛教还未传入中土，没有阎罗王和十八层地狱，掌管阴间、有幽冥通道的东岳府君其实是个很有前途的职位。太真夫人随丈夫调动工作，也便被称作东岳夫人了。她生了个名气顶臭的儿子，就是著名的泰山三郎。这里按下不表。
 话说有一次东岳夫人探亲，路过临淄，遇到一个为贼所伤的将死小吏，名叫和君贤。夫人恻隐之心大起，拿出一粒仙丹救活了小吏。没想到这个小吏滴水之恩当涌泉相报，何况救命之恩了，二话不说，自荐为奴仆，改名马明生，跟着夫人就走了。东岳夫人将他带回泰山，在石室里修行了五年，发现这个人的确忠心耿耿，便送了一桩福缘，把他推荐给隔壁邻居学习仙术。
 这位住在琅琊的邻居，便是安期生。安期生自家的谱牒里并未记载过马明生，可见当时马最多只是个不记名弟子。不过安期生当然要给王母的女儿面子，便带着这个不记名弟子周游天下名山，将自己的看家本领长生之术传给了马明生，并且这次长生之术终于有了名字，叫做太清金液神丹方。马明生成功肄业后，辞别安期生和东岳夫人，自己跑去华阴山炼丹修行去了。丹成之日，马明生只服了半颗，成为了半仙之体，继续在世上渡化凡人。直到建宁初年公元168年，汉灵帝刘宏登基之后，这才服食剩下半颗神丹，彻底飞升为仙人。
@@ -1190,14 +1409,21 @@
 这还没完，鲍靓太爱这个女儿了，更爱一位爱徒，于是便把女儿鲍姑嫁给了爱徒。这位爱徒，便是葛洪。没有葛洪写下的《神仙传》，道教神仙谱系还得乱上几百年。
 葛洪名声太著，就不展开讲了。鲍靓还有位好友，道教中尊为上清真人，上清派第三代宗师许谧。
 至此，南方道教大势已成。太平道、五斗米道和北天师道在历史上的面目愈加模糊。
-河上丈人-安期生-马明生-阴长生-鲍靓-葛洪一系，构成了南方神仙道教中的金丹一派仙真，其后皆为此系后人。&lt;/p&gt;</description>
+河上丈人-安期生-马明生-阴长生-鲍靓-葛洪一系，构成了南方神仙道教中的金丹一派仙真，其后皆为此系后人。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>安期生 (二十六仙话之一）</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-11-06-anqisheng/</link>
       <pubDate>Sat, 06 Nov 2021 00:53:45 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-11-06-anqisheng/</guid>
-      <description>&lt;p&gt;东晋的谢灵运写过一首《登江中孤屿》，诗云：
+      <description>
+        
+        
+        &lt;p&gt;东晋的谢灵运写过一首《登江中孤屿》，诗云：
 江南倦历览，江北旷周旋。
 怀新道转迥，寻异景不延。
 乱流趋正绝，孤屿媚中川。
@@ -1216,14 +1442,21 @@
 &lt;p&gt;又过了几十年，有一位方士李少君（这位也是仙人）受万年也痴迷长生之术的汉武帝宠幸。李少君说：“我上次云游东海的时候，曾经在蓬莱山拜访了安期生。他招待我的枣，和西瓜一样大。这位仙人平时都住在蓬莱山中，不过不轻易见人，觉得有缘的才会见。”于是汉武帝像始皇帝一样，组建了庞大的船队寻访安期生，无果而终。李少君可能是觉得没面子，不久也尸解而去。这去的够决绝的，一般人都水遁、土遁，他直接尸遁。&lt;/p&gt;
 &lt;p&gt;李少君跑了以后跟着安期生一起修仙，估计是在海上待得久了，有些腻了，二人便携了蓬莱山上一峰，飞去了岭南，开辟了一座道场，这座道场后来是中国十大道教名山之一，被誉为岭南第一山，司马迁尊为“粤岳”，这便是罗浮山。罗浮山上后来僧道皆有，一度号称“九观十八寺二十二庵”，其中名声最显的是地母娘娘，地母便是女娲，道教尊为无上虚空地母无量慈尊。也不知是女娲娘娘鸠占鹊巢，还是安期生根本就是为地母拓的新店。&lt;/p&gt;
 &lt;p&gt;从此人世间便再无安期生的音讯，真个神仙风范。&lt;/p&gt;
-&lt;p&gt;唐朝上清派著名道士杜光庭是位了不得的人物，入仕当过光禄大夫，出世号称山中宰相。道教百科全书《道藏》里收录了二十七本他的著作，其中一本重要的编著叫做《洞天福地记》，其中详细记述了天地宫府图、十大洞天，三十六小洞天和七十二福地。其中安期生独得两福地：七十二福地第二十安山（在交州北），为安期先生隐处，属先生治之。而第五十一元晨山（在江州都昌县，今江西都昌)，亦为安期生洽之。&lt;/p&gt;</description>
+&lt;p&gt;唐朝上清派著名道士杜光庭是位了不得的人物，入仕当过光禄大夫，出世号称山中宰相。道教百科全书《道藏》里收录了二十七本他的著作，其中一本重要的编著叫做《洞天福地记》，其中详细记述了天地宫府图、十大洞天，三十六小洞天和七十二福地。其中安期生独得两福地：七十二福地第二十安山（在交州北），为安期先生隐处，属先生治之。而第五十一元晨山（在江州都昌县，今江西都昌)，亦为安期生洽之。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>八月末的成都</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-08-21-chengdu/</link>
       <pubDate>Sat, 21 Aug 2021 22:26:00 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2021/2021-08-21-chengdu/</guid>
-      <description>&lt;p&gt;八月末的成都，蝉声还没褪去，天气还没有半点凉下去的苗头，柠檬茶和冰咖啡依然热销。虽然隔几天就下一次雨，但就像在炭火上浇上一捧凉水，徒然激起闷热而已。&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;八月末的成都，蝉声还没褪去，天气还没有半点凉下去的苗头，柠檬茶和冰咖啡依然热销。虽然隔几天就下一次雨，但就像在炭火上浇上一捧凉水，徒然激起闷热而已。&lt;/p&gt;
 &lt;p&gt;这是个星期五的傍晚，街面上的车流量激增了数倍，平时二十分钟的路程需要一小时甚至更久。天还没黑下来，但路灯和街边的霓虹招牌已经渐次点亮。落日前的凉风穿行在城市里，行人们步履轻快，沐浴在凉爽的空气中。温软甜脆的川音在人群的肩头跳跃，荡起一圈圈看不见的涟漪。&lt;/p&gt;
 &lt;p&gt;空气中的味道逐渐开始醇厚，成份至少要比白天复杂上千倍。海椒、花椒、芫荽、香油、卤汤、牛油、泡椒、鱼头、鸭脖……各种食材散发出的活跃因子急剧融合、流动，紧张地等待着整个城市的人即将开始的饕餮之夜。&lt;/p&gt;
 &lt;p&gt;胃城，开始缓慢蠕动它那巨大的消化系统。&lt;/p&gt;
@@ -1234,38 +1467,45 @@
 &lt;p&gt;一位美女手里捧着两串烤牛肉从桥下走过，白皙的细腿迈过侏儒时似乎什么都没碰到，就像穿过了空气一般。但她手中的烧烤却瞬间不在冒热气，并且原本涂满了酱汁和海椒面的牛肉像是在水里涮锅一样，瞬间洗白了。&lt;/p&gt;
 &lt;p&gt;女孩并没有发觉异常，一般人都不会发觉，似乎有种力量干扰着这里的光线，控制着阴影的形状。即使有人真的低下眼帘打量那阴影中的侏儒，也会很自然地瞬间转过头去，仿佛什么都没看过，转瞬即忘。当第十位美女一边吃着苞米一边走过桥下时时，那黑影底下的“侏儒”已经长得有一百八十公分高了。&lt;/p&gt;
 &lt;p&gt;他站直身子，依然纹丝不动，面孔笼罩在立交桥倒映下来的投影里，只能勉强看见眉骨高耸，黄玉色的眸子精光四溢。他伸出右手，朝着正前方五十米外的烧烤摊摆了摆手，那烧烤推车里的蜂窝煤炉子仿佛突然用鼓风机抽了一下似的，蜂窝煤一下子黯淡下来，几乎就要灭了似的。货架上的烧烤全部变成像被水洗了一遍，变得苍白乏味。&lt;/p&gt;
-&lt;p&gt;那个从阴影里长出来的男人砸吧砸吧嘴，终于迈出第一步，又迈出一步，然后开始奔跑，并且很快消失在了楼宇之间。&lt;/p&gt;</description>
+&lt;p&gt;那个从阴影里长出来的男人砸吧砸吧嘴，终于迈出第一步，又迈出一步，然后开始奔跑，并且很快消失在了楼宇之间。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>2020年4月读书书单：微信读书，以后我还有书读吗？</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-05-04-read/</link>
       <pubDate>Mon, 04 May 2020 22:04:00 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-05-04-read/</guid>
-      <description>&lt;h2 id=&#34;本月读书计划实施情况&#34;&gt;本月读书计划实施情况&lt;/h2&gt;
-&lt;p&gt;四月份读了五部书，数量虽少，但分量都不轻。《白先勇细读红楼梦》和《天空的孩子》都是厚厚一大本；《黑色佣兵团(北境三部曲)》实际上可以算作三本书；《白鹿原》和《恶意》也不算短，算是标准的长篇小说长度。截止四月底，阅读了二十七本书。按这个速度，今年读一百本书的目标还有点挑战哦！&lt;/p&gt;
+      <description>
+        
+        
+        &lt;h2&gt;本月读书计划实施情况&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;本月读书计划实施情况&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%9c%ac%e6%9c%88%e8%af%bb%e4%b9%a6%e8%ae%a1%e5%88%92%e5%ae%9e%e6%96%bd%e6%83%85%e5%86%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;四月份读了五部书，数量虽少，但分量都不轻。《白先勇细读红楼梦》和《天空的孩子》都是厚厚一大本；《黑色佣兵团(北境三部曲)》实际上可以算作三本书；《白鹿原》和《恶意》也不算短，算是标准的长篇小说长度。截止四月底，阅读了二十七本书。按这个速度，今年读一百本书的目标还有点挑战哦！&lt;/p&gt;
 &lt;p&gt;这个月读的书都是早就想读的书，因为种种原因耽搁下来的。&lt;/p&gt;
-&lt;h2 id=&#34;阅文事件与微信读书&#34;&gt;阅文事件与微信读书&lt;/h2&gt;
-&lt;p&gt;从我今年的读书笔记可以看出，微信读书确实为我提供了极大的便利（主要是读书功能，而传统文学出版物目前只能在微信读书渠道读到朗读版），其实我一直在考虑它是否为作者支付稿酬——不给作者吧也正常，因为很多作者签的是一次性稿酬，那么出版机构拿到钱了吗？——第一次意识到这个问题，是我熟悉的作者（忘记是阿飞还是桶叔了）说自己从未收到过稿费。我在微信读书上也搜到了自己的书（和别的作者一起出的合辑），我自然也从未收到过任何稿酬。&lt;/p&gt;
+&lt;h2&gt;阅文事件与微信读书&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;阅文事件与微信读书&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%98%85%e6%96%87%e4%ba%8b%e4%bb%b6%e4%b8%8e%e5%be%ae%e4%bf%a1%e8%af%bb%e4%b9%a6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;从我今年的读书笔记可以看出，微信读书确实为我提供了极大的便利（主要是读书功能，而传统文学出版物目前只能在微信读书渠道读到朗读版），其实我一直在考虑它是否为作者支付稿酬——不给作者吧也正常，因为很多作者签的是一次性稿酬，那么出版机构拿到钱了吗？——第一次意识到这个问题，是我熟悉的作者（忘记是阿飞还是桶叔了）说自己从未收到过稿费。我在微信读书上也搜到了自己的书（和别的作者一起出的合辑），我自然也从未收到过任何稿酬。&lt;/p&gt;
 &lt;p&gt;现在事情比较明朗，就是这种不平等的合同不是这次才出现的，只是因为阅文管理层切换，成为了导火索，没有这次，也有其他。我记得前年豆瓣和我续签合同我都拒绝了，感觉合同不够好，可现在回头再看，豆瓣的合同简直是良心啊。&lt;/p&gt;
 &lt;p&gt;但我对文学的生命力还是有信息的，这种资本导致的不平等，可能只会对现在微妙平衡的网络文学生态产生破幻，但不会毁灭他。用阅文自己的财报说，810万作者，这么多的人指望着这个讨生活呢。之前在豆瓣上和小者有过小互动，我的结论是，哪怕按照30%有效作者+最低收入来计算，也能创造240万个就业岗位啊。我相信，以前没有一分钱况且有那么多的作者，现在，无论合同如何，喜爱文学的人总会创作的，只是，他不会那么挥霍自己的才能，为资本家无偿打工吧。&lt;/p&gt;
 &lt;p&gt;多说一句，目前我在微信读书上免费阅读的书大多我都买了实体书，当然并不是为了证明自己不撸羊毛，只是在慢慢贯彻“买书如山倒读书如抽丝”而已。&lt;/p&gt;
-&lt;h2 id=&#34;白先勇细读红楼梦&#34;&gt;《白先勇细读红楼梦》&lt;/h2&gt;
-&lt;p&gt;白先生的这套书是他在台大的课程转录的书，对我来说，写的非常好，从主线到支线，从隐藏线索到八卦，不一而足。
+&lt;h2&gt;《白先勇细读红楼梦》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;白先勇细读红楼梦&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%99%bd%e5%85%88%e5%8b%87%e7%bb%86%e8%af%bb%e7%ba%a2%e6%a5%bc%e6%a2%a6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;白先生的这套书是他在台大的课程转录的书，对我来说，写的非常好，从主线到支线，从隐藏线索到八卦，不一而足。
 后边我打算再把蒋勋的那一套读红楼梦也读了，那一套更厚，差不多是这部书的三本。不过我得缓一下，过一段时间再说吧。&lt;/p&gt;
-&lt;h2 id=&#34;黑色佣兵团北境三部曲&#34;&gt;《黑色佣兵团(北境三部曲)》&lt;/h2&gt;
-&lt;p&gt;标准经典的西式奇幻小说，喜欢这种调调的不要错过。这书唯一让人不适应的是作者使用第一人称方式写的，主视觉一直是名叫“碎嘴”的佣兵，在黑色佣兵团中一直承担队医的角色，当然，在故事第三部中，他已经成为了&lt;em&gt;剧透警告&lt;/em&gt;。
+&lt;h2&gt;《黑色佣兵团(北境三部曲)》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;黑色佣兵团北境三部曲&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e9%bb%91%e8%89%b2%e4%bd%a3%e5%85%b5%e5%9b%a2%e5%8c%97%e5%a2%83%e4%b8%89%e9%83%a8%e6%9b%b2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;标准经典的西式奇幻小说，喜欢这种调调的不要错过。这书唯一让人不适应的是作者使用第一人称方式写的，主视觉一直是名叫“碎嘴”的佣兵，在黑色佣兵团中一直承担队医的角色，当然，在故事第三部中，他已经成为了&lt;em&gt;剧透警告&lt;/em&gt;。
 记得我对西式奇幻接触的第一篇是短篇小说作者凤凰在论坛里贴出来的同人作品《第七颗头骨》，后来他还续了很多部，如果你错过了那个网文诞生的黄金年代，可以试着搜来读一读。&lt;/p&gt;
-&lt;h2 id=&#34;白鹿原&#34;&gt;《白鹿原》&lt;/h2&gt;
-&lt;p&gt;陈忠实先生的《白鹿原》在当代文学中的地位毋庸置疑。以前其实没有好好读过，都是一些片段。这次携着刚看完《白先勇细读红楼梦》的感觉，再看这本书，似乎看出了很多味道。比如那神秘至极的白鹿和白狼，白姓和鹿姓，神奇预言能力的朱先生，让人深陷情节不能自拔。&lt;/p&gt;
+&lt;h2&gt;《白鹿原》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;白鹿原&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%99%bd%e9%b9%bf%e5%8e%9f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;陈忠实先生的《白鹿原》在当代文学中的地位毋庸置疑。以前其实没有好好读过，都是一些片段。这次携着刚看完《白先勇细读红楼梦》的感觉，再看这本书，似乎看出了很多味道。比如那神秘至极的白鹿和白狼，白姓和鹿姓，神奇预言能力的朱先生，让人深陷情节不能自拔。&lt;/p&gt;
 &lt;p&gt;我看的版本是人民文学出版社&lt;/p&gt;
 &lt;p&gt;不多解读了，这书也不是一句两句能说得清的，就说两句直接肤浅的记录。全书唯一流泪的是白灵被活埋的章节。白孝文的大烟瘾是怎么断绝的一直是迷，田是他的贵人最终也没放过，他处死黑娃的手段看起来更像是鹿家的后人。&lt;/p&gt;
-&lt;h2 id=&#34;恶意&#34;&gt;《恶意》&lt;/h2&gt;
-&lt;p&gt;《恶意》与《白夜行》恰似两生花，但名气不如后者大。11年前南海出版集团出了一套新经典文化·东野圭吾作品集，包含了109部东野的小说（真是高产啊！！）《恶意》在里边其实不显山不露水的，算是中规中矩的罪案推理。但对东野书迷、罪案类读者，或者从未读过东野其他小说的普通读者，这本书都值得推荐一读。&lt;/p&gt;
+&lt;h2&gt;《恶意》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;恶意&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%81%b6%e6%84%8f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;《恶意》与《白夜行》恰似两生花，但名气不如后者大。11年前南海出版集团出了一套新经典文化·东野圭吾作品集，包含了109部东野的小说（真是高产啊！！）《恶意》在里边其实不显山不露水的，算是中规中矩的罪案推理。但对东野书迷、罪案类读者，或者从未读过东野其他小说的普通读者，这本书都值得推荐一读。&lt;/p&gt;
 &lt;p&gt;奇怪的是，这本书读完后，就下架了，微信读书上只有“订阅上架提醒”的按钮。&lt;/p&gt;
-&lt;h2 id=&#34;天空的孩子银河界区三部曲iii&#34;&gt;《天空的孩子（银河界区三部曲III）》&lt;/h2&gt;
-&lt;p&gt;银河界区三部曲，前两部是大名鼎鼎的《深渊上的火》，《天渊》，塞伯朋克流派大师弗诺・文奇的代表作，我最喜爱的科幻作家之一。1987年，他就写出了《真名实姓》，这个故事里简直就是在讲今天我们的互联网生活。1992年，《深渊上的火》获得雨果奖，2000年前传《天渊》击败当时声名正隆的《哈里波特与阿兹卡班的囚徒》，再获雨果奖。弗诺・文奇创造了无数设定和名词，构成了赛博朋克的血肉，甚至为后来的互联网先行者指明了道路，比如寰宇文明网。读者未来也将在我的作品中看到向他致敬的桥段，哈哈！&lt;/p&gt;
-&lt;h2 id=&#34;肆月书单一览表&#34;&gt;肆月书单一览表&lt;/h2&gt;
-&lt;table&gt;
+&lt;h2&gt;《天空的孩子（银河界区三部曲III）》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;天空的孩子银河界区三部曲iii&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a4%a9%e7%a9%ba%e7%9a%84%e5%ad%a9%e5%ad%90%e9%93%b6%e6%b2%b3%e7%95%8c%e5%8c%ba%e4%b8%89%e9%83%a8%e6%9b%b2iii&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;银河界区三部曲，前两部是大名鼎鼎的《深渊上的火》，《天渊》，塞伯朋克流派大师弗诺・文奇的代表作，我最喜爱的科幻作家之一。1987年，他就写出了《真名实姓》，这个故事里简直就是在讲今天我们的互联网生活。1992年，《深渊上的火》获得雨果奖，2000年前传《天渊》击败当时声名正隆的《哈里波特与阿兹卡班的囚徒》，再获雨果奖。弗诺・文奇创造了无数设定和名词，构成了赛博朋克的血肉，甚至为后来的互联网先行者指明了道路，比如寰宇文明网。读者未来也将在我的作品中看到向他致敬的桥段，哈哈！&lt;/p&gt;
+&lt;h2&gt;肆月书单一览表&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;肆月书单一览表&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%82%86%e6%9c%88%e4%b9%a6%e5%8d%95%e4%b8%80%e8%a7%88%e8%a1%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;状态&lt;/th&gt;
@@ -1292,32 +1532,39 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;《白先勇细读红楼梦》；《黑色佣兵团(北境三部曲)》；《白鹿原》；《恶意》；《天空的孩子（银河界区三部曲III）》&lt;/p&gt;</description>
+&lt;p&gt;《白先勇细读红楼梦》；《黑色佣兵团(北境三部曲)》；《白鹿原》；《恶意》；《天空的孩子（银河界区三部曲III）》&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>2020年3月读书书单：读史知今，读科幻警世，读网文大杀时间</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-04-01-read/</link>
       <pubDate>Wed, 01 Apr 2020 20:07:01 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-04-01-read/</guid>
-      <description>&lt;h2 id=&#34;本月读书计划实施情况&#34;&gt;本月读书计划实施情况&lt;/h2&gt;
-&lt;p&gt;三月份由于几个原因，读书数量较少（与一二月份相比），但还是达到及格线了的。
+      <description>
+        
+        
+        &lt;h2&gt;本月读书计划实施情况&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;本月读书计划实施情况&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%9c%ac%e6%9c%88%e8%af%bb%e4%b9%a6%e8%ae%a1%e5%88%92%e5%ae%9e%e6%96%bd%e6%83%85%e5%86%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;三月份由于几个原因，读书数量较少（与一二月份相比），但还是达到及格线了的。
 原因一是，因为工作恢复正轨，自然比较忙了。二是有意识地抽了更多时间去看了影视作品，比如《李尸朝鲜2》，《副本2》，以及几部电影。三是因为，我赞誉有加的《剑来》养了三个月了，把积稿读完了，大约一百五十章的内容。因为《剑来》作者写的很实在，每一章都特别长，所以这一百多章内容读完，花费了比预料多得多的时间，差不多三月一小半时间都去读它了，所以其他书就少了。&lt;/p&gt;
 &lt;p&gt;但仍然读完了五本书，还好。&lt;/p&gt;
-&lt;h2 id=&#34;西域余闻&#34;&gt;《西域余闻》&lt;/h2&gt;
-&lt;p&gt;陈舜臣老先生的生平不能说传奇，但一定非常具有故事性。这本书文末的陈先生大事记我仔细看完，心生感慨。他年轻时从日本回到台湾，到六十多岁才又获得日本国籍；他35岁决心成为作家，36岁以新人身份冲击新人奖但未遂，直到45岁终于获得职业作家的认可。他一步一步地将自己能拿到的所有文学奖项收入囊中，最后又成为自己曾获得的这些奖项的评委。他一直笔耕不辍，写作态度堪称楷模。&lt;/p&gt;
+&lt;h2&gt;《西域余闻》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;西域余闻&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%a5%bf%e5%9f%9f%e4%bd%99%e9%97%bb&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;陈舜臣老先生的生平不能说传奇，但一定非常具有故事性。这本书文末的陈先生大事记我仔细看完，心生感慨。他年轻时从日本回到台湾，到六十多岁才又获得日本国籍；他35岁决心成为作家，36岁以新人身份冲击新人奖但未遂，直到45岁终于获得职业作家的认可。他一步一步地将自己能拿到的所有文学奖项收入囊中，最后又成为自己曾获得的这些奖项的评委。他一直笔耕不辍，写作态度堪称楷模。&lt;/p&gt;
 &lt;p&gt;这本书能够成书，有赖于上世纪70年代开始中日关系蜜月期，从那时起之后的二十多年里，他多次前来中午采风，尤其喜欢西域风光，每次采风完后都有所输出，这本《西域余闻》便是这些在中国的见闻结出的硕果。&lt;/p&gt;
 &lt;p&gt;这本书读起来轻松有趣，既有他眼中当时中国的风貌，也有引文论据的解说，能增长不少见闻。作为对中国历史有大兴趣的华裔日本作家，他的书有时间不妨都可以读一读。&lt;/p&gt;
-&lt;h2 id=&#34;宋现代的拂晓时辰&#34;&gt;《宋：现代的拂晓时辰》&lt;/h2&gt;
-&lt;p&gt;读这本书很偶然，原本只是因为目录里有几个我熟悉但不了解的名词，所以打开翻了翻，但因为内容比较浅显，便顺势读完了。本书最大的问题也确实是这样，写的比较浅。&lt;/p&gt;
+&lt;h2&gt;《宋：现代的拂晓时辰》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;宋现代的拂晓时辰&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%ae%8b%e7%8e%b0%e4%bb%a3%e7%9a%84%e6%8b%82%e6%99%93%e6%97%b6%e8%be%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;读这本书很偶然，原本只是因为目录里有几个我熟悉但不了解的名词，所以打开翻了翻，但因为内容比较浅显，便顺势读完了。本书最大的问题也确实是这样，写的比较浅。&lt;/p&gt;
 &lt;p&gt;怎么理解这个浅？并不是作者笔力不行，也不是作者描述不够详尽，而是作者完全将事业放在宋朝当时的情景上，基于一些表面现象便得出结论，并与现代进行比较，最终得出宋朝非常经济繁荣的结论。比如在作者用四个篇章去写宋朝的“福利体系”，读完以后只觉得宋政府太先进了，比现代发达国家政府还要好。但显然，当时很多政策描述仅仅停留在纸面而已，就拿王安石变法来说，很多政令根本没有贯彻执行过，而作者据此就得出宋朝的人文关怀，未免过于想当然了。&lt;/p&gt;
 &lt;p&gt;但这书还是挺不错的，值得翻一翻，全书分为了“瓦舍勾栏”，“契约时代”，“全民皆商”，“共治天下”四个篇章，每一个小节都是一个关键词。这种目录形式我很喜欢，虽然有凑字数的嫌疑，但可以很容易地定位你感兴趣的章节。&lt;/p&gt;
 &lt;p&gt;P.S.夏天快来了，感受一下大宋时代的解暑饮品的名字：冰雪凉水，雪泡豆儿水，雪泡缩脾饮，雪泡梅花酒。听名字就很好喝，喜茶奈雪们学一学吧。&lt;/p&gt;
-&lt;h2 id=&#34;知更鸟&#34;&gt;《知更鸟》&lt;/h2&gt;
-&lt;p&gt;挪威作家尤·奈斯博是北欧作家里叙事能力最强的一位，在我看来，至少比斯蒂格·拉森的小说更加流畅，阅读感强烈。&lt;/p&gt;
+&lt;h2&gt;《知更鸟》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;知更鸟&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e7%9f%a5%e6%9b%b4%e9%b8%9f&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;挪威作家尤·奈斯博是北欧作家里叙事能力最强的一位，在我看来，至少比斯蒂格·拉森的小说更加流畅，阅读感强烈。&lt;/p&gt;
 &lt;p&gt;《知更鸟》在阅读时还是有一定难度的，需要聚精会神关注每一条线索，因为两条故事线交叉叙述，时间跨度长达半个多世纪。作者的叙述方式对于编剧来说很友好，感觉可以很方便地改写为剧本。这个故事讲述的其实是二战时期投靠纳粹德国的挪威军人的因果，欧洲作家向来是不吝于将自己民族最丑陋的一面反复拎出来反思鞭挞的。读腻了悬疑大师作品的书友不妨换个口味，看看挪威味道的书。&lt;/p&gt;
 &lt;p&gt;据说尤·奈斯博作品的阅读时间线应该是：《雪人》→《猎豹》→《幽灵》→《警察》→《知更鸟》。有空了准备再挑两本看一看。&lt;/p&gt;
-&lt;h2 id=&#34;宫崎市定中国史&#34;&gt;《宫崎市定中国史》&lt;/h2&gt;
-&lt;p&gt;这本书的作者是毕生致力于中国史研究的宫崎市定，算是日本学院派的中国通。你可以把这本书看做一个日本人写的速读办中国通史，如果你非常喜欢读史书的话，那么可以一观。&lt;/p&gt;
+&lt;h2&gt;《宫崎市定中国史》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;宫崎市定中国史&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%ae%ab%e5%b4%8e%e5%b8%82%e5%ae%9a%e4%b8%ad%e5%9b%bd%e5%8f%b2&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;这本书的作者是毕生致力于中国史研究的宫崎市定，算是日本学院派的中国通。你可以把这本书看做一个日本人写的速读办中国通史，如果你非常喜欢读史书的话，那么可以一观。&lt;/p&gt;
 &lt;p&gt;我对这本书这本书的兴趣在于，宫崎市定独特的时代区分论。通常（日本）学者对古代史的三分法都是：古代，中世，近世。而宫崎市定自创了四分法。为了直观起见，我做了一个简表，可以一目了然。&lt;/p&gt;
 &lt;table&gt;
   &lt;thead&gt;
@@ -1375,16 +1622,16 @@
   &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;这些理论非常学术了，每种理论的时代划分都有自己的道理在里边。我在这里只想说，看看日本学者对中国史的研究深度，中国人是否会感到汗颜？&lt;/p&gt;
-&lt;h2 id=&#34;荒潮&#34;&gt;《荒潮》&lt;/h2&gt;
-&lt;p&gt;《荒潮》是中国科幻圈最重要的作者之一陈楸帆的长篇代表作，按理说我早该读一下了，但拖到现在才读。陈楸帆出身google，后又供职百度，主业一直在新科技领域的公司，所以他的思维是非常超前的。如果说苏式工程师思维造就了刘慈欣，那么陈楸帆是真正代表了下一代思潮的国潮科幻作家，他和江波是我最喜欢的中国科幻作家。&lt;/p&gt;
+&lt;h2&gt;《荒潮》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;荒潮&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%8d%92%e6%bd%ae&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;《荒潮》是中国科幻圈最重要的作者之一陈楸帆的长篇代表作，按理说我早该读一下了，但拖到现在才读。陈楸帆出身google，后又供职百度，主业一直在新科技领域的公司，所以他的思维是非常超前的。如果说苏式工程师思维造就了刘慈欣，那么陈楸帆是真正代表了下一代思潮的国潮科幻作家，他和江波是我最喜欢的中国科幻作家。&lt;/p&gt;
 &lt;p&gt;这本书在国际上得过什么奖我没考据，但得益于刘宇昆的翻译，本书翻译成了十多国语言版本，在科幻圈赞誉有加。&lt;/p&gt;
 &lt;p&gt;在我看来，这是一本目的很明确的书，故事的发生地硅屿反映的是陈楸帆福建老家很多村落成为电子垃圾处理地的现实。作者想要说出的环保意识，对电子垃圾的担忧几乎赤条条地放在桌面上，你能感到他对故乡发生的那些事的愤怒。&lt;/p&gt;
-&lt;h2 id=&#34;剑来&#34;&gt;《剑来》&lt;/h2&gt;
-&lt;p&gt;这书读到八百多章，感觉要收尾了，作者挖的坑过多，场面大到要失控的局面了。我在三月画了一幅详尽的剑来设定图，还在完善中。等故事即将收尾时再放出吧。&lt;/p&gt;
-&lt;h2 id=&#34;kindle&#34;&gt;kindle&lt;/h2&gt;
-&lt;p&gt;对，末了再说一下kindle。前些天Ann错买了一个尺寸不符的kindle壳子，因为懒得退货，便给了我。结果我回到家，拿出我的三个kindle，都不合适，最老的kindle下边还带实体按键，显然不合适；半新不旧那个倒是能卡进去，但却无法合上盖子；最新版的放进去吧，又短了一截。我惊讶地发现，我都不知道kindle现在一共发售了多少个型号的产品了。它“良好”地继承了手机型号尺寸善变的优良传统。&lt;/p&gt;
-&lt;h2 id=&#34;叄月书单一览表&#34;&gt;叄月书单一览表&lt;/h2&gt;
-&lt;table&gt;
+&lt;h2&gt;《剑来》&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;剑来&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%89%91%e6%9d%a5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;这书读到八百多章，感觉要收尾了，作者挖的坑过多，场面大到要失控的局面了。我在三月画了一幅详尽的剑来设定图，还在完善中。等故事即将收尾时再放出吧。&lt;/p&gt;
+&lt;h2&gt;kindle&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;kindle&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#kindle&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;对，末了再说一下kindle。前些天Ann错买了一个尺寸不符的kindle壳子，因为懒得退货，便给了我。结果我回到家，拿出我的三个kindle，都不合适，最老的kindle下边还带实体按键，显然不合适；半新不旧那个倒是能卡进去，但却无法合上盖子；最新版的放进去吧，又短了一截。我惊讶地发现，我都不知道kindle现在一共发售了多少个型号的产品了。它“良好”地继承了手机型号尺寸善变的优良传统。&lt;/p&gt;
+&lt;h2&gt;叄月书单一览表&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;叄月书单一览表&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%8f%84%e6%9c%88%e4%b9%a6%e5%8d%95%e4%b8%80%e8%a7%88%e8%a1%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;状态&lt;/th&gt;
@@ -1410,14 +1657,21 @@
           &lt;td&gt;《剑来》750章至最新&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</description>
+&lt;/table&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>曼巴精神：认真地写一本自传</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-03-06-kobe/</link>
       <pubDate>Fri, 06 Mar 2020 00:17:18 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-03-06-kobe/</guid>
-      <description>&lt;p&gt;1.2020年1月26日，科比·布莱恩特极其突然和意外地离开人世。
+      <description>
+        
+        
+        &lt;p&gt;1.2020年1月26日，科比·布莱恩特极其突然和意外地离开人世。
 1.1.在我有限的NBA篮球观战史里，他是仅次于乔丹的存在，也是乔丹的“法定”继承人，无论这个结论其他人是否接受。
 1.2.但我几乎从未追过心，我甚至不知道科比是哪年生人（现在知道了，1978年8月23日），于是我准备找一本科比的传记来读一下。
 1.3.于是有了这本书的阅读，《曼巴精神：科比自传》。&lt;/p&gt;
@@ -1444,15 +1698,22 @@
 6.2.81分单场得分至今仍是史上第二。第一是张伯伦的100分。
 6.3.18岁加入NBA，有史以来最年轻的扣篮大赛冠军，不知道算不算史上最成功的的高中生球员。
 6.4.2008年6月，科比带领有“救赎之队”之称的美国男篮在北京奥运会夺得金牌。&lt;/p&gt;
-&lt;p&gt;7.再见科比。上学时没有喜欢过你，但没有你的我的记忆是不完整的。&lt;/p&gt;</description>
+&lt;p&gt;7.再见科比。上学时没有喜欢过你，但没有你的我的记忆是不完整的。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>2020年2月读书书单：用更多时间去阅读</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-02-29-read/</link>
       <pubDate>Sat, 29 Feb 2020 21:20:12 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-02-29-read/</guid>
-      <description>&lt;h2 id=&#34;本月读书计划实施情况&#34;&gt;本月读书计划实施情况&lt;/h2&gt;
-&lt;p&gt;二月是前所未有的一个月，工作以来从未有过如此长的假期。想必绝大多数中国人都渡过了“难熬”的一个月。对于我们来说，这个月还能用“远程”、“假期”一类的词汇去形容自己的生活，已经非常庆幸了。&lt;/p&gt;
+      <description>
+        
+        
+        &lt;h2&gt;本月读书计划实施情况&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;本月读书计划实施情况&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e6%9c%ac%e6%9c%88%e8%af%bb%e4%b9%a6%e8%ae%a1%e5%88%92%e5%ae%9e%e6%96%bd%e6%83%85%e5%86%b5&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;二月是前所未有的一个月，工作以来从未有过如此长的假期。想必绝大多数中国人都渡过了“难熬”的一个月。对于我们来说，这个月还能用“远程”、“假期”一类的词汇去形容自己的生活，已经非常庆幸了。&lt;/p&gt;
 &lt;p&gt;本月因为上班，以及花更多时间读书，花更多时间录节目，晚上唯一空闲的时间也去补看前几年的《Shameless(US)》了，所以blog空了一个月。不过这次我不再恐慌，因为我知道我不会再荒废，我知道我要写的是什么。&lt;/p&gt;
 &lt;p&gt;二月份共读完了九本书，如果按照单册的字数来计算，那么是十二本书（《巨人的陨落》上中下三册），刷新了一月八本书的记录。&lt;/p&gt;
 &lt;p&gt;对照一月末的读书计划，《曼巴精神》《病毒星球》《银河之心III：逐影追光》都如期读完了。特别是《曼巴精神》意料之外的惊喜，我本以为自己会读到第三人称视角的科比生平，没想到这本书却是非常实诚的一本经验之书，感觉他没有任何藏私，每一段都是自己实打实的真实想法。&lt;/p&gt;
@@ -1463,8 +1724,8 @@
 &lt;p&gt;除此以外，我基本保持了上月提到的，每天（睡前）会读一两篇笔记体小说或随笔，以保持自己的语感。&lt;/p&gt;
 &lt;p&gt;二月的最后一个星期，终于恢复了办公室办公，所以工作肯定忙起来了。三月不会追求读书数量（但至少读六本书吧），准备把黑暗物质后两部看了，否则美剧卡在那里没法看了。&lt;/p&gt;
 &lt;p&gt;二月的最后一天，2082FM已经累计发布了12期节目了，三月会保持每周一期的录制和发布频率。就酱。&lt;/p&gt;
-&lt;h2 id=&#34;贰月书单一览表&#34;&gt;贰月书单一览表&lt;/h2&gt;
-&lt;table&gt;
+&lt;h2&gt;贰月书单一览表&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;贰月书单一览表&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e8%b4%b0%e6%9c%88%e4%b9%a6%e5%8d%95%e4%b8%80%e8%a7%88%e8%a1%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;状态&lt;/th&gt;
@@ -1484,15 +1745,22 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;注：本月的读书表格去掉了在读和购买（也没买新书）的状态，只保持记录读完的书。翻了一半、读了几页的书多之又多。只看结果。&lt;/p&gt;</description>
+&lt;p&gt;注：本月的读书表格去掉了在读和购买（也没买新书）的状态，只保持记录读完的书。翻了一半、读了几页的书多之又多。只看结果。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>2020年1月读书书单：没有圈禁，也能挤出时间</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-31-read/</link>
       <pubDate>Fri, 31 Jan 2020 01:00:00 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-31-read/</guid>
-      <description>&lt;h2 id=&#34;哪来读书时间&#34;&gt;哪来读书时间&lt;/h2&gt;
-&lt;p&gt;今年一月是读书特别高效的一个月，并且很神奇的是，这个月工作实际上非常非常忙，放假前几乎每天都要加班到12点-1点才能强行结束工作状态。而这个月有六本书都是放假前读完的。&lt;/p&gt;
+      <description>
+        
+        
+        &lt;h2&gt;哪来读书时间&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;哪来读书时间&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%93%aa%e6%9d%a5%e8%af%bb%e4%b9%a6%e6%97%b6%e9%97%b4&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;今年一月是读书特别高效的一个月，并且很神奇的是，这个月工作实际上非常非常忙，放假前几乎每天都要加班到12点-1点才能强行结束工作状态。而这个月有六本书都是放假前读完的。&lt;/p&gt;
 &lt;p&gt;所以问题来了：哪里来的这么多时间读书？&lt;/p&gt;
 &lt;p&gt;首先，能读完这么多书，阅读类APPs的听书功能居功至伟，并且听书体验愈加完善。我的读书量的75%都是通过听书完成。（题外话：有人认为听书怎么能算读书呢？这个我就不杠了，需要说明的是，我所指的听书都是系统语音读书的播放功能，而非主播演绎的听书版本）。&lt;/p&gt;
 &lt;p&gt;每天上下班接近2个小时+午休时1个小时（午休两个小时，不可能一直听书）+睡前读书0.5个小时，再加上周末，一个月轻轻松松八十个小时的阅读时间。&lt;/p&gt;
@@ -1502,8 +1770,8 @@
 &lt;p&gt;因为准备为每一本看完的书都写一篇读书笔记，所以在当月书单里就不一一点评了。会在表格里把写过的读书笔记链接更新进去。&lt;/p&gt;
 &lt;p&gt;接下来的读书计划，待读书单里已经排了十几本书了。其中《黑暗物质》后两本会读了，为了防止破坏观感，同名美剧还等在那里没看呢。另外，《黑旗》《曼巴精神》《病毒星球》《机器之门》都会读，而啃了很久的江波大作《银河之心III：逐影追光》也即将读完，银河之心三部曲奠定了他在我心目中中国长篇科幻第二人的地位，第一是久未更新的大刘。&lt;/p&gt;
 &lt;p&gt;最后，每天会读一两篇笔记体小说或随笔，以保持自己的语感。就酱。&lt;/p&gt;
-&lt;h2 id=&#34;壹月书单一览表&#34;&gt;壹月书单一览表&lt;/h2&gt;
-&lt;table&gt;
+&lt;h2&gt;壹月书单一览表&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;壹月书单一览表&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%a3%b9%e6%9c%88%e4%b9%a6%e5%8d%95%e4%b8%80%e8%a7%88%e8%a1%a8&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;table&gt;
   &lt;thead&gt;
       &lt;tr&gt;
           &lt;th&gt;状态&lt;/th&gt;
@@ -1550,15 +1818,25 @@
           &lt;td&gt;无&lt;/td&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
-&lt;/table&gt;</description>
+&lt;/table&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>百年中东的纷乱</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-1-30-zhongdong/</link>
       <pubDate>Thu, 30 Jan 2020 21:08:11 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-1-30-zhongdong/</guid>
-      <description>&lt;p&gt;&lt;em&gt;《穿越百年中东》&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;《穿越百年中东》&#34; loading=&#34;lazy&#34; src=&#34;https://img9.doubanio.com/view/subject/l/public/s28419285.jpg&#34; title=&#34;《穿越百年中东》&#34;&gt;&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;&lt;em&gt;《穿越百年中东》&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://img9.doubanio.com/view/subject/l/public/s28419285.jpg&#34; title=&#34;《穿越百年中东》&#34; alt=&#34;《穿越百年中东》&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;《穿越百年中东》&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;这其实是一本游记。&lt;/li&gt;
 &lt;/ol&gt;
@@ -1609,21 +1887,32 @@
 &lt;ul&gt;
 &lt;li&gt;7-1 因为精力有限，我对中东的了解程度到这本书的内容就差不多算是科普了，还有一本买了还没看的书是《黑旗》，准备下个月读。&lt;/li&gt;
 &lt;li&gt;7-2 其实我更感兴趣的是历史上高度发达的阿拉伯王国，那个帮助西方完成文艺复兴的国度。&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>望断关河非汉帜，吹残日月是胡笳</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-29-wenzhishidai/</link>
       <pubDate>Wed, 29 Jan 2020 11:43:03 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-29-wenzhishidai/</guid>
-      <description>&lt;p&gt;&lt;em&gt;《陈舜臣十八史略：文治时代——五代十国 两宋》&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;《陈舜臣十八史略：文治时代》&#34; loading=&#34;lazy&#34; src=&#34;https://img3.doubanio.com/view/subject/l/public/s27041970.jpg&#34; title=&#34;《陈舜臣十八史略：文治时代》&#34;&gt;&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;&lt;em&gt;《陈舜臣十八史略：文治时代——五代十国 两宋》&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://img3.doubanio.com/view/subject/l/public/s27041970.jpg&#34; title=&#34;《陈舜臣十八史略：文治时代》&#34; alt=&#34;《陈舜臣十八史略：文治时代》&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;《陈舜臣十八史略：文治时代》&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;海角崖山一线斜，从今也不属中华。
+  &lt;p&gt;海角崖山一线斜，从今也不属中华。
 更无鱼腹捐躯地，况有龙涎泛海槎？
 望断关河非汉帜，吹残日月是胡笳。
 嫦娥老大无归处，独俺银轮哭桂花。
 《后秋兴之十三》（明末清初）钱谦益&lt;/p&gt;
+
 &lt;/blockquote&gt;
 &lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;
@@ -1834,16 +2123,26 @@
 &lt;/ul&gt;
 &lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;读史如剖心，越读越糟心，但也越读越爱读。读史书是一辈子的事情。&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/ol&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>《坏血》：原本可以有其他的结局</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-28-badblood/</link>
       <pubDate>Tue, 28 Jan 2020 13:41:43 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-28-badblood/</guid>
-      <description>&lt;p&gt;&lt;em&gt;《坏血：一个硅谷巨头的秘密与谎言》&lt;/em&gt;
+      <description>
+        
+        
+        &lt;p&gt;&lt;em&gt;《坏血：一个硅谷巨头的秘密与谎言》&lt;/em&gt;
 &lt;em&gt;(Bad Blood: Secrets and Lies in a Silicon Valley Startup)&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;坏血&#34; loading=&#34;lazy&#34; src=&#34;https://img9.doubanio.com/view/subject/l/public/s32288675.jpg&#34; title=&#34;&amp;lt;Bad Blood&amp;gt;中文版封面&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://img9.doubanio.com/view/subject/l/public/s32288675.jpg&#34; title=&#34;&amp;lt;Bad Blood&amp;gt;中文版封面&#34; alt=&#34;坏血&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;&amp;lt;Bad Blood&amp;gt;中文版封面&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;一念之差，伊丽莎白从女版乔布斯跌落为万夫所指的贪婪诈骗犯，被永久地钉在了耻辱柱上。&lt;/li&gt;
 &lt;/ol&gt;
@@ -1910,16 +2209,26 @@
 &lt;li&gt;
 &lt;p&gt;这个故事到最后告诉我们的还是那个道理：一个谎言可以在一段时间内欺骗所有人，或者可能永远欺骗一部分人，但不可能永远欺骗所有人。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/ol&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>血色女王与她的红色房间</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-28-thehotzone/</link>
       <pubDate>Tue, 28 Jan 2020 00:18:33 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-28-thehotzone/</guid>
-      <description>&lt;p&gt;&lt;em&gt;《血疫：埃博拉的故事》&lt;/em&gt;
+      <description>
+        
+        
+        &lt;p&gt;&lt;em&gt;《血疫：埃博拉的故事》&lt;/em&gt;
 &lt;em&gt;《THE HOT ZONE》&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;血疫&#34; loading=&#34;lazy&#34; src=&#34;https://img1.doubanio.com/view/subject/l/public/s30010617.jpg&#34; title=&#34;&amp;lt;the hot zone&amp;gt;中文版封面&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://img1.doubanio.com/view/subject/l/public/s30010617.jpg&#34; title=&#34;&amp;lt;the hot zone&amp;gt;中文版封面&#34; alt=&#34;血疫&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;&amp;lt;the hot zone&amp;gt;中文版封面&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;ol start=&#34;0&#34;&gt;
 &lt;li&gt;2019年8月的时候，看了六集美剧《血疫(the hot zone)》，挺好看的，四星好评；&lt;/li&gt;
 &lt;/ol&gt;
@@ -1978,7 +2287,10 @@
 &lt;/ul&gt;
 &lt;ol start=&#34;7&#34;&gt;
 &lt;li&gt;很多人看完都会有一种感觉：或许人类才是地球上的病毒。&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/ol&gt;
+
+      </description>
     </item>
+    
   </channel>
 </rss>

@@ -1,374 +1,396 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="auto">
+<html lang="zh-cn" dir="ltr"><head><script src="/tihu-hugo-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=tihu-hugo-blog/livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="robots" content="noindex, nofollow" />
+  <link rel="icon shortcut" href="/tihu-hugo-blog/favicon.ico" sizes="32x32" />
+<link rel="icon" href="/tihu-hugo-blog/favicon.svg" type="image/svg+xml" id="favicon-svg" />
+<link rel="icon" href="/tihu-hugo-blog/favicon-16x16.png" type="image/png" sizes="16x16" />
+<link rel="icon" href="/tihu-hugo-blog/favicon-32x32.png" type="image/png" sizes="32x32" />
+<link rel="apple-touch-icon" href="/tihu-hugo-blog/apple-touch-icon.png" sizes="180x180" />
+<link fetchpriority="low" href="/tihu-hugo-blog/site.webmanifest" rel="manifest" />
+<title>播客手账：十分钟上手异地远程录音 – 醍醐堂記_TihuBlogs</title>
+  <meta name="description" content="引言：播客手账做什么 2082 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。" /><link rel="canonical" href="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-05-06-podcasts01/" itemprop="url" />
 
-<head><script src="/tihu-hugo-blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=tihu-hugo-blog/livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>播客手账：十分钟上手异地远程录音 | 醍醐堂記_TihuBlogs</title>
-<meta name="keywords" content="2082FM">
-<meta name="description" content="引言：播客手账做什么
-2082 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。
-一、哪些场合需要异地远程录音
-2人以上的播客节目当然最好是在一个拾音效果良好的封闭环境中进行录制，但在现实中，很少有播客拥有一个专业录音棚，绝大多数播客们都在一个相对业余的环境进行录音，甚至需要两人共用一支麦克风。在这种情况下，录音的最终效果未必比远程方案更好。
-远程录音在过去一般是一个被动选项，就是无法一起现场录音时才会选择的替补方案。比如像 2082 这样三位主播不在同一城市甚至不在同一国家。这次疫情也让更多播客们（即使在同一城市）因为管制原因，选择了远程录音。
-另外还有当特邀嘉宾加入节目，或节目主播（之一）在出差/度假时，也会选择远程接入录音。
-总之，即便你有天然条件可以保证现场录制，但也建议一定能够掌握远程录音的办法，以备不时之需。
-二、远程录音的难点
-远程录音遇到的基础问题其实和现场录音是一致的，比如需要保证录音环境的安静，有起码的软硬件等等。
-对这些如果有了一些基本的认知或准备，你才会遇到远程录音的真正难点。别怕，只要网速正常，这些都不是事儿。2082 的鹿人有多期节目都是用一台联通 4G 信号手机提供热点接入的远程录音，无论是网速效果还是流量资费，效果都很理想。远程录音依然需要尽量克服以下难点：
-1. 环境不统一
-远程录音最大的困难是大家所处环境是不一样的，这造成了收声效果的差异。为了最大限度地降低这种差异，为后期处理提供良好的素材，你需要在尽可能小的封闭空间录音，尽可能避免在一个空荡荡的房间录音，以降低不必要的反射。
-2. 软硬件设置不统一
-软硬件设置的不同会导致音量的差异，声音响度不均一很影响最终的听感，这需要主播之间约定相对统一的设置；
-3. 网络对通话音质的影响；
-我们在网速上并没有遇到太大的挑战，因为我们只在 4G 或 wifi 环境下进行录音。如果你要采用我们后边即将介绍的“快速录音法”，那么对网速要求还是不低的，因为一旦有一方延迟严重，对话就将很难继续下去。
-我们在现今的录音中为了保证对话的自然，还启用了视频会议，只为了彼此能看到表情和肢体语言，这对网速提出了更高的要求。如果你对自己的网络环境信心不足，那么请一定找一个网络接入稳定的环境。
-三、通话直录法
-这是对于嘉宾和不操作录音的人来说，最省心的方法。就是在远程录音中，只有其中一人承担录音工作，其他人只需要通过通话软件讲话就可以了，所有的技术压力都由一人承担和控制。
-这种方式的优点是只需一端（通常是主播）进行录音操作，降低了嘉宾因不懂设备和技术造成录音失败的风险；并且最终得到音轨文件所听即所录，可以直接进行编辑。
-缺点首当其冲是对网络要求高，如果一端卡顿，或者掉线；即便不卡顿，如果延迟较高的话，都会影响录音的音质。
-其次，录音对录音方的硬件/软件有要求，最好支持跳线/路由的功能，比较方便，这点我们在后边详述；
-再次，这种录音方法是将所有人的声音录在同一轨中，如果出现互相抢话，声音造成重叠，这样后期改善的空间相对较小。
+<meta property="og:title" content="播客手账：十分钟上手异地远程录音">
+<meta
+  property="og:description"
+  content="
+    
+      引言：播客手账做什么
+    2082 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。
+    
+  ">
+<meta
+  property="og:type"
+  content="
+    article
+  ">
+<meta property="og:url" content="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-05-06-podcasts01/"><meta property="article:section" content="posts">
 
-1. 软硬件方案
-a. 硬件方案
-选择硬件直接集成路由的声卡是最简单的选择，比如如下几款：
-● Tascam US-32
-● Tascam US-42
-● Yamaha AG03/AG06
-这四款声卡（雅马哈AG系列官方称作调音台）都是为直播设计，有一个共同特点，都支持声卡硬件路由/跳线，即可以直接将你的麦克风拾取的声音和通话软件里嘉宾的声音汇总为一路声音进行录制。Tascam US-32/42 系列直接有一个巨大的 ON AIR 按钮，按下即可。雅马哈AG上也有一个 Loopback 键，可实现同样的功能，非常方便。以上四款两个系列之间的区别是接口数量不同，如果用“一人录音法”，选择接口少的即可，如果考虑后续的扩展性，可选择接口多的那一款。以上设备均支持 iOS，另外 Tascam 有初音未来限量版，喜欢二次元的朋友可以考虑一下。
+<meta
+  property="article:published_time"
+  content="2020-05-06T22:05:32+08:00">
 
 
-如果你没有这种专为直播设计的声卡，你可以翻翻你手头声卡的说明书看看它是否带有内部的路由功能，每个厂家的的设置方法不同。如果你不能确定自己的声卡是否自带这种功能，可根据设备自行查找关键字（比如虚拟调音台，内部跳线，路由等等），通常中档以上的专业声卡都有类似功能。
-跳线/路由的功能简单说一下，个人理解不一定正确，在 Windows 平台下，我们进行语音通讯的通话软件一般是通过MME/DS驱动，而你的专业声卡可能走的是ASIO驱动，或者二者都在同一驱动之下，但这两个音频流的通道是独立的，如果你没有硬件也不在软件上进行任何设置，直接录制通话的音频流，里面可能只有自己的声音，这时需要通过硬件或者某些驱动或软件将这几路声音汇聚在一起，进行录制或者直播。甚至可以加入混响等效果，比如一些常见应用场景如直播K歌，演奏乐器，以及扩展开来，比如在广播中播放歌曲等等。
-b. 软件方案
-如果你的声卡确实没有这样的功能，或者你使用 USB 麦克风录音，也仍然可以考虑通过软件方案进行录音路由的设置。">
-<meta name="author" content="Tihu">
-<link rel="canonical" href="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-05-06-podcasts01/">
-<link crossorigin="anonymous" href="/tihu-hugo-blog/assets/css/stylesheet.199042e659bc7245f5609d333d6c044eb554a0640849bb874e1dff8eb0f57209.css" integrity="sha256-GZBC5lm8ckX1YJ0zPWwETrVUoGQISbuHTh3/jrD1cgk=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/tihu-hugo-blog/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/tihu-hugo-blog/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/tihu-hugo-blog/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/tihu-hugo-blog/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/tihu-hugo-blog/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-05-06-podcasts01/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
+<meta
+  property="article:modified_time"
+  content="2020-05-06T22:05:32+08:00">
 
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-                color-scheme: dark;
-            }
 
-            .list {
-                background: var(--theme);
-            }
 
-            .toc {
-                background: var(--entry);
-            }
-        }
-
-        @media (prefers-color-scheme: light) {
-            .list::-webkit-scrollbar-thumb {
-                border-color: var(--code-bg);
-            }
-        }
-
-    </style>
-</noscript>
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else if (localStorage.getItem("pref-theme") === "light") {
-       document.querySelector("html").dataset.theme = 'light';
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.querySelector("html").dataset.theme = 'dark';
-    } else {
-        document.querySelector("html").dataset.theme = 'light';
-    }
-
-</script><meta property="og:url" content="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-05-06-podcasts01/">
-  <meta property="og:site_name" content="醍醐堂記_TihuBlogs">
-  <meta property="og:title" content="播客手账：十分钟上手异地远程录音">
-  <meta property="og:description" content="引言：播客手账做什么 2082 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。
-一、哪些场合需要异地远程录音 2人以上的播客节目当然最好是在一个拾音效果良好的封闭环境中进行录制，但在现实中，很少有播客拥有一个专业录音棚，绝大多数播客们都在一个相对业余的环境进行录音，甚至需要两人共用一支麦克风。在这种情况下，录音的最终效果未必比远程方案更好。
-远程录音在过去一般是一个被动选项，就是无法一起现场录音时才会选择的替补方案。比如像 2082 这样三位主播不在同一城市甚至不在同一国家。这次疫情也让更多播客们（即使在同一城市）因为管制原因，选择了远程录音。
-另外还有当特邀嘉宾加入节目，或节目主播（之一）在出差/度假时，也会选择远程接入录音。
-总之，即便你有天然条件可以保证现场录制，但也建议一定能够掌握远程录音的办法，以备不时之需。
-二、远程录音的难点 远程录音遇到的基础问题其实和现场录音是一致的，比如需要保证录音环境的安静，有起码的软硬件等等。
-对这些如果有了一些基本的认知或准备，你才会遇到远程录音的真正难点。别怕，只要网速正常，这些都不是事儿。2082 的鹿人有多期节目都是用一台联通 4G 信号手机提供热点接入的远程录音，无论是网速效果还是流量资费，效果都很理想。远程录音依然需要尽量克服以下难点：
-1. 环境不统一 远程录音最大的困难是大家所处环境是不一样的，这造成了收声效果的差异。为了最大限度地降低这种差异，为后期处理提供良好的素材，你需要在尽可能小的封闭空间录音，尽可能避免在一个空荡荡的房间录音，以降低不必要的反射。
-2. 软硬件设置不统一 软硬件设置的不同会导致音量的差异，声音响度不均一很影响最终的听感，这需要主播之间约定相对统一的设置；
-3. 网络对通话音质的影响； 我们在网速上并没有遇到太大的挑战，因为我们只在 4G 或 wifi 环境下进行录音。如果你要采用我们后边即将介绍的“快速录音法”，那么对网速要求还是不低的，因为一旦有一方延迟严重，对话就将很难继续下去。
-我们在现今的录音中为了保证对话的自然，还启用了视频会议，只为了彼此能看到表情和肢体语言，这对网速提出了更高的要求。如果你对自己的网络环境信心不足，那么请一定找一个网络接入稳定的环境。
-三、通话直录法 这是对于嘉宾和不操作录音的人来说，最省心的方法。就是在远程录音中，只有其中一人承担录音工作，其他人只需要通过通话软件讲话就可以了，所有的技术压力都由一人承担和控制。
-这种方式的优点是只需一端（通常是主播）进行录音操作，降低了嘉宾因不懂设备和技术造成录音失败的风险；并且最终得到音轨文件所听即所录，可以直接进行编辑。
-缺点首当其冲是对网络要求高，如果一端卡顿，或者掉线；即便不卡顿，如果延迟较高的话，都会影响录音的音质。
-其次，录音对录音方的硬件/软件有要求，最好支持跳线/路由的功能，比较方便，这点我们在后边详述；
-再次，这种录音方法是将所有人的声音录在同一轨中，如果出现互相抢话，声音造成重叠，这样后期改善的空间相对较小。
-1. 软硬件方案 a. 硬件方案 选择硬件直接集成路由的声卡是最简单的选择，比如如下几款：
-● Tascam US-32 ● Tascam US-42 ● Yamaha AG03/AG06
-这四款声卡（雅马哈AG系列官方称作调音台）都是为直播设计，有一个共同特点，都支持声卡硬件路由/跳线，即可以直接将你的麦克风拾取的声音和通话软件里嘉宾的声音汇总为一路声音进行录制。Tascam US-32/42 系列直接有一个巨大的 ON AIR 按钮，按下即可。雅马哈AG上也有一个 Loopback 键，可实现同样的功能，非常方便。以上四款两个系列之间的区别是接口数量不同，如果用“一人录音法”，选择接口少的即可，如果考虑后续的扩展性，可选择接口多的那一款。以上设备均支持 iOS，另外 Tascam 有初音未来限量版，喜欢二次元的朋友可以考虑一下。
-如果你没有这种专为直播设计的声卡，你可以翻翻你手头声卡的说明书看看它是否带有内部的路由功能，每个厂家的的设置方法不同。如果你不能确定自己的声卡是否自带这种功能，可根据设备自行查找关键字（比如虚拟调音台，内部跳线，路由等等），通常中档以上的专业声卡都有类似功能。
-跳线/路由的功能简单说一下，个人理解不一定正确，在 Windows 平台下，我们进行语音通讯的通话软件一般是通过MME/DS驱动，而你的专业声卡可能走的是ASIO驱动，或者二者都在同一驱动之下，但这两个音频流的通道是独立的，如果你没有硬件也不在软件上进行任何设置，直接录制通话的音频流，里面可能只有自己的声音，这时需要通过硬件或者某些驱动或软件将这几路声音汇聚在一起，进行录制或者直播。甚至可以加入混响等效果，比如一些常见应用场景如直播K歌，演奏乐器，以及扩展开来，比如在广播中播放歌曲等等。
-b. 软件方案 如果你的声卡确实没有这样的功能，或者你使用 USB 麦克风录音，也仍然可以考虑通过软件方案进行录音路由的设置。">
-  <meta property="og:locale" content="zh_cn">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2020-05-06T22:05:32+08:00">
-    <meta property="article:modified_time" content="2020-05-06T22:05:32+08:00">
-    <meta property="article:tag" content="2082FM">
-
+  <meta itemprop="name" content="播客手账：十分钟上手异地远程录音">
+  <meta itemprop="description" content="引言：播客手账做什么 2082 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。">
+  <meta itemprop="datePublished" content="2020-05-06T22:05:32+08:00">
+  <meta itemprop="dateModified" content="2020-05-06T22:05:32+08:00">
+  <meta itemprop="wordCount" content="3493">
+  <meta itemprop="keywords" content="2082FM">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="播客手账：十分钟上手异地远程录音">
-  <meta name="twitter:description" content="引言：播客手账做什么 2082 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。
-一、哪些场合需要异地远程录音 2人以上的播客节目当然最好是在一个拾音效果良好的封闭环境中进行录制，但在现实中，很少有播客拥有一个专业录音棚，绝大多数播客们都在一个相对业余的环境进行录音，甚至需要两人共用一支麦克风。在这种情况下，录音的最终效果未必比远程方案更好。
-远程录音在过去一般是一个被动选项，就是无法一起现场录音时才会选择的替补方案。比如像 2082 这样三位主播不在同一城市甚至不在同一国家。这次疫情也让更多播客们（即使在同一城市）因为管制原因，选择了远程录音。
-另外还有当特邀嘉宾加入节目，或节目主播（之一）在出差/度假时，也会选择远程接入录音。
-总之，即便你有天然条件可以保证现场录制，但也建议一定能够掌握远程录音的办法，以备不时之需。
-二、远程录音的难点 远程录音遇到的基础问题其实和现场录音是一致的，比如需要保证录音环境的安静，有起码的软硬件等等。
-对这些如果有了一些基本的认知或准备，你才会遇到远程录音的真正难点。别怕，只要网速正常，这些都不是事儿。2082 的鹿人有多期节目都是用一台联通 4G 信号手机提供热点接入的远程录音，无论是网速效果还是流量资费，效果都很理想。远程录音依然需要尽量克服以下难点：
-1. 环境不统一 远程录音最大的困难是大家所处环境是不一样的，这造成了收声效果的差异。为了最大限度地降低这种差异，为后期处理提供良好的素材，你需要在尽可能小的封闭空间录音，尽可能避免在一个空荡荡的房间录音，以降低不必要的反射。
-2. 软硬件设置不统一 软硬件设置的不同会导致音量的差异，声音响度不均一很影响最终的听感，这需要主播之间约定相对统一的设置；
-3. 网络对通话音质的影响； 我们在网速上并没有遇到太大的挑战，因为我们只在 4G 或 wifi 环境下进行录音。如果你要采用我们后边即将介绍的“快速录音法”，那么对网速要求还是不低的，因为一旦有一方延迟严重，对话就将很难继续下去。
-我们在现今的录音中为了保证对话的自然，还启用了视频会议，只为了彼此能看到表情和肢体语言，这对网速提出了更高的要求。如果你对自己的网络环境信心不足，那么请一定找一个网络接入稳定的环境。
-三、通话直录法 这是对于嘉宾和不操作录音的人来说，最省心的方法。就是在远程录音中，只有其中一人承担录音工作，其他人只需要通过通话软件讲话就可以了，所有的技术压力都由一人承担和控制。
-这种方式的优点是只需一端（通常是主播）进行录音操作，降低了嘉宾因不懂设备和技术造成录音失败的风险；并且最终得到音轨文件所听即所录，可以直接进行编辑。
-缺点首当其冲是对网络要求高，如果一端卡顿，或者掉线；即便不卡顿，如果延迟较高的话，都会影响录音的音质。
-其次，录音对录音方的硬件/软件有要求，最好支持跳线/路由的功能，比较方便，这点我们在后边详述；
-再次，这种录音方法是将所有人的声音录在同一轨中，如果出现互相抢话，声音造成重叠，这样后期改善的空间相对较小。
-1. 软硬件方案 a. 硬件方案 选择硬件直接集成路由的声卡是最简单的选择，比如如下几款：
-● Tascam US-32 ● Tascam US-42 ● Yamaha AG03/AG06
-这四款声卡（雅马哈AG系列官方称作调音台）都是为直播设计，有一个共同特点，都支持声卡硬件路由/跳线，即可以直接将你的麦克风拾取的声音和通话软件里嘉宾的声音汇总为一路声音进行录制。Tascam US-32/42 系列直接有一个巨大的 ON AIR 按钮，按下即可。雅马哈AG上也有一个 Loopback 键，可实现同样的功能，非常方便。以上四款两个系列之间的区别是接口数量不同，如果用“一人录音法”，选择接口少的即可，如果考虑后续的扩展性，可选择接口多的那一款。以上设备均支持 iOS，另外 Tascam 有初音未来限量版，喜欢二次元的朋友可以考虑一下。
-如果你没有这种专为直播设计的声卡，你可以翻翻你手头声卡的说明书看看它是否带有内部的路由功能，每个厂家的的设置方法不同。如果你不能确定自己的声卡是否自带这种功能，可根据设备自行查找关键字（比如虚拟调音台，内部跳线，路由等等），通常中档以上的专业声卡都有类似功能。
-跳线/路由的功能简单说一下，个人理解不一定正确，在 Windows 平台下，我们进行语音通讯的通话软件一般是通过MME/DS驱动，而你的专业声卡可能走的是ASIO驱动，或者二者都在同一驱动之下，但这两个音频流的通道是独立的，如果你没有硬件也不在软件上进行任何设置，直接录制通话的音频流，里面可能只有自己的声音，这时需要通过硬件或者某些驱动或软件将这几路声音汇聚在一起，进行录制或者直播。甚至可以加入混响等效果，比如一些常见应用场景如直播K歌，演奏乐器，以及扩展开来，比如在广播中播放歌曲等等。
-b. 软件方案 如果你的声卡确实没有这样的功能，或者你使用 USB 麦克风录音，也仍然可以考虑通过软件方案进行录音路由的设置。">
+  <meta name="twitter:description" content="引言：播客手账做什么 2082 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。">
+<link href="/tihu-hugo-blog/css/compiled/main.css" rel="stylesheet" />
+    <link href="/tihu-hugo-blog/css/variables.css" rel="stylesheet" />
+    <link href="/tihu-hugo-blog/css/custom.css" rel="stylesheet" />
 
+  
+<script src="/tihu-hugo-blog/js/main-head.js" integrity=""></script>
 
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "http://localhost:1313/tihu-hugo-blog/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "播客手账：十分钟上手异地远程录音",
-      "item": "http://localhost:1313/tihu-hugo-blog/posts/2020/2020-05-06-podcasts01/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "播客手账：十分钟上手异地远程录音",
-  "name": "播客手账：十分钟上手异地远程录音",
-  "description": "引言：播客手账做什么 2082 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。\n一、哪些场合需要异地远程录音 2人以上的播客节目当然最好是在一个拾音效果良好的封闭环境中进行录制，但在现实中，很少有播客拥有一个专业录音棚，绝大多数播客们都在一个相对业余的环境进行录音，甚至需要两人共用一支麦克风。在这种情况下，录音的最终效果未必比远程方案更好。\n远程录音在过去一般是一个被动选项，就是无法一起现场录音时才会选择的替补方案。比如像 2082 这样三位主播不在同一城市甚至不在同一国家。这次疫情也让更多播客们（即使在同一城市）因为管制原因，选择了远程录音。\n另外还有当特邀嘉宾加入节目，或节目主播（之一）在出差/度假时，也会选择远程接入录音。\n总之，即便你有天然条件可以保证现场录制，但也建议一定能够掌握远程录音的办法，以备不时之需。\n二、远程录音的难点 远程录音遇到的基础问题其实和现场录音是一致的，比如需要保证录音环境的安静，有起码的软硬件等等。\n对这些如果有了一些基本的认知或准备，你才会遇到远程录音的真正难点。别怕，只要网速正常，这些都不是事儿。2082 的鹿人有多期节目都是用一台联通 4G 信号手机提供热点接入的远程录音，无论是网速效果还是流量资费，效果都很理想。远程录音依然需要尽量克服以下难点：\n1. 环境不统一 远程录音最大的困难是大家所处环境是不一样的，这造成了收声效果的差异。为了最大限度地降低这种差异，为后期处理提供良好的素材，你需要在尽可能小的封闭空间录音，尽可能避免在一个空荡荡的房间录音，以降低不必要的反射。\n2. 软硬件设置不统一 软硬件设置的不同会导致音量的差异，声音响度不均一很影响最终的听感，这需要主播之间约定相对统一的设置；\n3. 网络对通话音质的影响； 我们在网速上并没有遇到太大的挑战，因为我们只在 4G 或 wifi 环境下进行录音。如果你要采用我们后边即将介绍的“快速录音法”，那么对网速要求还是不低的，因为一旦有一方延迟严重，对话就将很难继续下去。\n我们在现今的录音中为了保证对话的自然，还启用了视频会议，只为了彼此能看到表情和肢体语言，这对网速提出了更高的要求。如果你对自己的网络环境信心不足，那么请一定找一个网络接入稳定的环境。\n三、通话直录法 这是对于嘉宾和不操作录音的人来说，最省心的方法。就是在远程录音中，只有其中一人承担录音工作，其他人只需要通过通话软件讲话就可以了，所有的技术压力都由一人承担和控制。\n这种方式的优点是只需一端（通常是主播）进行录音操作，降低了嘉宾因不懂设备和技术造成录音失败的风险；并且最终得到音轨文件所听即所录，可以直接进行编辑。\n缺点首当其冲是对网络要求高，如果一端卡顿，或者掉线；即便不卡顿，如果延迟较高的话，都会影响录音的音质。\n其次，录音对录音方的硬件/软件有要求，最好支持跳线/路由的功能，比较方便，这点我们在后边详述；\n再次，这种录音方法是将所有人的声音录在同一轨中，如果出现互相抢话，声音造成重叠，这样后期改善的空间相对较小。\n1. 软硬件方案 a. 硬件方案 选择硬件直接集成路由的声卡是最简单的选择，比如如下几款：\n● Tascam US-32 ● Tascam US-42 ● Yamaha AG03/AG06\n这四款声卡（雅马哈AG系列官方称作调音台）都是为直播设计，有一个共同特点，都支持声卡硬件路由/跳线，即可以直接将你的麦克风拾取的声音和通话软件里嘉宾的声音汇总为一路声音进行录制。Tascam US-32/42 系列直接有一个巨大的 ON AIR 按钮，按下即可。雅马哈AG上也有一个 Loopback 键，可实现同样的功能，非常方便。以上四款两个系列之间的区别是接口数量不同，如果用“一人录音法”，选择接口少的即可，如果考虑后续的扩展性，可选择接口多的那一款。以上设备均支持 iOS，另外 Tascam 有初音未来限量版，喜欢二次元的朋友可以考虑一下。\n如果你没有这种专为直播设计的声卡，你可以翻翻你手头声卡的说明书看看它是否带有内部的路由功能，每个厂家的的设置方法不同。如果你不能确定自己的声卡是否自带这种功能，可根据设备自行查找关键字（比如虚拟调音台，内部跳线，路由等等），通常中档以上的专业声卡都有类似功能。\n跳线/路由的功能简单说一下，个人理解不一定正确，在 Windows 平台下，我们进行语音通讯的通话软件一般是通过MME/DS驱动，而你的专业声卡可能走的是ASIO驱动，或者二者都在同一驱动之下，但这两个音频流的通道是独立的，如果你没有硬件也不在软件上进行任何设置，直接录制通话的音频流，里面可能只有自己的声音，这时需要通过硬件或者某些驱动或软件将这几路声音汇聚在一起，进行录制或者直播。甚至可以加入混响等效果，比如一些常见应用场景如直播K歌，演奏乐器，以及扩展开来，比如在广播中播放歌曲等等。\nb. 软件方案 如果你的声卡确实没有这样的功能，或者你使用 USB 麦克风录音，也仍然可以考虑通过软件方案进行录音路由的设置。\n",
-  "keywords": [
-    "2082FM"
-  ],
-  "articleBody": "引言：播客手账做什么 2082 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。\n一、哪些场合需要异地远程录音 2人以上的播客节目当然最好是在一个拾音效果良好的封闭环境中进行录制，但在现实中，很少有播客拥有一个专业录音棚，绝大多数播客们都在一个相对业余的环境进行录音，甚至需要两人共用一支麦克风。在这种情况下，录音的最终效果未必比远程方案更好。\n远程录音在过去一般是一个被动选项，就是无法一起现场录音时才会选择的替补方案。比如像 2082 这样三位主播不在同一城市甚至不在同一国家。这次疫情也让更多播客们（即使在同一城市）因为管制原因，选择了远程录音。\n另外还有当特邀嘉宾加入节目，或节目主播（之一）在出差/度假时，也会选择远程接入录音。\n总之，即便你有天然条件可以保证现场录制，但也建议一定能够掌握远程录音的办法，以备不时之需。\n二、远程录音的难点 远程录音遇到的基础问题其实和现场录音是一致的，比如需要保证录音环境的安静，有起码的软硬件等等。\n对这些如果有了一些基本的认知或准备，你才会遇到远程录音的真正难点。别怕，只要网速正常，这些都不是事儿。2082 的鹿人有多期节目都是用一台联通 4G 信号手机提供热点接入的远程录音，无论是网速效果还是流量资费，效果都很理想。远程录音依然需要尽量克服以下难点：\n1. 环境不统一 远程录音最大的困难是大家所处环境是不一样的，这造成了收声效果的差异。为了最大限度地降低这种差异，为后期处理提供良好的素材，你需要在尽可能小的封闭空间录音，尽可能避免在一个空荡荡的房间录音，以降低不必要的反射。\n2. 软硬件设置不统一 软硬件设置的不同会导致音量的差异，声音响度不均一很影响最终的听感，这需要主播之间约定相对统一的设置；\n3. 网络对通话音质的影响； 我们在网速上并没有遇到太大的挑战，因为我们只在 4G 或 wifi 环境下进行录音。如果你要采用我们后边即将介绍的“快速录音法”，那么对网速要求还是不低的，因为一旦有一方延迟严重，对话就将很难继续下去。\n我们在现今的录音中为了保证对话的自然，还启用了视频会议，只为了彼此能看到表情和肢体语言，这对网速提出了更高的要求。如果你对自己的网络环境信心不足，那么请一定找一个网络接入稳定的环境。\n三、通话直录法 这是对于嘉宾和不操作录音的人来说，最省心的方法。就是在远程录音中，只有其中一人承担录音工作，其他人只需要通过通话软件讲话就可以了，所有的技术压力都由一人承担和控制。\n这种方式的优点是只需一端（通常是主播）进行录音操作，降低了嘉宾因不懂设备和技术造成录音失败的风险；并且最终得到音轨文件所听即所录，可以直接进行编辑。\n缺点首当其冲是对网络要求高，如果一端卡顿，或者掉线；即便不卡顿，如果延迟较高的话，都会影响录音的音质。\n其次，录音对录音方的硬件/软件有要求，最好支持跳线/路由的功能，比较方便，这点我们在后边详述；\n再次，这种录音方法是将所有人的声音录在同一轨中，如果出现互相抢话，声音造成重叠，这样后期改善的空间相对较小。\n1. 软硬件方案 a. 硬件方案 选择硬件直接集成路由的声卡是最简单的选择，比如如下几款：\n● Tascam US-32 ● Tascam US-42 ● Yamaha AG03/AG06\n这四款声卡（雅马哈AG系列官方称作调音台）都是为直播设计，有一个共同特点，都支持声卡硬件路由/跳线，即可以直接将你的麦克风拾取的声音和通话软件里嘉宾的声音汇总为一路声音进行录制。Tascam US-32/42 系列直接有一个巨大的 ON AIR 按钮，按下即可。雅马哈AG上也有一个 Loopback 键，可实现同样的功能，非常方便。以上四款两个系列之间的区别是接口数量不同，如果用“一人录音法”，选择接口少的即可，如果考虑后续的扩展性，可选择接口多的那一款。以上设备均支持 iOS，另外 Tascam 有初音未来限量版，喜欢二次元的朋友可以考虑一下。\n如果你没有这种专为直播设计的声卡，你可以翻翻你手头声卡的说明书看看它是否带有内部的路由功能，每个厂家的的设置方法不同。如果你不能确定自己的声卡是否自带这种功能，可根据设备自行查找关键字（比如虚拟调音台，内部跳线，路由等等），通常中档以上的专业声卡都有类似功能。\n跳线/路由的功能简单说一下，个人理解不一定正确，在 Windows 平台下，我们进行语音通讯的通话软件一般是通过MME/DS驱动，而你的专业声卡可能走的是ASIO驱动，或者二者都在同一驱动之下，但这两个音频流的通道是独立的，如果你没有硬件也不在软件上进行任何设置，直接录制通话的音频流，里面可能只有自己的声音，这时需要通过硬件或者某些驱动或软件将这几路声音汇聚在一起，进行录制或者直播。甚至可以加入混响等效果，比如一些常见应用场景如直播K歌，演奏乐器，以及扩展开来，比如在广播中播放歌曲等等。\nb. 软件方案 如果你的声卡确实没有这样的功能，或者你使用 USB 麦克风录音，也仍然可以考虑通过软件方案进行录音路由的设置。\n● 在 Windows 中，你可以尝试 Virtual Audio Cable 或者 Asio Link Pro ● 在 MacOS 环境中，推荐使用 Audio Hijack 以及 Loopback 。\nAudio Hijack 这个软件除了路由功能，同时也集成了播客必要的一些音频处理，要求不高的话可以一站式在这个软件中完成。Loopback 的前身是 SoundFlower，功能集中在软跳线/路由上。\n2. 录音软件 录音软件的选择相对来说就简单多了，所有的 DAW (Digital audio workstation) 都可以录音，包括但不限于： ● Cubase ● PreSonus Studio One ● Ableton live ● REAPER ● Logic Pro 以及相对业余一些的音频编辑软件： ● Adobe Audition ● Garageband/库乐队（免费） ● Audacity（免费） ● QuickTime（免费）\n其实不用太担心花费，通常你买的声卡都会附赠一个简化版的 DAW，功能远远超过播客的需要，如果你没有安装任何 DAW，也可以使用免费的 Audacity 和不免费但可以一直使用的 REAPER，在 Mac 下通常连库乐队都不用打开，使用系统自带的 QuickTime 音频录制即可。USB 麦克风基本上也会附赠录音软件。\n这里需要特别注意的是，录音软件除了录音以外，对播客最大的作用是“读表”，时刻关注音量的电平数值是否正常。新手往往会因为姿势和情绪原因不能控制自己的音量，导致爆音，或声音过小，时刻记得监控自己的音量是一项需要培养的必备技能。\n3. 通话软件 通话软件可以选择微信语音通话，QQ 语音，FaceTime，Skype 以及 Zoom。除了 Zoom 有“打开原声”这个功能，即不对声音做过多的处理。其它的通话软件都会对声音进行不同程度的降噪，压缩处理。初衷是为了在嘈杂的环境中让声音更清晰，占用带宽更小。但在播客录制中，利弊需要各位针对自身情况选择。\n而最近一段时间我们在使用腾讯会议，特别是启用会议视频以后，效果得到了所有成员的一致认可。其实腾讯会议的优秀品质在我看来目前主要体现在由于疫情的大背景下，各家厂商都在主打在线办公软件上，所以在上边投入的服务器资源足够冗余，这保证了其使用的效果\n四、多人录音法（Multi-Ender） 多人录音法也叫 Multi-Ender，是指主播或受访人通过通话软件连线，每个人在本地运行录音软件或者录音笔录制本人音轨，最终将多地多人音轨合并的方法。这对每个人都提出了参与录音的要求，但音质将得到质的提升，剪辑也将在后期（面对多轨）有了更大的调整空间。\n从方案流程图可以看到，“多人录音法”反而要简单一些，在这种方案下，通话软件（视频软件）只承担播客之间的交流工具作用，录音交给了本地软硬件处理，对网络的要求也不再那么高，你无需担心网络延迟卡顿导致的音质降低。而你在通话直录中使用过的经验可以完整应用到 Multi-Ender 上来。\n尾声 如前所述，多方都有录音条件的强烈建议采用 Multi-Ender 方法进行录制。但如为了降低后期剪辑难度，或有主播、受访嘉宾不会操作，可以选择通话直录。\n2082 在前14期用的都是通话直录的方法，这种方法取得的素材需要后期进行较多的处理和修饰，比如里面会有明显的回路噪音，远端的声音会有较强的压缩感。这都需要后期进行调整。从15期开始我们使用了“多人录音法”，而本地的设备没有任何改变，大家可以从下面的链接中收听比对两种方法产生的极为不同的音质效果。\n在下一篇手账中，我们将专门介绍一下 Podcast 中的人声处理技巧。\n国内各平台的地址： ● 喜马拉雅 https://www.ximalaya.com/renwen/32544603/ ● 荔枝 https://www.lizhi.fm/user/5075270075354772524 ● 企鹅FM https://fm.qq.com/album/rd001qPu0E1TZysx ● 网易云音乐 https://music.163.com/#/djradio?id=794399435 ● 蜻蜓FM https://m.qingting.fm/vchannels/340916/\n其他客户端的地址： ● Apple Podcasts https://podcasts.apple.com/ca/podcast/2082/id1495389318 ● Breaker https://www.breaker.audio/2082 ● Castbox https://castbox.fm/ch/2599282 ● Google Podcasts https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xMjc1MWZhNC9wb2RjYXN0L3Jzcw== ● Overcast https://overcast.fm/itunes1495389318 ● Pocket Casts https://pca.st/xes7ne1i ● RadioPublic https://radiopublic.com/2082-GqPKwg ● Spotify https://open.spotify.com/show/47Ldw9PvNWLEw1vRcQzfbw ● Stitcher https://www.stitcher.com/podcast/2082\n",
-  "wordCount" : "210",
-  "inLanguage": "en",
-  "datePublished": "2020-05-06T22:05:32+08:00",
-  "dateModified": "2020-05-06T22:05:32+08:00",
-  "author":{
-    "@type": "Person",
-    "name": "Tihu"
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "http://localhost:1313/tihu-hugo-blog/posts/2020/2020-05-06-podcasts01/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "醍醐堂記_TihuBlogs",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "http://localhost:1313/tihu-hugo-blog/favicon.ico"
-    }
-  }
-}
-</script>
-</head>
-<body id="top">
-    <header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="http://localhost:1313/tihu-hugo-blog/" accesskey="h" title="醍醐堂記_TihuBlogs (Alt + H)">醍醐堂記_TihuBlogs</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu">
-            <li>
-                <a href="http://localhost:1313/tihu-hugo-blog/" title="首页">
-                    <span>首页</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/tihu-hugo-blog/posts/" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:1313/tihu-hugo-blog/about/" title="关于">
-                    <span>关于</span>
-                </a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<main class="main">
+  
+  
+  </head>
+<body>
+    <a href="#content" class="hx:sr-only hx:focus-visible:not-sr-only hx:focus-visible:fixed hx:focus-visible:z-50 hx:focus-visible:top-2 hx:focus-visible:left-2 hx:focus-visible:bg-primary-500 hx:focus-visible:text-white hx:focus-visible:px-4 hx:focus-visible:py-2 hx:focus-visible:rounded-md hx:focus-visible:text-sm hx:focus-visible:font-medium">跳至内容</a><div class="hextra-nav-container hx:sticky hx:top-0 hx:z-20 hx:w-full hx:bg-transparent hx:print:hidden">
+  <div
+    class="hextra-nav-container-blur hx:pointer-events-none hx:absolute hx:z-[-1] hx:h-full hx:w-full hx:bg-white hx:dark:bg-dark hx:shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)] hx:contrast-more:shadow-[0_0_0_1px_#000] hx:dark:shadow-[0_-1px_0_rgba(255,255,255,.1)_inset] hx:contrast-more:dark:shadow-[0_0_0_1px_#fff]"
+  ></div>
 
-<article class="post-single">
-  <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/tihu-hugo-blog/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/tihu-hugo-blog/posts/">Posts</a></div>
-    <h1 class="post-title entry-hint-parent">
-      播客手账：十分钟上手异地远程录音
-    </h1>
-    <div class="post-meta"><span title='2020-05-06 22:05:32 +0800 CST'>May 6, 2020</span>&nbsp;·&nbsp;<span>1 min</span>&nbsp;·&nbsp;<span>210 words</span>&nbsp;·&nbsp;<span>Tihu</span>
-
-</div>
-  </header> <div class="toc">
-    <details  open>
-        <summary accesskey="c" title="(Alt + C)">
-            <span class="details">Table of Contents</span>
-        </summary>
-
-        <div class="inner"><ul>
-                <li>
-                    <a href="#%e5%bc%95%e8%a8%80%e6%92%ad%e5%ae%a2%e6%89%8b%e8%b4%a6%e5%81%9a%e4%bb%80%e4%b9%88" aria-label="引言：播客手账做什么">引言：播客手账做什么</a></li>
-                <li>
-                    <a href="#%e4%b8%80%e5%93%aa%e4%ba%9b%e5%9c%ba%e5%90%88%e9%9c%80%e8%a6%81%e5%bc%82%e5%9c%b0%e8%bf%9c%e7%a8%8b%e5%bd%95%e9%9f%b3" aria-label="一、哪些场合需要异地远程录音">一、哪些场合需要异地远程录音</a></li>
-                <li>
-                    <a href="#%e4%ba%8c%e8%bf%9c%e7%a8%8b%e5%bd%95%e9%9f%b3%e7%9a%84%e9%9a%be%e7%82%b9" aria-label="二、远程录音的难点">二、远程录音的难点</a><ul>
-                        
-                <li>
-                    <a href="#1-%e7%8e%af%e5%a2%83%e4%b8%8d%e7%bb%9f%e4%b8%80" aria-label="1. 环境不统一">1. 环境不统一</a></li>
-                <li>
-                    <a href="#2-%e8%bd%af%e7%a1%ac%e4%bb%b6%e8%ae%be%e7%bd%ae%e4%b8%8d%e7%bb%9f%e4%b8%80" aria-label="2. 软硬件设置不统一">2. 软硬件设置不统一</a></li>
-                <li>
-                    <a href="#3-%e7%bd%91%e7%bb%9c%e5%af%b9%e9%80%9a%e8%af%9d%e9%9f%b3%e8%b4%a8%e7%9a%84%e5%bd%b1%e5%93%8d" aria-label="3. 网络对通话音质的影响；">3. 网络对通话音质的影响；</a></li></ul>
-                </li>
-                <li>
-                    <a href="#%e4%b8%89%e9%80%9a%e8%af%9d%e7%9b%b4%e5%bd%95%e6%b3%95" aria-label="三、通话直录法">三、通话直录法</a><ul>
-                        
-                <li>
-                    <a href="#1-%e8%bd%af%e7%a1%ac%e4%bb%b6%e6%96%b9%e6%a1%88" aria-label="1. 软硬件方案">1. 软硬件方案</a><ul>
-                        
-                <li>
-                    <a href="#a-%e7%a1%ac%e4%bb%b6%e6%96%b9%e6%a1%88" aria-label="a. 硬件方案">a. 硬件方案</a></li>
-                <li>
-                    <a href="#b-%e8%bd%af%e4%bb%b6%e6%96%b9%e6%a1%88" aria-label="b. 软件方案">b. 软件方案</a></li></ul>
-                </li>
-                <li>
-                    <a href="#2-%e5%bd%95%e9%9f%b3%e8%bd%af%e4%bb%b6" aria-label="2. 录音软件">2. 录音软件</a></li>
-                <li>
-                    <a href="#3-%e9%80%9a%e8%af%9d%e8%bd%af%e4%bb%b6" aria-label="3. 通话软件">3. 通话软件</a></li></ul>
-                </li>
-                <li>
-                    <a href="#%e5%9b%9b%e5%a4%9a%e4%ba%ba%e5%bd%95%e9%9f%b3%e6%b3%95multi-ender" aria-label="四、多人录音法（Multi-Ender）">四、多人录音法（Multi-Ender）</a></li>
-                <li>
-                    <a href="#%e5%b0%be%e5%a3%b0" aria-label="尾声">尾声</a></li>
-                <li>
-                    <a href="#%e5%9b%bd%e5%86%85%e5%90%84%e5%b9%b3%e5%8f%b0%e7%9a%84%e5%9c%b0%e5%9d%80" aria-label="国内各平台的地址：">国内各平台的地址：</a>
-                </li>
-            </ul>
-        </div>
-    </details>
+  <nav class="hextra-max-navbar-width hx:mx-auto hx:flex hx:items-center hx:justify-end hx:gap-2 hx:h-16 hx:px-6">
+    <a class="hx:flex hx:items-center hx:hover:opacity-75 hx:ltr:mr-auto hx:rtl:ml-auto" href="/tihu-hugo-blog/">
+    <img class="hx:mr-2 hx:block hx:dark:hidden" src="/tihu-hugo-blog/images/logo.svg" alt="Logo" height="20" width="20" />
+    <img class="hx:mr-2 hx:hidden hx:dark:block" src="/tihu-hugo-blog/images/logo.svg" alt="Dark Logo" height="20" width="20" />
+    <span class="hx:mr-2 hx:font-extrabold hx:inline hx:select-none">醍醐堂記_TihuBlogs</span>
+</a>
+<a
+  title=""
+  href="/tihu-hugo-blog/"
+  
+  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
+><span class="hx:text-center">首页</span>
+</a><a
+  title=""
+  href="/tihu-hugo-blog/posts/"
+  
+  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
+><span class="hx:text-center">文章</span>
+</a><a
+  title=""
+  href="/tihu-hugo-blog/archives/"
+  
+  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
+><span class="hx:text-center">归档</span>
+</a><a
+  title=""
+  href="/tihu-hugo-blog/search/"
+  
+  class="hx:text-sm hx:contrast-more:text-gray-700 hx:contrast-more:dark:text-gray-100 hx:relative hx:-ml-2 hx:hidden hx:whitespace-nowrap hx:p-2 hx:md:inline-flex hx:items-center hx:gap-1 hx:text-gray-600 hx:hover:text-gray-800 hx:dark:text-gray-400 hx:dark:hover:text-gray-200"
+><span class="hx:text-center">搜索</span>
+</a><button type="button" aria-label="菜单" aria-expanded="false" class="hextra-hamburger-menu hx:cursor-pointer hx:-mr-2 hx:rounded-sm hx:p-2 hx:active:bg-gray-400/20 hx:md:hidden hx:hextra-focus-visible-inset"><svg height=24 fill="none" viewBox="0 0 24 24" stroke="currentColor"><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8H20"></path></g><g><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16H20"></path></g></svg></button>
+  </nav>
 </div>
 
-  <div class="post-content"><h2 id="引言播客手账做什么">引言：播客手账做什么<a hidden class="anchor" aria-hidden="true" href="#引言播客手账做什么">#</a></h2>
-<p><a href="https://anchor.fm/2082">2082</a> 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。</p>
-<h2 id="一哪些场合需要异地远程录音">一、哪些场合需要异地远程录音<a hidden class="anchor" aria-hidden="true" href="#一哪些场合需要异地远程录音">#</a></h2>
-<p>2人以上的播客节目当然最好是在一个拾音效果良好的封闭环境中进行录制，但在现实中，很少有播客拥有一个专业录音棚，绝大多数播客们都在一个相对业余的环境进行录音，甚至需要两人共用一支麦克风。在这种情况下，录音的最终效果未必比远程方案更好。</p>
-<p>远程录音在过去一般是一个被动选项，就是无法一起现场录音时才会选择的替补方案。比如像 <a href="https://anchor.fm/2082">2082</a> 这样三位主播不在同一城市甚至不在同一国家。这次疫情也让更多播客们（即使在同一城市）因为管制原因，选择了远程录音。</p>
+  <div class="hx:mx-auto hx:flex hextra-max-page-width">
+    <aside class="hextra-sidebar-container hx:flex hx:flex-col hx:print:hidden hx:md:top-16 hx:md:shrink-0 hx:md:w-64 hx:md:self-start hx:max-md:[transform:translate3d(0,-100%,0)] hx:md:hidden hx:xl:block">
+    <div class="hx:px-4 hx:pt-4 hx:md:hidden">
+      <div class="hextra-search-wrapper hx:relative hx:md:w-64">
+  <div class="hx:relative hx:flex hx:items-center hx:text-gray-900 hx:contrast-more:text-gray-800 hx:dark:text-gray-300 hx:contrast-more:dark:text-gray-300">
+    <input
+      placeholder="搜索文档..."
+      aria-label="搜索文档..."
+      class="hextra-search-input hx:hextra-focus-visible hx:block hx:w-full hx:appearance-none hx:rounded-lg hx:px-3 hx:py-2 hx:transition-colors hx:text-base hx:leading-tight hx:md:text-sm hx:bg-black/[.05] hx:dark:bg-gray-50/10 hx:focus-visible:bg-white hx:dark:focus-visible:bg-dark hx:placeholder:text-gray-500 hx:dark:placeholder:text-gray-400 hx:contrast-more:border hx:contrast-more:border-current"
+      type="search"
+      autocomplete="off"
+      value=""
+      spellcheck="false"
+    />
+    <kbd
+      class="hx:absolute hx:my-1.5 hx:select-none hx:ltr:right-1.5 hx:rtl:left-1.5 hx:h-5 hx:rounded-sm hx:bg-white hx:px-1.5 hx:font-mono hx:text-[10px] hx:font-medium hx:text-gray-500 hx:border hx:border-gray-200 hx:dark:border-gray-100/20 hx:dark:bg-dark/50 hx:contrast-more:border-current hx:contrast-more:text-current hx:contrast-more:dark:border-current hx:items-center hx:gap-1 hx:transition-opacity hx:pointer-events-none hx:hidden hx:sm:flex"
+    >
+      CTRL K
+    </kbd>
+  </div>
+
+  <div>
+    <ul
+      class="hextra-search-results hextra-scrollbar hx:hidden hx:border hx:border-gray-200 hx:bg-white hx:text-gray-100 hx:dark:border-neutral-800 hx:dark:bg-neutral-900 hx:absolute hx:top-full hx:z-20 hx:mt-2 hx:overflow-auto hx:overscroll-contain hx:rounded-xl hx:py-2.5 hx:shadow-xl hx:max-h-[min(calc(50vh-11rem-env(safe-area-inset-bottom)),400px)] hx:md:max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)] hx:inset-x-0 hx:ltr:md:left-auto hx:rtl:md:right-auto hx:contrast-more:border hx:contrast-more:border-gray-900 hx:contrast-more:dark:border-gray-50 hx:w-screen hx:min-h-[100px] hx:max-w-[min(calc(100vw-2rem),calc(100%+20rem))]"
+      aria-label="搜索结果"
+      style="transition: max-height 0.2s ease 0s;"
+    ></ul>
+    <div class="hextra-search-status hx:sr-only" aria-live="polite" role="status"></div>
+  </div>
+</div>
+
+    </div><div class="hextra-scrollbar hx:overflow-y-auto hx:overflow-x-hidden hx:p-4 hx:grow hx:md:h-[calc(100vh-var(--navbar-height)-var(--menu-height))]">
+    <ul class="hx:flex hx:flex-col hx:gap-1 hx:md:hidden">
+      
+      <li><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/tihu-hugo-blog/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">首页</span>
+    </a>
+  </div></li><li><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/tihu-hugo-blog/posts/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">文章</span>
+    </a>
+  </div></li><li><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/tihu-hugo-blog/archives/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">归档</span>
+    </a>
+  </div></li><li><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+    <a
+      class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
+      hx:hextra-focus-visible-inset
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+      href="/tihu-hugo-blog/search/"
+      
+    >
+      <span class="hx:min-w-0 [word-break:break-word]">搜索</span>
+    </a>
+  </div></li>
+    </ul>
+
+    <div class="hx:max-xl:hidden hx:h-0 hx:w-64 hx:shrink-0"></div></div>
+  
+  
+    <div class="hx:md:hidden  hx:sticky hx:bottom-0 hx:max-h-(--menu-height) hx:bg-white hx:dark:bg-dark hx:mx-4 hx:py-4 hx:shadow-[0_-12px_16px_#fff] hx:flex hx:items-center hx:gap-2 hx:border-gray-200 hx:dark:border-neutral-800 hx:dark:shadow-[0_-12px_16px_#111] hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:shadow-none hx:border-t" data-toggle-animation="show"><div class="hx:flex hx:grow hx:flex-col"><div class="hx:flex hx:justify-items-start hx:group" data-theme="light">
+  <button
+    title="切换主题"
+    data-state="closed"
+    data-location="bottom"
+    class="hextra-theme-toggle hx:cursor-pointer hx:rounded-md hx:text-left hx:font-medium hx:h-7 hx:px-2 hx:text-xs hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:font-medium hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:grow"
+    type="button"
+    aria-label="切换主题"
+    aria-expanded="false"
+    aria-haspopup="menu"
+  >
+    <div class="hx:flex hx:items-center hx:gap-2 hx:capitalize"><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg><span class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden">浅色</span><svg height=12 class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><span class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden">深色</span><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="currentColor">
+  <path d="M 11.996094,2 C 6.4986225,2.0192368 2.03125,6.5024993 2.03125,12 c 0,5.497501 4.4673725,9.980763 9.964844,10 H 12 12.0039 c 5.497471,-0.01924 9.964844,-4.502499 9.964844,-10 0,-5.4975007 -4.467373,-9.9807632 -9.964844,-10 H 12 Z M 12,4 c 4.417218,0.017598 7.96875,3.5822356 7.96875,8 0,4.417764 -3.551532,7.982402 -7.96875,8 z" />
+</svg>
+<span class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden">跟随系统</span></div>
+  </button>
+  <ul
+    class="hextra-theme-toggle-options hx:hidden hx:z-20 hx:max-h-64 hx:overflow-auto hx:rounded-lg hx:border hx:border-gray-200 hx:bg-white hx:p-1 hx:text-sm hx:shadow-lg hx:dark:border-neutral-700 hx:dark:bg-neutral-900"
+    style="position: fixed; inset: auto auto 0px 0px; margin: 0px; min-width: 100px;"
+    data-theme="light"
+    role="menu"
+  >
+    <li role="none" class="hx:flex hx:flex-col">
+      <button
+        type="button"
+        role="menuitemradio"
+        aria-checked="true"
+        tabindex="-1"
+        data-item="light"
+        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
+      >
+        浅色
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </button>
+    </li>
+    <li role="none" class="hx:flex hx:flex-col">
+      <button
+        type="button"
+        role="menuitemradio"
+        aria-checked="false"
+        tabindex="-1"
+        data-item="dark"
+        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
+      >
+        深色
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </button>
+    </li>
+    <li role="none" class="hx:flex hx:flex-col">
+      <button
+        type="button"
+        role="menuitemradio"
+        aria-checked="false"
+        tabindex="-1"
+        data-item="system"
+        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
+      >
+        跟随系统
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </button>
+    </li>
+  </ul>
+</div>
+</div></div></aside>
+    
+<nav class="hextra-toc hx:order-last hx:hidden hx:w-64 hx:shrink-0 hx:xl:block hx:print:hidden hx:px-4" aria-label="目录">
+    <div class="hextra-scrollbar hx:sticky hx:top-16 hx:overflow-y-auto hx:pr-4 hx:pt-6 hx:text-sm [hyphens:auto] hx:max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] hx:ltr:-mr-4 hx:rtl:-ml-4"><p class="hx:mb-4 hx:font-semibold hx:tracking-tight">此页上</p><ul>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e5%bc%95%e8%a8%80%e6%92%ad%e5%ae%a2%e6%89%8b%e8%b4%a6%e5%81%9a%e4%bb%80%e4%b9%88">引言：播客手账做什么
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e4%b8%80%e5%93%aa%e4%ba%9b%e5%9c%ba%e5%90%88%e9%9c%80%e8%a6%81%e5%bc%82%e5%9c%b0%e8%bf%9c%e7%a8%8b%e5%bd%95%e9%9f%b3">一、哪些场合需要异地远程录音
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e4%ba%8c%e8%bf%9c%e7%a8%8b%e5%bd%95%e9%9f%b3%e7%9a%84%e9%9a%be%e7%82%b9">二、远程录音的难点
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#1-%e7%8e%af%e5%a2%83%e4%b8%8d%e7%bb%9f%e4%b8%80">1. 环境不统一
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#2-%e8%bd%af%e7%a1%ac%e4%bb%b6%e8%ae%be%e7%bd%ae%e4%b8%8d%e7%bb%9f%e4%b8%80">2. 软硬件设置不统一
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#3-%e7%bd%91%e7%bb%9c%e5%af%b9%e9%80%9a%e8%af%9d%e9%9f%b3%e8%b4%a8%e7%9a%84%e5%bd%b1%e5%93%8d">3. 网络对通话音质的影响；
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e4%b8%89%e9%80%9a%e8%af%9d%e7%9b%b4%e5%bd%95%e6%b3%95">三、通话直录法
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#1-%e8%bd%af%e7%a1%ac%e4%bb%b6%e6%96%b9%e6%a1%88">1. 软硬件方案
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#a-%e7%a1%ac%e4%bb%b6%e6%96%b9%e6%a1%88">a. 硬件方案
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-8 hx:rtl:pr-8 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#b-%e8%bd%af%e4%bb%b6%e6%96%b9%e6%a1%88">b. 软件方案
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#2-%e5%bd%95%e9%9f%b3%e8%bd%af%e4%bb%b6">2. 录音软件
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#3-%e9%80%9a%e8%af%9d%e8%bd%af%e4%bb%b6">3. 通话软件
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e5%9b%9b%e5%a4%9a%e4%ba%ba%e5%bd%95%e9%9f%b3%e6%b3%95multi-ender">四、多人录音法（Multi-Ender）
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e5%b0%be%e5%a3%b0">尾声
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#%e5%9b%bd%e5%86%85%e5%90%84%e5%b9%b3%e5%8f%b0%e7%9a%84%e5%9c%b0%e5%9d%80">国内各平台的地址：
+        </a>
+      </li></ul>
+      <div class="hx:mt-8 hx:border-t hx:bg-white hx:pt-8 hx:shadow-[0_-12px_16px_white] hx:dark:bg-dark hx:dark:shadow-[0_-12px_16px_#111] hx:sticky hx:bottom-0 hx:flex hx:flex-col hx:items-start hx:gap-2 hx:pb-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-t hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:border-neutral-400">
+        <button id="backToTop" tabindex="-1" onClick="scrollUp();" class="hx:cursor-pointer hx:transition-all hx:duration-75 hx:opacity-0 hx:text-xs hx:font-medium hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-100 hx:contrast-more:text-gray-800 hx:contrast-more:dark:text-gray-50">
+          <span>返回顶部</span>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" focusable="false" class="hx:inline hx:ltr:ml-1 hx:rtl:mr-1 hx:h-3.5 hx:w-3.5 hx:rounded-full hx:border hx:border-gray-500 hx:hover:border-gray-900 hx:dark:border-gray-400 hx:dark:hover:border-gray-100 hx:contrast-more:border-gray-800 hx:contrast-more:dark:border-gray-50">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+
+    <article class="hx:w-full hx:break-words hx:flex hx:min-h-[calc(100vh-var(--navbar-height))] hx:min-w-0 hx:justify-center hx:pb-8 hx:pr-[calc(env(safe-area-inset-right)-1.5rem)]">
+      <main id="content" class="hx:w-full hx:min-w-0 hextra-max-content-width hx:px-6 hx:pt-4 hx:md:px-12">
+        <div class="hx:mt-1.5 hx:flex hx:items-center hx:gap-1 hx:overflow-hidden hx:text-sm hx:text-gray-500 hx:dark:text-gray-400 hx:contrast-more:text-current">
+        <div class="hx:whitespace-nowrap hx:transition-colors hx:min-w-[24px] hx:overflow-hidden hx:text-ellipsis hx:hover:text-gray-900 hx:dark:hover:text-gray-100">
+          <a href="/tihu-hugo-blog/posts/" class="hx:inline-block hx:rounded-sm hx:hextra-focus-visible-inset">文章</a>
+        </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx:whitespace-nowrap hx:transition-colors hx:font-medium hx:text-gray-700 hx:contrast-more:font-bold hx:contrast-more:text-current hx:dark:text-gray-100 hx:contrast-more:dark:text-current">播客手账：十分钟上手异地远程录音</div>
+  </div>
+
+        
+        <div class="hx:flex hx:flex-col hx:sm:flex-row hx:items-start hx:sm:items-center hx:sm:justify-between hx:gap-4 hx:mt-2">
+          <h1 class="hx:mb-0 hx:text-4xl hx:font-bold hx:tracking-tight hx:text-slate-900 hx:dark:text-slate-100">播客手账：十分钟上手异地远程录音</h1>
+          
+        </div>
+        
+        <div class="hx:mt-4 hx:mb-16 hx:text-gray-500 hx:dark:text-gray-400 hx:text-sm hx:flex hx:items-center hx:flex-wrap hx:gap-y-2"><span class="hx:mr-1">May 6, 2020</span></div>
+        <div class="content">
+          <h2>引言：播客手账做什么<span class="hx:absolute hx:-mt-20" id="引言播客手账做什么"></span>
+    <a href="#%e5%bc%95%e8%a8%80%e6%92%ad%e5%ae%a2%e6%89%8b%e8%b4%a6%e5%81%9a%e4%bb%80%e4%b9%88" class="subheading-anchor" aria-label="此章节的永久链接"></a></h2><p><a href="https://anchor.fm/2082"target="_blank" rel="noopener">2082</a> 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。</p>
+<h2>一、哪些场合需要异地远程录音<span class="hx:absolute hx:-mt-20" id="一哪些场合需要异地远程录音"></span>
+    <a href="#%e4%b8%80%e5%93%aa%e4%ba%9b%e5%9c%ba%e5%90%88%e9%9c%80%e8%a6%81%e5%bc%82%e5%9c%b0%e8%bf%9c%e7%a8%8b%e5%bd%95%e9%9f%b3" class="subheading-anchor" aria-label="此章节的永久链接"></a></h2><p>2人以上的播客节目当然最好是在一个拾音效果良好的封闭环境中进行录制，但在现实中，很少有播客拥有一个专业录音棚，绝大多数播客们都在一个相对业余的环境进行录音，甚至需要两人共用一支麦克风。在这种情况下，录音的最终效果未必比远程方案更好。</p>
+<p>远程录音在过去一般是一个被动选项，就是无法一起现场录音时才会选择的替补方案。比如像 <a href="https://anchor.fm/2082"target="_blank" rel="noopener">2082</a> 这样三位主播不在同一城市甚至不在同一国家。这次疫情也让更多播客们（即使在同一城市）因为管制原因，选择了远程录音。</p>
 <p>另外还有当特邀嘉宾加入节目，或节目主播（之一）在出差/度假时，也会选择远程接入录音。</p>
 <p>总之，即便你有天然条件可以保证现场录制，但也建议一定能够掌握远程录音的办法，以备不时之需。</p>
-<h2 id="二远程录音的难点">二、远程录音的难点<a hidden class="anchor" aria-hidden="true" href="#二远程录音的难点">#</a></h2>
-<p>远程录音遇到的基础问题其实和现场录音是一致的，比如需要保证录音环境的安静，有起码的软硬件等等。</p>
-<p>对这些如果有了一些基本的认知或准备，你才会遇到远程录音的真正难点。别怕，只要网速正常，这些都不是事儿。<a href="https://anchor.fm/2082">2082</a> 的鹿人有多期节目都是用一台联通 4G 信号手机提供热点接入的远程录音，无论是网速效果还是流量资费，效果都很理想。远程录音依然需要尽量克服以下难点：</p>
-<h3 id="1-环境不统一">1. 环境不统一<a hidden class="anchor" aria-hidden="true" href="#1-环境不统一">#</a></h3>
-<p>远程录音最大的困难是大家所处环境是不一样的，这造成了收声效果的差异。为了最大限度地降低这种差异，为后期处理提供良好的素材，你需要在尽可能小的封闭空间录音，尽可能避免在一个空荡荡的房间录音，以降低不必要的反射。</p>
-<h3 id="2-软硬件设置不统一">2. 软硬件设置不统一<a hidden class="anchor" aria-hidden="true" href="#2-软硬件设置不统一">#</a></h3>
-<p>软硬件设置的不同会导致音量的差异，声音响度不均一很影响最终的听感，这需要主播之间约定相对统一的设置；</p>
-<h3 id="3-网络对通话音质的影响">3. 网络对通话音质的影响；<a hidden class="anchor" aria-hidden="true" href="#3-网络对通话音质的影响">#</a></h3>
-<p>我们在网速上并没有遇到太大的挑战，因为我们只在 4G 或 wifi 环境下进行录音。如果你要采用我们后边即将介绍的“快速录音法”，那么对网速要求还是不低的，因为一旦有一方延迟严重，对话就将很难继续下去。</p>
+<h2>二、远程录音的难点<span class="hx:absolute hx:-mt-20" id="二远程录音的难点"></span>
+    <a href="#%e4%ba%8c%e8%bf%9c%e7%a8%8b%e5%bd%95%e9%9f%b3%e7%9a%84%e9%9a%be%e7%82%b9" class="subheading-anchor" aria-label="此章节的永久链接"></a></h2><p>远程录音遇到的基础问题其实和现场录音是一致的，比如需要保证录音环境的安静，有起码的软硬件等等。</p>
+<p>对这些如果有了一些基本的认知或准备，你才会遇到远程录音的真正难点。别怕，只要网速正常，这些都不是事儿。<a href="https://anchor.fm/2082"target="_blank" rel="noopener">2082</a> 的鹿人有多期节目都是用一台联通 4G 信号手机提供热点接入的远程录音，无论是网速效果还是流量资费，效果都很理想。远程录音依然需要尽量克服以下难点：</p>
+<h3>1. 环境不统一<span class="hx:absolute hx:-mt-20" id="1-环境不统一"></span>
+    <a href="#1-%e7%8e%af%e5%a2%83%e4%b8%8d%e7%bb%9f%e4%b8%80" class="subheading-anchor" aria-label="此章节的永久链接"></a></h3><p>远程录音最大的困难是大家所处环境是不一样的，这造成了收声效果的差异。为了最大限度地降低这种差异，为后期处理提供良好的素材，你需要在尽可能小的封闭空间录音，尽可能避免在一个空荡荡的房间录音，以降低不必要的反射。</p>
+<h3>2. 软硬件设置不统一<span class="hx:absolute hx:-mt-20" id="2-软硬件设置不统一"></span>
+    <a href="#2-%e8%bd%af%e7%a1%ac%e4%bb%b6%e8%ae%be%e7%bd%ae%e4%b8%8d%e7%bb%9f%e4%b8%80" class="subheading-anchor" aria-label="此章节的永久链接"></a></h3><p>软硬件设置的不同会导致音量的差异，声音响度不均一很影响最终的听感，这需要主播之间约定相对统一的设置；</p>
+<h3>3. 网络对通话音质的影响；<span class="hx:absolute hx:-mt-20" id="3-网络对通话音质的影响"></span>
+    <a href="#3-%e7%bd%91%e7%bb%9c%e5%af%b9%e9%80%9a%e8%af%9d%e9%9f%b3%e8%b4%a8%e7%9a%84%e5%bd%b1%e5%93%8d" class="subheading-anchor" aria-label="此章节的永久链接"></a></h3><p>我们在网速上并没有遇到太大的挑战，因为我们只在 4G 或 wifi 环境下进行录音。如果你要采用我们后边即将介绍的“快速录音法”，那么对网速要求还是不低的，因为一旦有一方延迟严重，对话就将很难继续下去。</p>
 <p>我们在现今的录音中为了保证对话的自然，还启用了视频会议，只为了彼此能看到表情和肢体语言，这对网速提出了更高的要求。如果你对自己的网络环境信心不足，那么请一定找一个网络接入稳定的环境。</p>
-<h2 id="三通话直录法">三、通话直录法<a hidden class="anchor" aria-hidden="true" href="#三通话直录法">#</a></h2>
-<p>这是对于嘉宾和不操作录音的人来说，最省心的方法。就是在远程录音中，只有其中一人承担录音工作，其他人只需要通过通话软件讲话就可以了，所有的技术压力都由一人承担和控制。</p>
+<h2>三、通话直录法<span class="hx:absolute hx:-mt-20" id="三通话直录法"></span>
+    <a href="#%e4%b8%89%e9%80%9a%e8%af%9d%e7%9b%b4%e5%bd%95%e6%b3%95" class="subheading-anchor" aria-label="此章节的永久链接"></a></h2><p>这是对于嘉宾和不操作录音的人来说，最省心的方法。就是在远程录音中，只有其中一人承担录音工作，其他人只需要通过通话软件讲话就可以了，所有的技术压力都由一人承担和控制。</p>
 <p>这种方式的优点是只需一端（通常是主播）进行录音操作，降低了嘉宾因不懂设备和技术造成录音失败的风险；并且最终得到音轨文件所听即所录，可以直接进行编辑。</p>
 <p>缺点首当其冲是对网络要求高，如果一端卡顿，或者掉线；即便不卡顿，如果延迟较高的话，都会影响录音的音质。</p>
 <p>其次，录音对录音方的硬件/软件有要求，最好支持跳线/路由的功能，比较方便，这点我们在后边详述；</p>
 <p>再次，这种录音方法是将所有人的声音录在同一轨中，如果出现互相抢话，声音造成重叠，这样后期改善的空间相对较小。</p>
-<p><img alt="通话直录流程" loading="lazy" src="https://img.onl/X0o6nl" title="通话直录流程"></p>
-<h3 id="1-软硬件方案">1. 软硬件方案<a hidden class="anchor" aria-hidden="true" href="#1-软硬件方案">#</a></h3>
-<h4 id="a-硬件方案">a. 硬件方案<a hidden class="anchor" aria-hidden="true" href="#a-硬件方案">#</a></h4>
-<p>选择硬件直接集成路由的声卡是最简单的选择，比如如下几款：</p>
+<p><figure>
+    <img src="https://img.onl/X0o6nl" title="通话直录流程" alt="通话直录流程"  loading="lazy" />
+    <figcaption>通话直录流程</figcaption>
+  </figure></p>
+<h3>1. 软硬件方案<span class="hx:absolute hx:-mt-20" id="1-软硬件方案"></span>
+    <a href="#1-%e8%bd%af%e7%a1%ac%e4%bb%b6%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="此章节的永久链接"></a></h3><h4>a. 硬件方案<span class="hx:absolute hx:-mt-20" id="a-硬件方案"></span>
+    <a href="#a-%e7%a1%ac%e4%bb%b6%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="此章节的永久链接"></a></h4><p>选择硬件直接集成路由的声卡是最简单的选择，比如如下几款：</p>
 <p>● Tascam US-32
 ● Tascam US-42
 ● Yamaha AG03/AG06</p>
-<p>这四款声卡（<a href="https://www.yamaha.com.cn/uploads/file/20180628/AG_w.pdf">雅马哈AG系列</a>官方称作调音台）都是为直播设计，有一个共同特点，都支持声卡硬件路由/跳线，即可以直接将你的麦克风拾取的声音和通话软件里嘉宾的声音汇总为一路声音进行录制。Tascam US-32/42 系列直接有一个巨大的 ON AIR 按钮，按下即可。雅马哈AG上也有一个 Loopback 键，可实现同样的功能，非常方便。以上四款两个系列之间的区别是接口数量不同，如果用“一人录音法”，选择接口少的即可，如果考虑后续的扩展性，可选择接口多的那一款。以上设备均支持 iOS，另外 Tascam 有初音未来限量版，喜欢二次元的朋友可以考虑一下。</p>
-<p><img alt="Tascam" loading="lazy" src="https://img.onl/GYpnPx" title="Tascam"></p>
-<p><img alt="Tascam" loading="lazy" src="https://img.onl/wMAWkx" title="Tascam"></p>
+<p>这四款声卡（<a href="https://www.yamaha.com.cn/uploads/file/20180628/AG_w.pdf"target="_blank" rel="noopener">雅马哈AG系列</a>官方称作调音台）都是为直播设计，有一个共同特点，都支持声卡硬件路由/跳线，即可以直接将你的麦克风拾取的声音和通话软件里嘉宾的声音汇总为一路声音进行录制。Tascam US-32/42 系列直接有一个巨大的 ON AIR 按钮，按下即可。雅马哈AG上也有一个 Loopback 键，可实现同样的功能，非常方便。以上四款两个系列之间的区别是接口数量不同，如果用“一人录音法”，选择接口少的即可，如果考虑后续的扩展性，可选择接口多的那一款。以上设备均支持 iOS，另外 Tascam 有初音未来限量版，喜欢二次元的朋友可以考虑一下。</p>
+<p><figure>
+    <img src="https://img.onl/GYpnPx" title="Tascam" alt="Tascam"  loading="lazy" />
+    <figcaption>Tascam</figcaption>
+  </figure></p>
+<p><figure>
+    <img src="https://img.onl/wMAWkx" title="Tascam" alt="Tascam"  loading="lazy" />
+    <figcaption>Tascam</figcaption>
+  </figure></p>
 <p>如果你没有这种专为直播设计的声卡，你可以翻翻你手头声卡的说明书看看它是否带有内部的路由功能，每个厂家的的设置方法不同。如果你不能确定自己的声卡是否自带这种功能，可根据设备自行查找关键字（比如虚拟调音台，内部跳线，路由等等），通常中档以上的专业声卡都有类似功能。</p>
 <p>跳线/路由的功能简单说一下，个人理解不一定正确，在 Windows 平台下，我们进行语音通讯的通话软件一般是通过MME/DS驱动，而你的专业声卡可能走的是ASIO驱动，或者二者都在同一驱动之下，但这两个音频流的通道是独立的，如果你没有硬件也不在软件上进行任何设置，直接录制通话的音频流，里面可能只有自己的声音，这时需要通过硬件或者某些驱动或软件将这几路声音汇聚在一起，进行录制或者直播。甚至可以加入混响等效果，比如一些常见应用场景如直播K歌，演奏乐器，以及扩展开来，比如在广播中播放歌曲等等。</p>
-<h4 id="b-软件方案">b. 软件方案<a hidden class="anchor" aria-hidden="true" href="#b-软件方案">#</a></h4>
-<p>如果你的声卡确实没有这样的功能，或者你使用 USB 麦克风录音，也仍然可以考虑通过软件方案进行录音路由的设置。</p>
-<p>● 在 Windows 中，你可以尝试 <a href="https://www.mivm.cn/virtual-audio-cable/">Virtual Audio Cable</a> 或者 <a href="https://give.academy/downloads/2018/03/03/ODeusASIOLinkPro/">Asio Link Pro</a>
-● 在 MacOS 环境中，推荐使用 <a href="https://rogueamoeba.com/audiohijack/">Audio Hijack</a> 以及 <a href="https://rogueamoeba.com/loopback/">Loopback</a> 。</p>
-<p><img alt="Audio Hijack" loading="lazy" src="https://img.onl/nYDsTm" title="Audio Hijack"></p>
+<h4>b. 软件方案<span class="hx:absolute hx:-mt-20" id="b-软件方案"></span>
+    <a href="#b-%e8%bd%af%e4%bb%b6%e6%96%b9%e6%a1%88" class="subheading-anchor" aria-label="此章节的永久链接"></a></h4><p>如果你的声卡确实没有这样的功能，或者你使用 USB 麦克风录音，也仍然可以考虑通过软件方案进行录音路由的设置。</p>
+<p>● 在 Windows 中，你可以尝试 <a href="https://www.mivm.cn/virtual-audio-cable/"target="_blank" rel="noopener">Virtual Audio Cable</a> 或者 <a href="https://give.academy/downloads/2018/03/03/ODeusASIOLinkPro/"target="_blank" rel="noopener">Asio Link Pro</a>
+● 在 MacOS 环境中，推荐使用 <a href="https://rogueamoeba.com/audiohijack/"target="_blank" rel="noopener">Audio Hijack</a> 以及 <a href="https://rogueamoeba.com/loopback/"target="_blank" rel="noopener">Loopback</a> 。</p>
+<p><figure>
+    <img src="https://img.onl/nYDsTm" title="Audio Hijack" alt="Audio Hijack"  loading="lazy" />
+    <figcaption>Audio Hijack</figcaption>
+  </figure></p>
 <p>Audio Hijack 这个软件除了路由功能，同时也集成了播客必要的一些音频处理，要求不高的话可以一站式在这个软件中完成。Loopback 的前身是 SoundFlower，功能集中在软跳线/路由上。</p>
-<p><img alt="Loopback" loading="lazy" src="https://img.onl/lKiMk8" title="Loopback"></p>
-<h3 id="2-录音软件">2. 录音软件<a hidden class="anchor" aria-hidden="true" href="#2-录音软件">#</a></h3>
-<p>录音软件的选择相对来说就简单多了，所有的 DAW (Digital audio workstation) 都可以录音，包括但不限于：
+<p><figure>
+    <img src="https://img.onl/lKiMk8" title="Loopback" alt="Loopback"  loading="lazy" />
+    <figcaption>Loopback</figcaption>
+  </figure></p>
+<h3>2. 录音软件<span class="hx:absolute hx:-mt-20" id="2-录音软件"></span>
+    <a href="#2-%e5%bd%95%e9%9f%b3%e8%bd%af%e4%bb%b6" class="subheading-anchor" aria-label="此章节的永久链接"></a></h3><p>录音软件的选择相对来说就简单多了，所有的 DAW (Digital audio workstation) 都可以录音，包括但不限于：
 ● Cubase
 ● PreSonus Studio One
 ● Ableton live
@@ -381,24 +403,27 @@ b. 软件方案 如果你的声卡确实没有这样的功能，或者你使用 
 ● QuickTime（免费）</p>
 <p>其实不用太担心花费，通常你买的声卡都会附赠一个简化版的 DAW，功能远远超过播客的需要，如果你没有安装任何 DAW，也可以使用免费的 Audacity 和不免费但可以一直使用的 REAPER，在 Mac 下通常连库乐队都不用打开，使用系统自带的 QuickTime 音频录制即可。USB 麦克风基本上也会附赠录音软件。</p>
 <p>这里需要特别注意的是，录音软件除了录音以外，对播客最大的作用是“读表”，时刻关注音量的电平数值是否正常。新手往往会因为姿势和情绪原因不能控制自己的音量，导致爆音，或声音过小，时刻记得监控自己的音量是一项需要培养的必备技能。</p>
-<h3 id="3-通话软件">3. 通话软件<a hidden class="anchor" aria-hidden="true" href="#3-通话软件">#</a></h3>
-<p>通话软件可以选择微信语音通话，QQ 语音，FaceTime，Skype 以及 Zoom。除了 Zoom 有“打开原声”这个功能，即不对声音做过多的处理。其它的通话软件都会对声音进行不同程度的降噪，压缩处理。初衷是为了在嘈杂的环境中让声音更清晰，占用带宽更小。但在播客录制中，利弊需要各位针对自身情况选择。</p>
+<h3>3. 通话软件<span class="hx:absolute hx:-mt-20" id="3-通话软件"></span>
+    <a href="#3-%e9%80%9a%e8%af%9d%e8%bd%af%e4%bb%b6" class="subheading-anchor" aria-label="此章节的永久链接"></a></h3><p>通话软件可以选择微信语音通话，QQ 语音，FaceTime，Skype 以及 Zoom。除了 Zoom 有“打开原声”这个功能，即不对声音做过多的处理。其它的通话软件都会对声音进行不同程度的降噪，压缩处理。初衷是为了在嘈杂的环境中让声音更清晰，占用带宽更小。但在播客录制中，利弊需要各位针对自身情况选择。</p>
 <p>而最近一段时间我们在使用腾讯会议，特别是启用会议视频以后，效果得到了所有成员的一致认可。其实腾讯会议的优秀品质在我看来目前主要体现在由于疫情的大背景下，各家厂商都在主打在线办公软件上，所以在上边投入的服务器资源足够冗余，这保证了其使用的效果</p>
-<h2 id="四多人录音法multi-ender">四、多人录音法（Multi-Ender）<a hidden class="anchor" aria-hidden="true" href="#四多人录音法multi-ender">#</a></h2>
-<p>多人录音法也叫 Multi-Ender，是指主播或受访人通过通话软件连线，每个人在本地运行录音软件或者录音笔录制本人音轨，最终将多地多人音轨合并的方法。这对每个人都提出了参与录音的要求，但音质将得到质的提升，剪辑也将在后期（面对多轨）有了更大的调整空间。</p>
-<p><img alt="Multi-Ender流程" loading="lazy" src="https://img.onl/pLRPen" title="Multi-Ender流程"></p>
+<h2>四、多人录音法（Multi-Ender）<span class="hx:absolute hx:-mt-20" id="四多人录音法multi-ender"></span>
+    <a href="#%e5%9b%9b%e5%a4%9a%e4%ba%ba%e5%bd%95%e9%9f%b3%e6%b3%95multi-ender" class="subheading-anchor" aria-label="此章节的永久链接"></a></h2><p>多人录音法也叫 Multi-Ender，是指主播或受访人通过通话软件连线，每个人在本地运行录音软件或者录音笔录制本人音轨，最终将多地多人音轨合并的方法。这对每个人都提出了参与录音的要求，但音质将得到质的提升，剪辑也将在后期（面对多轨）有了更大的调整空间。</p>
+<p><figure>
+    <img src="https://img.onl/pLRPen" title="Multi-Ender流程" alt="Multi-Ender流程"  loading="lazy" />
+    <figcaption>Multi-Ender流程</figcaption>
+  </figure></p>
 <p>从方案流程图可以看到，“多人录音法”反而要简单一些，在这种方案下，通话软件（视频软件）只承担播客之间的交流工具作用，录音交给了本地软硬件处理，对网络的要求也不再那么高，你无需担心网络延迟卡顿导致的音质降低。而你在通话直录中使用过的经验可以完整应用到 Multi-Ender 上来。</p>
-<h2 id="尾声">尾声<a hidden class="anchor" aria-hidden="true" href="#尾声">#</a></h2>
-<p>如前所述，多方都有录音条件的强烈建议采用 Multi-Ender 方法进行录制。但如为了降低后期剪辑难度，或有主播、受访嘉宾不会操作，可以选择通话直录。</p>
-<p><a href="https://anchor.fm/2082">2082</a> 在前14期用的都是通话直录的方法，这种方法取得的素材需要后期进行较多的处理和修饰，比如里面会有明显的回路噪音，远端的声音会有较强的压缩感。这都需要后期进行调整。从15期开始我们使用了“多人录音法”，而本地的设备没有任何改变，大家可以从下面的链接中收听比对两种方法产生的极为不同的音质效果。</p>
+<h2>尾声<span class="hx:absolute hx:-mt-20" id="尾声"></span>
+    <a href="#%e5%b0%be%e5%a3%b0" class="subheading-anchor" aria-label="此章节的永久链接"></a></h2><p>如前所述，多方都有录音条件的强烈建议采用 Multi-Ender 方法进行录制。但如为了降低后期剪辑难度，或有主播、受访嘉宾不会操作，可以选择通话直录。</p>
+<p><a href="https://anchor.fm/2082"target="_blank" rel="noopener">2082</a> 在前14期用的都是通话直录的方法，这种方法取得的素材需要后期进行较多的处理和修饰，比如里面会有明显的回路噪音，远端的声音会有较强的压缩感。这都需要后期进行调整。从15期开始我们使用了“多人录音法”，而本地的设备没有任何改变，大家可以从下面的链接中收听比对两种方法产生的极为不同的音质效果。</p>
 <p>在下一篇手账中，我们将专门介绍一下 Podcast 中的人声处理技巧。</p>
 <iframe src="https://anchor.fm/[2082](https://anchor.fm/2082)/embed" height="102px" width="400px" frameborder="0" scrolling="no"></iframe>
-<h2 id="国内各平台的地址">国内各平台的地址：<a hidden class="anchor" aria-hidden="true" href="#国内各平台的地址">#</a></h2>
-<p>● 喜马拉雅 <a href="https://www.ximalaya.com/renwen/32544603/">https://www.ximalaya.com/renwen/32544603/</a>
-● 荔枝 <a href="https://www.lizhi.fm/user/5075270075354772524">https://www.lizhi.fm/user/5075270075354772524</a>
-● 企鹅FM <a href="https://fm.qq.com/album/rd001qPu0E1TZysx">https://fm.qq.com/album/rd001qPu0E1TZysx</a>
-● 网易云音乐 <a href="https://music.163.com/#/djradio?id=794399435">https://music.163.com/#/djradio?id=794399435</a>
-● 蜻蜓FM <a href="https://m.qingting.fm/vchannels/340916/">https://m.qingting.fm/vchannels/340916/</a></p>
+<h2>国内各平台的地址：<span class="hx:absolute hx:-mt-20" id="国内各平台的地址"></span>
+    <a href="#%e5%9b%bd%e5%86%85%e5%90%84%e5%b9%b3%e5%8f%b0%e7%9a%84%e5%9c%b0%e5%9d%80" class="subheading-anchor" aria-label="此章节的永久链接"></a></h2><p>● 喜马拉雅 <a href="https://www.ximalaya.com/renwen/32544603/"target="_blank" rel="noopener">https://www.ximalaya.com/renwen/32544603/</a>
+● 荔枝 <a href="https://www.lizhi.fm/user/5075270075354772524"target="_blank" rel="noopener">https://www.lizhi.fm/user/5075270075354772524</a>
+● 企鹅FM <a href="https://fm.qq.com/album/rd001qPu0E1TZysx"target="_blank" rel="noopener">https://fm.qq.com/album/rd001qPu0E1TZysx</a>
+● 网易云音乐 <a href="https://music.163.com/#/djradio?id=794399435"target="_blank" rel="noopener">https://music.163.com/#/djradio?id=794399435</a>
+● 蜻蜓FM <a href="https://m.qingting.fm/vchannels/340916/"target="_blank" rel="noopener">https://m.qingting.fm/vchannels/340916/</a></p>
 <p>其他客户端的地址：
 ● Apple Podcasts https://podcasts.apple.com/ca/podcast/2082/id1495389318
 ● Breaker https://www.breaker.audio/2082
@@ -410,105 +435,90 @@ b. 软件方案 如果你的声卡确实没有这样的功能，或者你使用 
 ● Spotify https://open.spotify.com/show/47Ldw9PvNWLEw1vRcQzfbw
 ● Stitcher https://www.stitcher.com/podcast/2082</p>
 
-
+        </div><div class="hx:mt-16"></div><div class="hx:mb-8 hx:flex hx:items-center hx:border-t hx:pt-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-neutral-400 hx:dark:contrast-more:border-neutral-400 hx:print:hidden"><a
+        href="/tihu-hugo-blog/posts/2021/2021-08-21-chengdu/"
+        title="八月末的成都"
+        class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:pr-4 hx:rtl:pl-4"
+      ><svg class="hx:inline hx:h-5 hx:shrink-0 hx:ltr:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>八月末的成都</a><a
+        href="/tihu-hugo-blog/posts/2020/2020-05-04-read/"
+        title="2020年4月读书书单：微信读书，以后我还有书读吗？"
+        class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:ml-auto hx:ltr:pl-4 hx:ltr:text-right hx:rtl:mr-auto hx:rtl:pr-4 hx:rtl:text-left"
+      >2020年4月读书书单：微信读书，以后我还有书读吗？<svg class="hx:inline hx:h-5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div></main>
+    </article>
   </div>
 
-  <footer class="post-footer">
-    <ul class="post-tags">
-      <li><a href="http://localhost:1313/tihu-hugo-blog/tags/2082fm/">2082FM</a></li>
-    </ul>
-<nav class="paginav">
-  <a class="prev" href="http://localhost:1313/tihu-hugo-blog/posts/2021/2021-08-21-chengdu/">
-    <span class="title">« Prev</span>
-    <br>
-    <span>八月末的成都</span>
-  </a>
-  <a class="next" href="http://localhost:1313/tihu-hugo-blog/posts/2020/2020-05-04-read/">
-    <span class="title">Next »</span>
-    <br>
-    <span>2020年4月读书书单：微信读书，以后我还有书读吗？</span>
-  </a>
-</nav>
-
-  </footer>
-</article>
-    </main>
+      <footer class="hextra-footer hx:bg-gray-100 hx:pb-[env(safe-area-inset-bottom)] hx:dark:bg-neutral-900 hx:print:bg-transparent"><div class="hx:mx-auto hx:flex hx:gap-2 hx:py-2 hx:px-4 hextra-max-footer-width"><div class="hx:flex hx:justify-items-start hx:group" data-theme="light">
+  <button
+    title="切换主题"
+    data-state="closed"
+    data-location="bottom"
+    class="hextra-theme-toggle hx:cursor-pointer hx:rounded-md hx:text-left hx:font-medium hx:h-7 hx:px-2 hx:text-xs hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:font-medium hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:grow"
+    type="button"
+    aria-label="切换主题"
+    aria-expanded="false"
+    aria-haspopup="menu"
+  >
+    <div class="hx:flex hx:items-center hx:gap-2 hx:capitalize"><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg><span class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden">浅色</span><svg height=12 class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/></svg><span class="hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden">深色</span><svg height=12 class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="currentColor">
+  <path d="M 11.996094,2 C 6.4986225,2.0192368 2.03125,6.5024993 2.03125,12 c 0,5.497501 4.4673725,9.980763 9.964844,10 H 12 12.0039 c 5.497471,-0.01924 9.964844,-4.502499 9.964844,-10 0,-5.4975007 -4.467373,-9.9807632 -9.964844,-10 H 12 Z M 12,4 c 4.417218,0.017598 7.96875,3.5822356 7.96875,8 0,4.417764 -3.551532,7.982402 -7.96875,8 z" />
+</svg>
+<span class="hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden">跟随系统</span></div>
+  </button>
+  <ul
+    class="hextra-theme-toggle-options hx:hidden hx:z-20 hx:max-h-64 hx:overflow-auto hx:rounded-lg hx:border hx:border-gray-200 hx:bg-white hx:p-1 hx:text-sm hx:shadow-lg hx:dark:border-neutral-700 hx:dark:bg-neutral-900"
+    style="position: fixed; inset: auto auto 0px 0px; margin: 0px; min-width: 100px;"
+    data-theme="light"
+    role="menu"
+  >
+    <li role="none" class="hx:flex hx:flex-col">
+      <button
+        type="button"
+        role="menuitemradio"
+        aria-checked="true"
+        tabindex="-1"
+        data-item="light"
+        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
+      >
+        浅色
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </button>
+    </li>
+    <li role="none" class="hx:flex hx:flex-col">
+      <button
+        type="button"
+        role="menuitemradio"
+        aria-checked="false"
+        tabindex="-1"
+        data-item="dark"
+        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
+      >
+        深色
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=light]:hidden hx:group-data-[theme=system]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </button>
+    </li>
+    <li role="none" class="hx:flex hx:flex-col">
+      <button
+        type="button"
+        role="menuitemradio"
+        aria-checked="false"
+        tabindex="-1"
+        data-item="system"
+        class="hx:text-gray-700 hx:dark:text-gray-300 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-neutral-800 hx:dark:hover:text-gray-100 hx:relative hx:cursor-pointer hx:whitespace-nowrap hx:rounded-sm hx:py-1.5 hx:transition-colors hx:ltr:pl-3 hx:ltr:pr-9 hx:rtl:pr-3 hx:rtl:pl-9 hx:text-left hx:w-full hx:bg-transparent hx:border-0"
+      >
+        跟随系统
+         <span class="hx:absolute hx:inset-y-0 hx:flex hx:items-center hx:ltr:right-3 hx:rtl:left-3 hx:group-data-[theme=dark]:hidden hx:group-data-[theme=light]:hidden"><svg height=1em width=1em xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg></span>
+      </button>
+    </li>
+  </ul>
+</div>
+</div><hr class="hx:border-gray-200 hx:dark:border-neutral-800" /><div class="hextra-custom-footer hextra-max-footer-width hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400"></div><div
+      class="hextra-max-footer-width hx:mx-auto hx:flex hx:justify-center hx:py-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400 hx:md:justify-start"
+    >
+      <div class="hx:flex hx:w-full hx:flex-col hx:items-center hx:sm:items-start"><div class="hx:font-semibold"><a class="hx:flex hx:text-sm hx:items-center hx:gap-1 hx:text-current" target="_blank" rel="noopener noreferrer" title="Hextra GitHub Homepage" href="https://github.com/imfing/hextra">
+    <span>由 Hextra 驱动<svg height=1em class="hx:inline-block hx:ltr:ml-1 hx:rtl:mr-1 hx:align-[-2.5px]" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="m 105.50024,22.224647 c -9.59169,-5.537563 -21.40871,-5.537563 -31.000093,0 L 39.054693,42.689119 C 29.463353,48.226675 23.55484,58.460531 23.55484,69.535642 v 40.928918 c 0,11.07542 5.908513,21.3092 15.499853,26.84652 l 35.445453,20.46446 c 9.591313,5.53732 21.408404,5.53732 31.000094,0 l 35.44507,-20.46446 c 9.59131,-5.53732 15.49985,-15.7711 15.49985,-26.84652 V 69.535642 c 0,-11.075111 -5.90854,-21.308967 -15.49985,-26.846523 z M 34.112797,85.737639 c -1.384445,2.397827 -1.384445,5.352099 0,7.749927 l 24.781554,42.922974 c 1.38437,2.39783 3.942853,3.87496 6.711592,3.87496 h 49.563107 c 2.76905,0 5.3273,-1.47713 6.71144,-3.87496 l 24.78194,-42.922974 c 1.38414,-2.397828 1.38414,-5.3521 0,-7.749927 L 121.88049,42.814746 c -1.38414,-2.397828 -3.94239,-3.874964 -6.71144,-3.874964 H 65.605944 c -2.768739,0 -5.327223,1.477059 -6.711592,3.874964 z" style="stroke-width:0.774993" /></svg></span>
+  </a></div></div>
+    </div></footer>
     
-<footer class="footer">
-        <span>&copy; 2026 <a href="http://localhost:1313/tihu-hugo-blog/">醍醐堂記_TihuBlogs</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
-
-<script>
-    let menu = document.getElementById('menu');
-    if (menu) {
-        
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
-        
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-
-</script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        const html = document.querySelector("html");
-        if (html.dataset.theme === "dark") {
-            html.dataset.theme = 'light';
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            html.dataset.theme = 'dark';
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-</body>
-
+    <script defer src="/tihu-hugo-blog/js/main.js" integrity=""></script>
+<script defer src="/tihu-hugo-blog/js/flexsearch.9f5b5908f93ae86f1ecd4b043b799f580c2d1654e703dd9357d568ac41b2547a.js" integrity="sha256-n1tZCPk66G8ezUsEO3mfWAwtFlTnA92TV9VorEGyVHo=" crossorigin="anonymous"></script><script defer src="/tihu-hugo-blog/zh-cn.search.js" integrity=""></script>
+  </body>
 </html>

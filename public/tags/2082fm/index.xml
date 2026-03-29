@@ -1,70 +1,160 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2082FM on 醍醐堂記_TihuBlogs</title>
+    <title>醍醐堂記_TihuBlogs – 2082FM</title>
     <link>http://localhost:1313/tihu-hugo-blog/tags/2082fm/</link>
     <description>Recent content in 2082FM on 醍醐堂記_TihuBlogs</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Wed, 06 May 2020 22:05:32 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tihu-hugo-blog/tags/2082fm/index.xml" rel="self" type="application/rss+xml" />
+    
+	  <atom:link href="http://localhost:1313/tihu-hugo-blog/tags/2082fm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
     <item>
       <title>播客手账：十分钟上手异地远程录音</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-05-06-podcasts01/</link>
       <pubDate>Wed, 06 May 2020 22:05:32 +0800</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-05-06-podcasts01/</guid>
-      <description>&lt;h2 id=&#34;引言播客手账做什么&#34;&gt;引言：播客手账做什么&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&#34;https://anchor.fm/2082&#34;&gt;2082&lt;/a&gt; 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。&lt;/p&gt;
-&lt;h2 id=&#34;一哪些场合需要异地远程录音&#34;&gt;一、哪些场合需要异地远程录音&lt;/h2&gt;
-&lt;p&gt;2人以上的播客节目当然最好是在一个拾音效果良好的封闭环境中进行录制，但在现实中，很少有播客拥有一个专业录音棚，绝大多数播客们都在一个相对业余的环境进行录音，甚至需要两人共用一支麦克风。在这种情况下，录音的最终效果未必比远程方案更好。&lt;/p&gt;
-&lt;p&gt;远程录音在过去一般是一个被动选项，就是无法一起现场录音时才会选择的替补方案。比如像 &lt;a href=&#34;https://anchor.fm/2082&#34;&gt;2082&lt;/a&gt; 这样三位主播不在同一城市甚至不在同一国家。这次疫情也让更多播客们（即使在同一城市）因为管制原因，选择了远程录音。&lt;/p&gt;
+      <description>
+        
+        
+        &lt;h2&gt;引言：播客手账做什么&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;引言播客手账做什么&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%bc%95%e8%a8%80%e6%92%ad%e5%ae%a2%e6%89%8b%e8%b4%a6%e5%81%9a%e4%bb%80%e4%b9%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&#34;https://anchor.fm/2082&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2082&lt;/a&gt; 是一档由三个处在不同时区的好友共同制作的沙龙型闲谈播客，我们用100天制作了25期节目，平均每4天一期。在这期间，为了克服远程多端录音的困难，提升节目音质和沟通效果，没少踩坑。特别是大多数坑在中文互联网中可搜索到的成熟现成解决方案并不多，所以我们决定不定期写“博客手账”，分享播客录制和音视频制作的分享记录文章，我们会制作播客节目制作攻略，分享声音剪辑、处理软件、录音器材等方面的经验和心得。希望能够帮助到更多播客和对音频处理有需要的朋友们。&lt;/p&gt;
+&lt;h2&gt;一、哪些场合需要异地远程录音&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;一哪些场合需要异地远程录音&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%b8%80%e5%93%aa%e4%ba%9b%e5%9c%ba%e5%90%88%e9%9c%80%e8%a6%81%e5%bc%82%e5%9c%b0%e8%bf%9c%e7%a8%8b%e5%bd%95%e9%9f%b3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;2人以上的播客节目当然最好是在一个拾音效果良好的封闭环境中进行录制，但在现实中，很少有播客拥有一个专业录音棚，绝大多数播客们都在一个相对业余的环境进行录音，甚至需要两人共用一支麦克风。在这种情况下，录音的最终效果未必比远程方案更好。&lt;/p&gt;
+&lt;p&gt;远程录音在过去一般是一个被动选项，就是无法一起现场录音时才会选择的替补方案。比如像 &lt;a href=&#34;https://anchor.fm/2082&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2082&lt;/a&gt; 这样三位主播不在同一城市甚至不在同一国家。这次疫情也让更多播客们（即使在同一城市）因为管制原因，选择了远程录音。&lt;/p&gt;
 &lt;p&gt;另外还有当特邀嘉宾加入节目，或节目主播（之一）在出差/度假时，也会选择远程接入录音。&lt;/p&gt;
 &lt;p&gt;总之，即便你有天然条件可以保证现场录制，但也建议一定能够掌握远程录音的办法，以备不时之需。&lt;/p&gt;
-&lt;h2 id=&#34;二远程录音的难点&#34;&gt;二、远程录音的难点&lt;/h2&gt;
-&lt;p&gt;远程录音遇到的基础问题其实和现场录音是一致的，比如需要保证录音环境的安静，有起码的软硬件等等。&lt;/p&gt;
-&lt;p&gt;对这些如果有了一些基本的认知或准备，你才会遇到远程录音的真正难点。别怕，只要网速正常，这些都不是事儿。&lt;a href=&#34;https://anchor.fm/2082&#34;&gt;2082&lt;/a&gt; 的鹿人有多期节目都是用一台联通 4G 信号手机提供热点接入的远程录音，无论是网速效果还是流量资费，效果都很理想。远程录音依然需要尽量克服以下难点：&lt;/p&gt;
-&lt;h3 id=&#34;1-环境不统一&#34;&gt;1. 环境不统一&lt;/h3&gt;
-&lt;p&gt;远程录音最大的困难是大家所处环境是不一样的，这造成了收声效果的差异。为了最大限度地降低这种差异，为后期处理提供良好的素材，你需要在尽可能小的封闭空间录音，尽可能避免在一个空荡荡的房间录音，以降低不必要的反射。&lt;/p&gt;
-&lt;h3 id=&#34;2-软硬件设置不统一&#34;&gt;2. 软硬件设置不统一&lt;/h3&gt;
-&lt;p&gt;软硬件设置的不同会导致音量的差异，声音响度不均一很影响最终的听感，这需要主播之间约定相对统一的设置；&lt;/p&gt;
-&lt;h3 id=&#34;3-网络对通话音质的影响&#34;&gt;3. 网络对通话音质的影响；&lt;/h3&gt;
-&lt;p&gt;我们在网速上并没有遇到太大的挑战，因为我们只在 4G 或 wifi 环境下进行录音。如果你要采用我们后边即将介绍的“快速录音法”，那么对网速要求还是不低的，因为一旦有一方延迟严重，对话就将很难继续下去。&lt;/p&gt;
+&lt;h2&gt;二、远程录音的难点&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;二远程录音的难点&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%ba%8c%e8%bf%9c%e7%a8%8b%e5%bd%95%e9%9f%b3%e7%9a%84%e9%9a%be%e7%82%b9&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;远程录音遇到的基础问题其实和现场录音是一致的，比如需要保证录音环境的安静，有起码的软硬件等等。&lt;/p&gt;
+&lt;p&gt;对这些如果有了一些基本的认知或准备，你才会遇到远程录音的真正难点。别怕，只要网速正常，这些都不是事儿。&lt;a href=&#34;https://anchor.fm/2082&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2082&lt;/a&gt; 的鹿人有多期节目都是用一台联通 4G 信号手机提供热点接入的远程录音，无论是网速效果还是流量资费，效果都很理想。远程录音依然需要尽量克服以下难点：&lt;/p&gt;
+&lt;h3&gt;1. 环境不统一&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-环境不统一&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e7%8e%af%e5%a2%83%e4%b8%8d%e7%bb%9f%e4%b8%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;远程录音最大的困难是大家所处环境是不一样的，这造成了收声效果的差异。为了最大限度地降低这种差异，为后期处理提供良好的素材，你需要在尽可能小的封闭空间录音，尽可能避免在一个空荡荡的房间录音，以降低不必要的反射。&lt;/p&gt;
+&lt;h3&gt;2. 软硬件设置不统一&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-软硬件设置不统一&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e8%bd%af%e7%a1%ac%e4%bb%b6%e8%ae%be%e7%bd%ae%e4%b8%8d%e7%bb%9f%e4%b8%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;软硬件设置的不同会导致音量的差异，声音响度不均一很影响最终的听感，这需要主播之间约定相对统一的设置；&lt;/p&gt;
+&lt;h3&gt;3. 网络对通话音质的影响；&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-网络对通话音质的影响&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-%e7%bd%91%e7%bb%9c%e5%af%b9%e9%80%9a%e8%af%9d%e9%9f%b3%e8%b4%a8%e7%9a%84%e5%bd%b1%e5%93%8d&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;我们在网速上并没有遇到太大的挑战，因为我们只在 4G 或 wifi 环境下进行录音。如果你要采用我们后边即将介绍的“快速录音法”，那么对网速要求还是不低的，因为一旦有一方延迟严重，对话就将很难继续下去。&lt;/p&gt;
 &lt;p&gt;我们在现今的录音中为了保证对话的自然，还启用了视频会议，只为了彼此能看到表情和肢体语言，这对网速提出了更高的要求。如果你对自己的网络环境信心不足，那么请一定找一个网络接入稳定的环境。&lt;/p&gt;
-&lt;h2 id=&#34;三通话直录法&#34;&gt;三、通话直录法&lt;/h2&gt;
-&lt;p&gt;这是对于嘉宾和不操作录音的人来说，最省心的方法。就是在远程录音中，只有其中一人承担录音工作，其他人只需要通过通话软件讲话就可以了，所有的技术压力都由一人承担和控制。&lt;/p&gt;
+&lt;h2&gt;三、通话直录法&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;三通话直录法&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e4%b8%89%e9%80%9a%e8%af%9d%e7%9b%b4%e5%bd%95%e6%b3%95&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;这是对于嘉宾和不操作录音的人来说，最省心的方法。就是在远程录音中，只有其中一人承担录音工作，其他人只需要通过通话软件讲话就可以了，所有的技术压力都由一人承担和控制。&lt;/p&gt;
 &lt;p&gt;这种方式的优点是只需一端（通常是主播）进行录音操作，降低了嘉宾因不懂设备和技术造成录音失败的风险；并且最终得到音轨文件所听即所录，可以直接进行编辑。&lt;/p&gt;
 &lt;p&gt;缺点首当其冲是对网络要求高，如果一端卡顿，或者掉线；即便不卡顿，如果延迟较高的话，都会影响录音的音质。&lt;/p&gt;
 &lt;p&gt;其次，录音对录音方的硬件/软件有要求，最好支持跳线/路由的功能，比较方便，这点我们在后边详述；&lt;/p&gt;
 &lt;p&gt;再次，这种录音方法是将所有人的声音录在同一轨中，如果出现互相抢话，声音造成重叠，这样后期改善的空间相对较小。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;通话直录流程&#34; loading=&#34;lazy&#34; src=&#34;https://img.onl/X0o6nl&#34; title=&#34;通话直录流程&#34;&gt;&lt;/p&gt;
-&lt;h3 id=&#34;1-软硬件方案&#34;&gt;1. 软硬件方案&lt;/h3&gt;
-&lt;h4 id=&#34;a-硬件方案&#34;&gt;a. 硬件方案&lt;/h4&gt;
-&lt;p&gt;选择硬件直接集成路由的声卡是最简单的选择，比如如下几款：&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://img.onl/X0o6nl&#34; title=&#34;通话直录流程&#34; alt=&#34;通话直录流程&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;通话直录流程&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h3&gt;1. 软硬件方案&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;1-软硬件方案&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-%e8%bd%af%e7%a1%ac%e4%bb%b6%e6%96%b9%e6%a1%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;a. 硬件方案&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;a-硬件方案&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#a-%e7%a1%ac%e4%bb%b6%e6%96%b9%e6%a1%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;选择硬件直接集成路由的声卡是最简单的选择，比如如下几款：&lt;/p&gt;
 &lt;p&gt;● Tascam US-32
 ● Tascam US-42
 ● Yamaha AG03/AG06&lt;/p&gt;
-&lt;p&gt;这四款声卡（&lt;a href=&#34;https://www.yamaha.com.cn/uploads/file/20180628/AG_w.pdf&#34;&gt;雅马哈AG系列&lt;/a&gt;官方称作调音台）都是为直播设计，有一个共同特点，都支持声卡硬件路由/跳线，即可以直接将你的麦克风拾取的声音和通话软件里嘉宾的声音汇总为一路声音进行录制。Tascam US-32/42 系列直接有一个巨大的 ON AIR 按钮，按下即可。雅马哈AG上也有一个 Loopback 键，可实现同样的功能，非常方便。以上四款两个系列之间的区别是接口数量不同，如果用“一人录音法”，选择接口少的即可，如果考虑后续的扩展性，可选择接口多的那一款。以上设备均支持 iOS，另外 Tascam 有初音未来限量版，喜欢二次元的朋友可以考虑一下。&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Tascam&#34; loading=&#34;lazy&#34; src=&#34;https://img.onl/GYpnPx&#34; title=&#34;Tascam&#34;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img alt=&#34;Tascam&#34; loading=&#34;lazy&#34; src=&#34;https://img.onl/wMAWkx&#34; title=&#34;Tascam&#34;&gt;&lt;/p&gt;
+&lt;p&gt;这四款声卡（&lt;a href=&#34;https://www.yamaha.com.cn/uploads/file/20180628/AG_w.pdf&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;雅马哈AG系列&lt;/a&gt;官方称作调音台）都是为直播设计，有一个共同特点，都支持声卡硬件路由/跳线，即可以直接将你的麦克风拾取的声音和通话软件里嘉宾的声音汇总为一路声音进行录制。Tascam US-32/42 系列直接有一个巨大的 ON AIR 按钮，按下即可。雅马哈AG上也有一个 Loopback 键，可实现同样的功能，非常方便。以上四款两个系列之间的区别是接口数量不同，如果用“一人录音法”，选择接口少的即可，如果考虑后续的扩展性，可选择接口多的那一款。以上设备均支持 iOS，另外 Tascam 有初音未来限量版，喜欢二次元的朋友可以考虑一下。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://img.onl/GYpnPx&#34; title=&#34;Tascam&#34; alt=&#34;Tascam&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Tascam&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://img.onl/wMAWkx&#34; title=&#34;Tascam&#34; alt=&#34;Tascam&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Tascam&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;如果你没有这种专为直播设计的声卡，你可以翻翻你手头声卡的说明书看看它是否带有内部的路由功能，每个厂家的的设置方法不同。如果你不能确定自己的声卡是否自带这种功能，可根据设备自行查找关键字（比如虚拟调音台，内部跳线，路由等等），通常中档以上的专业声卡都有类似功能。&lt;/p&gt;
 &lt;p&gt;跳线/路由的功能简单说一下，个人理解不一定正确，在 Windows 平台下，我们进行语音通讯的通话软件一般是通过MME/DS驱动，而你的专业声卡可能走的是ASIO驱动，或者二者都在同一驱动之下，但这两个音频流的通道是独立的，如果你没有硬件也不在软件上进行任何设置，直接录制通话的音频流，里面可能只有自己的声音，这时需要通过硬件或者某些驱动或软件将这几路声音汇聚在一起，进行录制或者直播。甚至可以加入混响等效果，比如一些常见应用场景如直播K歌，演奏乐器，以及扩展开来，比如在广播中播放歌曲等等。&lt;/p&gt;
-&lt;h4 id=&#34;b-软件方案&#34;&gt;b. 软件方案&lt;/h4&gt;
-&lt;p&gt;如果你的声卡确实没有这样的功能，或者你使用 USB 麦克风录音，也仍然可以考虑通过软件方案进行录音路由的设置。&lt;/p&gt;</description>
+&lt;h4&gt;b. 软件方案&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;b-软件方案&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#b-%e8%bd%af%e4%bb%b6%e6%96%b9%e6%a1%88&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;如果你的声卡确实没有这样的功能，或者你使用 USB 麦克风录音，也仍然可以考虑通过软件方案进行录音路由的设置。&lt;/p&gt;
+&lt;p&gt;● 在 Windows 中，你可以尝试 &lt;a href=&#34;https://www.mivm.cn/virtual-audio-cable/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Virtual Audio Cable&lt;/a&gt; 或者 &lt;a href=&#34;https://give.academy/downloads/2018/03/03/ODeusASIOLinkPro/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Asio Link Pro&lt;/a&gt;
+● 在 MacOS 环境中，推荐使用 &lt;a href=&#34;https://rogueamoeba.com/audiohijack/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Audio Hijack&lt;/a&gt; 以及 &lt;a href=&#34;https://rogueamoeba.com/loopback/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Loopback&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://img.onl/nYDsTm&#34; title=&#34;Audio Hijack&#34; alt=&#34;Audio Hijack&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Audio Hijack&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Audio Hijack 这个软件除了路由功能，同时也集成了播客必要的一些音频处理，要求不高的话可以一站式在这个软件中完成。Loopback 的前身是 SoundFlower，功能集中在软跳线/路由上。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://img.onl/lKiMk8&#34; title=&#34;Loopback&#34; alt=&#34;Loopback&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Loopback&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;h3&gt;2. 录音软件&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;2-录音软件&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-%e5%bd%95%e9%9f%b3%e8%bd%af%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;录音软件的选择相对来说就简单多了，所有的 DAW (Digital audio workstation) 都可以录音，包括但不限于：
+● Cubase
+● PreSonus Studio One
+● Ableton live
+● REAPER
+● Logic Pro
+以及相对业余一些的音频编辑软件：
+● Adobe Audition
+● Garageband/库乐队（免费）
+● Audacity（免费）
+● QuickTime（免费）&lt;/p&gt;
+&lt;p&gt;其实不用太担心花费，通常你买的声卡都会附赠一个简化版的 DAW，功能远远超过播客的需要，如果你没有安装任何 DAW，也可以使用免费的 Audacity 和不免费但可以一直使用的 REAPER，在 Mac 下通常连库乐队都不用打开，使用系统自带的 QuickTime 音频录制即可。USB 麦克风基本上也会附赠录音软件。&lt;/p&gt;
+&lt;p&gt;这里需要特别注意的是，录音软件除了录音以外，对播客最大的作用是“读表”，时刻关注音量的电平数值是否正常。新手往往会因为姿势和情绪原因不能控制自己的音量，导致爆音，或声音过小，时刻记得监控自己的音量是一项需要培养的必备技能。&lt;/p&gt;
+&lt;h3&gt;3. 通话软件&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;3-通话软件&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#3-%e9%80%9a%e8%af%9d%e8%bd%af%e4%bb%b6&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;通话软件可以选择微信语音通话，QQ 语音，FaceTime，Skype 以及 Zoom。除了 Zoom 有“打开原声”这个功能，即不对声音做过多的处理。其它的通话软件都会对声音进行不同程度的降噪，压缩处理。初衷是为了在嘈杂的环境中让声音更清晰，占用带宽更小。但在播客录制中，利弊需要各位针对自身情况选择。&lt;/p&gt;
+&lt;p&gt;而最近一段时间我们在使用腾讯会议，特别是启用会议视频以后，效果得到了所有成员的一致认可。其实腾讯会议的优秀品质在我看来目前主要体现在由于疫情的大背景下，各家厂商都在主打在线办公软件上，所以在上边投入的服务器资源足够冗余，这保证了其使用的效果&lt;/p&gt;
+&lt;h2&gt;四、多人录音法（Multi-Ender）&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;四多人录音法multi-ender&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%9b%9b%e5%a4%9a%e4%ba%ba%e5%bd%95%e9%9f%b3%e6%b3%95multi-ender&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;多人录音法也叫 Multi-Ender，是指主播或受访人通过通话软件连线，每个人在本地运行录音软件或者录音笔录制本人音轨，最终将多地多人音轨合并的方法。这对每个人都提出了参与录音的要求，但音质将得到质的提升，剪辑也将在后期（面对多轨）有了更大的调整空间。&lt;/p&gt;
+&lt;p&gt;&lt;figure&gt;
+    &lt;img src=&#34;https://img.onl/pLRPen&#34; title=&#34;Multi-Ender流程&#34; alt=&#34;Multi-Ender流程&#34;  loading=&#34;lazy&#34; /&gt;
+    &lt;figcaption&gt;Multi-Ender流程&lt;/figcaption&gt;
+  &lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;从方案流程图可以看到，“多人录音法”反而要简单一些，在这种方案下，通话软件（视频软件）只承担播客之间的交流工具作用，录音交给了本地软硬件处理，对网络的要求也不再那么高，你无需担心网络延迟卡顿导致的音质降低。而你在通话直录中使用过的经验可以完整应用到 Multi-Ender 上来。&lt;/p&gt;
+&lt;h2&gt;尾声&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;尾声&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%b0%be%e5%a3%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;如前所述，多方都有录音条件的强烈建议采用 Multi-Ender 方法进行录制。但如为了降低后期剪辑难度，或有主播、受访嘉宾不会操作，可以选择通话直录。&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://anchor.fm/2082&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;2082&lt;/a&gt; 在前14期用的都是通话直录的方法，这种方法取得的素材需要后期进行较多的处理和修饰，比如里面会有明显的回路噪音，远端的声音会有较强的压缩感。这都需要后期进行调整。从15期开始我们使用了“多人录音法”，而本地的设备没有任何改变，大家可以从下面的链接中收听比对两种方法产生的极为不同的音质效果。&lt;/p&gt;
+&lt;p&gt;在下一篇手账中，我们将专门介绍一下 Podcast 中的人声处理技巧。&lt;/p&gt;
+&lt;iframe src=&#34;https://anchor.fm/[2082](https://anchor.fm/2082)/embed&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;
+&lt;h2&gt;国内各平台的地址：&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;国内各平台的地址&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%e5%9b%bd%e5%86%85%e5%90%84%e5%b9%b3%e5%8f%b0%e7%9a%84%e5%9c%b0%e5%9d%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;● 喜马拉雅 &lt;a href=&#34;https://www.ximalaya.com/renwen/32544603/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.ximalaya.com/renwen/32544603/&lt;/a&gt;
+● 荔枝 &lt;a href=&#34;https://www.lizhi.fm/user/5075270075354772524&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.lizhi.fm/user/5075270075354772524&lt;/a&gt;
+● 企鹅FM &lt;a href=&#34;https://fm.qq.com/album/rd001qPu0E1TZysx&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://fm.qq.com/album/rd001qPu0E1TZysx&lt;/a&gt;
+● 网易云音乐 &lt;a href=&#34;https://music.163.com/#/djradio?id=794399435&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://music.163.com/#/djradio?id=794399435&lt;/a&gt;
+● 蜻蜓FM &lt;a href=&#34;https://m.qingting.fm/vchannels/340916/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://m.qingting.fm/vchannels/340916/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;其他客户端的地址：
+● Apple Podcasts https://podcasts.apple.com/ca/podcast/2082/id1495389318
+● Breaker https://www.breaker.audio/2082
+● Castbox https://castbox.fm/ch/2599282
+● Google Podcasts https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy8xMjc1MWZhNC9wb2RjYXN0L3Jzcw==
+● Overcast https://overcast.fm/itunes1495389318
+● Pocket Casts https://pca.st/xes7ne1i
+● RadioPublic https://radiopublic.com/2082-GqPKwg
+● Spotify https://open.spotify.com/show/47Ldw9PvNWLEw1vRcQzfbw
+● Stitcher https://www.stitcher.com/podcast/2082&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>[话上梅梢]第二期</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-04-12-hsms02/</link>
       <pubDate>Sat, 12 Apr 2008 11:24:19 +0000</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-04-12-hsms02/</guid>
-      <description>&lt;p&gt;两个晚上做出来了第二期，事实上实际花费时间不止于此。试水成份仍很浓，但从整个结构来说，更像是一期正规的节目了。本期节目全长16分05秒，出现了新的声优，这里就不公布名字了，大家一听便知，希望能有惊喜。第二支曲目的配词冒昧地使用了豆友vivian·诺的乐评，希望你听到以后能够感到高兴~&lt;/p&gt;
-&lt;p&gt;[曲目]1.春天 2.我不是随便的花朵 3.晚风中的自由 4.Pandora&lt;/p&gt;</description>
+      <description>
+        
+        
+        &lt;p&gt;两个晚上做出来了第二期，事实上实际花费时间不止于此。试水成份仍很浓，但从整个结构来说，更像是一期正规的节目了。本期节目全长16分05秒，出现了新的声优，这里就不公布名字了，大家一听便知，希望能有惊喜。第二支曲目的配词冒昧地使用了豆友vivian·诺的乐评，希望你听到以后能够感到高兴~&lt;/p&gt;
+&lt;p&gt;[曲目]1.春天 2.我不是随便的花朵 3.晚风中的自由 4.Pandora&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>话上梅梢|试第一期</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-03-27-%E8%AF%9D%E4%B8%8A%E6%A2%85%E6%A2%A2%E8%AF%95%E7%AC%AC%E4%B8%80%E6%9C%9F/</link>
       <pubDate>Thu, 27 Mar 2008 15:33:02 +0000</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-03-27-%E8%AF%9D%E4%B8%8A%E6%A2%85%E6%A2%A2%E8%AF%95%E7%AC%AC%E4%B8%80%E6%9C%9F/</guid>
-      <description>&lt;p&gt;[audio:http://trir.cn/audio/hsms001.mp3]&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;[audio:http://trir.cn/audio/hsms001.mp3]&lt;/p&gt;
 &lt;p&gt;若不是看到那篇《你所不知道的Gmail的八个秘密》的帖子，我断不会知道Gtlak支持离线语音留言，语音可以MP3格式自动保存在对方的Gmail中；若不是为嘉树和堂妹留言，我断不会想起我还有个麦克风；若不是寂静夜里的电波声，我断不会突然想起，曾经，电台是我最大的爱好。&lt;/p&gt;
 &lt;p&gt;红领巾广播站→雏鹰广播室→海之声广播台→YTU广播电台，课余时间里我整整做了十二年的播音主持。这爱好来得突然，消失得也倏忽。小学时我觉得读课文是学习里最最简单的事情，正好赶上嗓子不错，每次读课文时从不惜力。那时也有步入青少年歌坛的机会，可惜我接触唐朝崔健太早，正赶上变声期时把嗓子给嚎劈了，只好去读了。结果这一下来，读了十二年。&lt;/p&gt;
 &lt;p&gt;印象比较深的，是1997年小平去世时，我和搭档荣荣在学校广播室里读人民日报，整整读了一下午，舌头都木了。我发现他老人家生平简介里最大的特点是：我不认识的字太多了。荣荣是我最久远的搭档，高音甜，中音准，小学时就相识了。那时周末出去玩，她母亲总要打电话给我，千叮咛万嘱咐地要把女儿交给我，可惜这么多年过去了，还是没交过来。&lt;/p&gt;
@@ -73,7 +163,10 @@
 &lt;p&gt;【话上梅梢】是豆瓣里的一个沉寂的小组，我拿它来作为我电台情节的名称——其实还有更好的，管老师不让用——我会尽量利用好Adobe Audition的强大功能，做些有意思的小尝试。尝试无非两类，一类是讲讲笔记小说里的段子，一类是推荐曲目加上煽情主笔的心里话。顺便说一句，Esnips是个非常好的网络平台，推荐之。&lt;/p&gt;
 &lt;p&gt;【下载/在线】&lt;/p&gt;
 &lt;p&gt;【话上梅梢】试第一期[蝴蝶泉边&lt;/p&gt;
-&lt;p&gt;更多音频：http://www.esnips.com/web/tihuFM&lt;/p&gt;</description>
+&lt;p&gt;更多音频：http://www.esnips.com/web/tihuFM&lt;/p&gt;
+
+      </description>
     </item>
+    
   </channel>
 </rss>

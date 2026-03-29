@@ -1,19 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>键上话 on 醍醐堂記_TihuBlogs</title>
+    <title>醍醐堂記_TihuBlogs – 键上话</title>
     <link>http://localhost:1313/tihu-hugo-blog/tags/%E9%94%AE%E4%B8%8A%E8%AF%9D/</link>
     <description>Recent content in 键上话 on 醍醐堂記_TihuBlogs</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 07 Feb 2014 08:36:54 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tihu-hugo-blog/tags/%E9%94%AE%E4%B8%8A%E8%AF%9D/index.xml" rel="self" type="application/rss+xml" />
+    
+	  <atom:link href="http://localhost:1313/tihu-hugo-blog/tags/%E9%94%AE%E4%B8%8A%E8%AF%9D/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
     <item>
       <title>键上话：啖蓉城</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2014/2014-02-07-keywords/</link>
       <pubDate>Fri, 07 Feb 2014 08:36:54 +0000</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2014/2014-02-07-keywords/</guid>
-      <description>&lt;p&gt;临邛妻家院里有块圆形墩子，宽两尺厚一寸，斑驳黯淡，平时用来剁肉。我一直以为是树桩，今天清洗时才发现重得出奇，表面不是年轮，而是鱼鳞状纹理，冲洗好后呈琥珀色，隐隐可以看见里边的暗红色筋脉。我询问墩子的来历，妻说外婆在世时常念叨这是祖上传下来的一片龙鳞，但大家都没有当真。&lt;/p&gt;
+      <description>
+        
+        
+        &lt;p&gt;临邛妻家院里有块圆形墩子，宽两尺厚一寸，斑驳黯淡，平时用来剁肉。我一直以为是树桩，今天清洗时才发现重得出奇，表面不是年轮，而是鱼鳞状纹理，冲洗好后呈琥珀色，隐隐可以看见里边的暗红色筋脉。我询问墩子的来历，妻说外婆在世时常念叨这是祖上传下来的一片龙鳞，但大家都没有当真。&lt;/p&gt;
 &lt;p&gt;小官庙黎家的厨子从不许剪指甲，必须在切丝的时候修甲，做到圆润平滑，无疵无缺方能出师。切下来的甲垢收集起来，用来滋养一种名叫丼的盆草，可以吸收后厨的油烟。&lt;/p&gt;
 &lt;p&gt;泰升路有家老店叫耗子洞，甜皮鸭最为出名。有年轻时曾在那做学徒的厨师说，老店的内厨的确有耗子洞，豢养红鼠数只，每腌制卤品时，必取鼠毫若干，佐以秘法烹之，其味鲜美异常。后来街道办灭鼠断了古法，耗子洞的老板便转做加盟，如今店铺遍及全蓉，令人佩服。&lt;/p&gt;
 &lt;p&gt;紫荆深处有一家私厨，经营烧烤卤品之类，院里埋着六樽金罂，看不出有多大，只露出海碗盖的口来。里边酿的酒叫做醑渌翠涛，传说是魏征留下的制酒之法。我只喝过一次，应当是葡萄酒一类的。&lt;/p&gt;
@@ -22,14 +33,21 @@
 &lt;p&gt;青石桥海鲜市场商贾云集，水产丰富，尝有胶东口音的渔民和云梦泽的蓑衣旦民出没。在深夜来这里吃海鲜烧烤的人，如果恰逢初七并且还没喝高的话，可以隐隐看到远处摇曳的渔灯，青石铺就的码头和雕刻着贝赑貔貅的石桥，甚至可以听到海浪的声音。&lt;/p&gt;
 &lt;p&gt;海椒市的小吃街上，每晚都会有位佝偻老人挑着担卖青果，要价不菲而购者却趋之若鹜，盖因他的青果每百颗出一银核，每千颗出一金核，每万颗出一能治百病。一晚止卖两百颗，不到一盏茶就告罄。谁也不知道老人姓氏，住在何方。《本草纲目》上记载这并不是青果，能治小儿涎水。&lt;/p&gt;
 &lt;p&gt;石棉以北过去饲养一种黑色家禽，名唤石棉铁将军，浑身上下从冠到爪一色墨黑，没有一丝杂色，就连两睛也是一点漆黑。从前这里以斗鸡闻名，近年来铁将军已近绝迹，却又有了肉质鲜美的名声。石羊场有一家芋儿鸡用料就是石棉黑鸡，偶尔还能买到活鸡。&lt;/p&gt;
-&lt;p&gt;红瓦寺街的熊氏朝鲜料理，以玉薯、金瓜、青葱、白菜、绿菠、胡萝等六样泡菜最受欢迎，味道改良得颇合蜀人胃口。小店二楼有东西两个小间，东边窗外可遥望飞檐斗拱，传说就是毁于战火的德云禅院（红瓦寺），右边窗外可远眺巍峨雪山，赫然便是白头山。&lt;/p&gt;</description>
+&lt;p&gt;红瓦寺街的熊氏朝鲜料理，以玉薯、金瓜、青葱、白菜、绿菠、胡萝等六样泡菜最受欢迎，味道改良得颇合蜀人胃口。小店二楼有东西两个小间，东边窗外可遥望飞檐斗拱，传说就是毁于战火的德云禅院（红瓦寺），右边窗外可远眺巍峨雪山，赫然便是白头山。&lt;/p&gt;
+
+      </description>
     </item>
+    
     <item>
       <title>键上话·壬辰寅月</title>
       <link>http://localhost:1313/tihu-hugo-blog/posts/2013/2013-03-03-keytalk/</link>
       <pubDate>Fri, 01 Feb 2013 08:36:54 -0700</pubDate>
+      
       <guid>http://localhost:1313/tihu-hugo-blog/posts/2013/2013-03-03-keytalk/</guid>
-      <description>&lt;ol&gt;
+      <description>
+        
+        
+        &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;壬辰年秋，青羊邵某忽化为蛇，吞卒吏遁地而去，盖因瓜果摊车被扣，生计无落。其妻女尝见其手机在线，问之，云山中也。又二月，妻女亦不见。&lt;/p&gt;
 &lt;/li&gt;
@@ -99,7 +117,10 @@
 &lt;li&gt;
 &lt;p&gt;产品王馗夜宴白丁，上乌鱼十条，长而有须，花色如蛇。或生啖，或炭烤，或油烹。食客入口肉味各异。宴毕，生啖者通美工，炭烤者明开发，油烹者擅测试。&lt;/p&gt;
 &lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/ol&gt;
+
+      </description>
     </item>
+    
   </channel>
 </rss>

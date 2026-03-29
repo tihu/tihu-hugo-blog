@@ -1,0 +1,40 @@
+{{ define "main" }}
+<!-- 顶部标题区，内联样式，完美适配暗黑模式 -->
+<div style="max-width: 800px; margin: 0 auto; padding: 4rem 1rem 2rem; text-align: center;">
+  <h1 style="font-size: 2.5rem; font-weight: 700; margin: 0 0 1rem; color: #fff;">
+    醍醐堂記_TihuBlogs
+  </h1>
+  <p style="font-size: 1.1rem; color: #aaa; margin: 0 auto; max-width: 600px; line-height: 1.6;">
+    这里是阅读、志怪、科幻、奇幻与播客的个人笔记空间。
+  </p>
+</div>
+
+<!-- 分隔线 -->
+<hr style="max-width: 800px; margin: 2rem auto; border: none; border-top: 1px solid #333;" />
+
+<!-- 文章列表区，内联样式，循环渲染所有文章 -->
+<div style="max-width: 800px; margin: 0 auto; padding: 0 1rem 4rem;">
+  <h2 style="font-size: 1.5rem; font-weight: 700; margin: 0 0 1.5rem; color: #fff;">最新文章</h2>
+  <div style="display: flex; flex-direction: column; gap: 2rem;">
+    <!-- 循环所有文章，最新的排在最前面 -->
+    {{ range .Site.RegularPages.ByDate.Reverse }}
+    <div style="padding-bottom: 2rem; border-bottom: 1px solid #333;">
+      <!-- 文章标题，点击跳转详情 -->
+      <a href="{{ .RelPermalink }}" style="font-size: 1.3rem; font-weight: 600; color: #fff; text-decoration: none; display: block; margin-bottom: 0.75rem;">
+        {{ .Title }}
+      </a>
+      <!-- 发布日期 -->
+      <div style="font-size: 0.9rem; color: #888; margin-bottom: 1rem;">
+        {{ .Date.Format "2006-01-02" }}
+      </div>
+      <!-- 文章摘要 -->
+      {{ if .Summary }}
+      <p style="color: #aaa; margin: 0; line-height: 1.7; font-size: 1rem;">
+        {{ .Summary }}
+      </p>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}
