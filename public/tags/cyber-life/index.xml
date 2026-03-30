@@ -1,254 +1,43 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>醍醐堂記_TihuBlogs – Cyber Life</title>
-    <link>http://localhost:1313/tihu-hugo-blog/tags/cyber-life/</link>
+    <title>Cyber Life on 醍醐堂記_TihuBlogs</title>
+    <link>https://tihu.github.io/tihu-hugo-blog/tags/cyber-life/</link>
     <description>Recent content in Cyber Life on 醍醐堂記_TihuBlogs</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sun, 19 Jan 2020 23:08:11 +0000</lastBuildDate>
-    
-	  <atom:link href="http://localhost:1313/tihu-hugo-blog/tags/cyber-life/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
+    <atom:link href="https://tihu.github.io/tihu-hugo-blog/tags/cyber-life/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo成功添加字数统计和阅读时间</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-19-wordcount/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2020/2020-01-19-wordcount/</link>
       <pubDate>Sun, 19 Jan 2020 23:08:11 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-19-wordcount/</guid>
-      <description>
-        
-        
-        &lt;p&gt;hugo还真是厉害！看到别人的blog里能显示”&lt;em&gt;本文共XXX字，阅读大约需要XX分钟&lt;/em&gt;“，感觉挺高级的。话说阅读推荐时间最早还是在可能吧的公众号看到的。&lt;/p&gt;
-&lt;p&gt;仔细研究了一下，又看了一下&lt;em&gt;maupassant&lt;/em&gt;的readme，发现hugo有函数支持这两个功能需求，于是动手搞了一下，一次成功！&lt;/p&gt;
-&lt;h2&gt;需修改的页面地址&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;需修改的页面地址&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e9%9c%80%e4%bf%ae%e6%94%b9%e7%9a%84%e9%a1%b5%e9%9d%a2%e5%9c%b0%e5%9d%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;单篇文章修改，需要找到 &lt;em&gt;layouts &amp;gt; _default &amp;gt; single.html&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;blog首页列表修改，需要找到 &lt;em&gt;layouts &amp;gt; index.html&lt;/em&gt;&lt;/p&gt;
-&lt;h2&gt;修改代码&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;修改代码&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e4%bf%ae%e6%94%b9%e4%bb%a3%e7%a0%81&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;在&lt;em&gt;single.html&lt;/em&gt;找到&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;2
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;3
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;4
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;5
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;6
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; {{ if .Site.Params.busuanzi }}
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;&lt;span style=&#34;color:#7ee787&#34;&gt;div&lt;/span&gt; class&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;post-meta&amp;#34;&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            &amp;lt;&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt; id&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;busuanzi_container_page_pv&amp;#34;&lt;/span&gt;&amp;gt;|&amp;lt;&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt; id&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;busuanzi_value_page_pv&amp;#34;&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt;&amp;gt;&amp;lt;&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;                    阅读 &amp;lt;/&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt;&amp;gt;&amp;lt;/&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt;&amp;gt;|&amp;lt;&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt; class&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;post-date&amp;#34;&lt;/span&gt;&amp;gt;共{{ .WordCount }}字&amp;lt;/&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt;&amp;gt;，阅读约&amp;lt;&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt; class&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;more-meta&amp;#34;&lt;/span&gt;&amp;gt; {{ .ReadingTime }} 分钟&amp;lt;/&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;/&lt;span style=&#34;color:#7ee787&#34;&gt;div&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        {{ end }}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;复制代码&#34;
-    aria-label=&#34;复制代码&#34;
-    data-copied-label=&#34;已复制！&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;在&lt;em&gt;index.html&lt;/em&gt;找到&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;2
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;3
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#7ee787&#34;&gt;date&lt;/span&gt; class&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;post-meta meta-date&amp;#34;&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;            {{ .Date.Year }}年{{ printf &amp;#34;%d&amp;#34; .Date.Month }}月{{ .Date.Day }}日|&amp;lt;&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt; class&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;post-date&amp;#34;&lt;/span&gt;&amp;gt;共{{ .WordCount }}字&amp;lt;/&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt;&amp;gt;，阅读约&amp;lt;&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt; class&lt;span style=&#34;color:#ff7b72;font-weight:bold&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;more-meta&amp;#34;&lt;/span&gt;&amp;gt; {{ .ReadingTime }} 分钟&amp;lt;/&lt;span style=&#34;color:#7ee787&#34;&gt;span&lt;/span&gt;&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        &amp;lt;/&lt;span style=&#34;color:#7ee787&#34;&gt;date&lt;/span&gt;&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;复制代码&#34;
-    aria-label=&#34;复制代码&#34;
-    data-copied-label=&#34;已复制！&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;首页没有加阅读量是因为，第一加载有问题，只有第一条能加载出来，并且字段位置明显会有读取卡顿；第二是因为阅读量太低，就不好意思放了。&lt;/p&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2020/2020-01-19-wordcount/</guid>
+      <description>&lt;p&gt;hugo还真是厉害！看到别人的blog里能显示”&lt;em&gt;本文共XXX字，阅读大约需要XX分钟&lt;/em&gt;“，感觉挺高级的。话说阅读推荐时间最早还是在可能吧的公众号看到的。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Hugo成功添加添加评论组件Utterances</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-17-comment/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2020/2020-01-17-comment/</link>
       <pubDate>Fri, 17 Jan 2020 01:36:39 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-17-comment/</guid>
-      <description>
-        
-        
-        &lt;p&gt;我是用的这套hugo theme &lt;a href=&#34;https://github.com/flysnow-org/maupassant-hugo&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;maupassant&lt;/a&gt;作者默认支持了两种评论系统，&lt;em&gt;disqus&lt;/em&gt;和&lt;a href=&#34;https://utteranc.es/?installation_id=6263895&amp;amp;setup_action=install&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Utterances&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;disqus安装失败，估计和其他blogger说的一样，被墙了。其实我已经注册成功，但配置以后一直不显示评论框。于是今晚试了一下Utterances，一击成功！复述一下配置过程：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;在github新建一个仓库，可以命名为blog-comment&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://utteranc.es/?installation_id=6263895&amp;amp;setup_action=install&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Utterances&lt;/a&gt;选择安装在这个仓库里；&lt;/li&gt;
-&lt;li&gt;连接模式选择“pathname”；&lt;/li&gt;
-&lt;li&gt;如果你的theme像我一样支持Utterances,那就好办了，将配置文件粘贴进config.toml就搞定了，评论的Repo写成自己的仓库名，格式为 owner/repo ，比如我的就是“tihu/tihu-blog-comment”。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;
-&lt;table style=&#34;border-spacing:0;padding:0;margin:0;border:0;&#34;&gt;&lt;tr&gt;&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;1
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;2
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;3
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;4
-&lt;/span&gt;&lt;span style=&#34;white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#737679&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td style=&#34;vertical-align:top;padding:0;margin:0;border:0;;width:100%&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[params.utteranc]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    enable = &lt;span style=&#34;color:#79c0ff&#34;&gt;true&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    repo = &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;tihu/tihu-blog-comment&amp;#34;&lt;/span&gt;    &lt;span style=&#34;color:#8b949e;font-style:italic&#34;&gt;# 存储评论的Repo，格式为 owner/repo&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    issueTerm = &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;pathname&amp;#34;&lt;/span&gt;  &lt;span style=&#34;color:#8b949e;font-style:italic&#34;&gt;#表示你选择以那种方式让github issue的评论和你的文章关联。&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    theme = &lt;span style=&#34;color:#a5d6ff&#34;&gt;&amp;#34;github-dark&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#8b949e;font-style:italic&#34;&gt;# 样式主题，有六种样式，基本够用了。&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;复制代码&#34;
-    aria-label=&#34;复制代码&#34;
-    data-copied-label=&#34;已复制！&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;ol start=&#34;5&#34;&gt;
-&lt;li&gt;如果不直接支持，那就得折腾一下了，主要难点在于要修改theme对应页面片的样式，不过Utterances在安装页面已经帮你生成好代码片段了，复制粘贴即可；&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&amp;#34;https://utteranc.es/client.js&amp;#34;
-        repo=&amp;#34;tihu/tihu-blog-comment&amp;#34;
-        issue-term=&amp;#34;pathname&amp;#34;
-        theme=&amp;#34;dark-blue&amp;#34;
-        crossorigin=&amp;#34;anonymous&amp;#34;
-        async&amp;gt;
-&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;复制代码&#34;
-    aria-label=&#34;复制代码&#34;
-    data-copied-label=&#34;已复制！&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2020/2020-01-17-comment/</guid>
+      <description>&lt;p&gt;我是用的这套hugo theme &lt;a href=&#34;https://github.com/flysnow-org/maupassant-hugo&#34;&gt;maupassant&lt;/a&gt;作者默认支持了两种评论系统，&lt;em&gt;disqus&lt;/em&gt;和&lt;a href=&#34;https://utteranc.es/?installation_id=6263895&amp;amp;setup_action=install&#34;&gt;Utterances&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;disqus安装失败，估计和其他blogger说的一样，被墙了。其实我已经注册成功，但配置以后一直不显示评论框。于是今晚试了一下Utterances，一击成功！复述一下配置过程：&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>跌跌撞撞地搞定了使用git同步代码仓库</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-16-githugo/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2020/2020-01-16-githugo/</link>
       <pubDate>Thu, 16 Jan 2020 17:35:26 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-16-githugo/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;git方式更新blog&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;git方式更新blog&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#git%e6%96%b9%e5%bc%8f%e6%9b%b4%e6%96%b0blog&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;昨天立项flag，必须搞定git更新Hugo-blog，因为我发现由于历史文件过多，之前使用web方式更新的笨办法已经完全行不通了。hugo作为一个编译静态文件的blog程序，每当我新增一篇log，就有若干个文件发生了变化，如果我还用旧办法上传更新，简直要累死人。&lt;/p&gt;
-&lt;h2&gt;学习任务分解&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;学习任务分解&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%ad%a6%e4%b9%a0%e4%bb%bb%e5%8a%a1%e5%88%86%e8%a7%a3&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;所以我决定好生学习一下git。但git众所周知对小白来说会遇到很多奇奇怪怪的问题，于是我将要搞定的步骤分解：&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;1. 搞定将Hugo源文件push到github远端仓库A中；
-2. 将Hugo编译文件push到github远端仓库B中；&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;复制代码&#34;
-    aria-label=&#34;复制代码&#34;
-    data-copied-label=&#34;已复制！&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;第一步其实以前以前搞过了，当时遇到了未知错误，中途放弃了，但今天在公司，有神级程序员加持，我怕什么？于是中午找来了&lt;em&gt;belly&lt;/em&gt;辅导我，搞定：&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;git init
-git remote add origin 仓库地址
-git add .
-git commit -m “更新说明”
-git push -u origin master&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;复制代码&#34;
-    aria-label=&#34;复制代码&#34;
-    data-copied-label=&#34;已复制！&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;p&gt;当然过程远没有这么简单，我还先得搞定SSH密钥生成，远端绑定；又遇到了远端版本号低导致的push错误（但远端其实是空仓库），顺手百度结果为加一个”-f”强制覆盖搞定。源文件仓库同步的问题解决了。&lt;/p&gt;
-&lt;h2&gt;解决编译文件仓库push&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;解决编译文件仓库push&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e8%a7%a3%e5%86%b3%e7%bc%96%e8%af%91%e6%96%87%e4%bb%b6%e4%bb%93%e5%ba%93push&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;用前一个仓库push学到的知识又重新改hugo执行后编译文件，也就是静态页面文件的push，流程除了ssh都重来了一遍，但又遇到push失败的问题。经过belly指点，先把远端仓库pull下来，再push一遍，成功解决。&lt;/p&gt;
-&lt;h2&gt;待解决和学习的问题&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;待解决和学习的问题&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e5%be%85%e8%a7%a3%e5%86%b3%e5%92%8c%e5%ad%a6%e4%b9%a0%e7%9a%84%e9%97%ae%e9%a2%98&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;还没有解决的问题包括：&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;hugo源文件执行编译后，生成的public文件夹不能push到源文件仓库去，需要手动删除后再push；解决办法一是把hugo编译生成的文件夹地址改变，但没搜到解决办法；二是push源文件时排除public文件夹，这个应该可以执行，不过这个命令我还没学，O(∩_∩)O哈哈！&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;下一步应该学习写一个可执行脚本， 简化写完log后的动作。
-写作动作应该为：
-A. 创建新.md文件；
-B. 写作；
-C. 执行脚本更新代码仓库；
-流程结束。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;这篇文章其实是用来测试我的更新流程能否实施的。&lt;/p&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2020/2020-01-16-githugo/</guid>
+      <description>&lt;h2 id=&#34;git方式更新blog&#34;&gt;git方式更新blog&lt;/h2&gt;
+&lt;p&gt;昨天立项flag，必须搞定git更新Hugo-blog，因为我发现由于历史文件过多，之前使用web方式更新的笨办法已经完全行不通了。hugo作为一个编译静态文件的blog程序，每当我新增一篇log，就有若干个文件发生了变化，如果我还用旧办法上传更新，简直要累死人。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>第一个blog更新脚本</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-16-firstsh/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2020/2020-01-16-firstsh/</link>
       <pubDate>Thu, 16 Jan 2020 18:39:56 +0800</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2020/2020-01-16-firstsh/</guid>
-      <description>
-        
-        
-        &lt;p&gt;尝试写了一个很弱智的可执行脚本.sh 试一下。同时重命名了2020年的blog文件名。&lt;/p&gt;
-&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
-
-&lt;div&gt;&lt;pre&gt;&lt;code&gt;cd ~
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2020/2020-01-16-firstsh/</guid>
+      <description>&lt;p&gt;尝试写了一个很弱智的可执行脚本.sh 试一下。同时重命名了2020年的blog文件名。&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;cd ~
 cd $
 hugo #执行hugo编译动作
 git pull (仓库A地址) master
@@ -261,119 +50,31 @@ git pull (仓库B地址)  master
 git add .
 git commit -m &amp;#39;Update a blog&amp;#39;
 git push origin master
-date=$(date &amp;#43;%Y%m%d%H%M)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
-  &lt;button
-    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
-    title=&#34;复制代码&#34;
-    aria-label=&#34;复制代码&#34;
-    data-copied-label=&#34;已复制！&#34;
-  &gt;
-    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
-  &lt;/button&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-      </description>
+date=$(date +%Y%m%d%H%M)
+&lt;/code&gt;&lt;/pre&gt;</description>
     </item>
-    
     <item>
       <title>移动端Web开发工具小汇之二</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2014/2014-12-25-webtools/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2014/2014-12-25-webtools/</link>
       <pubDate>Thu, 25 Dec 2014 08:36:54 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2014/2014-12-25-webtools/</guid>
-      <description>
-        
-        
-        &lt;p&gt;这一篇讲讲WEB开发中设计师用到的工具，基本涉及了设计师工作的全流程。事实上，一个团队的做事风格很大程度上取决于leader的背景，核心是设计与核心是技术的团队，做事风格也不尽相同。在很多一流团队中，设计师起到了灵魂作用，因而也出现了“设计主导产品流”。在现在的团队中，对设计师的要求越来越多，一个既懂设计又懂代码的设计师是万千宠爱集于一身，很多优秀的设计师事实上也是将传统分工归于前端的事儿都给干了。因为在团队的有效沟通中，代码还原意义重大。&lt;/p&gt;
-&lt;p&gt;CSS Hat 设计代码输出自动化
-&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-e73cfb2d5a4a8727.png&#34; alt=&#34;1408361839707.png&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;CSS Hat 是一个可以一键将Photoshop图层转换为css代码的插件，用人话说，就是可以把SD效果图层转换成CSS3样式代码，包括阴影、发光、渐变，圆角之类的CSS3特效；可以随意设置你的背景颜色与不透明度。另外它的兼容性非常好，不但同时支持Windows与Mac，也能支持Photoshop cs4、CS5、CS6。当然价格也不便宜，$34.99刀，不过对于专业设计师来说，还是值得购买的，可以找你的leader报销。
-另外现在一共是三顶帽子：CSSHat，PNGHat，IOSHat，打包价格还算实惠。&lt;/p&gt;
-&lt;p&gt;Belvedere 文件管理自动化工具
-&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-36e70146f1e79360.jpg&#34; alt=&#34;belvedere-9.jpg&#34;  loading=&#34;lazy&#34; /&gt;
-一个粗心大意的设计师的电脑硬盘必定是惨不忍睹的，他自己绝逼找不到几个月前做出来的设计稿究竟存到哪里去了。Belvedere是一款挺老的软件，通过按照文件类型移动和分类文件、按创建日期自动删除文件、以及其他规则，使得文件管理工作会更有条理、更有效率。&lt;/p&gt;
-&lt;p&gt;Sikuli  屏幕操作自动化
-&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-b339e19bb3759029.png&#34; alt=&#34;1350141391.png&#34;  loading=&#34;lazy&#34; /&gt;
-一句话介绍就是“会截图就会自动化测试”。Sikuli(&lt;a href=&#34;http://slides.sikuli.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://slides.sikuli.org/&lt;/a&gt;)基于 Jython 的脚本语言以及集成开发环境，使用者可利用屏幕截图直接引用 GUI 元素进行编程，完成交互操作。看图就明白了。
-&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-ee721860f1ce6079.jpg&#34; alt=&#34;image007.jpg&#34;  loading=&#34;lazy&#34; /&gt;
-这里有篇详细攻略：http://www.ibm.com/developerworks/cn/opensource/os-cn-sikuli/&lt;/p&gt;
-&lt;p&gt;spritepad 雪碧图自动生成
-&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-42ac5de2cd963ff9.jpg&#34; alt=&#34;CSS3Logo_406A9E5E.jpg&#34;  loading=&#34;lazy&#34; /&gt;
-Css Sprite是一种CSS图像合并技术，该方法是将小图标和背景图像合并到一张图片上，然后利用css的背景定位来显示需要显示的图片部分。因为Sprite正好是雪碧的英文商标，故俗称雪碧图。雪碧图技术将网站上用到的图片素材集合到一张单独的图片中，从而减少网站HTTP请求数量。不过，雪碧图使用CSS background和background-position属性渲染，也就是说图片是在CSS中定义，而非标签。来看一张典型的雪碧图：
-&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-3f039a550b0d86b0.png&#34; alt=&#34;prev.png&#34;  loading=&#34;lazy&#34; /&gt;
-当然，初学者一定要谨记：雪碧图决不可滥用。否则，那将是一场灾难。我最早知道雪碧图技术，就是读到某大牛喷淘宝首页雪碧图用的有多糟糕的。
-雪碧图生成工具有很多，选择趁手和靠谱的即可，比如http://wearekiss.com/spritepad
-或者 &lt;a href=&#34;http://csssprites.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://csssprites.com/&lt;/a&gt;
-由于retina屏的普及，这篇大牛的文章也值得一读：http://www.toobug.net/article/css_image_sprites_on_retina_screen.html&lt;/p&gt;
-&lt;p&gt;Web设计师photoshop常用插件还可以看这篇文章 &lt;a href=&#34;http://www.jiawin.com/photoshop-plugin-for-web-designers&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.jiawin.com/photoshop-plugin-for-web-designers&lt;/a&gt;&lt;/p&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2014/2014-12-25-webtools/</guid>
+      <description>&lt;p&gt;这一篇讲讲WEB开发中设计师用到的工具，基本涉及了设计师工作的全流程。事实上，一个团队的做事风格很大程度上取决于leader的背景，核心是设计与核心是技术的团队，做事风格也不尽相同。在很多一流团队中，设计师起到了灵魂作用，因而也出现了“设计主导产品流”。在现在的团队中，对设计师的要求越来越多，一个既懂设计又懂代码的设计师是万千宠爱集于一身，很多优秀的设计师事实上也是将传统分工归于前端的事儿都给干了。因为在团队的有效沟通中，代码还原意义重大。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>移动端Web开发工具小汇之一</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2014/2014-12-24-webtools/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2014/2014-12-24-webtools/</link>
       <pubDate>Wed, 24 Dec 2014 08:36:54 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2014/2014-12-24-webtools/</guid>
-      <description>
-        
-        
-        &lt;p&gt;上周在北京听了一位大牛的内部分享，回来整理了一下手头现在移动端web开发的工具流。以下文字基本都是copy官方说明。&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2014/2014-12-24-webtools/</guid>
+      <description>&lt;p&gt;上周在北京听了一位大牛的内部分享，回来整理了一下手头现在移动端web开发的工具流。以下文字基本都是copy官方说明。&lt;/p&gt;
 &lt;p&gt;//部分才是我的补充。一切工具和工作流都是围绕【产品】→【设计】→【前端】→【测试】→【交付】这个体系循环进行的。
-&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-8e04e675fee523c5.png&#34; alt=&#34;图片1.png&#34;  loading=&#34;lazy&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-fb9153ce4237ad27.png&#34; alt=&#34;GitHub.png&#34;  loading=&#34;lazy&#34; /&gt;
-GitHub 存放使用Git版本控制的软件代码和内容项目。除了允许个人和组织创建和访问代码库以外，它也提供了一些方便社会化软件开发的功能，包括允许用户跟踪其他用户、组织、软件库的动态，对软件代码的改动和 bug 提出评论等。GitHub也提供了图表功能，用于显示开发者们怎样在代码库上工作以及软件的开发活跃程度。
-//这个不废话了。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-87ec6e3fff328755.png&#34; alt=&#34;smacss.com.png&#34;  loading=&#34;lazy&#34; /&gt;
-SMACSS（Scalable &amp;amp; Modular Architecture for CSS），其主要原则有3条：Categorizing CSS Rules（为css分类）
-•	Naming Rules（命名规则）
-•	Minimizing the Depth of Applicability（最小化适配深度）
-SMACSS认为css有5个类别，分别是：
-•	Base (基本)
-•	Layout（布局）
-•	Module (模块)
-•	State (状态)
-•	Theme (主题)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-7453d05f7a8b5695.png&#34; alt=&#34;图片3.png&#34;  loading=&#34;lazy&#34; /&gt;
-参考文档：https://nicolas.steinmetz.fr/web-enthusiasts/post/2013/06/05/Atomic-design
-&lt;a href=&#34;http://bradfrost.com/blog/post/atomic-web-design/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://bradfrost.com/blog/post/atomic-web-design/&lt;/a&gt;
-&lt;a href=&#34;http://www.slideshare.net/bradfrostweb/atomic-design?ref=http%253A%252F%252Fbradfrost.com%252Fblog%252Fpost%252Fatomic-web-design%252F&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.slideshare.net/bradfrostweb/atomic-design?ref=http%253A%252F%252Fbradfrost.com%252Fblog%252Fpost%252Fatomic-web-design%252F&lt;/a&gt;
-&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-9fd0467cce60fc89.jpg&#34; alt=&#34;Atomic_m.jpg&#34;  loading=&#34;lazy&#34; /&gt;
-//Atomic工作流优化和革新了设计师面对页面时的视觉，创作不再是一个个图层，而是按照原子→分子→生物→模板→网页的构架模式一步步展开的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-f4e6666daaf63360.png&#34; alt=&#34;yeomanjs.org.png&#34;  loading=&#34;lazy&#34; /&gt;
-Yeoman是Google的团队和外部贡献者团队合作开发的，目标是为开发者创建一个易用的工作流。
-Yeoman主要有三部分组成：yo（脚手架工具）、grunt（构建工具）、bower（包管理器）。这三个工具是分别独立开发的，但是需要配合使用，来实现我们高效的工作流模式。
-•	Yo 搭建新应用的脚手架，编写你的Grunt配置并且安装你有可能在构建中需要的相关的Grunt任务。
-•	Grunt 被用来构建，预览以及测试你的项目，感谢来自那些由Yeoman团队和grunt-contrib所管理的任务的帮助。
-•	Bower 被用来进行依赖管理，所以你不再需要手动的下载和管理你的脚本了。
-//有些部分，比如Grunt现在看来已经过时或不适应高度碎片化的移动端web开发了，但工具控建议至少用它们度过你工作成长期的一个阶段。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-dba7f1ab98757782.png&#34; alt=&#34;gruntjs.com.png&#34;  loading=&#34;lazy&#34; /&gt;
-&lt;a href=&#34;http://gruntjs.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://gruntjs.com/&lt;/a&gt; &lt;a href=&#34;http://www.gruntjs.org/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://www.gruntjs.org/&lt;/a&gt;
-Grunt是一个自动化的项目构建工具，如果需要重复的执行像压缩、编译、单元测试，代码检查以及打包发布的任务. 那么你可以使用Grunt来处理这些任务, 你所需要做的只是配置好Grunt，这样能很大程度的简化工作。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://upload-images.jianshu.io/upload_images/22841-f8888555dedeaafe.png&#34; alt=&#34;smacss.com.png&#34;  loading=&#34;lazy&#34; /&gt;
-Bower 基于nodejs的模块化思想，把功能分散到各个模块中，让模块和模块之间存在联系，通过 Bower 来管理模块间的这种联系。
-包管理工具一般有以下的功能：
-•	注册机制：每个包需要确定一个唯一的 ID 使得搜索和下载的时候能够正确匹配，所以包管理工具需要维护注册信息，可以依赖其他平台。
-•	文件存储：确定文件存放的位置，下载的时候可以找到，当然这个地址在网络上是可访问的。
-•	上传下载：这是工具的主要功能，能提高包使用的便利性。比如想用 jquery 只需要 install 一下就可以了，不用到处找下载。上传并不是必备的，根据文件存储的位置而定，但需要有一定的机制保障。
-•	依赖分析：这也是包管理工具主要解决的问题之一，既然包之间是有联系的，那么下载的时候就需要处理他们之间的依赖。下载一个包的时候也需要下载依赖的包。&lt;/p&gt;
-
-      </description>
+&lt;img alt=&#34;图片1.png&#34; loading=&#34;lazy&#34; src=&#34;http://upload-images.jianshu.io/upload_images/22841-8e04e675fee523c5.png&#34;&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>移动端应用分享速记</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2014/2014-04-15-mobile/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2014/2014-04-15-mobile/</link>
       <pubDate>Tue, 15 Apr 2014 08:36:54 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2014/2014-04-15-mobile/</guid>
-      <description>
-        
-        
-        &lt;ul&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2014/2014-04-15-mobile/</guid>
+      <description>&lt;ul&gt;
 &lt;li&gt;marioji计鸣钟&lt;/li&gt;
 &lt;li&gt;用户画像 诉求内容 场景区分 三大要素&lt;/li&gt;
 &lt;li&gt;场景：时间碎片化&lt;/li&gt;
@@ -399,41 +100,14 @@ Bower 基于nodejs的模块化思想，把功能分散到各个模块中，让�
 &lt;li&gt;苹果渠道 app stroe 限免渠道 越狱市场&lt;/li&gt;
 &lt;li&gt;拉存留 用户自营销 归属感 存在感 炫耀心理&lt;/li&gt;
 &lt;li&gt;差异化运营 做减法 提炼口碑&lt;/li&gt;
-&lt;/ul&gt;
-
-      </description>
+&lt;/ul&gt;</description>
     </item>
-    
     <item>
       <title>手机常用高频应用(2014)</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2014/2014-02-23-moblieapps/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2014/2014-02-23-moblieapps/</link>
       <pubDate>Sun, 23 Feb 2014 08:36:54 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2014/2014-02-23-moblieapps/</guid>
-      <description>
-        
-        
-        &lt;p&gt;春节前手机刷了不干净的“冰激淋三明治”，删不掉的垃圾Apps不说，耗电量还极高，早晨满电出门，到公司就剩60%的电量了。凑活了一个月，重新刷了“果冻豆”。在同步通讯录，重装Apps的静默期，盘点了一下手机上安装的应用，连同系统自带的短信电话一齐，竟有八十九个图标之多（有多少人数过自己手机屏幕来着？）。这当中抛去十来个因工作原因试用临时安装的，若干个系统自带的程序，剩下的近六十个基本上已经是我必须安装的底线，删无可删了——果真如此吗？&lt;/p&gt;
-&lt;p&gt;恐怕未必！&lt;/p&gt;
-&lt;p&gt;梳理这八十九个应用，如果归类的话，按用途分类应该最科学，但我为了查找方便，是按照颜色分屏的：杂色系（最高频＋系统原生），绿色，蓝色，暖色，白色，黑色。这样分还真比按用途分类清晰明了很多，屏幕也会更整洁好看。&lt;/p&gt;
-&lt;p&gt;用使用频率将必要的应用排列组合了一下：&lt;/p&gt;
-&lt;p&gt;0.超高频［每天打开十次以上］：微信；还真不是无聊刷朋友圈，而是工作群太多了。&lt;/p&gt;
-&lt;p&gt;1.最高频［每天打开三次以上］：腾讯新闻，饭否，Chrome，twitter，起点，印象笔记，Any.do，Writer；&lt;/p&gt;
-&lt;p&gt;我充了印象笔记高级账户，只为了离线状况下查找文档方便；Any.do是我用过的最方便、跨平台的todo类应用；Writer是最方便的便签；。&lt;/p&gt;
-&lt;p&gt;2.高频［每天至少打开一次］：工具类（摄像头，Moves，腾讯路宝，QQ安全中心），娱乐类（收音机，QQ音乐），通讯类（Gmail）；&lt;/p&gt;
-&lt;p&gt;Moves每天早上会自动推送前一天的运动量；最近开车一直开着路宝，看自己踩了几脚刹车，拐过几次急弯，很有成就感；QQ安全中心控制所有QQ账号的登录状态。&lt;/p&gt;
-&lt;p&gt;3.中频［每周至少打开一次］：电商类（支付宝钱包，京东，亚马逊，淘宝），工作类（Email，TAPD，MOA），阅读类（豆瓣阅读，Documents to go，网易新闻），工具类（扇贝单词，自选股，中国空气质量指数，play商店），社交类（instagram，Vine）；&lt;/p&gt;
-&lt;p&gt;TAPD是我司一个敏捷管理工具，可以提交BUG什么的，支持外网访问；MOA是移动工作平台，很适合在外处理审批；Documents to go收费版是我见过手机上最好的office浏览工具；扇贝单词我要努力提高到高频应用那一档去！&lt;/p&gt;
-&lt;p&gt;4.低频［每月至少打开一次］：Kindle，QQ同步助手，豆瓣购书单，晒书房，航旅纵横，携程，XX银行，豆瓣电影，知乎，KM；&lt;/p&gt;
-&lt;p&gt;5.必须应用［以备不时之需，打开特定文件或查询］：微云，维基百科，Tidy，QQ，扫描全能王，名片全能王，Hero Gopro，有道词典，计算器，大众点评，腾讯地图，Pdf Viewer，RTX。&lt;/p&gt;
-&lt;p&gt;名片扫描工具慎用！不解释。Tidy是一款可以完胜安卓自带相册功能的应用。微云至少在我这里替代了dropbox的地位，主要还是方便。&lt;/p&gt;
-&lt;p&gt;再数了一遍，一共55个应用！&lt;/p&gt;
-&lt;p&gt;其实还能减。但已然入戏太深。回头盘一下iPad上的应用去。&lt;/p&gt;
-&lt;p&gt;我从2010年用上第一台华为U8500，到今天为止不过用了三台Android手机。期间还用着Kindle，iPad等手持设备。之前我一直坚称，如果下一次换手机，恐怕我还是会换安卓机。但自从春节到春茗期间，在同一网络环境下，iPhone抢红包成功率远远高于android系统这一残酷现实的面前（绝非危言耸听，血淋淋的教训！），我动摇了。&lt;/p&gt;
-&lt;p&gt;对了，我打消了今年入可穿戴设备的打算。没它还不能过日子了？&lt;/p&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2014/2014-02-23-moblieapps/</guid>
+      <description>&lt;p&gt;春节前手机刷了不干净的“冰激淋三明治”，删不掉的垃圾Apps不说，耗电量还极高，早晨满电出门，到公司就剩60%的电量了。凑活了一个月，重新刷了“果冻豆”。在同步通讯录，重装Apps的静默期，盘点了一下手机上安装的应用，连同系统自带的短信电话一齐，竟有八十九个图标之多（有多少人数过自己手机屏幕来着？）。这当中抛去十来个因工作原因试用临时安装的，若干个系统自带的程序，剩下的近六十个基本上已经是我必须安装的底线，删无可删了——果真如此吗？&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

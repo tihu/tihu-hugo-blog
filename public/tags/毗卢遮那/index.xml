@@ -1,30 +1,19 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>醍醐堂記_TihuBlogs – 毗卢遮那</title>
-    <link>http://localhost:1313/tihu-hugo-blog/tags/%E6%AF%97%E5%8D%A2%E9%81%AE%E9%82%A3/</link>
+    <title>毗卢遮那 on 醍醐堂記_TihuBlogs</title>
+    <link>https://tihu.github.io/tihu-hugo-blog/tags/%E6%AF%97%E5%8D%A2%E9%81%AE%E9%82%A3/</link>
     <description>Recent content in 毗卢遮那 on 醍醐堂記_TihuBlogs</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 11 Aug 2018 08:36:54 +0000</lastBuildDate>
-    
-	  <atom:link href="http://localhost:1313/tihu-hugo-blog/tags/%E6%AF%97%E5%8D%A2%E9%81%AE%E9%82%A3/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
+    <atom:link href="https://tihu.github.io/tihu-hugo-blog/tags/%E6%AF%97%E5%8D%A2%E9%81%AE%E9%82%A3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>假如没有了你</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2018/2018-08-11-jiaru/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2018/2018-08-11-jiaru/</link>
       <pubDate>Sat, 11 Aug 2018 08:36:54 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2018/2018-08-11-jiaru/</guid>
-      <description>
-        
-        
-        &lt;p&gt;假如没有了你
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2018/2018-08-11-jiaru/</guid>
+      <description>&lt;p&gt;假如没有了你
 以为世界还是世界
 每一分钟都慢
 时间没有味道
@@ -35,295 +24,93 @@
 每次呼吸都涩
 油门没有方向
 车窗折射白光
-思念撞进脊髓&lt;/p&gt;
-&lt;p&gt;假如没有了你
-世界只有一半
-生活只有平凡
-白水只是白水
-手机只是手机
-名字只是名字&lt;/p&gt;
-&lt;p&gt;假如没有了你
-前路一片茫茫
-西瓜不知甜味
-心跳不知道爱
-淘宝不知乐趣
-目光里再没有光彩&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;十年前的打油诗水准。&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-      </description>
+思念撞进脊髓&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>长春观</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2014/2014-10-19.changchunguan/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2014/2014-10-19.changchunguan/</link>
       <pubDate>Sun, 19 Oct 2014 01:05:20 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2014/2014-10-19.changchunguan/</guid>
-      <description>
-        
-        
-        &lt;p&gt;长春观，黄鹤楼，
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2014/2014-10-19.changchunguan/</guid>
+      <description>&lt;p&gt;长春观，黄鹤楼，
 鹦鹉洲头霾上愁。&lt;/p&gt;
 &lt;p&gt;楚河界，汉街口，
-江汉城內污水流。&lt;/p&gt;
-
-      </description>
+江汉城內污水流。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>无题</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-11-27-%E6%97%A0%E9%A2%98/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-11-27-%E6%97%A0%E9%A2%98/</link>
       <pubDate>Fri, 27 Nov 2009 01:28:36 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-11-27-%E6%97%A0%E9%A2%98/</guid>
-      <description>
-        
-        
-        &lt;p&gt;邛州冬有雨，&lt;br&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-11-27-%E6%97%A0%E9%A2%98/</guid>
+      <description>&lt;p&gt;邛州冬有雨，&lt;br&gt;
 陌客不著履。&lt;br&gt;
 俯首腕上铝，&lt;br&gt;
-阡陌一点绿。&lt;/p&gt;
-
-      </description>
+阡陌一点绿。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>穿过你的黑发的我的触手</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-11-25-linlina/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-11-25-linlina/</link>
       <pubDate>Wed, 25 Nov 2009 04:03:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-11-25-linlina/</guid>
-      <description>
-        
-        
-        &lt;p&gt;穿过你的黑发的我的触手&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-11-25-linlina/</guid>
+      <description>&lt;p&gt;穿过你的黑发的我的触手&lt;/p&gt;
 &lt;p&gt;穿过你的心情的我的复眼&lt;/p&gt;
 &lt;p&gt;如此这般的深空情愫&lt;/p&gt;
 &lt;p&gt;逝转眼被湮灭&lt;/p&gt;
 &lt;p&gt;搞不懂为什么火星会聚变塌陷&lt;/p&gt;
 &lt;p&gt;靠着我无助的触手的你的鳞片&lt;/p&gt;
 &lt;p&gt;照亮我灰暗的复眼的你的触角&lt;/p&gt;
-&lt;p&gt;如果我们生存的&lt;/p&gt;
-&lt;p&gt;冰冷的世界依然难存在&lt;/p&gt;
-&lt;p&gt;至少我还拥有你充满热量的肺&lt;/p&gt;
-&lt;p&gt;我再不需要他们说的能源&lt;/p&gt;
-&lt;p&gt;我再不相信他们编的谎言&lt;/p&gt;
-&lt;p&gt;我再不介意异星人的流言&lt;/p&gt;
-&lt;p&gt;我知道我们不懂口蜜腹剑&lt;/p&gt;
-&lt;p&gt;留不住你的生命的我的触手&lt;/p&gt;
-&lt;p&gt;留不住你的骨骸的我的黏液&lt;/p&gt;
-&lt;p&gt;如此这般的深空情愫逝转眼被湮灭&lt;/p&gt;
-&lt;p&gt;搞不懂为什么火星会聚变塌陷&lt;/p&gt;
-&lt;p&gt;穿过你的黑发的我的触手&lt;/p&gt;
-
-      </description>
+&lt;p&gt;如果我们生存的&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>能不能只复活一天？</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-09-02-1day/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-09-02-1day/</link>
       <pubDate>Wed, 02 Sep 2009 08:58:50 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-09-02-1day/</guid>
-      <description>
-        
-        
-        &lt;p&gt;我说过，饭否之于我，不是一个简单的中文版twitter——不要拿推特、微博这样的名字来恶心我——也不是一个普通的sns网站，它是我两年来的点点滴滴。要知道，一个从不写日记的人，认真记录了这么久的日子，有感慨，有牢骚，有新闻，有对话，有图片，有收藏，却突然一下子不见了，会有多么怅然若失？&lt;/p&gt;
-&lt;p&gt;饭否关停了两次，第二次至今，马上就要两个月了。&lt;/p&gt;
-&lt;p&gt;今天下午，无数人突然收到一封豆邮，N个饭否小组突然全部被解散了。随之收到的一大堆系统消息显示，豆官又开始整顿了。&lt;/p&gt;
-&lt;p&gt;2009年第二大恨是什么？是没有备份饭否！&lt;/p&gt;
-&lt;p&gt;管老师的朋友DM一直用GR订阅伊的饭否，从2007年6月16日截止，一共2006条消息。即使这样，也丢了所有的图片(她说连收藏都备份到了！），还有最珍贵的好友名单。&lt;/p&gt;
-&lt;p&gt;而我，却只能抓到今年二月的几条消息，区区47条。&lt;/p&gt;
-&lt;p&gt;饭否真的死去了。&lt;/p&gt;
-&lt;p&gt;那种丢失却找不回的感觉，就跟我2009年第一大恨一样切肤，痛入骨髓。第一大恨我就不说出来了，虽然anise原谅了我，但我一直铭刻于心。&lt;/p&gt;
-&lt;p&gt;饭否，你能不能只复活一天，让我备份下那些牢骚话？&lt;/p&gt;
-&lt;p&gt;我&lt;a href=&#34;http://trir.cn/2009/09/%e7%a7%81%e6%88%bf%e8%8f%9c%e9%a6%86/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;strong&gt;内牛满面&lt;/strong&gt;&lt;/a&gt;……（用在这里太合适了。）&lt;/p&gt;
-&lt;p&gt;PS：今天更新了三篇，都是有感而发，不吐不快，挡都挡不住。&lt;/p&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-09-02-1day/</guid>
+      <description>&lt;p&gt;我说过，饭否之于我，不是一个简单的中文版twitter——不要拿推特、微博这样的名字来恶心我——也不是一个普通的sns网站，它是我两年来的点点滴滴。要知道，一个从不写日记的人，认真记录了这么久的日子，有感慨，有牢骚，有新闻，有对话，有图片，有收藏，却突然一下子不见了，会有多么怅然若失？&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Memory</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-08-28-memory/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-08-28-memory/</link>
       <pubDate>Fri, 28 Aug 2009 03:06:11 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-08-28-memory/</guid>
-      <description>
-        
-        
-        &lt;p&gt;词/羊儿&lt;/p&gt;
-&lt;p&gt;我又来到埋没里 埋没里 埋没里 深入泥土的记忆 真记忆 假记忆 天空嵌进城墙里 逝不去 难放弃 啊，嵌进城墙的身体里 逝不去 难放弃 我又来到埋没里 埋没里 Memory 啊，从此不再有回忆 永世沉入城墙里 ……&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;这两天看的一篇小说里的歌词，其实只是论坛中的习作，我却很喜欢。&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-08-28-memory/</guid>
+      <description>&lt;p&gt;词/羊儿&lt;/p&gt;
+&lt;p&gt;我又来到埋没里 埋没里 埋没里 深入泥土的记忆 真记忆 假记忆 天空嵌进城墙里 逝不去 难放弃 啊，嵌进城墙的身体里 逝不去 难放弃 我又来到埋没里 埋没里 Memory 啊，从此不再有回忆 永世沉入城墙里 ……&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>尚能饭否</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-08-21-fanfou/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-08-21-fanfou/</link>
       <pubDate>Fri, 21 Aug 2009 01:25:29 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-08-21-fanfou/</guid>
-      <description>
-        
-        
-        &lt;p&gt;秋天怎么还不来 花儿怎么还不开 赶快赶快让花儿开 好结出果儿来&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-08-21-fanfou/</guid>
+      <description>&lt;p&gt;秋天怎么还不来 花儿怎么还不开 赶快赶快让花儿开 好结出果儿来&lt;/p&gt;
 &lt;p&gt;我欠下了好多的债 我欠下了好多的爱 我欠下的债和欠下的爱 怎么去交代&lt;/p&gt;
-&lt;p&gt;谁和我一样还在等待 还在徘徊 别像我这样不敢面对自己的未来 我的花儿还不开 没有果儿来让我摘&lt;/p&gt;
-&lt;p&gt;我的饭儿还不开 没有否儿来让我猜 今天早上无意中搜到我在饭否的个人信息：&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;记述者。消防员。糕点师。&lt;/p&gt;
-
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;格西。大手印。&lt;/p&gt;
-
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;deus ex machina.&lt;/p&gt;
-
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Warlock.Noveletter.&lt;/p&gt;
-
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;coder.cyber.&lt;/p&gt;
-
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;Fortuneteller.&lt;/p&gt;
-
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;imagineer.&lt;/p&gt;
-
-&lt;/blockquote&gt;
-&lt;p&gt;于是赶快搜了一下，还有聊聊不多的几条话语残留在在google镜像里边（百度踪迹全无）。&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. 楚王出游，亡弓，左右请求之。王曰：“止，楚人失弓，楚人得之，又何求之！”孔子闻之曰：“去其楚而可矣。”老聃闻之曰：“去其人而可矣。”&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.27&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. 鍵上話|滇西有村落，男子皆滿面虬髯，以鬚養蠱。年二八時，須裸身穿行林間，任蟲蛇鉆入鬚中安家方得成年，自此終身不再剃鬚。鬚蠱經年飽嘗人血，色如肌膚，非&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.28&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. 今天，2008年9月1日，高校开学的日子，从今天起，90后开始批量进入大学了。OMG，我们统统在迅速老去。 2008-09-01 09:35; tihu&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.25&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. 当当更换了在蓉城的配送公司，卓越则仍是原先的合作公司。从宅急送到某通，从免费到限额再到免费，物流业的交锋很激烈。 2009-02-04 10:42; tihu&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.13&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. *六七岁的那只，我对不起它。每次一想起我曾经把它前肢和后肢并起来握手里头当冲锋枪玩过，就后悔的不行。人生第一次像个大人般伤心的想哭，就是在它逃离我家再 i.fanfou.com/tihu/p.14&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. 信息素质：利用大量信息工具及主要信息源使问题得到解答的技术和技能。时至今日，对它最广泛性的解释为作为具有信息素质的人，必须具有一种能够充分认识到何时 i.fanfou.com/tihu/p.24&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. 本周上下班总共骑行67公里，平均时速18KM/h。上班A线和下班A线各有一个爬坡点和冲刺点，上班B线和下班B线有一个爬坡点。 2009-02-27 09:34; tihu&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.8 #&lt;/p&gt;
-&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. “你看，这是我大儿子，他今年初三了，出发前他还给我打电话，说这回考试又得了个全班第一！”摆谈中，肖大姐兴奋地递过手机上的照片，露出微笑。&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.15&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. Old-fashioned voodoo economics — the belief in tax-cut magic — has been banished from civilized discourse. The supply-side cult has shrunk t&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.12&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. 昨天去验光配眼镜，右眼近视150散光75，左眼250散光50（矫正1.0视力）。上一次配眼镜是高二时的事情了，我真不懂用眼健康，好在度数居然没涨。&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.7&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. #512 去年今夜，我与哥前半夜在307里，由于嫂子家避难人士激增，于是贡献出去，后半夜我俩去和姐姐挤在骐达里边。天降暴雨，谁都没有睡着。&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.3&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. 收到墨墨从遥远的喀什寄来的手绘陀螺，以及女王的鞭子，这是邀请我做女王铁卫么？（*：女王铁卫参见《冰歌3：冰雨的风暴》）. 2008-09-25 09:14; tihu&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. 男女老少齐上阵，吨吨书刊转眼无，我们的公社力量大，集体劳动真光荣。——本单位最近正在由杂志社向公社转型。 2008-12-31 15:47; tihu&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.19&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. *过去朋友结婚还认真挑点礼物，现在简单了，包个红包结束了，结果人情就变成了大家互相数钱。 2009-04-26 09:37; tihu&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.2&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. *用普通话骂人呢，感觉非常孤立、缥缈、微弱，说不响嘴。用方言骂人时，我会感觉和脚下的土地融为一体，好像希腊神话里的那个泰坦巨人，从地母的怀抱里获得了&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.5&lt;/p&gt;
-&lt;h1&gt;&lt;/h1&gt;&lt;p&gt;饭否| tihu&lt;/p&gt;
-&lt;p&gt;tihu. 《新华字典》1998年修订本第673页：张华考上了北京大学，李萍进了中等技术学校，我在百货公司当售货员，我们都有光明的前途。 . 2008-10-30 09:21; tihu&lt;/p&gt;
-&lt;p&gt;i.fanfou.com/tihu/p.18&lt;/p&gt;
-&lt;p&gt;饭否之于我，绝不是一个中国twitter那么简单，它从2006年起，几乎是我的半个精神世界。我通过它认识的人们，嘉树，墨墨，小昔，quills，ugsan……换另一个时间，一个地点，可能永远都不会相识。时空不可逆。所以一切弥足珍贵。&lt;/p&gt;
-&lt;h3&gt;我等你 &lt;a href=&#34;http://fanfouer.com/&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://fanfouer.com/&lt;/a&gt;&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;我等你&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#%e6%88%91%e7%ad%89%e4%bd%a0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;此章节的永久链接&#34;&gt;&lt;/a&gt;&lt;/h3&gt;
-      </description>
+&lt;p&gt;谁和我一样还在等待 还在徘徊 别像我这样不敢面对自己的未来 我的花儿还不开 没有果儿来让我摘&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>小屋初妆成</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-08-10-%E5%B0%8F%E5%B1%8B%E5%88%9D%E5%A6%86%E6%88%90/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-08-10-%E5%B0%8F%E5%B1%8B%E5%88%9D%E5%A6%86%E6%88%90/</link>
       <pubDate>Mon, 10 Aug 2009 09:25:48 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-08-10-%E5%B0%8F%E5%B1%8B%E5%88%9D%E5%A6%86%E6%88%90/</guid>
-      <description>
-        
-        
-        &lt;p&gt;休年假回来，攒了一肚子的话要说。过去的一个星期，我回到胶东半岛休了年假，会了老同学，拍了婚照（指天！）过去的一个月，我基本处在养病状态，前半个月全休，后半个月半休（上午上班下午休息）——在领导准我工伤之后，新闻就开始风传上下班车祸不属于工伤鸟.&lt;/p&gt;
-&lt;p&gt;过去的半年，我不是在建材市场，就是在去装修现场的路上。&lt;/p&gt;
-&lt;p&gt;虽然拖沓了无数事项，但总有一个目标，一个新起点在前边，我常常诱骗自己说：等搬了家，开始新生活！我准备在露台种一棵榕树，准备买一台烤箱做披萨，准备用电钻做小木匠，准备每周泡一次大浴缸，准备在阳台上写小故事……&lt;/p&gt;
-&lt;p&gt;生活，还是有点盼头要好得多。虽然压力很大（因为有了家）。但我乐意。&lt;/p&gt;
-&lt;p&gt;ＰＳ：这张照片是昨天刚拍的，因为我修改了照片墙的布局，所以里边的风景画都是躺着的。其实这张照片没怎么PS，就是加了一个朦胧滤镜，以掩饰餐桌上方的防尘布。&lt;/p&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-08-10-%E5%B0%8F%E5%B1%8B%E5%88%9D%E5%A6%86%E6%88%90/</guid>
+      <description>&lt;p&gt;休年假回来，攒了一肚子的话要说。过去的一个星期，我回到胶东半岛休了年假，会了老同学，拍了婚照（指天！）过去的一个月，我基本处在养病状态，前半个月全休，后半个月半休（上午上班下午休息）——在领导准我工伤之后，新闻就开始风传上下班车祸不属于工伤鸟.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>那一年</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-06-04-freedom/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-06-04-freedom/</link>
       <pubDate>Thu, 04 Jun 2009 05:31:23 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2009/2009-06-04-freedom/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;em&gt;歌手：许巍 专辑：那一年&lt;/em&gt;&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2009/2009-06-04-freedom/</guid>
+      <description>&lt;p&gt;&lt;em&gt;歌手：许巍 专辑：那一年&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;那一年你还年轻&lt;/p&gt;
 &lt;p&gt;总觉得明天肯定会很美&lt;/p&gt;
 &lt;p&gt;那理想世界就像一道光芒&lt;/p&gt;
 &lt;p&gt;在你心里闪耀着&lt;/p&gt;
 &lt;p&gt;怎能就让这不停燃烧的心&lt;/p&gt;
 &lt;p&gt;就这样耗尽消失在平庸里&lt;/p&gt;
-&lt;p&gt;你决定上路就举起那旗帜&lt;/p&gt;
-&lt;p&gt;牵着你深爱多年的姑娘&lt;/p&gt;
-&lt;p&gt;这么多年你还在不停奔跑&lt;/p&gt;
-&lt;p&gt;眼看着明天依然虚无缥缈&lt;/p&gt;
-&lt;p&gt;在生存面前那纯洁的理想&lt;/p&gt;
-&lt;p&gt;原来是那么脆弱不堪&lt;/p&gt;
-&lt;p&gt;你站在这繁华的街上&lt;/p&gt;
-&lt;p&gt;找不到你该去的方向&lt;/p&gt;
-&lt;p&gt;你站在这繁华的街上&lt;/p&gt;
-&lt;p&gt;感觉到从来没有的绝望……&lt;/p&gt;
-&lt;p&gt;你曾拥有一些英雄的梦想&lt;/p&gt;
-&lt;p&gt;好象黑夜里面温暖的灯光&lt;/p&gt;
-&lt;p&gt;怎能没有了希望的力量&lt;/p&gt;
-&lt;p&gt;只能够挺胸勇往直前&lt;/p&gt;
-&lt;p&gt;你走在这繁华的街上&lt;/p&gt;
-&lt;p&gt;在寻找你该去的方向&lt;/p&gt;
-&lt;p&gt;你走在这繁华的街上&lt;/p&gt;
-&lt;p&gt;在寻找你曾拥有的力量&lt;/p&gt;
-
-      </description>
+&lt;p&gt;你决定上路就举起那旗帜&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Bis später2008→Hallo2009√</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-12-31-hallo2009/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-12-31-hallo2009/</link>
       <pubDate>Wed, 31 Dec 2008 07:39:49 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-12-31-hallo2009/</guid>
-      <description>
-        
-        
-        &lt;p&gt;在那一片蓝色背景的渲染下&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-12-31-hallo2009/</guid>
+      <description>&lt;p&gt;在那一片蓝色背景的渲染下&lt;/p&gt;
 &lt;p&gt;Hexe驾着乌黑的Dezember离去
 好在在那苍白的12左边
 两个粉色的字悄悄地闪烁
@@ -332,181 +119,62 @@
 对成两个逆向的括弧
 向东？向西？
 暗处的标志牌明白地告诉我
-&lt;em&gt;不能回头&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Bis später，2008；Bis später，Tiliaceae；&lt;/em&gt;
-Vorwärts！2009！希望你是√的一年！
-每个人的一年！&lt;/p&gt;
-
-      </description>
+&lt;em&gt;不能回头&lt;/em&gt;&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>木曜日的時候</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-11-30-last/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-11-30-last/</link>
       <pubDate>Sun, 30 Nov 2008 13:26:09 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-11-30-last/</guid>
-      <description>
-        
-        
-        &lt;p&gt;木曜日的時候，我在&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-11-30-last/</guid>
+      <description>&lt;p&gt;木曜日的時候，我在&lt;/p&gt;
 &lt;p&gt;車上&lt;/p&gt;
 &lt;p&gt;看天空晾曬震後的傷疤&lt;/p&gt;
 &lt;p&gt;河水，山谷，中學，裂縫&lt;/p&gt;
 &lt;p&gt;陷落在一片孩子的歌聲中，然後我們返回&lt;/p&gt;
 &lt;p&gt;回頭，回頭&lt;/p&gt;
 &lt;p&gt;迷失在城市上空的刺目陽光中&lt;/p&gt;
-&lt;p&gt;思緒仍然纏繞在白發校長身後板房屋頂的鐵絲團上&lt;/p&gt;
-&lt;p&gt;慢慢慢慢，像螞蟻一樣深陷鋼鐵蝸流&lt;/p&gt;
-&lt;p&gt;老闆娘的爐子&lt;/p&gt;
-&lt;p&gt;司機師傅鹽水瓶裡的私房藥&lt;/p&gt;
-&lt;p&gt;他們也說&lt;/p&gt;
-&lt;p&gt;木曜日的時候，我在&lt;/p&gt;
-&lt;p&gt;那個被遺忘者的地方&lt;/p&gt;
-
-      </description>
+&lt;p&gt;思緒仍然纏繞在白發校長身後板房屋頂的鐵絲團上&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>23日。</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-08-27-23day/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-08-27-23day/</link>
       <pubDate>Wed, 27 Aug 2008 03:26:56 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-08-27-23day/</guid>
-      <description>
-        
-        
-        &lt;p&gt;中午11：30。家乐福一楼的乔香园过桥米线歇业了，取而代之的是本土一家名为乡村基的中式快餐，装修风格明显模仿KFC。菜单上也有为数众多的米线品种，人群的秩序在柜台前还不错，分为整齐的左右两行。因为还不到午餐时间，只有一半的座位有顾客就餐。一个少妇点了一套干拌米线，她吃着红油拌过的米线，附赠的玉米粥刚好让两岁的孩子吃。有一家中年人占据了一张大桌子，愉快且大声地讲着电话，并吆喝服务员再送两双筷子过来。有一个母亲带了三个孩子来就餐，孩子对刚买的拼图爱不释手，急不可耐地拆开铺撒在桌子上，母亲则疾步往返于柜台和座位之间。&lt;/p&gt;
-&lt;p&gt;下午14：20。一辆叫不上名字的粟色轿车从左侧强行超车，四个对称排气管显得十分有力道。姐姐说凡是方形大灯必是好车，哥哥说莫开斗气车。良木缘人满为患，让人不禁再次想起“少不入川”的警言。马路对面有个招牌一模一样的良木缘，却门可罗雀。一个穿着海魂衫的男孩独坐在角落，桌子上一水的ipod、iphone和macbook。大厅中央有台平板电视，显然是为奥运会而新购置的，只是调成了静音模式，并没有多少人关注。&lt;/p&gt;
-&lt;p&gt;傍晚17：35。前卷烟厂家属院的里树影婆娑，十分凉快。院子门口的通缉令依旧，上边的人物模样却已模糊。两个老太太沿着便道一直在不停地遛弯，再过半年，这个颇具苏联风格的工厂大院也要拆迁了。&lt;/p&gt;
-&lt;p&gt;从这里徒步走到双流老妈兔头大约需要三十分钟，电动三轮车绕过交警的耳目走小路只需要七分钟。虽然正是吃饭时间，却很容易等到座位。一个兔头四元——在经历一年多的物价飞涨之后，兔子和鸡已经成为最便宜实惠的肉食品了。&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;写diary挺累的，所以不要把blog当diary写。最好还得配图。&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-08-27-23day/</guid>
+      <description>&lt;p&gt;中午11：30。家乐福一楼的乔香园过桥米线歇业了，取而代之的是本土一家名为乡村基的中式快餐，装修风格明显模仿KFC。菜单上也有为数众多的米线品种，人群的秩序在柜台前还不错，分为整齐的左右两行。因为还不到午餐时间，只有一半的座位有顾客就餐。一个少妇点了一套干拌米线，她吃着红油拌过的米线，附赠的玉米粥刚好让两岁的孩子吃。有一家中年人占据了一张大桌子，愉快且大声地讲着电话，并吆喝服务员再送两双筷子过来。有一个母亲带了三个孩子来就餐，孩子对刚买的拼图爱不释手，急不可耐地拆开铺撒在桌子上，母亲则疾步往返于柜台和座位之间。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>夕夕夕夕夕夕夕</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-08-07-7xi/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-08-07-7xi/</link>
       <pubDate>Thu, 07 Aug 2008 10:04:45 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-08-07-7xi/</guid>
-      <description>
-        
-        
-        &lt;p&gt;火车在陇海线上一路疾驰&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-08-07-7xi/</guid>
+      <description>&lt;p&gt;火车在陇海线上一路疾驰&lt;/p&gt;
 &lt;p&gt;穿过平原，跑过彭城，洛阳以及长安&lt;/p&gt;
 &lt;p&gt;道边民居的屋顶逐渐变得平缓&lt;/p&gt;
 &lt;p&gt;树叶越来越小，土地越来越黄&lt;/p&gt;
 &lt;p&gt;如果你想听见僧侣们诵经的声音&lt;/p&gt;
-&lt;p&gt;如果你想看见青海湖上遮天的鸟群&lt;/p&gt;
-&lt;p&gt;就请你顺着我手指的方向，一路朝着&lt;/p&gt;
-&lt;p&gt;西西西西西西西&lt;/p&gt;
-&lt;p&gt;站在东关大街的右边&lt;/p&gt;
-&lt;p&gt;头顶就是清真大寺双塔上的新月&lt;/p&gt;
-&lt;p&gt;矮墙下的白色大帐里有各色小吃&lt;/p&gt;
-&lt;p&gt;回族人的院落层楼累榭&lt;/p&gt;
-&lt;p&gt;我喜欢从白胡子阿爷的调料摊溜过&lt;/p&gt;
-&lt;p&gt;那里有草果，花椒，胡椒，还有大茴香&lt;/p&gt;
-&lt;p&gt;我会眼巴巴地看着盛满八角的口袋，然后使劲儿&lt;/p&gt;
-&lt;p&gt;吸吸吸吸吸吸吸&lt;/p&gt;
-&lt;p&gt;操场上的尕娃们可能是刚放学&lt;/p&gt;
-&lt;p&gt;足球在土操场上撪来撪去&lt;/p&gt;
-&lt;p&gt;穿绿校服的丫头在树荫下跳着皮筋儿&lt;/p&gt;
-&lt;p&gt;二五六，二五七，二八二九三十一&lt;/p&gt;
-&lt;p&gt;后门会有推着鲜牦牛奶的摩托车&lt;/p&gt;
-&lt;p&gt;有卖和好拉面的下岗阿姨&lt;/p&gt;
-&lt;p&gt;我往你嘴里塞了一颗最大个的沙枣，你转过身去&lt;/p&gt;
-&lt;p&gt;嘻嘻嘻嘻嘻嘻嘻&lt;/p&gt;
-&lt;p&gt;这里比不上你南方的故乡&lt;/p&gt;
-&lt;p&gt;那里风调雨顺，物产丰富&lt;/p&gt;
-&lt;p&gt;在我只有洋芋和白菜的年月里&lt;/p&gt;
-&lt;p&gt;你们已经可以挑选芒果和枇杷的品种&lt;/p&gt;
-&lt;p&gt;可这就是我的家乡，希望你也能够喜欢她&lt;/p&gt;
-&lt;p&gt;就像我把你的家乡当作我的家乡一样&lt;/p&gt;
-&lt;p&gt;其实在雨后的草原上，也会突然出现无数的&lt;/p&gt;
-&lt;p&gt;溪溪溪溪溪溪溪&lt;/p&gt;
-&lt;p&gt;今天其实是个很普通的日子&lt;/p&gt;
-&lt;p&gt;我们晚上不吃西餐只吃中餐&lt;/p&gt;
-&lt;p&gt;最好找一家有粗线桌布的地方&lt;/p&gt;
-&lt;p&gt;你点给我你爱吃的折耳根和兔头&lt;/p&gt;
-&lt;p&gt;我点给你我爱吃的葱爆羊肉&lt;/p&gt;
-&lt;p&gt;如果老天赏光不是阴天的话&lt;/p&gt;
-&lt;p&gt;我们可以抬头看看天，然后开始数&lt;/p&gt;
-&lt;p&gt;夕夕夕夕夕夕夕&lt;/p&gt;
-
-      </description>
+&lt;p&gt;如果你想看见青海湖上遮天的鸟群&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>闲话</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-06-24-xianhua/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-06-24-xianhua/</link>
       <pubDate>Tue, 24 Jun 2008 05:41:56 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-06-24-xianhua/</guid>
-      <description>
-        
-        
-        &lt;p&gt;1.午后的阳光难得刺眼,湛蓝的天空点缀着地震云一样的棉絮。我躺在地下,双手枕着头,眼光落在天花板上,耐心地等待着窗外楼下疾驰而过的汽车,在某一个特殊的角度,刚好将太阳光反射起来,穿过百叶窗上的缝隙,形成一个奇异的形状,又通过天花板的折射落在我眼睛里。我把百年灵表放在额头,看着光斑落在表面上,轻轻跃起,照在趴在窗台上的猫身上。猫喵呜一声,瞳孔猛地收紧,不满地颤动一下胡须,把脸扭到一边,又接着睡去。 我就这样懒懒地赖在地上，乐此不疲地用手表逗弄猫，直到太阳落山。&lt;/p&gt;
-&lt;p&gt;2.骨节骨节当当&lt;/p&gt;
-&lt;p&gt;猫儿跳着缸上&lt;/p&gt;
-&lt;p&gt;缸扒倒&lt;/p&gt;
-&lt;p&gt;油倒掉&lt;/p&gt;
-&lt;p&gt;猫儿姐姐跳找锅里烙油饼&lt;/p&gt;
-&lt;p&gt;油饼来&lt;/p&gt;
-&lt;p&gt;狼抬了&lt;/p&gt;
-&lt;p&gt;狼来&lt;/p&gt;
-&lt;p&gt;上山了&lt;/p&gt;
-&lt;p&gt;山来&lt;/p&gt;
-&lt;p&gt;雪盖了&lt;/p&gt;
-&lt;p&gt;雪来&lt;/p&gt;
-&lt;p&gt;化水了&lt;/p&gt;
-&lt;p&gt;水来&lt;/p&gt;
-&lt;p&gt;调泥了&lt;/p&gt;
-&lt;p&gt;泥来&lt;/p&gt;
-&lt;p&gt;漫墙了&lt;/p&gt;
-&lt;p&gt;墙来&lt;/p&gt;
-&lt;p&gt;猪毁了&lt;/p&gt;
-&lt;p&gt;猪来&lt;/p&gt;
-&lt;p&gt;猪家爷爷打死了&lt;/p&gt;
-&lt;p&gt;……&lt;/p&gt;
-&lt;p&gt;3.从玉林到双林，原来可以这样近。&lt;/p&gt;
-&lt;p&gt;从新华公园到新华公园，原来可以这样走。&lt;/p&gt;
-&lt;p&gt;4.今天篝火在西营燃烧。6月的高原往年经常下雪，所以，我想细雨中的那些人一定很冷，可他们都站在寒风中，脸上贴着热情市民的标签，无所畏惧地尽情高呼。那些围观的群众，他们一定不是普通人，可以不看老板的眼色，可以不用上班，却到这凉爽的夏雨中，乘凉。&lt;/p&gt;
-&lt;p&gt;光可鉴人的广场空空落落，其实平时这里人是很多的，今天他们都被封锁线禁锢在了家里。老人们唱着歌，拉着手风琴和小提琴，脸上写着生活和沧桑。那是苏俄时代的老知青，他们还在这里顽强地传承着上个世纪鲜明的时代符号。还有很多人围成圆环套圆环的阵势，在一个长发青年的带领下，跳起锅庄。那是血统纯正的安多汉子，身体里流淌着格萨尔王的血脉。只是那些理应从钦、苏那、冈林中传出的音符，变作了吉他、键盘和鼓。&lt;/p&gt;
-&lt;p&gt;5.《醍醐堂记·贰》出来了。站在门口看了一遍，我觉得我退步了。谢谢徐晓东的插图。如果没有那副眼镜就更好了。&lt;/p&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-06-24-xianhua/</guid>
+      <description>&lt;p&gt;1.午后的阳光难得刺眼,湛蓝的天空点缀着地震云一样的棉絮。我躺在地下,双手枕着头,眼光落在天花板上,耐心地等待着窗外楼下疾驰而过的汽车,在某一个特殊的角度,刚好将太阳光反射起来,穿过百叶窗上的缝隙,形成一个奇异的形状,又通过天花板的折射落在我眼睛里。我把百年灵表放在额头,看着光斑落在表面上,轻轻跃起,照在趴在窗台上的猫身上。猫喵呜一声,瞳孔猛地收紧,不满地颤动一下胡须,把脸扭到一边,又接着睡去。 我就这样懒懒地赖在地上，乐此不疲地用手表逗弄猫，直到太阳落山。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>别了</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-06-09-wiedersehen/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-06-09-wiedersehen/</link>
       <pubDate>Mon, 09 Jun 2008 14:46:47 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-06-09-wiedersehen/</guid>
-      <description>
-        
-        
-        &lt;p&gt;路上的人啊 停车问一声你从哪里来 送走了这个 送走了那个 说死也不分开 你看那流水不回头 夕阳下了山 不知他们都活在哪里 可再也不回来&lt;/p&gt;
-&lt;p&gt;再也不回来&lt;/p&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-06-09-wiedersehen/</guid>
+      <description>&lt;p&gt;路上的人啊 停车问一声你从哪里来 送走了这个 送走了那个 说死也不分开 你看那流水不回头 夕阳下了山 不知他们都活在哪里 可再也不回来&lt;/p&gt;
+&lt;p&gt;再也不回来&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>贺兰山下</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-06-09-hlsx/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-06-09-hlsx/</link>
       <pubDate>Mon, 09 Jun 2008 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-06-09-hlsx/</guid>
-      <description>
-        
-        
-        &lt;p&gt;[贺兰山下一马平川&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-06-09-hlsx/</guid>
+      <description>&lt;p&gt;[贺兰山下一马平川&lt;/p&gt;
 &lt;p&gt;花落花又开&lt;/p&gt;
 &lt;p&gt;风儿吹过吹黄了树叶&lt;/p&gt;
 &lt;p&gt;吹老了好少年&lt;/p&gt;
@@ -518,62 +186,29 @@ Vorwärts！2009！希望你是√的一年！
 &lt;p&gt;路上的人啊&lt;/p&gt;
 &lt;p&gt;停车问一声你从哪里来&lt;/p&gt;
 &lt;p&gt;送走了这个&lt;/p&gt;
-&lt;p&gt;送走了那个&lt;/p&gt;
-&lt;p&gt;说死也不分开&lt;/p&gt;
-&lt;p&gt;你看那流水不回头&lt;/p&gt;
-&lt;p&gt;夕阳下了山&lt;/p&gt;
-&lt;p&gt;不知他们都活在哪里&lt;/p&gt;
-&lt;p&gt;可再也不回来][1]&lt;/p&gt;
-&lt;p&gt;[1] = &lt;a href=&#34;http://trir.cn/wp-content/uploads/2008/06/1yau.jpg&#34;target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://trir.cn/wp-content/uploads/2008/06/1yau.jpg&lt;/a&gt;&lt;/p&gt;
-
-      </description>
+&lt;p&gt;送走了那个&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>欢欢幼儿园</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-18-%E6%AC%A2%E6%AC%A2%E5%B9%BC%E5%84%BF%E5%9B%AD/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-05-18-%E6%AC%A2%E6%AC%A2%E5%B9%BC%E5%84%BF%E5%9B%AD/</link>
       <pubDate>Sun, 18 May 2008 01:17:21 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-18-%E6%AC%A2%E6%AC%A2%E5%B9%BC%E5%84%BF%E5%9B%AD/</guid>
-      <description>
-        
-        
-        &lt;p&gt;[你们都知道我为什么转这个帖子]&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;陈章良&lt;/strong&gt;：我去了四个地方，特别难过的是在欢欢幼儿园，正在午睡的91个孩子全部埋在废墟中，很多孩子不再醒来。救援人员救出来15个孩子，最后只剩5、6 个活了下来，这些孩子还那么小，甚至都还不知道生活是怎样的，来不及真正地认识这个世界，享受人生，就被无情的灾难夺走了生命。看到废墟中散落的孩子们的 画笔和各种用品以及写着“欢欢幼儿园”还挂在电线杆上的牌子，心里就有一种说不出的酸楚。&lt;/p&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-05-18-%E6%AC%A2%E6%AC%A2%E5%B9%BC%E5%84%BF%E5%9B%AD/</guid>
+      <description>&lt;p&gt;[你们都知道我为什么转这个帖子]&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;陈章良&lt;/strong&gt;：我去了四个地方，特别难过的是在欢欢幼儿园，正在午睡的91个孩子全部埋在废墟中，很多孩子不再醒来。救援人员救出来15个孩子，最后只剩5、6 个活了下来，这些孩子还那么小，甚至都还不知道生活是怎样的，来不及真正地认识这个世界，享受人生，就被无情的灾难夺走了生命。看到废墟中散落的孩子们的 画笔和各种用品以及写着“欢欢幼儿园”还挂在电线杆上的牌子，心里就有一种说不出的酸楚。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>小姑娘</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-17-%E5%B0%8F%E5%A7%91%E5%A8%98/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-05-17-%E5%B0%8F%E5%A7%91%E5%A8%98/</link>
       <pubDate>Sat, 17 May 2008 11:52:46 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-17-%E5%B0%8F%E5%A7%91%E5%A8%98/</guid>
-      <description>
-        
-        
-        &lt;p&gt;哥哥收了一个伤员，一个从废墟中被挖出来的二十岁的小姑娘。她显然受到了极为强烈的刺激，始终不发一言，目光呆滞，只有手里攥着一枚挖她出来的武警战士的帽徽。院领导来了数次，都没有改观。哥哥和护士开导了一整天，小姑娘终于有了浅浅的笑容，开口和哥哥说话了。&lt;/p&gt;
-&lt;p&gt;下午，嗅觉灵敏的凤凰卫视知道了这个小姑娘，准备来采访她。就在采访即将开始之时，另一个刚被救到医院的伤员，小姑娘的汶川老乡来到病房，就说了四个字：“你爸死了。”&lt;/p&gt;
-&lt;p&gt;后果可想而知。空军医院院长和科主任不得不再次轮番上阵，院长一把拽下自己的帽徽塞进小姑娘的手里，说，“我们是人民子弟兵，你要帽徽，要多少都可以！”接着又和躲在病房外的科主任演起了双簧。&lt;/p&gt;
-&lt;p&gt;“喂，抢险指挥部吗？给我查一查某某某（小姑娘的父亲）情况怎么样？”&lt;/p&gt;
-&lt;p&gt;“报告首长，已经安全转移！”&lt;/p&gt;
-&lt;p&gt;后来凤凰卫视有没有采访到小姑娘我不知道，然而向来狗仔的蓉城媒体蜂拥而至，争相采访这个惊动了凤凰卫视的小姑娘。&lt;/p&gt;
-&lt;p&gt;不就是想让小姑娘说那几句话吗？拜托！你们什么时候能将心比心一次，请不要再打搅那一颗颗受伤的心了！&lt;/p&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-05-17-%E5%B0%8F%E5%A7%91%E5%A8%98/</guid>
+      <description>&lt;p&gt;哥哥收了一个伤员，一个从废墟中被挖出来的二十岁的小姑娘。她显然受到了极为强烈的刺激，始终不发一言，目光呆滞，只有手里攥着一枚挖她出来的武警战士的帽徽。院领导来了数次，都没有改观。哥哥和护士开导了一整天，小姑娘终于有了浅浅的笑容，开口和哥哥说话了。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>慈母日</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-11-%E6%85%88%E6%AF%8D%E6%97%A5/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-05-11-%E6%85%88%E6%AF%8D%E6%97%A5/</link>
       <pubDate>Sun, 11 May 2008 01:05:20 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-11-%E6%85%88%E6%AF%8D%E6%97%A5/</guid>
-      <description>
-        
-        
-        &lt;p&gt;我说：要有光！&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-05-11-%E6%85%88%E6%AF%8D%E6%97%A5/</guid>
+      <description>&lt;p&gt;我说：要有光！&lt;/p&gt;
 &lt;p&gt;就有了光。&lt;/p&gt;
 &lt;p&gt;我说：吾饿！&lt;/p&gt;
 &lt;p&gt;就有了食物。&lt;/p&gt;
@@ -586,135 +221,65 @@ Vorwärts！2009！希望你是√的一年！
 &lt;p&gt;我说：冷！&lt;/p&gt;
 &lt;p&gt;就有了家。&lt;/p&gt;
 &lt;p&gt;我说：我要报答袮！&lt;/p&gt;
-&lt;p&gt;妳却转身离开。&lt;/p&gt;
-&lt;p&gt;世界不是上帝创造的，是母亲。&lt;/p&gt;
-&lt;p&gt;——《醍醐·起源》2006.5&lt;/p&gt;
-
-      </description>
+&lt;p&gt;妳却转身离开。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>David的明信片</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-05-david/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-05-05-david/</link>
       <pubDate>Mon, 05 May 2008 07:01:51 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-05-05-david/</guid>
-      <description>
-        
-        
-        &lt;p&gt;前几日，David的资本家老板突然人性大发，率部下到西南少数民族聚居区游玩了一把，累得瘦到快没有胸的David趁着机会好歹喘了口气。不过伊一路上没有修生养性，倒是绯闻不断，桃运频传，还饶有兴致地给我及众私党发了明信片等规格不一的纪念品。&lt;/p&gt;
-&lt;p&gt;David是个女孩，真名就叫做大卫。朋友们聊天时都叫她davy，她自己的签名亦是这四个字母，只有我固执地拼做David，似乎这样显得更郑重一些。于是她在写给我的信上便也将签名换做了David。她的爷爷是个老“苏修”，年轻时很迷恋苏联电影，生了个儿子取名叫伊万，又生了个孙女索性叫做大卫了。这其实和亚男、引娣之类的名字殊途同归，与陈强老爷子取布达佩斯为名也有异曲同工之妙。如果说我的异性朋友十多只手可以数过来的话，David显然是右手上的某根指头。&lt;/p&gt;
-&lt;p&gt;David性格外柔内刚，虽然这些年出落地愈发有女人味儿了，可发型一直走的是短发、爆炸式、束发这类刚猛路线。在我还不认识这班私党的久远年代，她就是casa的同桌了——所以说世界真的很小。彼时的casa以粗口秀和不爱惜小女生著称，和他做过同桌的没有没被丫骂哭过的，唯有David一人硬是挺过来了。伊还曾是阿椴的物理科代表——所以说世界真的真的很小，班主任是西营最有名的物理教员，却胆敢舍理从文转了文科班，气得班主任吐血三升。&lt;/p&gt;
-&lt;p&gt;伊跟我们这班私党里的所有人都传过绯闻，痴情于她的人也不少，末了还是被南方小子拐带进了京城，现在又过着单身OL的生活。我想起2001年1月17日晚上，我们在拉面之城黄河岸边一座建筑物里厮混，月光从窗帘缝里射进来，在墙上和地上留下一道明亮的光痕，大家围坐在一起，fox的双臂和腰肢随着琴弦在黑暗里舞动。David斜靠在墙角，目光清澈，指缝里夹着一支520。我走进旁边一个屋子，关上门，面对着一面硕大的镜子，手里的三柱香忽明忽暗。我用香头在虚空里划下一串字符，然后熄灭，静静地坐在黑暗中等待。须臾之后，镜子里的我的背后的墙上慢慢升腾起一片红色，然后慢慢淡去。红光之中，隐隐能看到David的背影，穿着少数民族的衣服，满头的银饰。那是我唯一一次为David卜稽。&lt;/p&gt;
-&lt;p&gt;我上一次收到明信片是什么时候？不记得了。周围的人似乎都没有游山玩水之间用邮戳记录的习惯。David带了个好头。&lt;/p&gt;
-&lt;p&gt;[找不同]&lt;/p&gt;
-&lt;p&gt;附一张读者从法国南特寄来的明信片。&lt;/p&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-05-05-david/</guid>
+      <description>&lt;p&gt;前几日，David的资本家老板突然人性大发，率部下到西南少数民族聚居区游玩了一把，累得瘦到快没有胸的David趁着机会好歹喘了口气。不过伊一路上没有修生养性，倒是绯闻不断，桃运频传，还饶有兴致地给我及众私党发了明信片等规格不一的纪念品。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>小嗜好</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-04-16-%E5%B0%8F%E5%97%9C%E5%A5%BD/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-04-16-%E5%B0%8F%E5%97%9C%E5%A5%BD/</link>
       <pubDate>Wed, 16 Apr 2008 07:07:15 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-04-16-%E5%B0%8F%E5%97%9C%E5%A5%BD/</guid>
-      <description>
-        
-        
-        &lt;p&gt;早上冲一杯奶茶&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-04-16-%E5%B0%8F%E5%97%9C%E5%A5%BD/</guid>
+      <description>&lt;p&gt;早上冲一杯奶茶&lt;/p&gt;
 &lt;p&gt;然后根据心情，泡一包红茶&lt;/p&gt;
 &lt;p&gt;或者绿茶，还有花茶&lt;/p&gt;
 &lt;p&gt;中午不能午睡，所以需要一杯咖啡&lt;/p&gt;
 &lt;p&gt;在下午饥肠辘辘的时候&lt;/p&gt;
 &lt;p&gt;可以再来一杯奶茶&lt;/p&gt;
 &lt;p&gt;豆瓣里有一个杯城倾事小组&lt;/p&gt;
-&lt;p&gt;我也有一堆五颜六色的马克杯&lt;/p&gt;
-&lt;p&gt;一个紫色的随我走过大江南北&lt;/p&gt;
-&lt;p&gt;一个最大的送给了哥哥&lt;/p&gt;
-&lt;p&gt;这个小小的彩虹杯是最新的一只&lt;/p&gt;
-&lt;p&gt;小到一口就能把它干掉&lt;/p&gt;
-&lt;p&gt;大Ki说，你这样喝会长胖的&lt;/p&gt;
-&lt;p&gt;Web称，立顿含氟超标对骨骼不好&lt;/p&gt;
-&lt;p&gt;可是我仍然想&lt;/p&gt;
-&lt;p&gt;在夏天最酷热的中午&lt;/p&gt;
-&lt;p&gt;用凉水冲一杯立顿茶粉&lt;/p&gt;
-&lt;p&gt;该是多么惬意的享受啊&lt;/p&gt;
-&lt;p&gt;这只是我偶然发飙，希望你没被吓到&lt;/p&gt;
-&lt;p&gt;希望下次见面的时候&lt;/p&gt;
-&lt;p&gt;一起坐下来聊聊天，喝一杯清香的茶&lt;/p&gt;
-
-      </description>
+&lt;p&gt;我也有一堆五颜六色的马克杯&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>也说藏民</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-04-13-%E4%B9%9F%E8%AF%B4%E8%97%8F%E6%B0%91/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-04-13-%E4%B9%9F%E8%AF%B4%E8%97%8F%E6%B0%91/</link>
       <pubDate>Sat, 12 Apr 2008 17:06:47 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-04-13-%E4%B9%9F%E8%AF%B4%E8%97%8F%E6%B0%91/</guid>
-      <description>
-        
-        
-        &lt;p&gt;这些天跟着媒体说顺嘴藏人了，事实上在西营，只有三种人：汉民、藏民、回民——其他少数民族有，但不构成社会人口的主要组成，且城镇中汉化程度太高，加上大量汉族人通过种种手段修改自己的户籍民族，各种情况纠缠在一起，实在是无法辨认。我依稀记得有内地人谬传称呼藏民、回民是蔑称，会被揍，显然不正确。&lt;/p&gt;
-&lt;p&gt;小时候我对藏民的印象就是：有钱。那时候城里头还是百货商店、门市部，卖布、针线、纽扣的柜台是人最多的地方，成衣几乎没有，因为大家都会找裁缝做，而且家家似乎都有会做衣服的人——这是我自己的结论，我姥姥是个裁缝。那时候，只要在商店里看到藏民，肯定会是成匹地买布，把一大卷布往肩上一扛，转身就走。平常人家都是按尺来的，这种架势自然而然被城里人赞叹。当然时隔多年回想起来，那些藏民很可能是为一个村子的人来买布，他们都是赶了很久的路从牧区来到省城的。第二个印象是藏民长得漂亮，且能歌善舞。小学时有个同学的母亲是省歌舞团的，我今常跟着他去歌舞团大院厮混，总能见到漂亮的藏族阿姨。&lt;/p&gt;
-&lt;p&gt;高中时班里有个哥们叫做扎西，个子不高，头发略卷，戴着眼睛，典型的安多汉子的眉宇，可惜这么多年居然没问过他具体是哪里的人。我们在一起的时候，他时常说，我是西藏人，不是中国人。那时我们并没有听说过藏独之类的事情，似乎也没途径让我们知道。每次听他这么说，我们只是付之一笑，甚至附和几句，从来不曾当真。很多年后，才知道有那么多的藏民真的是这样想。但这并不影响我们之间的关系，藏民豪爽耿直，踢起球来路子彪悍，是我们班队上当仁不让的主力。说到这里，突然想起一个段子，1998年中国队惨遭淘汰，健力宝似乎刚刚回国，我们这里盛传着一个美好的传说：中国足协在西藏秘密培训着一支藏族小伙子组成的青年队，清一色扎着小辫子，在海拔4000米以上的地方苦练，四年后要靠他们打世界杯。显然，这支传说中的队伍至今不曾现身。&lt;/p&gt;
-&lt;p&gt;那时（我就不说是哪时了），我还曾喜欢一个叫做达娃卓玛的藏族姑娘，她也疯狂地爱着我——注意程度副词的区别。卓玛是从遥远的玉树跟随父母来到西营的，那时各个州都有办事处设在省城，走了仕途的藏族干部们努力多年后可以移居到城市，那种对他们的震撼不亚于我小时第一次进京时的感叹。至今，时常有背着行囊一家老少从牧区赶来西营旅游的藏族牧民。达娃卓玛几岁时初来西营时还是一个纯粹的小藏民，这点可以从她给我看过的照片上看出来，许多年之后，已经出落地亭亭玉立了，只是脾气火爆，敢爱敢恨，分明还是她祖先的脾性。可惜热情来势凶猛去势更急，她轰轰烈烈地热爱了我一个暑期之后，又转投寻找“真正的康巴汉子”去了。&lt;/p&gt;
-&lt;p&gt;还有位姑娘，young，是个蒙古族女孩，这些年游走在各地，时不时地会与我讨论佛法。她的腰际上纹了六字箴言，虔诚地对待每一个人。这种信仰其实是相当混合的。蒙古族被红教深深地影响着，young是个非常汉化的人，却又非常摩登，纹身在腰肢本身又是个很西化的行为——听我对她的称呼你便知晓了，而她又一心皈依金刚乘。不处在这个环境，你是根本无法理解的，这就是所谓的文化交融。&lt;/p&gt;
-&lt;p&gt;大学毕业后我在律所，经常跟着老师驱车到牧区走访事主。西营这里律师界一致的看法是：藏民很好相处，回民则不好伺候。这里并不是说回族不好，只是回民精于生意，凡事掰得非常清楚，无论是你的当事人还是对方当事人，都不好打发。而藏民心直口快，想什么问什么，只要你解释清楚，他便一口一个“欧亚（好的）”，办事、付款都很痛快。所以我们的律师都爱接藏民的案子，哪怕为此经常坐长途车远赴牧区。我所在的所基本垄断了结古的案件代理。&lt;/p&gt;
-&lt;p&gt;虽然在西营，身边大多数人都是汉民，但藏族的影响无处不在。我每年都会去一次塔尔寺，身上一直佩带着藏经筒，楚铃和黑玛瑙佛珠，多年来未曾间断过。很小的时候，我就看过《格萨尔王》。我的豆瓣帐号所在地一直设在玉树。玉树，玉树临风，多么美的名字啊。我的母校就在一条名叫雷鸣寺街的地方，雷鸣寺是个不大的喇嘛庙，终年香烟缭绕，院子里停着一辆罩起的轿车，多少年来不曾动过。年轻的僧侣身穿红袍，披着明黄色的口袋，戴着墨镜佛珠，每天从我们的身边经过。这里还有无数的地名是藏语的——当然，现在人们经常说的一些地名其实是蒙语，很多地方也改了名字，汉藏蒙语地名混合在一起，早已分不出彼此了。这里只要有广场的地方，晚上就会有人聚集在一起跳锅庄，不分民族，不分老幼。很多藏族歌手的专辑也只能在青藏地区见得到。&lt;/p&gt;
-&lt;p&gt;哥哥的小叔，常年在囊谦做一些小生意。当地的人都知道李连杰每年都要去那里，看望一个喇嘛庙里的活佛，每次布施都以百万计。宗教的力量巨大如斯，不是无信仰之人可以理解的。而宗教、民族、国家、百姓交织在一起，真想把他们一件一件地分清楚，恐怕是不可能完成的任务了。&lt;/p&gt;
-
-      </description>
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-04-13-%E4%B9%9F%E8%AF%B4%E8%97%8F%E6%B0%91/</guid>
+      <description>&lt;p&gt;这些天跟着媒体说顺嘴藏人了，事实上在西营，只有三种人：汉民、藏民、回民——其他少数民族有，但不构成社会人口的主要组成，且城镇中汉化程度太高，加上大量汉族人通过种种手段修改自己的户籍民族，各种情况纠缠在一起，实在是无法辨认。我依稀记得有内地人谬传称呼藏民、回民是蔑称，会被揍，显然不正确。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>ManLi-triptich</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-02-27-manli-triptich/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-02-27-manli-triptich/</link>
       <pubDate>Wed, 27 Feb 2008 14:37:05 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2008/2008-02-27-manli-triptich/</guid>
-      <description>
-        
-        
-        &lt;p&gt;杨柳陌， 宝马嘶空无迹。 新着荷衣人未识， 年年江海客。&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2008/2008-02-27-manli-triptich/</guid>
+      <description>&lt;p&gt;杨柳陌， 宝马嘶空无迹。 新着荷衣人未识， 年年江海客。&lt;/p&gt;
 &lt;p&gt;梦觉巫山春色， 醉眼花飞狼籍。 起舞不辞无气力， 爱君吹玉笛。&lt;/p&gt;
-&lt;p&gt;——《谒金门》冯延巳&lt;/p&gt;
-
-      </description>
+&lt;p&gt;——《谒金门》冯延巳&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>月饼桃子猫</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-09-25-%E6%9C%88%E9%A5%BC%E6%A1%83%E5%AD%90%E7%8C%AB/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-09-25-%E6%9C%88%E9%A5%BC%E6%A1%83%E5%AD%90%E7%8C%AB/</link>
       <pubDate>Tue, 25 Sep 2007 03:33:59 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-09-25-%E6%9C%88%E9%A5%BC%E6%A1%83%E5%AD%90%E7%8C%AB/</guid>
-      <description>
-        
-        
-        &lt;p&gt;月缥云缈孤影幽，&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-09-25-%E6%9C%88%E9%A5%BC%E6%A1%83%E5%AD%90%E7%8C%AB/</guid>
+      <description>&lt;p&gt;月缥云缈孤影幽，&lt;/p&gt;
 &lt;p&gt;家猫陋室闹中秋。&lt;/p&gt;
 &lt;p&gt;爪尖珠圆锦毛厚，&lt;/p&gt;
 &lt;p&gt;不见鳕鱼不封喉。&lt;/p&gt;
 &lt;p&gt;湟水长流泪不流，&lt;/p&gt;
 &lt;p&gt;桂香独盏几时休？&lt;/p&gt;
 &lt;p&gt;我劝天公重抖擞，&lt;/p&gt;
-&lt;p&gt;不怕少年染白头。&lt;/p&gt;
-
-      </description>
+&lt;p&gt;不怕少年染白头。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>玖·拾玖</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-09-19-%E7%8E%96%E6%8B%BE%E7%8E%96/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-09-19-%E7%8E%96%E6%8B%BE%E7%8E%96/</link>
       <pubDate>Wed, 19 Sep 2007 06:54:53 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-09-19-%E7%8E%96%E6%8B%BE%E7%8E%96/</guid>
-      <description>
-        
-        
-        &lt;p&gt;卢家少妇郁金堂，&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-09-19-%E7%8E%96%E6%8B%BE%E7%8E%96/</guid>
+      <description>&lt;p&gt;卢家少妇郁金堂，&lt;/p&gt;
 &lt;p&gt;海燕双栖玳瑁梁。&lt;/p&gt;
 &lt;p&gt;九月寒玷催十叶，&lt;/p&gt;
 &lt;p&gt;十年征戌忆辽阳。&lt;/p&gt;
@@ -722,124 +287,48 @@ Vorwärts！2009！希望你是√的一年！
 &lt;p&gt;丹凤城南秋夜长。&lt;/p&gt;
 &lt;p&gt;谁为含愁独不见，&lt;/p&gt;
 &lt;p&gt;更教明月照流黄。&lt;/p&gt;
-&lt;p&gt;——《古意》沈佺期（唐）&lt;/p&gt;
-
-      </description>
+&lt;p&gt;——《古意》沈佺期（唐）&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>《烦恼》</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-07-16-%E7%83%A6%E6%81%BC/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-07-16-%E7%83%A6%E6%81%BC/</link>
       <pubDate>Mon, 16 Jul 2007 09:07:32 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-07-16-%E7%83%A6%E6%81%BC/</guid>
-      <description>
-        
-        
-        &lt;p&gt;说是怕被芒果抓伤，&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-07-16-%E7%83%A6%E6%81%BC/</guid>
+      <description>&lt;p&gt;说是怕被芒果抓伤，&lt;/p&gt;
 &lt;p&gt;说是空气热闷的呓疫，&lt;/p&gt;
 &lt;p&gt;假如有人问我烦恼的原因，&lt;/p&gt;
 &lt;p&gt;我不敢说出你的名字；&lt;/p&gt;
 &lt;p&gt;我不敢说出你的名字，&lt;/p&gt;
 &lt;p&gt;假如有人问我烦恼的原因，&lt;/p&gt;
 &lt;p&gt;说是空气热闷的呓疫，&lt;/p&gt;
-&lt;p&gt;说是怕被芒果抓伤。&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;汉语真的太有意思了&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-      </description>
+&lt;p&gt;说是怕被芒果抓伤。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>伍月廿拾悼柳才子</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-07-04-%E4%BC%8D%E6%9C%88%E5%BB%BF%E6%8B%BE%E6%82%BC%E6%9F%B3%E6%89%8D%E5%AD%90/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-07-04-%E4%BC%8D%E6%9C%88%E5%BB%BF%E6%8B%BE%E6%82%BC%E6%9F%B3%E6%89%8D%E5%AD%90/</link>
       <pubDate>Wed, 04 Jul 2007 08:23:04 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-07-04-%E4%BC%8D%E6%9C%88%E5%BB%BF%E6%8B%BE%E6%82%BC%E6%9F%B3%E6%89%8D%E5%AD%90/</guid>
-      <description>
-        
-        
-        &lt;p&gt;怀旧空吟闻笛赋，&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-07-04-%E4%BC%8D%E6%9C%88%E5%BB%BF%E6%8B%BE%E6%82%BC%E6%9F%B3%E6%89%8D%E5%AD%90/</guid>
+      <description>&lt;p&gt;怀旧空吟闻笛赋，&lt;/p&gt;
 &lt;p&gt;文彩风流犹尚存。&lt;/p&gt;
 &lt;p&gt;扬鞭走马城南陌，&lt;/p&gt;
-&lt;p&gt;君问归期未有期。&lt;/p&gt;
-
-      </description>
+&lt;p&gt;君问归期未有期。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>零度以下的风景</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-06-23-%E9%9B%B6%E5%BA%A6%E4%BB%A5%E4%B8%8B%E7%9A%84%E9%A3%8E%E6%99%AF/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-06-23-%E9%9B%B6%E5%BA%A6%E4%BB%A5%E4%B8%8B%E7%9A%84%E9%A3%8E%E6%99%AF/</link>
       <pubDate>Sat, 23 Jun 2007 09:55:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-06-23-%E9%9B%B6%E5%BA%A6%E4%BB%A5%E4%B8%8B%E7%9A%84%E9%A3%8E%E6%99%AF/</guid>
-      <description>
-        
-        
-        &lt;p&gt;最近有些忙，主要是老爷子的到来打乱了我的生活节奏，当然这抵不过亲情带来的快乐。加班时填诗一首，以此充数，怀念我的WOW生涯。&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-06-23-%E9%9B%B6%E5%BA%A6%E4%BB%A5%E4%B8%8B%E7%9A%84%E9%A3%8E%E6%99%AF/</guid>
+      <description>&lt;p&gt;最近有些忙，主要是老爷子的到来打乱了我的生活节奏，当然这抵不过亲情带来的快乐。加班时填诗一首，以此充数，怀念我的WOW生涯。&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;em&gt;零度以下的风景&lt;/em&gt;
-谨以此诗慰济小雪的怨念；向和谐和谐包致敬；怀念北岛的年代&lt;/p&gt;
-
-&lt;/blockquote&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;这不是太阳的光芒
-太阳的光芒没有这么炙热
-太阳的光芒像水浇过头顶
-像暗夜的目光
-斯坦索姆的微风
-请不要再站在热岛的对岸
-对岸的枯骨被和谐成矮矮的墓碑
-谁不和谐？谁就是罪人
-墓碑上一面刻着哭泣的恐惧魔王
-存在者的妥协或放弃写在另一面
-不要再招惹这个束缚的世界
-不要再痴迷永无永无止境的
-从尸首上取得能量和希望的盗贼
-对着幽暗湖展开长长的绷带
-多少夜
-多少从黑暗中走过的被遗忘者
-请把鼠标放下
-闭上眼睛对着热岛怀念
-谁是谁的主人？
-谁才是真正的王？
-假如热岛因太阳而沉默
-请后来者重新提瑞斯法林地的绿火
-我离开热岛
-从那里带走弯刀和尖牙
-黑色的血湿润我曾经的战友
-太阳变成银色的圆盘
-我，回到热岛
-我只有选择与阴暗和寒冷同在
-太阳在月光中融化
-憎恶变得体有完肤
-孩子找不到母亲尸体上的祖母绿戒指
-明天，明天就是坟墓的世界
-午夜的刀客尚未行动
-热岛征文被压制成黑塔的魔法书
-想起新手休息处
-想起这个藏在美刀后边的迟到的远征
-一双手总被另外一双手借用
-一段记忆总被另外一段记忆覆盖
-一座热岛总被另一座热岛颠覆&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-      </description>
+&lt;p&gt;&lt;em&gt;零度以下的风景&lt;/em&gt;
+谨以此诗慰济小雪的怨念；向和谐和谐包致敬；怀念北岛的年代&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>to Tilia</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-03-30-%E9%80%81%E7%BB%99%E9%98%BF%E6%A4%B4/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-03-30-%E9%80%81%E7%BB%99%E9%98%BF%E6%A4%B4/</link>
       <pubDate>Fri, 30 Mar 2007 05:42:15 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-03-30-%E9%80%81%E7%BB%99%E9%98%BF%E6%A4%B4/</guid>
-      <description>
-        
-        
-        &lt;p&gt;、、、
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-03-30-%E9%80%81%E7%BB%99%E9%98%BF%E6%A4%B4/</guid>
+      <description>&lt;p&gt;、、、
 Es ist ein Schnee gefallen,&lt;/p&gt;
 &lt;p&gt;und es ist doch nit Zeit,&lt;/p&gt;
 &lt;p&gt;Man wirft mich mit dem Ballen,&lt;/p&gt;
@@ -850,61 +339,35 @@ Es ist ein Schnee gefallen,&lt;/p&gt;
 &lt;p&gt;mein Stübelein ist mir kalt.&lt;/p&gt;
 &lt;p&gt;Ach Lieb, lass dich erbarmen,&lt;/p&gt;
 &lt;p&gt;daß ich so elend bin.&lt;/p&gt;
-&lt;p&gt;Und schleuß mich in dein Arme,&lt;/p&gt;
-&lt;p&gt;So fährt der Winter hin.
-、、、&lt;/p&gt;
-&lt;p&gt;阿椴，本想写点什么给你，嗯，写不出来。这首歌我甚至还没有听过，只是因为它是德语歌，只是因为有人说它很好听，所以放在这里，送给你，也送给我，二十四岁的挽歌。&lt;/p&gt;
-&lt;p&gt;【PS：此曲出自Adaro 的专辑《Schlaraffenland》[2004]】&lt;/p&gt;
-
-      </description>
+&lt;p&gt;Und schleuß mich in dein Arme,&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>醕</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-03-23-%E9%86%95/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-03-23-%E9%86%95/</link>
       <pubDate>Fri, 23 Mar 2007 05:28:20 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-03-23-%E9%86%95/</guid>
-      <description>
-        
-        
-        &lt;p&gt;&lt;del&gt;醕麴醕賚醕箁竡&lt;/del&gt;&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-03-23-%E9%86%95/</guid>
+      <description>&lt;p&gt;&lt;del&gt;醕麴醕賚醕箁竡&lt;/del&gt;&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;貰麉豲樂煨礙&lt;/del&gt;&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;不是乱码，每年这时候我的blog上都会出现这十四个字。&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-      </description>
+&lt;p&gt;不是乱码，每年这时候我的blog上都会出现这十四个字。&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
-    
     <item>
       <title>又是元月夜</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-03-21-%E5%8F%88%E6%98%A5%E5%88%86/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-03-21-%E5%8F%88%E6%98%A5%E5%88%86/</link>
       <pubDate>Wed, 21 Mar 2007 04:35:21 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-03-21-%E5%8F%88%E6%98%A5%E5%88%86/</guid>
-      <description>
-        
-        
-        &lt;p&gt;丁亥春分日，家姊华信年，&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-03-21-%E5%8F%88%E6%98%A5%E5%88%86/</guid>
+      <description>&lt;p&gt;丁亥春分日，家姊华信年，&lt;/p&gt;
 &lt;p&gt;华襟衬紫衽，玉带配襦裙。&lt;/p&gt;
 &lt;p&gt;举步若姮娥，珠玑皆娴雅，&lt;/p&gt;
-&lt;p&gt;非伊贪恋花，不到梅之年。&lt;/p&gt;
-
-      </description>
+&lt;p&gt;非伊贪恋花，不到梅之年。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>又是元月夜</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-03-04-%E5%8F%88%E6%98%AF%E5%85%83%E6%9C%88%E5%A4%9C/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-03-04-%E5%8F%88%E6%98%AF%E5%85%83%E6%9C%88%E5%A4%9C/</link>
       <pubDate>Sun, 04 Mar 2007 02:09:05 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2007/2007-03-04-%E5%8F%88%E6%98%AF%E5%85%83%E6%9C%88%E5%A4%9C/</guid>
-      <description>
-        
-        
-        &lt;p&gt;昔年元宵节&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2007/2007-03-04-%E5%8F%88%E6%98%AF%E5%85%83%E6%9C%88%E5%A4%9C/</guid>
+      <description>&lt;p&gt;昔年元宵节&lt;/p&gt;
 &lt;p&gt;花市灯如海&lt;/p&gt;
 &lt;p&gt;红衫绿袖儿&lt;/p&gt;
 &lt;p&gt;锦里擎玉带&lt;/p&gt;
@@ -913,23 +376,14 @@ Es ist ein Schnee gefallen,&lt;/p&gt;
 &lt;p&gt;云霾掩月晕&lt;/p&gt;
 &lt;p&gt;一人都不在&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;每年的正月十五，都要把这首诗拿出来改一遍，还越改越伤感。其实今天我心情不错，就是有点累。&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-      </description>
+&lt;p&gt;每年的正月十五，都要把这首诗拿出来改一遍，还越改越伤感。其实今天我心情不错，就是有点累。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>诗兔</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2006/2006-10-12shi2/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2006/2006-10-12shi2/</link>
       <pubDate>Thu, 12 Oct 2006 11:08:11 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2006/2006-10-12shi2/</guid>
-      <description>
-        
-        
-        &lt;p&gt;中秋桥，月色渺.
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2006/2006-10-12shi2/</guid>
+      <description>&lt;p&gt;中秋桥，月色渺.
 秋筝茶瑟心弦撩.
 愉情船上罗裙摇.
 快鸟轻羽水上飘.
@@ -938,46 +392,28 @@ Es ist ein Schnee gefallen,&lt;/p&gt;
 霞珠跌破冥神龛.
 夜来山雨袭草庐.
 嫦仙怜我不湿衫.
-——丙戌年八月十三珠江&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;写诗最大的好处是可以把心里压抑的话很含蓄的表达出来，任何人都不能知晓其间的真正意义。就像一间小院，别人看起来绿荫葱郁，只有你自己才知道树下埋着什么。所以课本上对古人诗词的解读百分百的是胡说八道。&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-      </description>
+——丙戌年八月十三珠江&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>NO</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2006/2006-8-1no/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2006/2006-8-1no/</link>
       <pubDate>Tue, 01 Aug 2006 20:20:34 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2006/2006-8-1no/</guid>
-      <description>
-        
-        
-        &lt;p&gt;不上　不下　不左　不右.
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2006/2006-8-1no/</guid>
+      <description>&lt;p&gt;不上　不下　不左　不右.
 不说　不笑　不哭　不闹.
 不思　不动　不看　不听.
 不吃　不喝　不打　不骂.
 不飞　不游　不冷　不热.
 不一　不二　不三　不四.
 不行　不准　不能　不安.
-不这　不那　不？　不变.&lt;/p&gt;
-
-      </description>
+不这　不那　不？　不变.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>七夕</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2006/2006-7-31qixi/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2006/2006-7-31qixi/</link>
       <pubDate>Mon, 31 Jul 2006 19:40:10 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2006/2006-7-31qixi/</guid>
-      <description>
-        
-        
-        &lt;p&gt;又是一年鹊桥祭
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2006/2006-7-31qixi/</guid>
+      <description>&lt;p&gt;又是一年鹊桥祭
 不见银河坠云间
 铁雨沁浸羽客翅
 彩霓隐约南山巅
@@ -987,109 +423,39 @@ Es ist ein Schnee gefallen,&lt;/p&gt;
 不羡鸳鸯不羡仙
 ——《醍醐·七夕》&lt;/p&gt;
 &lt;blockquote&gt;
-  &lt;p&gt;昨晚从刘家寨的茶园出来，和子豫告别后一路走回家。城市灯光过于璀璨，抬眼望去，天空黑朦朦的一片，哪里有银河的半点影子？自小生在都市，星星本就看得少，记得天上最清楚的就是猎户座的四星腰带了。那时分不清南斗北斗，总对着斗宿纳闷：第七颗星哪去鸟？
-我走得不慢，影子一次次从身后赶上来，超过我，然后消失，然后又从身后赶上来。凉风拽着我的衣襟，掠过耳廓，仿佛有人贴近脖颈，细声细语地呢喃。朦胧中小指扣动，似乎拉着那只小手，快步走过街道。&lt;/p&gt;
-
-&lt;/blockquote&gt;
-
-      </description>
+&lt;p&gt;昨晚从刘家寨的茶园出来，和子豫告别后一路走回家。城市灯光过于璀璨，抬眼望去，天空黑朦朦的一片，哪里有银河的半点影子？自小生在都市，星星本就看得少，记得天上最清楚的就是猎户座的四星腰带了。那时分不清南斗北斗，总对着斗宿纳闷：第七颗星哪去鸟？
+我走得不慢，影子一次次从身后赶上来，超过我，然后消失，然后又从身后赶上来。凉风拽着我的衣襟，掠过耳廓，仿佛有人贴近脖颈，细声细语地呢喃。朦胧中小指扣动，似乎拉着那只小手，快步走过街道。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>醍醐诗词</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2006/2006-7-4shici/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2006/2006-7-4shici/</link>
       <pubDate>Tue, 04 Jul 2006 20:11:21 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2006/2006-7-4shici/</guid>
-      <description>
-        
-        
-        &lt;p&gt;2006/7/4
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2006/2006-7-4shici/</guid>
+      <description>&lt;p&gt;2006/7/4
 《与沈杨二舍人阁老同食敕赐樱桃玩物感恩因成》白居易
 荧惑晶华赤，醍醐气味真。&lt;/p&gt;
 &lt;p&gt;《卯时酒》白居易
 佛法赞醍醐，仙方夸沆瀣。&lt;/p&gt;
 &lt;p&gt;《嗟发落》白居易
-有如醍醐灌，坐受清凉乐。&lt;/p&gt;
-&lt;p&gt;《变法》白居易
-唯是改张官酒法，渐从浊水作醍醐。&lt;/p&gt;
-&lt;p&gt;《将归一绝》白居易
-更怜家酝迎春熟，一瓮醍醐待我归。&lt;/p&gt;
-&lt;p&gt;《杂曲歌辞·行路难三首》顾况
-岂知灌顶有醍醐，能使清凉头不热。&lt;/p&gt;
-&lt;p&gt;《从幸香山寺应制》沈佺期
-愿以醍醐参圣酒，还将祇苑当秋汾。&lt;/p&gt;
-&lt;p&gt;《送契玄法师赴内道场》卢纶
-昏昏醉老夫，灌顶遇醍醐。&lt;/p&gt;
-&lt;p&gt;《送静居法师》卢纶
-薝卜名花飘不断，醍醐法味洒何浓。&lt;/p&gt;
-&lt;p&gt;《度清霄》张继先
-金娥木父欢相当。醍醐次进无停觞。&lt;/p&gt;
-&lt;p&gt;《好事近》李处全
-直与岭梅兄弟，是醍醐酥酪。&lt;/p&gt;
-&lt;p&gt;《郡斋读经》羊士谔
-息阴惭蔽芾，讲义得醍醐。&lt;/p&gt;
-&lt;p&gt;《酬乐天江楼》元稹
-甘蔗销残醉，醍醐醒早眠。&lt;/p&gt;
-&lt;p&gt;《和梦游春诗一百韵》白居易
-尘应甘露洒，垢待醍醐浴。&lt;/p&gt;
-&lt;p&gt;《早饮湖州》白居易
-手中稀琥珀，舌上冷醍醐。&lt;/p&gt;
-&lt;p&gt;《道林寺》崔珏
-我吟杜诗清入骨，灌顶何必须醍醐。&lt;/p&gt;
-&lt;p&gt;《酒中十咏·酒樽》皮日休
-少恐消醍醐，满拟烘琥珀。&lt;/p&gt;
-&lt;p&gt;《木兰后池三咏·白莲》皮日休
-但恐醍醐难并洁，只应薝卜可齐香。&lt;/p&gt;
-&lt;p&gt;《露》成彦雄
-银河昨夜降醍醐，洒遍坤维万象苏。&lt;/p&gt;
-&lt;p&gt;《满庭芳 九日》丘处机
-饮罢醍醐灌顶，归来后、月满虚堂。&lt;/p&gt;
-&lt;p&gt;《蜜酒歌（并叙）》苏轼
-百钱一斗浓无声，甘露微浊醍醐清。&lt;/p&gt;
-&lt;p&gt;《偶与客饮孔常父见访方设席延请忽上马驰去已》苏轼
-醍醐与酒同一卮，请君更问文殊师。&lt;/p&gt;
-&lt;p&gt;《景珍太博见示旧倡和蒲萄诗因而次韵》黄庭坚
-宫女拣枝模锦绣，论师持味比醍醐。&lt;/p&gt;
-
-      </description>
+有如醍醐灌，坐受清凉乐。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>10S</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2006/2006-4-2810s/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2006/2006-4-2810s/</link>
       <pubDate>Fri, 28 Apr 2006 13:40:48 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2006/2006-4-2810s/</guid>
-      <description>
-        
-        
-        &lt;p&gt;10S，可以拍摄一张长曝光的绚丽车流的相片&lt;/p&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2006/2006-4-2810s/</guid>
+      <description>&lt;p&gt;10S，可以拍摄一张长曝光的绚丽车流的相片&lt;/p&gt;
 &lt;p&gt;10S，可以结束一次直板板弧旋球的进攻&lt;/p&gt;
 &lt;p&gt;10S，可以给她发一条短信&lt;/p&gt;
-&lt;p&gt;10S，可以下载0.6M的《24hour》&lt;/p&gt;
-&lt;p&gt;10S，可以杀死一个满血满蓝的UD法师&lt;/p&gt;
-&lt;p&gt;10S，可以超过对手1/5赛道&lt;/p&gt;
-&lt;p&gt;10S，可以打17个字&lt;/p&gt;
-&lt;p&gt;10S，可以阅读两行法条&lt;/p&gt;
-&lt;p&gt;10S，可以从我的写字台走到窗前&lt;/p&gt;
-&lt;p&gt;10S，可以想你1001次&lt;/p&gt;
-
-      </description>
+&lt;p&gt;10S，可以下载0.6M的《24hour》&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>《旧梦》</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2006/2006-4-22guimeng/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2006/2006-4-22guimeng/</link>
       <pubDate>Sat, 22 Apr 2006 14:08:32 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2006/2006-4-22guimeng/</guid>
-      <description>
-        
-        
-        &lt;blockquote&gt;
-  &lt;p&gt;. 谨以此歌送给leanham&lt;/p&gt;
-
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2006/2006-4-22guimeng/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;. 谨以此歌送给leanham&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;蔷薇烟红 露滴梧桐.
 弥漫在虚空 晚风相送.
@@ -1102,97 +468,42 @@ Es ist ein Schnee gefallen,&lt;/p&gt;
 雷声西东 更漏残钟.
 惊醒了陈痛 爱已旧梦.
 春去无踪 转眼便到秋冬.
-逝者匆匆 来世重逢.&lt;/p&gt;
-
-      </description>
+逝者匆匆 来世重逢.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>S3</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2005/2005-9-25s3/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2005/2005-9-25s3/</link>
       <pubDate>Sun, 25 Sep 2005 23:34:11 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2005/2005-9-25s3/</guid>
-      <description>
-        
-        
-        &lt;blockquote&gt;
-  &lt;p&gt;超级市场。本专辑未配备歌词，人声部分由贾医生听译。&lt;/p&gt;
-
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2005/2005-9-25s3/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;超级市场。本专辑未配备歌词，人声部分由贾医生听译。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;我爱你爱的是多么甜蜜.
 无意我却梦见了新的红旗.
 偶然你路上又离你远去.
-安静——等我和你一起寻寻觅觅.&lt;/p&gt;
-&lt;p&gt;我爱的你不要呵护我的呼吸.
-无论是雨东叙冰空旷气.
-不用怕你会淋得很远.
-不应的我和你仍在相互偎依.&lt;/p&gt;
-&lt;p&gt;呓呀呀我避孕避的那么熟稔.
-我要的音乐是在不停的转.
-不要婉而醒得那么神秘.
-因为爱是头LOVE.
-我的噢 MY YOU MAY&lt;/p&gt;
-&lt;p&gt;叫——叫我就会离你远去.
-在一瞬间还弥漫有我的空气.
-不用真心去牵着我的影踪.
-因为我的手 触摸了你的身体.&lt;/p&gt;
-&lt;p&gt;我爱你爱的是多么甜蜜.
-无意我们感到了那份距离.
-虽然你总怀疑 离我远去.
-I&amp;rsquo;m in the——我和你一起寻寻觅觅.&lt;/p&gt;
-&lt;p&gt;轻轻的你会变得那么美丽.
-姻缘它和我们一起充满分离.
-不要婉而醒得那么神秘.&lt;/p&gt;
-&lt;p&gt;呓呀呀我必须拒得那么不仁.
-我就会和太阳都放在家里.
-无论还剩下有多少谎言.
-但我不会撇下你 嗨！我的open your way.
-遭遇一天终于会离我远去.
-无论是谁都会以兴奋狂起.
-不要相信曲线和谁的眼泪.
-因为我的手 抚摸了她的亲密.&lt;/p&gt;
-
-      </description>
+安静——等我和你一起寻寻觅觅.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>东关</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2005/2005-8-18dongguan/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2005/2005-8-18dongguan/</link>
       <pubDate>Thu, 18 Aug 2005 20:22:22 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2005/2005-8-18dongguan/</guid>
-      <description>
-        
-        
-        &lt;blockquote&gt;
-  &lt;p&gt;. 乙酉年秋贺外公八十四岁大寿&lt;/p&gt;
-
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2005/2005-8-18dongguan/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;. 乙酉年秋贺外公八十四岁大寿&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;东关之北，可以栖迟。&lt;br&gt;
 湟之潺潺，可以止饥。&lt;/p&gt;
 &lt;p&gt;欲啖鱼兮，必河之下。&lt;br&gt;
 欲饮乳兮，必街之里。&lt;/p&gt;
 &lt;p&gt;幼不知恩，老不求报。&lt;br&gt;
-哺心沥血，劳心慅兮。&lt;/p&gt;
-&lt;p&gt;月上南山，于我养处？&lt;br&gt;
-星浴东海，于我归说？&lt;/p&gt;
-&lt;p&gt;欲思儿兮，必伺之下。&lt;br&gt;
-东关东关，适我愿兮。&lt;/p&gt;
-
-      </description>
+哺心沥血，劳心慅兮。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>天。风</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2005/2005-8-18tianfeng/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2005/2005-8-18tianfeng/</link>
       <pubDate>Thu, 18 Aug 2005 13:36:23 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2005/2005-8-18tianfeng/</guid>
-      <description>
-        
-        
-        &lt;p&gt;烟台的天，像杯浓浓的蓝梅汁，&lt;br&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2005/2005-8-18tianfeng/</guid>
+      <description>&lt;p&gt;烟台的天，像杯浓浓的蓝梅汁，&lt;br&gt;
 风里有Davidoff的味道；&lt;br&gt;
 西宁的天，像玉树姑娘腰间的绿松石，&lt;br&gt;
 风里有藏牦风驰的影子；&lt;br&gt;
@@ -1203,31 +514,21 @@ I&amp;rsquo;m in the——我和你一起寻寻觅觅.&lt;/p&gt;
 上海的天，像柑香利口酒的味道，&lt;br&gt;
 风里有呢呢呐呐的声音；&lt;br&gt;
 成都的天，像大大的棉花糖，&lt;br&gt;
-风里有火锅里升腾的热气。&lt;/p&gt;
-
-      </description>
+风里有火锅里升腾的热气。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>生查子◎七夕</title>
-      <link>http://localhost:1313/tihu-hugo-blog/posts/2005/2005-8-11shengchazi/</link>
+      <link>https://tihu.github.io/tihu-hugo-blog/posts/2005/2005-8-11shengchazi/</link>
       <pubDate>Thu, 11 Aug 2005 14:12:01 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tihu-hugo-blog/posts/2005/2005-8-11shengchazi/</guid>
-      <description>
-        
-        
-        &lt;p&gt;去年七夕时，&lt;br&gt;
+      <guid>https://tihu.github.io/tihu-hugo-blog/posts/2005/2005-8-11shengchazi/</guid>
+      <description>&lt;p&gt;去年七夕时，&lt;br&gt;
 夏都花似海，&lt;br&gt;
 日上三竿时，&lt;br&gt;
 携手赴街市。&lt;/p&gt;
 &lt;p&gt;今年七夕日，&lt;br&gt;
 云霾雨潇潇，&lt;br&gt;
 对面人不在，&lt;br&gt;
-别离伤断肠。&lt;/p&gt;
-
-      </description>
+别离伤断肠。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

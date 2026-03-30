@@ -1,0 +1,94 @@
+/* 核心：改成左右双栏布局 */
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 3rem;
+}
+
+/* 左侧导航栏：固定、简洁 */
+.sidebar {
+  position: sticky;
+  top: 2rem;
+  height: fit-content;
+}
+
+/* 调整字体：用衬线字体，适合长文本阅读，和目标站一致 */
+body {
+  font-family: "Georgia", "Noto Serif SC", "Source Han Serif SC", "Songti SC", "SimSun", serif;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* 暗黑模式下的字体颜色调整 */
+.dark body {
+  color: #ddd;
+}
+
+/* 文章标题样式：简洁、突出 */
+.post-title {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* 文章内容样式：行高、字间距优化，适合长文本阅读 */
+.post-content {
+  font-size: 1.1rem;
+  line-height: 1.9;
+  letter-spacing: 0.02em;
+}
+
+/* 代码块样式：简洁、不刺眼 */
+.post-content pre {
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+.dark .post-content pre {
+  background: #2d2d2d;
+}
+
+/* 导航菜单样式：简洁、和目标站一致 */
+.nav-links a {
+  display: block;
+  padding: 0.5rem 0;
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.05rem;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* 分类、标签列表样式：简洁 */
+.terms-list a {
+  display: inline-block;
+  margin: 0.25rem 0.5rem 0.25rem 0;
+  padding: 0.25rem 0.75rem;
+  background: #f0f0f0;
+  border-radius: 4px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.dark .terms-list a {
+  background: #3d3d3d;
+}
+
+/* 响应式适配：移动端自动切回单栏 */
+@media (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .sidebar {
+    position: static;
+  }
+}

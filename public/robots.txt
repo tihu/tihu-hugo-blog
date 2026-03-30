@@ -1,1 +1,3 @@
 User-agent: *
+Disallow:
+Sitemap: https://tihu.github.io/tihu-hugo-blog/sitemap.xml

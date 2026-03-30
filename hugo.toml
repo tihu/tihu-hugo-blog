@@ -35,6 +35,7 @@ paginate = 15
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
+  mainSections = ["posts"]
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
