@@ -3,7 +3,7 @@ title = "the shades"
 draft = "false"
 date = "2009-08-23T13:23:46"
 tags = ["瞳者菲林"]
-
+categories = ["四时随笔"]
 +++
  ![][1]
 

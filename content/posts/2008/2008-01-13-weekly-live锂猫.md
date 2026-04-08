@@ -2,8 +2,8 @@
 date = "2008-01-13T10:52:57"
 draft = "false"
 title = "[Weekly Live]锂猫"
-tags = ["焚字塔"]
-
+tags = ["虚构作品"]
+categories = ["焚字塔"]
 +++
 *锂猫*
   

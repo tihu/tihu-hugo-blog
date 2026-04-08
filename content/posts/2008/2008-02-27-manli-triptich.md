@@ -3,7 +3,7 @@ title = "ManLi-triptich"
 date = "2008-02-27T14:37:05"
 tags = ["毗卢遮那"]
 draft = "false"
-
+categories = ["四时随笔"]
 +++
 杨柳陌， 宝马嘶空无迹。 新着荷衣人未识， 年年江海客。
 

@@ -3,7 +3,7 @@ date = "2007-05-09T06:41:04"
 draft = "false"
 title = "Clockwork Spring!"
 tags = ["瞳者菲林"]
-
+categories = ["四时随笔"]
 +++
 [][1]
 

@@ -2,8 +2,8 @@
 date = "2011-05-20T06:49:17"
 draft = "false"
 title = "雨霖铃·番外·Fufonfia"
-tags = ["焚字塔"]
-
+tags = ["虚构作品"]
+categories = ["焚字塔"]
 +++
 *雨霖铃 番外 Fufonfia*
 

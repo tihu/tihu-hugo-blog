@@ -3,8 +3,7 @@ title = "Covenant of Yellow Sea"
 draft = "false"
 date = "2009-08-17T13:56:00"
 tags = ["瞳者菲林"]
-
-
+categories = ["四时随笔"]
 +++
 ![][1]
 

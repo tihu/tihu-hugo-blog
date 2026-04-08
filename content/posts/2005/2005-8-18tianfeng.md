@@ -3,7 +3,7 @@ date = "2005-08-18T13:36:23"
 draft = "false"
 title = "天。风"
 tags = ["毗卢遮那"]
-
+categories = ["四时随笔"]
 +++
 烟台的天，像杯浓浓的蓝梅汁，  
 风里有Davidoff的味道；  

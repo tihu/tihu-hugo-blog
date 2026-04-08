@@ -2,7 +2,8 @@
 title = "Hugo成功添加字数统计和阅读时间"
 date = 2020-01-19T23:08:11
 draft = "false"
-Tags = ["Cyber Life"]
+tags = ["赛博八荒"]
+categories = ["赛博生活"]
 +++
 hugo还真是厉害！看到别人的blog里能显示”*本文共XXX字，阅读大约需要XX分钟*“，感觉挺高级的。话说阅读推荐时间最早还是在可能吧的公众号看到的。
 

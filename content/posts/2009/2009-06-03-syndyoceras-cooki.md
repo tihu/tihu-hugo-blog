@@ -3,8 +3,7 @@ title = "四角鹿"
 draft = "false"
 date = "2009-06-03T13:29:30"
 tags = ["六州杂记"]
-
-
+categories = ["四时随笔"]
 +++
 四角鹿（Syndyoceras cooki）是已灭绝的哺乳动物。
   

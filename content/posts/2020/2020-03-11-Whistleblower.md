@@ -3,6 +3,7 @@ title = "Whistleblower与锟斤拷"
 date = 2020-03-11T12:47:35+08:00
 draft = "false"
 Tags = ["六州杂记"]
+categories = ["四时随笔"]
 +++
 《 ゥレン ウー 》 ベイ シャン ウエン ： ファー シャオ ズー ディー ゥレン
 

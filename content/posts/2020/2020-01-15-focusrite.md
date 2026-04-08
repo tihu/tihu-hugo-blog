@@ -3,6 +3,7 @@ title = "新年新货：Focusrite 2i2与Casio CT-S200"
 date = 2020-01-15T22:39:56+08:00
 draft = "false"
 Tags = ["六州杂记"]
+categories = ["四时随笔"]
 +++
 2020新年，说是不花钱，但还是添置了两台设备，算是久未增加的大件儿了。
 

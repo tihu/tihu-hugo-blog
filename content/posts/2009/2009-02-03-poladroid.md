@@ -3,7 +3,7 @@ title = "Poladroid"
 draft = "false"
 date = "2009-02-03T07:34:36"
 tags = ["瞳者菲林"]
-
+categories = ["四时随笔"]
 +++
 [Poladroid][1] 在你的桌面模仿**宝丽来相机**，并且有慢慢成相的效果。[来源][2]
   

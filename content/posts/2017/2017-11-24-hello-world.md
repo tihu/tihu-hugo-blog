@@ -3,7 +3,7 @@ date = "2017-11-24T02:57:53"
 draft = "false"
 title = "Hello world!2017"
 tags = ["六州杂记"]
-
+categories = ["四时随笔"]
 +++
 记不得这是创建的第几个WP了。特别遗憾以前blog的数据虽然保存了下来，却找不到了。
 

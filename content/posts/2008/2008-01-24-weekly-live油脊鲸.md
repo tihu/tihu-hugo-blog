@@ -2,8 +2,8 @@
 date = "2008-01-24T09:42:43"
 draft = "false"
 title = "[Weekly Live]油脊鲸"
-tags = ["焚字塔"]
-
+tags = ["虚构作品"]
+categories = ["焚字塔"]
 +++
 **油脊鲸**
   

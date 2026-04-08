@@ -2,8 +2,8 @@
 date = "2019-01-08T08:36:54-07:00"
 draft = "false"
 title = "译异录之点金石"
-tags = ["译异录"]
-categories = ["虚构类"]
+tags = ["译异录", "虚构作品"]
+categories = ["焚字塔"]
 +++
 *白话醉茶志怪之三*
 

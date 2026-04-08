@@ -3,7 +3,7 @@ date = "2007-02-04T06:52:51"
 draft = "false"
 title = "Hello world!"
 tags = ["六州杂记"]
-
+categories = ["四时随笔"]
 +++
 welcome to trir.cn !
   

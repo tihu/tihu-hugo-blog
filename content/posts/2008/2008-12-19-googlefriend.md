@@ -3,8 +3,7 @@ title = "[TRIR]Google Friend Connect"
 draft = "false"
 date = "2008-12-19T08:36:47"
 tags = ["六州杂记"]
-
-
+categories = ["四时随笔"]
 +++
 折騰了一天，為TRIR右边栏添加了一个widget:*Google Friend Connect*。
 
