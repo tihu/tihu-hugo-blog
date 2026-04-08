@@ -1,9 +1,4 @@
 /*
- * 霞鹜文楷 — 通过 CDN 加载（jsDelivr，WOFF2 格式，体积小速度快）
- */
-@import url("https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@latest/style.css");
-
-/*
  * 全站字体覆盖
  * 回退顺序：霞鹜文楷 → 苹方 → 微软雅黑 → 无衬线
  */
