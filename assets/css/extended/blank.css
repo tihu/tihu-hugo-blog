@@ -1,0 +1,33 @@
+/*
+ * 霞鹜文楷 — 本地字体引入
+ */
+@font-face {
+    font-family: "LXGWWenKai";
+    src: url("/tihu-hugo-blog/fonts/LXGWWenKai-Light.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "LXGWWenKai";
+    src: url("/tihu-hugo-blog/fonts/LXGWWenKai-Medium.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*
+ * 全站字体覆盖
+ * 回退顺序：霞鹜文楷 → 苹方 → 微软雅黑 → 无衬线
+ */
+body {
+    font-family: "LXGWWenKai", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-weight: 300;
+}
+
+/* 标题用 Medium 字重，更醒目 */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "LXGWWenKai", "PingFang SC", "Microsoft YaHei", sans-serif;
+    font-weight: 500;
+}
