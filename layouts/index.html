@@ -1,5 +1,5 @@
 {{ define "main" }}
-<!-- 所有样式全部内联，100% 生效 -->
+<!-- 所有样式全部内联，保持之前的完美布局 -->
 <style>
 /* 强制撑开PaperMod的默认容器，给左右栏足够空间 */
 .main {
@@ -9,7 +9,7 @@
   padding: 2rem 1rem !important;
 }
 
-/* 隐藏顶部重复的导航菜单 */
+/* 隐藏整个顶部导航，包括主题自带的按钮 */
 .nav {
   display: none !important;
 }
@@ -32,7 +32,15 @@
   gap: 1.5rem;
 }
 
-/* 新增：站点名样式 */
+/* 站点名+主题按钮的容器 */
+.site-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* 站点名样式 */
 .site-title {
   font-size: 1.5rem;
   font-weight: 700;
@@ -43,6 +51,22 @@
 .site-title a {
   color: var(--primary);
   text-decoration: none;
+}
+
+/* 自定义主题切换按钮：独一无二的样式，无ID冲突 */
+.custom-theme-toggle {
+  background: none;
+  border: none;
+  color: var(--primary);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+  z-index: 9999;
+}
+
+.custom-theme-toggle:hover {
+  background: var(--tertiary);
 }
 
 .sidebar-desc {
@@ -99,7 +123,7 @@
   opacity: 0.8;
 }
 
-/* 右侧文章列表样式，修复标题内容混排 */
+/* 右侧文章列表样式 */
 .home-content {
   width: 100%;
 }
@@ -163,7 +187,7 @@
   border-radius: 4px;
 }
 
-/* 明暗模式变量适配 */
+/* 明暗模式变量适配，与 PaperMod 保持一致，使用 data-theme 属性 */
 :root {
   --primary: #222;
   --secondary: #666;
@@ -171,14 +195,14 @@
   --border: #e5e5e5;
 }
 
-.dark {
+[data-theme="dark"] {
   --primary: #ddd;
   --secondary: #aaa;
   --tertiary: #2d2d2d;
   --border: #444;
 }
 
-/* 移动端自适应：900px以下自动切为单栏 */
+/* 移动端自适应 */
 @media (max-width: 900px) {
   .home-layout {
     grid-template-columns: 1fr;
@@ -207,10 +231,35 @@
 <div class="home-layout">
   <!-- 左侧边栏 -->
   <aside class="home-sidebar">
-    <!-- 新增：站点名，点击可返回首页 -->
-    <h1 class="site-title">
-      <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
-    </h1>
+    <div class="site-header-row">
+      <h1 class="site-title">
+        <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
+      </h1>
+      <!-- 自定义明暗模式按钮：与 PaperMod 保持一致，使用 data-theme + pref-theme -->
+      <button class="custom-theme-toggle" aria-label="切换明暗模式" onclick="
+        const html = document.documentElement;
+        const isDark = html.dataset.theme === 'dark';
+        if (isDark) {
+          html.dataset.theme = 'light';
+          localStorage.setItem('pref-theme', 'light');
+        } else {
+          html.dataset.theme = 'dark';
+          localStorage.setItem('pref-theme', 'dark');
+        }
+      ">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+      </button>
+    </div>
     
     <p class="sidebar-desc">{{ .Site.Params.description }}</p>
 
@@ -260,4 +309,17 @@
     </div>
   </main>
 </div>
+
+<!-- 与 PaperMod 的 head.html 保持一致，读取 pref-theme，用 data-theme 属性控制 -->
+<script>
+  (function() {
+    const pref = localStorage.getItem('pref-theme');
+    if (pref === 'dark') {
+      document.documentElement.dataset.theme = 'dark';
+    } else if (pref === 'light') {
+      document.documentElement.dataset.theme = 'light';
+    }
+    // 没有偏好则保持 baseof.html 设定的 defaultTheme
+  })();
+</script>
 {{ end }}
