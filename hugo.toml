@@ -6,6 +6,7 @@ hasCJKLanguage = true
 enableRobotsTXT = true
 paginate = 15
 canonifyURLs = true
+copyright = "© 2005-2026 醍醐堂記_TihuBlogs"
 
 [menu]
   [[menu.main]]
