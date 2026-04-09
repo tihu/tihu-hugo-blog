@@ -31,5 +31,3 @@ Scarlett 2i2和上一代产品相比，变化有以下几点：
 
 [CT-200s]:https://www.casio-intl.com/media/emi/images/ct_s200/ct_s200_img04.jpg
 
-
-
