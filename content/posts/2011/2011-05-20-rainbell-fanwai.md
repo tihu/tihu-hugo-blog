@@ -4,6 +4,7 @@ draft = "false"
 title = "雨霖铃·番外·Fufonfia"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
+translationKey = "2011-05-20-rainbell-fufonfia"
 +++
 *雨霖铃 番外 Fufonfia*
 

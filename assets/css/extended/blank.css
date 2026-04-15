@@ -12,3 +12,112 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "LXGW WenKai", "PingFang SC", "Microsoft YaHei", sans-serif;
     font-weight: 500;
 }
+
+.site-header-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.site-title-block {
+    min-width: 0;
+}
+
+.site-title {
+    margin: 0;
+    min-width: 0;
+}
+
+.site-subtitle {
+    margin-top: 0.2rem;
+    color: var(--secondary);
+    font-size: 0.95rem;
+    line-height: 1.3;
+}
+
+.sidebar-action-icon,
+.custom-theme-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.25rem;
+    height: 2.25rem;
+    color: var(--primary);
+    text-decoration: none;
+    border-radius: 999px;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.sidebar-action-icon:hover,
+.custom-theme-toggle:hover {
+    background: var(--tertiary);
+}
+
+.lang-text-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 2.6rem;
+    height: 2.25rem;
+    padding: 0 0.75rem;
+    color: var(--primary);
+    text-decoration: none;
+    border-radius: 999px;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.lang-text-toggle:hover {
+    background: var(--tertiary);
+}
+
+.custom-theme-toggle {
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.theme-icon {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+}
+
+.theme-icon-sun {
+    display: none;
+}
+
+html[data-theme="dark"] .theme-icon-sun {
+    display: block;
+}
+
+html[data-theme="dark"] .theme-icon-moon {
+    display: none;
+}
+
+.tag-count {
+    color: var(--secondary);
+}
+
+.sidebar-lang-row {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 0.25rem;
+}
+
+.sidebar-icon-links {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.sidebar-icon-links svg {
+    width: 1.15rem;
+    height: 1.15rem;
+}

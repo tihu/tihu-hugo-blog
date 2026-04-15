@@ -5,6 +5,7 @@ title = "【七粒胶囊Ⅱ】2177重症监护"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2007-08-04-【七粒胶囊Ⅱ】2177重症监护"
+translationKey = "2007-08-04-2177-intensive-care"
 +++
 **〖蜈蚣茯苓胶囊〗**
   

@@ -4,6 +4,7 @@ draft = "false"
 title = "术士配方一则"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
+translationKey = "2007-07-26-tasmanian-tiger"
 +++
 【**塔斯玛尼亚虎试剂**】
   

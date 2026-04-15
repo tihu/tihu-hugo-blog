@@ -5,6 +5,7 @@ title = "穿孔者"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2007-06-01-穿孔者"
+translationKey = "2007-06-01-borer"
 +++
 **穿孔者**
 

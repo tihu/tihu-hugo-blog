@@ -5,6 +5,7 @@ title = "[Weekly Live]网袋鼯"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2008-01-04-weekly-live网袋鼯"
+translationKey = "2008-01-04-live-flying-squirrel"
 +++
 *网袋鼯（虹袋鼯）*
   

@@ -4,6 +4,7 @@ draft = "false"
 title = "【醍醐堂记】蒸蛋、昆布"
 tags = ["醍醐堂记", "虚构作品"]
 categories = ["焚字塔"]
+translationKey = "2006-05-12-steamed-egg-kombu"
 +++
 *蒸蛋*
 

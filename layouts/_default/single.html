@@ -171,9 +171,9 @@
       <header class="post-header">
         <h1 class="post-title">{{ .Title }}</h1>
         <div class="post-meta">
-          {{ .Date.Format "2006-01-02" }} · {{ .ReadingTime }} 分钟阅读
+          {{ .Date.Format "2006-01-02" }} · {{ .ReadingTime }} {{ i18n "reading_time_suffix" }}
           {{- if .Params.categories }}
-          · 分类：{{ range .Params.categories }}<a href="{{ "/tihu-hugo-blog/categories/" | relURL }}{{ . | urlize }}/">{{ . }}</a> {{ end }}
+          · {{ i18n "categories_label" }}{{ range ($.GetTerms "categories") }}<a href="{{ .Permalink }}">{{ .LinkTitle }}</a> {{ end }}
           {{- end }}
         </div>
       </header>

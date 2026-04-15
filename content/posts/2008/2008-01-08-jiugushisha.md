@@ -5,6 +5,7 @@ title = "[九故事·第二季]沙图什"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2008-01-08-九故事沙图什"
+translationKey = "2008-01-08-shahtoosh"
 +++
 *[九故事·第二季]沙图什*
 

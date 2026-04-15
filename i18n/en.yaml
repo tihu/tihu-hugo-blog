@@ -1,0 +1,28 @@
+toggle_theme:
+  other: "Toggle theme"
+categories:
+  other: "Categories"
+tags:
+  other: "Tags"
+visitor_count:
+  other: "Visitors"
+latest_posts:
+  other: "Latest Posts"
+reading_time_suffix:
+  other: "min read"
+pagination_prev:
+  other: "Previous"
+pagination_next:
+  other: "Next"
+pagination_page:
+  other: "Page"
+pagination_total:
+  other: "Total"
+posts_count_suffix:
+  other: "posts"
+categories_label:
+  other: "Categories:"
+archive_title:
+  other: "Archive"
+archive_year_suffix:
+  other: ""

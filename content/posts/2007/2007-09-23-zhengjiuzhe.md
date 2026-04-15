@@ -5,6 +5,7 @@ title = "拯救者"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2007-09-23-拯救者"
+translationKey = "2007-09-23-savior"
 +++
 **拯救者**
 

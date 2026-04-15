@@ -42,7 +42,7 @@
   <main>
     <h2 style="font-size: 1.75rem; font-weight: 700; margin: 0 0 2.5rem;">
       {{ .Title }}
-      <span style="font-size: 1rem; font-weight: 400; color: var(--secondary); margin-left: 0.5rem;">{{ len .Pages }} 篇</span>
+      <span style="font-size: 1rem; font-weight: 400; color: var(--secondary); margin-left: 0.5rem;">{{ len .Pages }} {{ i18n "posts_count_suffix" }}</span>
     </h2>
 
     {{ $paginator := .Paginate .Pages }}
@@ -50,7 +50,7 @@
     <article class="post-item">
       <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
       <div class="post-meta">
-        {{ .Date.Format "2006-01-02" }} · {{ .ReadingTime }} 分钟阅读
+        {{ .Date.Format "2006-01-02" }} · {{ .ReadingTime }} {{ i18n "reading_time_suffix" }}
       </div>
       {{ .Summary }}
     </article>
@@ -58,11 +58,11 @@
 
     <div class="my-pagination">
       {{ if $paginator.HasPrev }}
-      <a href="{{ $paginator.Prev.URL }}">← 上一页</a>
+      <a href="{{ $paginator.Prev.URL }}">← {{ i18n "pagination_prev" }}</a>
       {{ end }}
-      <span>第 {{ $paginator.PageNumber }} 页 / 共 {{ $paginator.TotalPages }} 页</span>
+      <span>{{ i18n "pagination_page" }} {{ $paginator.PageNumber }} / {{ i18n "pagination_total" }} {{ $paginator.TotalPages }}</span>
       {{ if $paginator.HasNext }}
-      <a href="{{ $paginator.Next.URL }}">下一页 →</a>
+      <a href="{{ $paginator.Next.URL }}">{{ i18n "pagination_next" }} →</a>
       {{ end }}
     </div>
   </main>

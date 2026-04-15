@@ -5,6 +5,7 @@ title = "观察者"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2007-06-13-观察者"
+translationKey = "2007-06-13-observer"
 +++
 **观察者**
 

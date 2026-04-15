@@ -1,0 +1,25 @@
+{{- $current := .Lang -}}
+<div class="sidebar-icon-links">
+  {{- range sort .AllTranslations "Language.Weight" -}}
+    {{- if ne .Lang $current -}}
+    {{- $target := . -}}
+    <a
+      class="lang-text-toggle"
+      href="{{ $target.RelPermalink }}"
+      title="{{ $target.Language.LanguageName | default ($target.Language.Params.switchLabel | default ($target.Lang | upper)) }}"
+      aria-label="{{ $target.Language.LanguageName | default ($target.Language.Params.switchLabel | default ($target.Lang | upper)) }}">
+      {{ $target.Language.Params.switchLabel | default ($target.Lang | upper) }}
+    </a>
+    {{- break -}}
+    {{- end -}}
+  {{- end -}}
+  <a
+    class="sidebar-action-icon"
+    href="https://x.com/tihu"
+    target="_blank"
+    rel="noopener noreferrer"
+    title="X"
+    aria-label="X">
+    {{ partial "svg.html" (dict "name" "x") }}
+  </a>
+</div>

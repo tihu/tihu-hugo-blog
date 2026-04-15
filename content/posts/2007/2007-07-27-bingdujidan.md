@@ -5,6 +5,7 @@ title = "病毒『鸡蛋糕』生成方式"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2007-07-27-病毒『鸡蛋糕』生成方式"
+translationKey = "2007-07-27-virus-cupcake"
 +++
 原料：
   

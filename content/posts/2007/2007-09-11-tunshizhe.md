@@ -5,6 +5,7 @@ title = "吞噬者"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2007-09-11-吞噬者"
+translationKey = "2007-09-11-devourer"
 +++
 **吞噬者**
 

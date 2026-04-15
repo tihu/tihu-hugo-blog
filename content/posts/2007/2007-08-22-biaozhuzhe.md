@@ -5,6 +5,7 @@ title = "标注者"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2007-08-22-标注者"
+translationKey = "2007-08-22-marker"
 +++
 **标注者(marker)**
 

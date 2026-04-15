@@ -5,6 +5,7 @@ title = "变形金刚.CN"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2007-07-18-变形金刚cn"
+translationKey = "2007-07-18-transformers-cn"
 +++
 “在任何情况下都不得伤害人类！”
 

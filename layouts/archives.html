@@ -39,10 +39,10 @@
   {{ partial "sidebar.html" . }}
 
   <main>
-    <h1 style="font-size: 1.75rem; font-weight: 700; margin: 0 0 2.5rem;">文章归档</h1>
+    <h1 style="font-size: 1.75rem; font-weight: 700; margin: 0 0 2.5rem;">{{ i18n "archive_title" }}</h1>
     {{ range .Site.RegularPages.GroupByDate "2006" }}
     <div class="archive-year">
-      <h2>{{ .Key }} 年</h2>
+      <h2>{{ .Key }}{{ i18n "archive_year_suffix" }}</h2>
       {{ range .Pages.ByDate.Reverse }}
       <div class="archive-item">
         <span class="archive-date">{{ .Date.Format "01-02" }}</span>

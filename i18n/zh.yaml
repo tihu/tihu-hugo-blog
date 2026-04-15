@@ -1,0 +1,28 @@
+toggle_theme:
+  other: "切换明暗模式"
+categories:
+  other: "分类"
+tags:
+  other: "标签"
+visitor_count:
+  other: "访客数"
+latest_posts:
+  other: "最新文章"
+reading_time_suffix:
+  other: "分钟阅读"
+pagination_prev:
+  other: "上一页"
+pagination_next:
+  other: "下一页"
+pagination_page:
+  other: "第"
+pagination_total:
+  other: "共"
+posts_count_suffix:
+  other: "篇"
+categories_label:
+  other: "分类："
+archive_title:
+  other: "文章归档"
+archive_year_suffix:
+  other: " 年"

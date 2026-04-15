@@ -5,6 +5,7 @@ title = "[Weekly Live]锂猫"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2008-01-13-weekly-live锂猫"
+translationKey = "2008-01-13-lithium-cat"
 +++
 *锂猫*
   

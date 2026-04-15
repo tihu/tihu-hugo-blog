@@ -1,34 +1,64 @@
 baseURL = "https://tihu.github.io/tihu-hugo-blog/"
-languageCode = "zh-cn"
-title = "醍醐堂記_TihuBlogs"
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = false
 theme = "PaperMod"
 hasCJKLanguage = true
 enableRobotsTXT = true
 paginate = 15
 canonifyURLs = true
 
-[menu]
-  [[menu.main]]
-    name = "首页"
-    url = "/"
+[languages]
+  [languages.zh]
+    languageCode = "zh-cn"
+    languageName = "中文"
+    title = "醍醐堂記_TihuBlogs"
     weight = 1
-  [[menu.main]]
-    name = "归档"
-    url = "/archives/"
+    contentDir = "content"
+    [languages.zh.params]
+      description = "这里是阅读、志怪、科幻、奇幻与播客的个人笔记空间。"
+      switchLabel = "中文"
+    [languages.zh.menu]
+      [[languages.zh.menu.main]]
+        name = "首页"
+        url = "/"
+        weight = 1
+      [[languages.zh.menu.main]]
+        name = "归档"
+        url = "/archives/"
+        weight = 2
+
+  [languages.en]
+    languageCode = "en-us"
+    languageName = "English"
+    title = "Tihu Hall Notes"
     weight = 2
+    contentDir = "content.en"
+    [languages.en.params]
+      description = "Notes on reading, strange tales, speculative fiction, and podcasts."
+      subtitle = "Tihu Blogs"
+      switchLabel = "EN"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+      [[languages.en.menu.main]]
+        name = "Archive"
+        url = "/archives/"
+        weight = 2
 
 [taxonomies]
   category = "categories"
   tag = "tags"
 
 [params]
-  description = "这里是阅读、志怪、科幻、奇幻与播客的个人笔记空间。"
   author = "Tihu"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
   mainSections = ["posts"]
+  disableLangToggle = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

@@ -5,6 +5,7 @@ title = "[Weekly Live]油脊鲸"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2008-01-24-weekly-live油脊鲸"
+translationKey = "2008-01-24-oilback-whale"
 +++
 **油脊鲸**
   

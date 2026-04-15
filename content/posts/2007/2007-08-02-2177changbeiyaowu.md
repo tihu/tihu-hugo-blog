@@ -5,6 +5,7 @@ title = "【七粒胶囊Ⅰ】177常备药物"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2007-08-02-【七粒胶囊i】2177常备药物"
+translationKey = "2007-08-02-2177-essential-medicines"
 +++
 **通用名：艾氟西汀绿茶粉胶囊** 
 

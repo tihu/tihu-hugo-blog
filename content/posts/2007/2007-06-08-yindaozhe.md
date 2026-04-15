@@ -5,6 +5,7 @@ title = "引导者"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2007-06-08-引导者"
+translationKey = "2007-06-08-guide"
 +++
 **引导者**
 
