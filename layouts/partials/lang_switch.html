@@ -1,4 +1,5 @@
 {{- $current := .Lang -}}
+{{- $rss := site.Home.OutputFormats.Get "RSS" -}}
 <div class="sidebar-icon-links">
   {{- range sort .AllTranslations "Language.Weight" -}}
     {{- if ne .Lang $current -}}
@@ -22,4 +23,13 @@
     aria-label="X">
     {{ partial "svg.html" (dict "name" "x") }}
   </a>
+  {{- with $rss -}}
+  <a
+    class="sidebar-action-icon"
+    href="{{ .RelPermalink }}"
+    title="RSS"
+    aria-label="RSS">
+    {{ partial "svg.html" (dict "name" "rss") }}
+  </a>
+  {{- end -}}
 </div>
