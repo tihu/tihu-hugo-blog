@@ -4,7 +4,7 @@
 
 - Current category count: `111`
 - Current English scope: `焚字塔` only
-- Current translated English posts: `79`
+- Current translated English posts: `105`
 - Newly completed in recent rounds:
   - `2010/2010-12-31-rainbell.md` -> `content.en/posts/2010/2010-12-31-rainbell-december.md`
   - `2011/2011-01-31-rainbell01.md` -> `content.en/posts/2011/2011-01-31-rainbell-january.md`
@@ -13,9 +13,9 @@
   - `2011/2011-04-05-rainbell04.md` -> `content.en/posts/2011/2011-04-05-rainbell-april.md`
   - `2011/2011-05-20-rainbell-fanwai.md` -> `content.en/posts/2011/2011-05-20-rainbell-fufonfia.md`
 - `2013/2013-03-03-keytalk.md` -> `content.en/posts/2013/2013-03-03-keystories-tiger-month.md`
-- Current in-progress target: `2008/2008-02-26-shibo.md` -> `content.en/posts/2008/2008-02-26-louse-divination.md` (not started)
-- Next recommended target: inspect `2008/2008-02-26-shibo.md` and decide whether `shibo` should be rendered literally or kept in pinyin
-- Current blocker: metadata is not fully clean
+- Current in-progress target: `none`
+- Next recommended target: translation scope is effectively complete; optional next step is metadata cleanup for the 2020 draft source
+- Current blocker: none on translation scope; only optional cleanup remains
 
 ## Year Distribution
 
@@ -34,13 +34,8 @@
 
 ## Metadata Issues
 
-- The following `焚字塔` posts currently have empty `tags` and should be normalized before large-scale translation:
-  - `content/posts/2020/2020-01-30-survive.md`
-  - `content/posts/2021/2021-11-06-anqisheng.md`
-  - `content/posts/2021/2021-11-07-baoliang.md`
-  - `content/posts/2021/2021-11-10-jiangziya.md`
-  - `content/posts/2021/2021-11-21-nvqing.md`
-  - `content/posts/2022/2022-10-01-shuihu.md`
+- The following `焚字塔` posts currently need metadata normalization before any broader cleanup:
+  - `content/posts/2020/2020-01-30-survive.md` (`Tags` key is capitalized; translation is complete but source metadata is still nonstandard)
 
 ## Inventory
 
@@ -102,57 +97,49 @@
 - `2008/2008-01-13-livelimao.md` | [Weekly Live]锂猫 | completed -> `content.en/posts/2008/2008-01-13-lithium-cat.md`
 - `2008/2008-01-20-tihumima.md` | 醍醐密码 | completed -> `content.en/posts/2008/2008-01-20-tihu-code.md`
 - `2008/2008-01-24-liveyoujijing.md` | [Weekly Live]油脊鲸 | completed -> `content.en/posts/2008/2008-01-24-oilback-whale.md`
-- `2007/2007-10-11-biheng.md` | 【醍醐堂记】楅衡
-- `2007/2007-10-17-zhaiyaosuanfa.md` | 摘要算法模拟
-- `2007/2007-10-18-zhibi.md` | 【醍醐堂记】制笔
-- `2007/2007-10-23-qingzhi.md` | 【醍醐堂记】青纸
-- `2007/2007-10-25-jingmo.md` | 【醍醐堂记】鲸墨
-- `2007/2007-10-29-ze.md` | 【醍醐密码】ζε
-- `2007/2007-11-01-tingfengzhe.md` | 听风者
-- `2007/2007-12-04-wufazhaohui.md` | 无法找回的东西
-- `2007/2007-12-20-jiugushitiao.md` | [九故事]跳电
-- `2007/2007-12-28-hongyan.md` | 【醍醐堂记】虹砚
+- `2008/2008-02-26-shibo.md` | 【醍醐堂记】虱卜 | completed -> `content.en/posts/2008/2008-02-26-louse-divination.md`
+- `2008/2008-03-11-gushi.md` | 【醍醐堂记】瞽师 | completed -> `content.en/posts/2008/2008-03-11-blind-master.md`
 
 ### 2008 (31)
 
-- `2008/2008-01-04-livewangdaiwu.md` | [Weekly Live]网袋鼯
-- `2008/2008-01-07-dierji.md` | [九故事·第二季] 醍醐的空屋
-- `2008/2008-01-08-jiugushisha.md` | [九故事·第二季]沙图什
-- `2008/2008-01-13-livelimao.md` | [Weekly Live]锂猫
-- `2008/2008-01-20-tihumima.md` | 醍醐密码
-- `2008/2008-01-24-liveyoujijing.md` | [Weekly Live]油脊鲸
-- `2008/2008-02-26-shibo.md` | 【醍醐堂记】虱卜
-- `2008/2008-03-11-gushi.md` | 【醍醐堂记】瞽师
-- `2008/2008-03-18-chimao.md` | 【醍醐堂记】篪猫
-- `2008/2008-04-08-a48.md` | 【醍醐密码】α（4,8）
-- `2008/2008-04-09-beige.md` | 【醍醐堂记】杯葛
-- `2008/2008-04-28-leishi.md` | 【醍醐堂记】雷师
-- `2008/2008-05-08-mingfei.md` | [九故事|第四季]01：明妃
-- `2008/2008-05-10-wangyunupu.md` | 王与女仆
-- `2008/2008-05-11-nifeiyaozou.md` | 你非要走吗？
-- `2008/2008-05-26-suckingplay.md` | 入戏太深
-- `2008/2008-05-30-mutou-ran.md` | 【醍醐堂记】武藤兰
-- `2008/2008-06-02-jsh.md` | 【醍醐堂记·鍵上話】之一
-- `2008/2008-06-12-jsh-2.md` | 【醍醐堂记·鍵上話】之二
-- `2008/2008-06-23-jsh3.md` | 【醍醐堂记·鍵上話】之三
-- `2008/2008-06-24-alicia.md` | [九故事|第四季]02：阿莉西亚
-- `2008/2008-07-14-no.md` | 盃段子
-- `2008/2008-07-29-leanham.md` | [7-29]
-- `2008/2008-08-01-jsh04.md` | 【醍醐堂记·鍵上話】之四
-- `2008/2008-08-26-sf0809.md` | 婆山婆寅底
-- `2008/2008-09-01-fugui.md` | 【醍醐堂记】簠簋
-- `2008/2008-11-04-jsh05.md` | 【醍醐堂记·鍵上話】之五
-- `2008/2008-11-25-9stories5.md` | [九故事·第五季]先行篇
-- `2008/2008-12-01-xulai.md` | 【醍醐堂记】徐来
-- `2008/2008-12-03-righthand.md` | 【醍醐堂记】右手
-- `2008/2008-12-07-8yin.md` | 【九故事·第五季】八音遏密
+- `2008/2008-01-04-livewangdaiwu.md` | [Weekly Live]网袋鼯 | completed -> `content.en/posts/2008/2008-01-04-live-flying-squirrel.md`
+- `2008/2008-01-07-dierji.md` | [九故事·第二季] 醍醐的空屋 | completed -> `content.en/posts/2008/2008-01-07-tihus-empty-room.md`
+- `2008/2008-01-08-jiugushisha.md` | [九故事·第二季]沙图什 | completed -> `content.en/posts/2008/2008-01-08-shahtoosh.md`
+- `2008/2008-01-13-livelimao.md` | [Weekly Live]锂猫 | completed -> `content.en/posts/2008/2008-01-13-lithium-cat.md`
+- `2008/2008-01-20-tihumima.md` | 醍醐密码 | completed -> `content.en/posts/2008/2008-01-20-tihu-code.md`
+- `2008/2008-01-24-liveyoujijing.md` | [Weekly Live]油脊鲸 | completed -> `content.en/posts/2008/2008-01-24-oilback-whale.md`
+- `2008/2008-02-26-shibo.md` | 【醍醐堂记】虱卜 | completed -> `content.en/posts/2008/2008-02-26-louse-divination.md`
+- `2008/2008-03-11-gushi.md` | 【醍醐堂记】瞽师 | completed -> `content.en/posts/2008/2008-03-11-blind-master.md`
+- `2008/2008-03-18-chimao.md` | 【醍醐堂记】篪猫 | completed -> `content.en/posts/2008/2008-03-18-chi-cat.md`
+- `2008/2008-04-08-a48.md` | 【醍醐密码】α（4,8） | completed -> `content.en/posts/2008/2008-04-08-alpha48.md`
+- `2008/2008-04-09-beige.md` | 【醍醐堂记】杯葛 | completed -> `content.en/posts/2008/2008-04-09-boycott.md`
+- `2008/2008-04-28-leishi.md` | 【醍醐堂记】雷师 | completed -> `content.en/posts/2008/2008-04-28-thunder-master.md`
+- `2008/2008-05-08-mingfei.md` | [九故事|第四季]01：明妃 | completed -> `content.en/posts/2008/2008-05-08-consort-ming.md`
+- `2008/2008-05-10-wangyunupu.md` | 王与女仆 | completed -> `content.en/posts/2008/2008-05-10-the-king-and-the-maidservants.md`
+- `2008/2008-05-11-nifeiyaozou.md` | 你非要走吗？ | completed -> `content.en/posts/2008/2008-05-11-must-you-leave.md`
+- `2008/2008-05-26-suckingplay.md` | 入戏太深 | completed -> `content.en/posts/2008/2008-05-26-too-deep-in-character.md`
+- `2008/2008-05-30-mutou-ran.md` | 【醍醐堂记】武藤兰 | completed -> `content.en/posts/2008/2008-05-30-mutou-ran.md`
+- `2008/2008-06-02-jsh.md` | 【醍醐堂记·鍵上話】之一 | completed -> `content.en/posts/2008/2008-06-02-keystories-one.md`
+- `2008/2008-06-12-jsh-2.md` | 【醍醐堂记·鍵上話】之二 | completed -> `content.en/posts/2008/2008-06-12-keystories-two.md`
+- `2008/2008-06-23-jsh3.md` | 【醍醐堂记·鍵上話】之三 | completed -> `content.en/posts/2008/2008-06-23-keystories-three.md`
+- `2008/2008-06-24-alicia.md` | [九故事|第四季]02：阿莉西亚 | completed -> `content.en/posts/2008/2008-06-24-alicia.md`
+- `2008/2008-07-14-no.md` | 盃段子 | completed -> `content.en/posts/2008/2008-07-14-no.md`
+- `2008/2008-07-29-leanham.md` | [7-29] | completed -> `content.en/posts/2008/2008-07-29-729.md`
+- `2008/2008-08-01-jsh04.md` | 【醍醐堂记·鍵上話】之四 | completed -> `content.en/posts/2008/2008-08-01-keystories-four.md`
+- `2008/2008-08-26-sf0809.md` | 婆山婆寅底 | completed -> `content.en/posts/2008/2008-08-26-poshan-poyin-di.md`
+- `2008/2008-09-01-fugui.md` | 【醍醐堂记】簠簋 | completed -> `content.en/posts/2008/2008-09-01-fugui.md`
+- `2008/2008-11-04-jsh05.md` | 【醍醐堂记·鍵上話】之五 | completed -> `content.en/posts/2008/2008-11-04-keystories-five.md`
+- `2008/2008-11-25-9stories5.md` | [九故事·第五季]先行篇 | completed -> `content.en/posts/2008/2008-11-25-nine-stories-five-prologue.md`
+- `2008/2008-12-01-xulai.md` | 【醍醐堂记】徐来 | completed -> `content.en/posts/2008/2008-12-01-xu-lai.md`
+- `2008/2008-12-03-righthand.md` | 【醍醐堂记】右手 | completed -> `content.en/posts/2008/2008-12-03-right-hand.md`
+- `2008/2008-12-07-8yin.md` | 【九故事·第五季】八音遏密 | completed -> `content.en/posts/2008/2008-12-07-eight-sounds-fall-silent.md`
 
 ### 2009 (4)
 
-- `2009/2009-02-13-i9stories6.md` | [九故事•第六季]
-- `2009/2009-05-27-mrlomo.md` | Lomo先生（上）
-- `2009/2009-05-30-mrlomo2.md` | Lomo先生（中）
-- `2009/2009-05-31-mrlomo3.md` | Lomo先生（下）
+- `2009/2009-02-13-i9stories6.md` | [九故事•第六季] | completed -> `content.en/posts/2009/2009-02-13-nine-stories-six.md`
+- `2009/2009-05-27-mrlomo.md` | Lomo先生（上） | completed -> `content.en/posts/2009/2009-05-27-mr-lomo-1.md`
+- `2009/2009-05-30-mrlomo2.md` | Lomo先生（中） | completed -> `content.en/posts/2009/2009-05-30-mr-lomo-2.md`
+- `2009/2009-05-31-mrlomo3.md` | Lomo先生（下） | completed -> `content.en/posts/2009/2009-05-31-mr-lomo-3.md`
 
 ### 2010 (1)
 
@@ -176,28 +163,28 @@
 
 ### 2019 (10)
 
-- `2019/2019-01-01-sheep.md` | 逐字稿：别让绵羊替你排队
-- `2019/2019-01-05-yugou.md` | 玉犬
-- `2019/2019-01-08-dianjinshi.md` | 译异录之点金石
-- `2019/2019-01-09-cunnv.md` | 译异录之村女
-- `2019/2019-01-09-heiyao.md` | 黑匙
-- `2019/2019-01-09-xueyin.md` | 雪银
-- `2019/2019-01-10-panxianer.md` | 潘仙儿
-- `2019/2019-01-12-masheng.md` | 马昇
-- `2019/2019-01-13-fengfengzi.md` | 冯疯子
-- `2019/2019-01-16-jiangshu.md` | 酱树
+- `2019/2019-01-01-sheep.md` | 逐字稿：别让绵羊替你排队 | completed -> `content.en/posts/2019/2019-01-01-sheep.md`
+- `2019/2019-01-05-yugou.md` | 玉犬 | completed -> `content.en/posts/2019/2019-01-05-jade-hound.md`
+- `2019/2019-01-08-dianjinshi.md` | 译异录之点金石 | completed -> `content.en/posts/2019/2019-01-08-touchstone.md`
+- `2019/2019-01-09-cunnv.md` | 译异录之村女 | completed -> `content.en/posts/2019/2019-01-09-village-girl.md`
+- `2019/2019-01-09-heiyao.md` | 黑匙 | completed -> `content.en/posts/2019/2019-01-09-black-ladle.md`
+- `2019/2019-01-09-xueyin.md` | 雪银 | completed -> `content.en/posts/2019/2019-01-09-snow-silver.md`
+- `2019/2019-01-10-panxianer.md` | 潘仙儿 | completed -> `content.en/posts/2019/2019-01-10-pan-the-immortal.md`
+- `2019/2019-01-12-masheng.md` | 马昇 | completed -> `content.en/posts/2019/2019-01-12-ma-sheng.md`
+- `2019/2019-01-13-fengfengzi.md` | 冯疯子 | completed -> `content.en/posts/2019/2019-01-13-mad-feng.md`
+- `2019/2019-01-16-jiangshu.md` | 酱树 | completed -> `content.en/posts/2019/2019-01-16-sauce-tree.md`
 
 ### 2020 (1)
 
-- `2020/2020-01-30-survive.md` | 家庭生存EDC/PSK装备清单【长期更新】
+- `2020/2020-01-30-survive.md` | 家庭生存EDC/PSK装备清单【长期更新】 | completed -> `content.en/posts/2020/2020-01-30-family-edc-psk.md`
 
 ### 2021 (4)
 
-- `2021/2021-11-06-anqisheng.md` | 安期生 (二十六仙话之一）
-- `2021/2021-11-07-baoliang.md` | 鲍靓（二十六仙话之二）
-- `2021/2021-11-10-jiangziya.md` | 太公补遗：《封神》里有两个姜子牙，还给自己封了神
-- `2021/2021-11-21-nvqing.md` | 女青：道教神祇中消失的隐官大人
+- `2021/2021-11-06-anqisheng.md` | 安期生 (二十六仙话之一） | completed -> `content.en/posts/2021/2021-11-06-anqi-sheng.md`
+- `2021/2021-11-07-baoliang.md` | 鲍靓（二十六仙话之二） | completed -> `content.en/posts/2021/2021-11-07-bao-liang.md`
+- `2021/2021-11-10-jiangziya.md` | 太公补遗：《封神》里有两个姜子牙，还给自己封了神 | completed -> `content.en/posts/2021/2021-11-10-jiang-ziya-two-jiangs.md`
+- `2021/2021-11-21-nvqing.md` | 女青：道教神祇中消失的隐官大人 | completed -> `content.en/posts/2021/2021-11-21-nu-qing.md`
 
 ### 2022 (1)
 
-- `2022/2022-10-01-shuihu.md` | 水泊梁山宋江军事集团的籍贯问题
+- `2022/2022-10-01-shuihu.md` | 水泊梁山宋江军事集团的籍贯问题 | completed -> `content.en/posts/2022/2022-10-01-liangshan-origins.md`

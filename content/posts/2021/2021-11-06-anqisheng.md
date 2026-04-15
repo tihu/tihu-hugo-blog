@@ -4,6 +4,7 @@ date: 2021-11-06T00:53:45+08:00
 draft: false
 tags: ["诸仙众神", "非虚构作品"]
 categories: ["焚字塔"]
+translationKey: "2021-11-06-anqisheng"
 ---
 东晋的谢灵运写过一首《登江中孤屿》，诗云：
 江南倦历览，江北旷周旋。

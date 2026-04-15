@@ -5,6 +5,7 @@ date = "2008-05-11T00:39:34"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2008-05-11-你非要走吗？"
+translationKey = "2008-05-11-must-you-leave"
 +++
 [开心网RPG日志第三则]
   

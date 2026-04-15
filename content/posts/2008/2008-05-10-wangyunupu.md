@@ -4,6 +4,7 @@ date = "2008-05-09T17:54:12"
 tags = ["虚构作品"]
 categories = ["焚字塔"]
 slug = "2008-05-10-王与女仆"
+translationKey = "2008-05-10-the-king-and-the-maidservants"
 +++
 *开心网RPG日志第二则*
 
