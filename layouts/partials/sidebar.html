@@ -66,25 +66,75 @@
     <a href="{{ .Page.RelPermalink }}" class="tag-item">
       {{ .Page.Title }} <span class="tag-count">({{ .Count }})</span>
     </a>
-    {{ end }}
+  {{ end }}
   </div>
 
   {{ if .IsHome }}
-  <!-- 访客计数（仅统计首页 UV） -->
+  <!-- 访客计数：中文首页 UV + 英文首页 UV + 统一基数 -->
+  {{- $basePages := 0 -}}
+  {{- range hugo.Sites -}}
+    {{- $basePages = add $basePages (len .RegularPages) -}}
+  {{- end -}}
+  {{- $baseCount := math.Floor (mul (float $basePages) 19.9) -}}
+  {{- $pairedHome := "" -}}
+  {{- range site.Home.AllTranslations -}}
+    {{- if ne .Lang $.Lang -}}
+      {{- $pairedHome = .RelPermalink -}}
+    {{- end -}}
+  {{- end -}}
   <div class="sidebar-counter">
-    {{ i18n "visitor_count" }} <span id="busuanzi_value_page_uv"></span>
+    {{ i18n "visitor_count" }} <span id="combined_home_uv">{{ $baseCount }}</span>
+    <span id="busuanzi_value_page_uv" hidden></span>
   </div>
   <script>
   (function() {
-    var base = {{ math.Floor (mul (float (len .Site.RegularPages)) 19.9) }};
-    var el = document.getElementById('busuanzi_value_page_uv');
-    el.textContent = base;
-    var observer = new MutationObserver(function() {
-      var val = parseInt(el.textContent) || 0;
-      if (val < base) { el.textContent = base + val; }
-      observer.disconnect();
+    var base = {{ $baseCount }};
+    var otherHome = {{ printf "%q" $pairedHome | safeJS }};
+    var totalEl = document.getElementById('combined_home_uv');
+    var currentEl = document.getElementById('busuanzi_value_page_uv');
+    var isProbe = new URLSearchParams(window.location.search).has('counter_probe');
+    var currentValue = 0;
+    var otherValue = 0;
+
+    function parseCount(text) {
+      var n = parseInt(String(text || '').replace(/[^\d]/g, ''), 10);
+      return Number.isFinite(n) ? n : 0;
+    }
+
+    function render() {
+      if (!totalEl) return;
+      totalEl.textContent = String(base + currentValue + otherValue);
+    }
+
+    function watchCount(node, assign) {
+      if (!node) return;
+      assign(parseCount(node.textContent));
+      render();
+      new MutationObserver(function() {
+        assign(parseCount(node.textContent));
+        render();
+      }).observe(node, { childList: true, characterData: true, subtree: true });
+    }
+
+    render();
+    watchCount(currentEl, function(value) { currentValue = value; });
+
+    if (isProbe || !otherHome) return;
+
+    var iframe = document.createElement('iframe');
+    iframe.hidden = true;
+    iframe.setAttribute('aria-hidden', 'true');
+    iframe.src = otherHome + (otherHome.indexOf('?') === -1 ? '?counter_probe=1' : '&counter_probe=1');
+    iframe.addEventListener('load', function() {
+      try {
+        var otherDoc = iframe.contentDocument || iframe.contentWindow.document;
+        var otherEl = otherDoc.getElementById('busuanzi_value_page_uv');
+        watchCount(otherEl, function(value) { otherValue = value; });
+      } catch (e) {
+        render();
+      }
     });
-    observer.observe(el, { childList: true, characterData: true, subtree: true });
+    document.body.appendChild(iframe);
   })();
   </script>
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
