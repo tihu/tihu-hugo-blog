@@ -8,6 +8,8 @@ visitor_count:
   other: "访客数"
 latest_posts:
   other: "最新文章"
+on_this_day:
+  other: "往年今日"
 reading_time_suffix:
   other: "分钟阅读"
 pagination_prev:

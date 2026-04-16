@@ -141,6 +141,67 @@
   margin: 0 0 2.5rem 0;
 }
 
+.on-this-day {
+  display: none;
+  position: relative;
+  margin: 0 0 2rem 0;
+  padding: 1rem 1.15rem 1rem 1.35rem;
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--primary);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--tertiary) 62%, transparent);
+}
+
+.on-this-day.is-visible {
+  display: block;
+}
+
+.on-this-day-title {
+  margin: 0 0 0.45rem 0;
+  color: var(--primary);
+  font-family: "PingFang SC", "LXGW WenKai", sans-serif;
+  font-size: 1.42rem;
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  line-height: 1.15;
+  text-shadow:
+    -2px 0 0 rgba(99, 191, 211, 0.82),
+    0 0 12px rgba(99, 191, 211, 0.36);
+}
+
+.on-this-day-text {
+  display: -webkit-box;
+  margin: 0;
+  overflow: hidden;
+  color: var(--primary);
+  font-size: 1rem;
+  line-height: 1.7;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.on-this-day-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 0.55rem;
+  color: var(--secondary);
+  font-size: 0.82rem;
+}
+
+.on-this-day-source {
+  display: inline-flex;
+  width: 1rem;
+  height: 1rem;
+  color: var(--secondary);
+}
+
+.on-this-day-source svg {
+  width: 100%;
+  height: 100%;
+}
+
 .post-item {
   margin-bottom: 3rem;
   padding-bottom: 2rem;
@@ -240,6 +301,16 @@
 
   <!-- 右侧文章列表 -->
   <main class="home-content">
+    <section class="on-this-day" id="on-this-day" aria-label="往年今日">
+      <div class="on-this-day-title">{{ i18n "on_this_day" }}</div>
+      <p class="on-this-day-text" id="on-this-day-text"></p>
+      <div class="on-this-day-meta">
+        <span id="on-this-day-year"></span>
+        <span aria-hidden="true">·</span>
+        <span class="on-this-day-source" id="on-this-day-source"></span>
+      </div>
+    </section>
+
     <h2>{{ i18n "latest_posts" }}</h2>
 
     {{ $posts := where .Site.RegularPages "Section" "posts" }}
@@ -277,6 +348,86 @@
       document.documentElement.dataset.theme = 'light';
     }
     // 没有偏好则保持 baseof.html 设定的 defaultTheme
+  })();
+</script>
+<script>
+  (function() {
+    const card = document.getElementById('on-this-day');
+    const textEl = document.getElementById('on-this-day-text');
+    const yearEl = document.getElementById('on-this-day-year');
+    const sourceEl = document.getElementById('on-this-day-source');
+    if (!card || !textEl || !yearEl || !sourceEl) return;
+
+    const today = new Date();
+    const monthDay = String(today.getMonth() + 1).padStart(2, '0') + '-' + String(today.getDate()).padStart(2, '0');
+    const seedKey = today.getFullYear() + '-' + monthDay;
+
+    function hash(value) {
+      let h = 2166136261;
+      for (let i = 0; i < value.length; i++) {
+        h ^= value.charCodeAt(i);
+        h = Math.imul(h, 16777619);
+      }
+      return h >>> 0;
+    }
+
+    function seededPick(items, seed, limit) {
+      return items
+        .map((item) => ({ item, rank: hash(seed + ':' + item.date + ':' + item.text) }))
+        .sort((a, b) => a.rank - b.rank)
+        .slice(0, limit)
+        .map((entry) => entry.item);
+    }
+
+    function randomFrom(items) {
+      if (!items.length) return null;
+      return items[Math.floor(Math.random() * items.length)];
+    }
+
+    function sourceIcon(source) {
+      if (source === 'fanfou') {
+        return '<svg viewBox="0 0 24 24" aria-label="Fanfou"><rect x="2.5" y="3" width="19" height="18" rx="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M7 8.2h10M7 12h8.2M7 15.8h5.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>';
+      }
+      return '<svg viewBox="0 0 24 24" aria-label="Twitter"><path fill="currentColor" d="M18.244 2H21.8l-7.77 8.88L23.17 22h-7.16l-5.61-7.33L3.98 22H.42l8.31-9.5L0 2h7.34l5.07 6.7L18.24 2Zm-1.25 18h1.97L6.27 3.9H4.15L16.99 20Z"/></svg>';
+    }
+
+    fetch('{{ "data/on-this-day.json" | absURL }}')
+      .then((response) => response.ok ? response.json() : [])
+      .then((itemsByDay) => {
+        function normalize(items, key) {
+          return (items || [])
+            .map((item) => ({
+              year: item[0],
+              text: item[1],
+              source: item[2],
+              date: String(item[0]) + '-' + key,
+            }))
+            .filter((item) => item.year < today.getFullYear());
+        }
+
+        function monthDayFromOffset(offset) {
+          const date = new Date(today);
+          date.setDate(today.getDate() + offset);
+          return String(date.getMonth() + 1).padStart(2, '0') + '-' + String(date.getDate()).padStart(2, '0');
+        }
+
+        let candidates = normalize(itemsByDay[monthDay], monthDay);
+        if (!candidates.length) {
+          const nearbyKeys = Array.from({ length: 7 }, (_, index) => monthDayFromOffset(index - 3));
+          candidates = nearbyKeys.flatMap((key) => normalize(itemsByDay[key], key));
+        }
+        if (!candidates.length) return;
+
+        const dailyPool = seededPick(candidates, seedKey, 3);
+        const selected = randomFrom(dailyPool);
+        if (!selected) return;
+
+        textEl.textContent = selected.text;
+        yearEl.textContent = selected.date;
+        sourceEl.innerHTML = sourceIcon(selected.source);
+        card.classList.add('is-visible');
+      })
+      .catch(() => {});
   })();
 </script>
 {{ end }}

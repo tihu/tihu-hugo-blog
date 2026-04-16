@@ -8,6 +8,8 @@ visitor_count:
   other: "Visitors"
 latest_posts:
   other: "Latest Posts"
+on_this_day:
+  other: "On This Day"
 reading_time_suffix:
   other: "min read"
 pagination_prev:
