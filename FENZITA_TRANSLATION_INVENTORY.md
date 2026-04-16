@@ -5,6 +5,16 @@
 - Current category count: `111`
 - Current English scope: `焚字塔` only
 - Current translated English posts: `105`
+- `On This Day` English coverage: complete
+- `On This Day` English items: `1098`
+- `On This Day` English days: `366`
+- `On This Day` yearly validation: `366 * 3`, all days verified
+- Latest `On This Day` work:
+  - completed English coverage for `04-01` through `03-31`
+  - rebuilt `static/data/on-this-day.en.json`
+  - removed residual Chinese from translation cache
+  - ran spot checks on homepage-facing English snippets
+  - verified Hugo build after final closure
 - Newly completed in recent rounds:
   - `2010/2010-12-31-rainbell.md` -> `content.en/posts/2010/2010-12-31-rainbell-december.md`
   - `2011/2011-01-31-rainbell01.md` -> `content.en/posts/2011/2011-01-31-rainbell-january.md`
@@ -14,7 +24,9 @@
   - `2011/2011-05-20-rainbell-fanwai.md` -> `content.en/posts/2011/2011-05-20-rainbell-fufonfia.md`
 - `2013/2013-03-03-keytalk.md` -> `content.en/posts/2013/2013-03-03-keystories-tiger-month.md`
 - Current in-progress target: `none`
-- Next recommended target: translation scope is effectively complete; optional next step is metadata cleanup for the 2020 draft source
+- Next recommended target:
+  - optional English prose polish pass for `On This Day` homepage snippets
+  - optional metadata cleanup for the 2020 draft source
 - Current blocker: none on translation scope; only optional cleanup remains
 
 ## Year Distribution
