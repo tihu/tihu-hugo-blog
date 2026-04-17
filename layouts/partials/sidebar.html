@@ -45,7 +45,11 @@
   <!-- 导航菜单 -->
   <nav class="sidebar-nav">
     {{ range .Site.Menus.main }}
-    <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>
+    {{- $href := .URL -}}
+    {{- if not (or (hasPrefix $href "http://") (hasPrefix $href "https://")) -}}
+      {{- $href = strings.TrimPrefix "/" $href | absLangURL -}}
+    {{- end -}}
+    <a href="{{ $href }}">{{ .Name }}</a>
     {{ end }}
   </nav>
 
