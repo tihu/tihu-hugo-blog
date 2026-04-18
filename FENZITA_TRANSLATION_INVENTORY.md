@@ -23,6 +23,12 @@
   - `2011/2011-04-05-rainbell04.md` -> `content.en/posts/2011/2011-04-05-rainbell-april.md`
   - `2011/2011-05-20-rainbell-fanwai.md` -> `content.en/posts/2011/2011-05-20-rainbell-fufonfia.md`
 - `2013/2013-03-03-keytalk.md` -> `content.en/posts/2013/2013-03-03-keystories-tiger-month.md`
+- Latest site maintenance (`2026-04-18`):
+  - fixed broken home/archive navigation paths for GitHub Pages project subpath deployment
+  - aligned left-sidebar external links across Chinese and English layouts
+  - replaced Apple Podcasts, Xiaoyuzhou, and Travellings sidebar icons with Material-style SVGs
+  - added hover labels and accessibility metadata for sidebar icon links
+  - added footer Travellings emoji link (`🚇`) beside RSS in both languages
 - Current in-progress target: `none`
 - Next recommended target:
   - optional English prose polish pass for `On This Day` homepage snippets

@@ -22,7 +22,9 @@
     </span>
     {{- with $rss }}
         {{- print " · "}}
-        <span><a href="{{ .RelPermalink }}">RSS</a></span>
+        <span><a href="{{ .RelPermalink }}" title="RSS 订阅">RSS</a></span>
+        {{- print " · "}}
+        <span><a href="https://www.travellings.cn/go.html" target="_blank" rel="noopener noreferrer" title="开往-友链接力">🚇</a></span>
     {{- end }}
 </footer>
 {{- end }}
