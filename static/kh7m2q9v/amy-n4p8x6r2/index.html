@@ -548,7 +548,7 @@
         localStorage.setItem('dashboardTheme', theme);
     }
     themeSelect.addEventListener('change', (e) => applyTheme(e.target.value));
-    const savedTheme = localStorage.getItem('dashboardTheme') || 'terminal';
+    const savedTheme = localStorage.getItem('dashboardTheme') || 'glass';
     themeSelect.value = savedTheme;
     applyTheme(savedTheme);
 
