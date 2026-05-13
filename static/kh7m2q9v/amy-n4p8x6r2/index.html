@@ -567,45 +567,48 @@
     };
 
     // 距离数据
+    // mode: "metro" = 地铁直达（出站步行可达）, "transit" = 地铁+公交/其他
     const distanceRaw = [
-        {school:"市教科院附属学校",straight:0.77,driveDist:1,driveTime:17,metroDist:0.9,metroTime:26},
-        {school:"成都市教科院附中",straight:1.64,driveDist:2.13,driveTime:19,metroDist:1.92,metroTime:27},
-        {school:"墨池书院中学",straight:2.17,driveDist:2.82,driveTime:20,metroDist:2.54,metroTime:28},
-        {school:"省教科院附属实验中学",straight:4.31,driveDist:5.6,driveTime:33,metroDist:5.04,metroTime:36},
-        {school:"北二外成都附中",straight:6.75,driveDist:8.78,driveTime:38,metroDist:7.9,metroTime:39},
-        {school:"四川天府新区第四中学",straight:8.11,driveDist:9.73,driveTime:39,metroDist:8.76,metroTime:40},
-        {school:"石室锦官中学",straight:9.47,driveDist:12.31,driveTime:43,metroDist:11.08,metroTime:43},
-        {school:"锦江区嘉祥外国语高级中学",straight:10.44,driveDist:15.66,driveTime:55,metroDist:14.09,metroTime:46},
-        {school:"七中育才东湖校区",straight:10.61,driveDist:13.79,driveTime:45,metroDist:12.41,metroTime:44},
-        {school:"成都玉林中学",straight:10.85,driveDist:14.11,driveTime:46,metroDist:12.69,metroTime:45},
-        {school:"电子科大实验中学",straight:11.27,driveDist:14.65,driveTime:46,metroDist:13.19,metroTime:45},
-        {school:"七中育才白鹭湾",straight:11.71,driveDist:15.22,driveTime:55,metroDist:13.7,metroTime:46},
-        {school:"成都十二中(四川大学附属中学)",straight:11.8,driveDist:15.34,driveTime:55,metroDist:13.81,metroTime:46},
-        {school:"盐道街中学(南区)",straight:11.83,driveDist:15.38,driveTime:55,metroDist:13.84,metroTime:46},
-        {school:"四川师大附中(东区)",straight:12.46,driveDist:16.2,driveTime:56,metroDist:14.58,metroTime:47},
-        {school:"盐道街中学",straight:12.9,driveDist:16.77,driveTime:56,metroDist:15.09,metroTime:55},
-        {school:"成都二中(红星校区)",straight:14.03,driveDist:18.24,driveTime:58,metroDist:16.42,metroTime:56},
-        {school:"青羊区教科附",straight:14.81,driveDist:20.73,driveTime:60,metroDist:18.66,metroTime:58},
-        {school:"树德协进中学",straight:14.89,driveDist:19.36,driveTime:59,metroDist:17.42,metroTime:57},
-        {school:"列五中学",straight:15.03,driveDist:19.54,driveTime:59,metroDist:17.59,metroTime:57},
-        {school:"石室132",straight:15.3,driveDist:19.89,driveTime:59,metroDist:17.9,metroTime:57},
-        {school:"成都十八中",straight:16.67,driveDist:21.67,driveTime:61,metroDist:19.5,metroTime:59},
-        {school:"成都铁中",straight:17.25,driveDist:22.43,driveTime:62,metroDist:20.18,metroTime:60},
-        {school:"成都四十九中",straight:17.4,driveDist:22.62,driveTime:62,metroDist:20.36,metroTime:60},
-        {school:"成华区嘉祥外国语高级中学",straight:18.27,driveDist:27.41,driveTime:67,metroDist:24.66,metroTime:64},
-        {school:"树德实验明远学校",straight:18.38,driveDist:23.89,driveTime:63,metroDist:21.5,metroTime:61},
-        {school:"成都英才学校",straight:18.66,driveDist:24.26,driveTime:64,metroDist:21.83,metroTime:61},
-        {school:"石室联合弘文学校",straight:19.18,driveDist:24.93,driveTime:64,metroDist:22.44,metroTime:62},
-        {school:"七中万达学校",straight:19.98,driveDist:25.97,driveTime:65,metroDist:23.38,metroTime:63},
-        {school:"树德实验高中清波校区",straight:20.07,driveDist:26.09,driveTime:66,metroDist:23.48,metroTime:63},
-        {school:"成都二十中",straight:21.54,driveDist:28,driveTime:68,metroDist:25.2,metroTime:65},
-        {school:"七中八一学校",straight:22.31,driveDist:29,driveTime:69,metroDist:26.1,metroTime:66},
-        {school:"成都二中(凤凰校区)",straight:23.33,driveDist:30.33,driveTime:70,metroDist:27.3,metroTime:67},
-        {school:"成都外国语学校本部",straight:25.15,driveDist:32.7,driveTime:72,metroDist:29.43,metroTime:69},
-        {school:"温江区菁才中学",straight:26.01,driveDist:41.62,driveTime:81,metroDist:37.45,metroTime:77}
+        {school:"市教科院附属学校",straight:0.77,driveDist:1,driveTime:17,transitDist:0.9,transitTime:26,mode:"metro"},
+        {school:"成都市教科院附中",straight:1.64,driveDist:2.13,driveTime:19,transitDist:1.92,transitTime:27,mode:"metro"},
+        {school:"墨池书院中学",straight:2.17,driveDist:2.82,driveTime:20,transitDist:2.54,transitTime:28,mode:"metro"},
+        {school:"省教科院附属实验中学",straight:4.31,driveDist:5.6,driveTime:33,transitDist:5.04,transitTime:36,mode:"metro"},
+        {school:"北二外成都附中",straight:6.75,driveDist:8.78,driveTime:38,transitDist:7.9,transitTime:39,mode:"metro"},
+        {school:"四川天府新区第四中学",straight:8.11,driveDist:9.73,driveTime:39,transitDist:8.76,transitTime:40,mode:"metro"},
+        {school:"石室锦官中学",straight:9.47,driveDist:12.31,driveTime:43,transitDist:11.08,transitTime:43,mode:"metro"},
+        {school:"锦江区嘉祥外国语高级中学",straight:10.44,driveDist:15.66,driveTime:55,transitDist:14.09,transitTime:46,mode:"metro"},
+        {school:"七中育才东湖校区",straight:10.61,driveDist:13.79,driveTime:45,transitDist:12.41,transitTime:44,mode:"metro"},
+        {school:"成都玉林中学",straight:10.85,driveDist:14.11,driveTime:46,transitDist:12.69,transitTime:45,mode:"metro"},
+        {school:"电子科大实验中学",straight:11.27,driveDist:14.65,driveTime:46,transitDist:13.19,transitTime:45,mode:"transit"},
+        {school:"七中育才白鹭湾",straight:11.71,driveDist:15.22,driveTime:55,transitDist:13.7,transitTime:46,mode:"transit"},
+        {school:"成都十二中(四川大学附属中学)",straight:11.8,driveDist:15.34,driveTime:55,transitDist:13.81,transitTime:46,mode:"metro"},
+        {school:"盐道街中学(南区)",straight:11.83,driveDist:15.38,driveTime:55,transitDist:13.84,transitTime:46,mode:"metro"},
+        {school:"四川师大附中(东区)",straight:12.46,driveDist:16.2,driveTime:56,transitDist:14.58,transitTime:47,mode:"metro"},
+        {school:"盐道街中学",straight:12.9,driveDist:16.77,driveTime:56,transitDist:15.09,transitTime:55,mode:"metro"},
+        {school:"成都二中(红星校区)",straight:14.03,driveDist:18.24,driveTime:58,transitDist:16.42,transitTime:56,mode:"metro"},
+        {school:"青羊区教科附",straight:14.81,driveDist:20.73,driveTime:60,transitDist:18.66,transitTime:58,mode:"metro"},
+        {school:"树德协进中学",straight:14.89,driveDist:19.36,driveTime:59,transitDist:17.42,transitTime:57,mode:"metro"},
+        {school:"列五中学",straight:15.03,driveDist:19.54,driveTime:59,transitDist:17.59,transitTime:57,mode:"metro"},
+        {school:"石室132",straight:15.3,driveDist:19.89,driveTime:59,transitDist:17.9,transitTime:57,mode:"metro"},
+        {school:"成都十八中",straight:16.67,driveDist:21.67,driveTime:61,transitDist:19.5,transitTime:59,mode:"metro"},
+        {school:"成都铁中",straight:17.25,driveDist:22.43,driveTime:62,transitDist:20.18,transitTime:60,mode:"metro"},
+        {school:"成都四十九中",straight:17.4,driveDist:22.62,driveTime:62,transitDist:20.36,transitTime:60,mode:"metro"},
+        {school:"成华区嘉祥外国语高级中学",straight:18.27,driveDist:27.41,driveTime:67,transitDist:24.66,transitTime:64,mode:"metro"},
+        {school:"树德实验明远学校",straight:18.38,driveDist:23.89,driveTime:63,transitDist:21.5,transitTime:61,mode:"metro"},
+        {school:"成都英才学校",straight:18.66,driveDist:24.26,driveTime:64,transitDist:21.83,transitTime:61,mode:"metro"},
+        {school:"石室联合弘文学校",straight:19.18,driveDist:24.93,driveTime:64,transitDist:22.44,transitTime:62,mode:"metro"},
+        {school:"七中万达学校",straight:19.98,driveDist:25.97,driveTime:65,transitDist:23.38,transitTime:63,mode:"metro"},
+        {school:"树德实验高中清波校区",straight:20.07,driveDist:26.09,driveTime:66,transitDist:23.48,transitTime:63,mode:"metro"},
+        {school:"成都二十中",straight:21.54,driveDist:28,driveTime:68,transitDist:25.2,transitTime:65,mode:"metro"},
+        {school:"七中八一学校",straight:22.31,driveDist:29,driveTime:69,transitDist:26.1,transitTime:66,mode:"metro"},
+        {school:"成都二中(凤凰校区)",straight:23.33,driveDist:30.33,driveTime:70,transitDist:27.3,transitTime:67,mode:"metro"},
+        {school:"成都外国语学校本部",straight:25.15,driveDist:32.7,driveTime:72,transitDist:29.43,transitTime:69,mode:"metro"},
+        {school:"温江区菁才中学",straight:26.01,driveDist:41.62,driveTime:81,transitDist:37.45,transitTime:77,mode:"transit"},
+        {school:"双流中学（紫东校区）",straight:17.0,driveDist:22.0,driveTime:45,transitDist:26.5,transitTime:55,mode:"transit"},
+        {school:"棠湖中学（双江路校区）",straight:19.5,driveDist:26.0,driveTime:50,transitDist:30.0,transitTime:60,mode:"transit"}
     ];
     const distMap = new Map(distanceRaw.map(d => [d.school, d]));
-    const MAX_DRIVE = 41.62, MAX_METRO = 37.45;
+    const MAX_DRIVE = 41.62, MAX_TRANSIT = 37.45;
 
     const raw = [
         { school:"成都二中(红星校区)", date:"4月10日", visitSign:"是/是", contact:"有群", classInfo:"红星和凤凰两个招生代码，各招200人；", project:"数+物≥199", notes:"", score:626, rank:4011, district:"锦江区" },
@@ -632,7 +635,7 @@
         { school:"市教科院附属学校", date:"4月25日", visitSign:"是/无", contact:"", classInfo:"6个班", project:"预估无", notes:"", score:null, rank:null, district:"高新区", yearTag:"2026", estScore:585 },
         { school:"石室132", date:"", visitSign:"", contact:"", classInfo:"", project:"", notes:"", score:null, rank:null, district:"成华区", yearTag:"2026", estScore:595 },
         { school:"成都玉林中学", date:"5月2日", visitSign:"是/无", contact:"有群", classInfo:"11个班550人，", project:"艺术美术书法篮球", notes:"", score:599, rank:8601, district:"武侯区" },
-        { school:"青羊区教科附", date:"5月13日上午", visitSign:"", contact:"有群", classInfo:"", project:"", notes:"锦西路66号（7号线金沙遗址博物馆A口）", score:595, rank:9202, district:"青羊区" },
+        { school:"青羊区教科附", date:"5月13日上午", visitSign:"是/是", contact:"有群", classInfo:"签约了双师共培。三种班型：贯通强基(985)，七中共享(211)，双师共培(重本)。共八个班，", project:"无", notes:"要求位次8500以上的填报，9000以后不建议。2023年民转公，地铁口，硬件不错。锦西路66号（7号线金沙遗址博物馆A口）", score:595, rank:9202, district:"青羊区" },
         { school:"树德协进中学", date:"5月4日", visitSign:"是/是", contact:"有群", classInfo:"签的红一，红一/红二/网班三种班型，共十个班", project:"", notes:"", score:589, rank:10073, district:"青羊区" },
         { school:"树德实验明远学校", date:"5月8日", visitSign:"是/否", contact:"有群", classInfo:"场内72人，不提前签 ，共6个班，每个班型2个班，能进中等班 ", project:"", notes:"暑假东马棚，开学新校区；512消息：高新区只接待460以上下周可以来咨询", score:null, rank:null, district:"金牛区", yearTag:"2026", estScore:590 },
         { school:"四川天府新区第四中学", date:"5月17日 8:40", visitSign:"已预约", contact:"", classInfo:"", project:"", notes:"", score:null, rank:null, district:"天府新区", yearTag:"2026", estScore:580 },
@@ -643,19 +646,20 @@
         { school:"成华区嘉祥外国语高级中学", date:"4月18日", visitSign:"是/否", contact:"有老师", classInfo:"创新/精品/实验/平行，分数可签精品，统招100+人。", project:"", notes:"实际学费约3w+/年", score:577, rank:11900, district:"成华区" },
         { school:"温江区菁才中学", date:"5月3日", visitSign:"是/无", contact:"有群", classInfo:"三种班型，7中班/英才班/实验班,共300+人，场内约100人；", project:"", notes:"", score:null, rank:null, district:"温江区", yearTag:"2026", estScore:580 },
         { school:"成都市教科院附中", date:"3月14日", visitSign:"是/否", contact:"无", classInfo:"348 人（含指标到校 174 人）", project:"", notes:"", score:630, rank:3345, district:"高新区" },
+        // 新增考察学校（双流、棠湖纳入范围）
+        { school:"双流中学（紫东校区）", date:"", visitSign:"", contact:"无", classInfo:"", project:"", notes:"调剂线604，咨询时间周一至周五：17:00-20:00，周六、周日：8:30-18:00，招生办", score:583, rank:9200, district:"其他" },
+        { school:"棠湖中学（双江路校区）", date:"", visitSign:"", contact:"无", classInfo:"", project:"", notes:"调剂线594，电话联系说中考后才有访校", score:570, rank:9790, district:"其他" },
         // 备选
-        { school:"七万通锦", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:591, rank:null, district:"金牛区" },
-        { school:"棠湖", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:591, rank:null, district:"其他" },
-        { school:"石室成飞", date:"", visitSign:"备选", contact:"", classInfo:"", project:"", notes:"备选", score:598, rank:null, district:"青羊区" },
-        { school:"川大附新城", date:"", visitSign:"备选", contact:"", classInfo:"", project:"", notes:"备选", score:585, rank:null, district:"其他" },
-        { school:"西北", date:"", visitSign:"备选", contact:"", classInfo:"", project:"", notes:"备选", score:581, rank:null, district:"其他" },
-        { school:"石天", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" },
-        { school:"石室北湖", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" },
-        { school:"八中", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" },
-        { school:"西南交大附中", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" },
-        { school:"华西", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" },
-        { school:"中和", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" },
-        { school:"石室东部", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" }
+        { school:"七中万达通锦校区", date:"", visitSign:"备选", contact:"", classInfo:"", project:"", notes:"备选", score:590, rank:9850, district:"金牛区" },
+        { school:"石室成飞中学", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:598, rank:8746, district:"青羊区" },
+        { school:"川大附中新城分校", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:585, rank:10200, district:"其他" },
+        { school:"西北中学", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:581, rank:10600, district:"其他" },
+        { school:"西南交通大学附属中学", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:585, rank:10100, district:"其他" },
+        { school:"华西中学（双建校区）", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:586, rank:9980, district:"其他" },
+        { school:"华西中学（桂龙校区）", date:"", visitSign:"备选", contact:"", classInfo:"", project:"", notes:"备选", score:570, rank:11200, district:"其他" },
+        { school:"中和中学", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:584, rank:10643, district:"其他" },
+        { school:"石室东部新区实验中学", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:595, rank:9200, district:"其他" },
+        { school:"石室天府", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:623, rank:3429, district:"其他" }
     ];
 
     function parseStatus(str) {
@@ -906,8 +910,11 @@
                 <td class="cell-notes">${s.notes}</td>
             </tr>`;
             if (dist) {
-                const dp = (dist.driveDist / MAX_DRIVE * 100).toFixed(0), mp = (dist.metroDist / MAX_METRO * 100).toFixed(0);
-                html += `<tr class="distance-detail" data-parent="${s.id}"><td colspan="10" style="padding:6px 12px;"><div style="display:flex; gap:20px; font-size:12px;"><div style="flex:1;">🚗 开车 ${dist.driveDist}km / ${dist.driveTime}min <div class="dist-mini-bar"><div class="dist-mini-fill drive" style="width:${dp}%;"></div></div></div><div style="flex:1;">🚇 地铁 ${dist.metroDist}km / ${dist.metroTime}min <div class="dist-mini-bar"><div class="dist-mini-fill metro" style="width:${mp}%;"></div></div></div></div></td></tr>`;
+                const dp = (dist.driveDist / MAX_DRIVE * 100).toFixed(0);
+                const mp = (dist.transitDist / MAX_TRANSIT * 100).toFixed(0);
+                const transitIcon = dist.mode === 'metro' ? '🚇' : '🚌';
+                const transitLabel = dist.mode === 'metro' ? '地铁' : '地铁+公交';
+                html += `<tr class="distance-detail" data-parent="${s.id}"><td colspan="10" style="padding:6px 12px;"><div style="display:flex; gap:20px; font-size:12px;"><div style="flex:1;">🚗 开车 ${dist.driveDist}km / ${dist.driveTime}min <div class="dist-mini-bar"><div class="dist-mini-fill drive" style="width:${dp}%;"></div></div></div><div style="flex:1;">${transitIcon} ${transitLabel} ${dist.transitDist}km / ${dist.transitTime}min <div class="dist-mini-bar"><div class="dist-mini-fill metro" style="width:${mp}%;"></div></div></div></div></td></tr>`;
             }
         });
         tbody.innerHTML = html;
