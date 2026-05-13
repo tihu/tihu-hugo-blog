@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="robots" content="noindex, nofollow, noarchive">
+    <title>AMY WANG访校记录 · 中考信息看板</title>
+    <style>
+        /* ========== 全局基础与终端主题变量 (默认) ========== */
+        :root {
+            --bg-primary: #0a0a0a;
+            --bg-card: #1a1a1a;
+            --bg-input: #0a0a0a;
+            --border-color: #333;
+            --border-glow: #c0c0c0;
+            --text-primary: #00ff41;
+            --text-secondary: #00cc33;
+            --text-warning: #ffb000;
+            --text-danger: #ff2d00;
+            --text-info: #00bfff;
+            --text-muted: #c0c0c0;
+            --progress-bg: #0a0a0a;
+            --progress-visit: linear-gradient(90deg, #00cc33, #00ff41);
+            --progress-sign: linear-gradient(90deg, #ffb000, #ff2d00);
+            --badge-success: #00ff41;
+            --badge-warning: #ffb000;
+            --badge-danger: #ff2d00;
+            --badge-info: #00bfff;
+            --badge-muted: #c0c0c0;
+            --radar-grid: rgba(0,255,65,0.2);
+            --radar-fill: rgba(0,255,65,0.25);
+            --radar-stroke: #00ff41;
+            --table-header-bg: #0a0a0a;
+            --table-row-hover: rgba(0,255,65,0.05);
+            --button-bg: linear-gradient(135deg, #333, #222);
+            --button-active-bg: #00ff41;
+            --button-active-text: #0a0a0a;
+            --font-mono: 'SF Mono', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', monospace;
+            --font-sans: -apple-system, 'SF Pro Text', 'Helvetica Neue', system-ui, sans-serif;
+            --radius-card: 10px;
+            --radius-sm: 6px;
+            --transition: 0.2s ease;
+            --card-shadow: 0 2px 10px rgba(0,0,0,0.4);
+        }
+
+        /* ========== 浅色现代设计主题 (当 body 带有 theme-glass 类时生效) ========== */
+        body.theme-glass {
+            --bg-primary: #f3f0f7;
+            --bg-card: #ffffff;
+            --bg-input: #f3f0f7;
+            --border-color: #e2dce8;
+            --border-glow: #d5cde0;
+            --text-primary: #2a2438;
+            --text-secondary: #5e5670;
+            --text-warning: #c4844a;
+            --text-danger: #d94f4f;
+            --text-info: #7c5cbf;
+            --text-muted: #9185a3;
+            --progress-bg: #e2dce8;
+            --progress-visit: linear-gradient(90deg, #7c5cbf, #a78bfa);
+            --progress-sign: linear-gradient(90deg, #5bb98a, #6edba3);
+            --badge-success: #4daf7a;
+            --badge-warning: #c4844a;
+            --badge-danger: #d94f4f;
+            --badge-info: #7c5cbf;
+            --badge-muted: #9185a3;
+            --radar-grid: rgba(124,92,191,0.15);
+            --radar-fill: rgba(124,92,191,0.10);
+            --radar-stroke: #7c5cbf;
+            --table-header-bg: #efeaf5;
+            --table-row-hover: rgba(124,92,191,0.05);
+            --button-bg: #ffffff;
+            --button-active-bg: #7c5cbf;
+            --button-active-text: #ffffff;
+            --card-shadow: 0 1px 4px rgba(42,36,56,0.04), 0 2px 10px rgba(42,36,56,0.06);
+            color-scheme: light;
+            font-family: var(--font-sans);
+        }
+
+        body.theme-glass .crt-header {
+            background: #ffffff;
+            backdrop-filter: none;
+            -webkit-backdrop-filter: none;
+            border-bottom: 2px solid #7c5cbf;
+        }
+
+        body.theme-glass .vintage-btn {
+            color: var(--text-primary);
+            font-weight: 500;
+            background: #ffffff;
+            border-color: #e2dce8;
+        }
+
+        body.theme-glass .vintage-btn:hover {
+            border-color: #7c5cbf;
+            color: #7c5cbf;
+        }
+
+        body.theme-glass .vintage-btn--active {
+            color: white;
+            background: #7c5cbf;
+            border-color: #7c5cbf;
+        }
+
+        body.theme-glass .vintage-input { background: #ffffff; }
+        body.theme-glass .vintage-input:focus {
+            border-color: #7c5cbf;
+            box-shadow: 0 0 0 2px rgba(124,92,191,0.12);
+        }
+        body.theme-glass .theme-dropdown { background: #ffffff; }
+        body.theme-glass .card-title { color: #7c5cbf; border-bottom-color: rgba(124,92,191,0.15); }
+        body.theme-glass .predict-score { color: #4daf7a; border-top-color: rgba(77,175,122,0.2); }
+        body.theme-glass .num-value { font-weight: 700; }
+        body.theme-glass .badge-green { color: #4daf7a; border-color: #4daf7a; }
+        body.theme-glass .badge-amber { color: #c4844a; border-color: #c4844a; }
+        body.theme-glass .badge-red { color: #d94f4f; border-color: #d94f4f; }
+        body.theme-glass .badge-contact { color: #7c5cbf; border-color: #7c5cbf; }
+        body.theme-glass .badge-year { color: #9185a3; border-color: #9185a3; }
+        body.theme-glass .score-high { color: #4daf7a; }
+        body.theme-glass .score-mid { color: #7c5cbf; }
+        body.theme-glass .score-low { color: #c4844a; }
+        body.theme-glass .score-verylow { color: #d94f4f; }
+        body.theme-glass .num-card { background: #ffffff; border-color: #e2dce8; }
+        body.theme-glass .num-card:hover { border-color: #7c5cbf; }
+        body.theme-glass thead th { color: #7c5cbf; }
+        body.theme-glass select.vintage-select { background: #ffffff; }
+        body.theme-glass .pin-icon:hover { color: #7c5cbf; }
+        body.theme-glass tr.highlight-missing { background: rgba(224,90,90,0.06) !important; border-left: 3px solid #e05a5a; }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; background: var(--bg-primary); }
+        body {
+            font-family: var(--font-mono);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            font-size: 14px;
+            line-height: 1.45;
+            min-height: 100vh;
+            display: flex; flex-direction: column; align-items: center;
+            transition: background 0.3s, color 0.3s;
+        }
+        body::before {
+            content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+            background: rgba(0,0,0,0.015);
+            pointer-events: none; z-index: 9999;
+        }
+        body.theme-glass::before { display: none; }
+
+        .app-container {
+            max-width: 1600px; width: 100%; padding: 24px;
+            display: flex; flex-direction: column; gap: 24px; position: relative; z-index: 1;
+        }
+
+        .crt-header {
+            background: var(--bg-card); border: 1px solid var(--border-color);
+            border-radius: var(--radius-card); padding: 20px 28px;
+            box-shadow: var(--card-shadow);
+            display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px;
+        }
+        .title-main {
+            font-size: 22px; display: flex; align-items: center; gap: 8px;
+            text-transform: uppercase; font-weight: bold; color: var(--text-primary);
+        }
+        .blink-cursor::after { content: '█'; animation: blink 1s step-end infinite; margin-left: 2px; }
+        @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0;} }
+
+        .update-badge { font-size: 14px; color: var(--text-muted); letter-spacing: 0.5px; }
+        .live-badge {
+            font-size: 14px; color: var(--badge-success); font-weight: 600;
+            animation: live-pulse 2s ease-in-out infinite;
+        }
+        @keyframes live-pulse { 0%,100%{ opacity:1; } 50%{ opacity:0.4; } }
+        body.theme-glass .live-badge { color: #4daf7a; }
+
+        .theme-selector { display: flex; align-items: center; gap: 8px; }
+        .theme-selector label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
+        .theme-dropdown {
+            background: var(--bg-input); border: 1px solid var(--border-color);
+            color: var(--text-primary); font-family: inherit; padding: 6px 10px; border-radius: 6px;
+            font-size: 12px; cursor: pointer; outline: none;
+        }
+
+        .head-dashboard {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr 1.5fr;
+            gap: 20px;
+        }
+        @media (max-width: 1024px) { .head-dashboard { grid-template-columns: 1fr 1fr; } }
+        @media (max-width: 768px) { .head-dashboard { grid-template-columns: 1fr; } }
+
+        .card {
+            background: var(--bg-card); border: 1px solid var(--border-color);
+            border-radius: var(--radius-card); padding: 24px;
+            box-shadow: var(--card-shadow);
+            display: flex; flex-direction: column;
+            will-change: transform;
+        }
+        .card-title {
+            font-size: 13px; text-transform: uppercase; letter-spacing: 1px;
+            color: var(--text-warning); margin-bottom: 16px;
+            border-bottom: 1px dashed rgba(128,128,128,0.3); padding-bottom: 8px;
+        }
+        .radar-wrap {
+            display: flex; flex-direction: column; align-items: center; justify-content: center; flex: 1;
+        }
+        .radar-container { width: 100%; max-width: 280px; }
+        .radar-svg { width: 100%; height: auto; }
+        .predict-score {
+            text-align: center; font-size: 12px; color: var(--text-warning);
+            margin-top: 12px; border-top: 1px dashed rgba(128,128,128,0.2); padding-top: 12px;
+        }
+
+        .stats-panel { display: flex; flex-direction: column; gap: 20px; }
+        .big-numbers {
+            display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+        }
+        .num-card {
+            background: var(--bg-input); border: 1px solid var(--border-color); border-radius: 8px;
+            padding: 12px 8px; text-align: center;
+        }
+        .num-value {
+            font-size: 28px; font-weight: bold; display: block; line-height: 1.2;
+        }
+        .num-label {
+            font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px;
+        }
+        .progress-group { display: flex; flex-direction: column; gap: 12px; }
+        .progress-item { display: flex; flex-direction: column; gap: 4px; }
+        .progress-label { font-size: 12px; color: var(--text-muted); display: flex; justify-content: space-between; }
+        .progress-bar-track {
+            background: var(--progress-bg); border-radius: 4px; height: 10px; overflow: hidden; border: 1px solid var(--border-color);
+        }
+        .progress-fill { height: 100%; width: 0%; transition: width 0.4s ease; }
+        .progress-fill.visit { background: var(--progress-visit); }
+        .progress-fill.sign { background: var(--progress-sign); }
+
+        .control-bar {
+            display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
+            background: var(--bg-card); padding: 16px; border-radius: var(--radius-card);
+            border: 1px solid var(--border-color);
+            will-change: transform;
+        }
+        .vintage-input {
+            background: var(--bg-input); border: 1px solid var(--border-color); color: var(--text-primary);
+            font-family: inherit; padding: 8px 12px; border-radius: 6px; font-size: 13px; flex: 1; min-width: 160px; outline: none;
+        }
+        .vintage-input:focus { border-color: var(--text-info); }
+        .vintage-btn {
+            font-family: inherit; background: var(--button-bg); color: var(--text-primary);
+            border: 1px solid var(--border-color); border-radius: 6px; padding: 8px 14px;
+            cursor: pointer; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-size: 11px;
+            white-space: nowrap; transition: all 0.15s;
+        }
+        .vintage-btn:hover { filter: brightness(1.1); }
+        .vintage-btn--active { background: var(--button-active-bg); color: var(--button-active-text); border-color: transparent; }
+        select.vintage-select {
+            background: var(--bg-input); border: 1px solid var(--border-color); color: var(--text-primary);
+            font-family: inherit; padding: 6px 10px; border-radius: 6px; font-size: 12px; cursor: pointer;
+        }
+
+        .table-wrapper {
+            overflow-x: auto; border-radius: var(--radius-card);
+            border: 1px solid var(--border-color); background: var(--bg-card);
+            will-change: transform;
+        }
+        table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 1450px; }
+        thead th {
+            position: sticky; top: 0; background: var(--table-header-bg); color: var(--text-warning);
+            font-weight: 600; text-transform: uppercase;
+            padding: 12px 10px; border-bottom: 2px solid var(--border-color); z-index: 2; cursor: pointer;
+        }
+        tbody { contain: style; }
+        tbody td { padding: 12px 10px; border-bottom: 1px solid rgba(128,128,128,0.15); vertical-align: middle; }
+        tbody tr { transition: background 0.15s; cursor: pointer; contain: layout style paint; }
+        tbody tr:hover { background: var(--table-row-hover); }
+        td.cell-class, td.cell-notes { max-width: 160px; width: 160px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        table { table-layout: fixed; min-width: 1450px; }
+        thead th:nth-child(1), td.cell-school { width: 180px; }
+        thead th:nth-child(2), td:nth-child(2) { width: 110px; }
+        thead th:nth-child(3), td:nth-child(3) { width: 100px; }
+        thead th:nth-child(4), td:nth-child(4) { width: 100px; }
+        thead th:nth-child(5), td.cell-class { width: 160px; }
+        thead th:nth-child(6), td:nth-child(6) { width: 150px; }
+        thead th:nth-child(7), td:nth-child(7) { width: 80px; }
+        thead th:nth-child(8), td:nth-child(8) { width: 80px; }
+        thead th:nth-child(9), td:nth-child(9) { width: 60px; }
+        thead th:nth-child(10), td.cell-notes { width: 160px; }
+        @media (max-width: 1450px) { table { font-size: 12px; } thead th, tbody td { padding: 8px 6px; } }
+        tr.highlight-missing { background: rgba(255,45,0,0.08) !important; border-left: 3px solid var(--text-danger); }
+        .cell-school { font-weight: bold; color: var(--text-primary); }
+        .school-name { display: flex; align-items: center; gap: 4px; }
+        .pin-icon { cursor: pointer; opacity: 0.7; transition: 0.2s; position: relative; }
+        .pin-icon:hover { opacity: 1; color: var(--text-warning); }
+        .pin-icon::after {
+            content: "查看交通"; position: absolute; left: 50%; top: -24px; transform: translateX(-50%);
+            font-size: 10px; white-space: nowrap; background: var(--bg-card);
+            border: 1px solid var(--border-color); border-radius: 4px;
+            padding: 2px 6px; opacity: 0; pointer-events: none; transition: opacity 0.15s;
+            color: var(--text-muted); font-family: var(--font-mono);
+        }
+        .pin-icon:hover::after { opacity: 1; }
+        body.theme-glass .pin-icon::after { background: #ffffff; color: #9185a3; }
+        .badge {
+            display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px;
+            font-weight: 600; letter-spacing: 0.5px; margin: 1px; border: 1px solid currentColor;
+        }
+        .badge-green { color: var(--badge-success); border-color: var(--badge-success); }
+        .badge-amber { color: var(--badge-warning); border-color: var(--badge-warning); }
+        .badge-red { color: var(--badge-danger); border-color: var(--badge-danger); }
+        .badge-contact { color: var(--badge-muted); border-color: var(--badge-muted); }
+        .badge-year { background: transparent; color: var(--text-secondary); border-color: var(--text-secondary); }
+
+        .score-num {
+            font-size: 18px; font-weight: bold; text-align: center; display: inline-block; min-width: 40px;
+        }
+        .score-high { color: #059669; }
+        .score-mid { color: #2563eb; }
+        .score-low { color: #d97706; }
+        .score-verylow { color: #dc2626; }
+        body:not(.theme-glass) .score-high { color: #00ff41; }
+        body:not(.theme-glass) .score-mid { color: #00bfff; }
+        body:not(.theme-glass) .score-low { color: #ffb000; }
+        body:not(.theme-glass) .score-verylow { color: #ff2d00; }
+
+        tr.distance-detail { display: none; background: rgba(0,0,0,0.03); }
+        body:not(.theme-glass) tr.distance-detail { background: rgba(0,0,0,0.3); }
+        tr.distance-detail td { padding: 6px 12px; }
+        .dist-mini-bar { height: 4px; border-radius: 2px; background: rgba(128,128,128,0.2); margin: 2px 0; }
+        .dist-mini-fill { height: 100%; border-radius: 2px; }
+        .dist-mini-fill.drive { background: #10b981; }
+        .dist-mini-fill.metro { background: #3b82f6; }
+        body:not(.theme-glass) .dist-mini-fill.drive { background: #00ff41; }
+        body:not(.theme-glass) .dist-mini-fill.metro { background: #00bfff; }
+
+        footer { text-align: center; opacity: 0.6; margin-top: 16px; font-size: 12px; }
+
+        .click-hint {
+            display: flex; align-items: center; gap: 6px;
+            font-size: 11px; color: var(--text-warning);
+            margin-bottom: 4px; padding: 4px 10px;
+            background: var(--bg-input); border-radius: 6px;
+            border: 1px dashed var(--border-color);
+            width: fit-content; letter-spacing: 0.3px;
+            animation: hint-glow 2s ease-in-out infinite;
+        }
+        .click-hint span { font-size: 14px; }
+        @keyframes hint-glow { 0%,100%{ opacity: 0.8; } 50%{ opacity: 1; } }
+        body.theme-glass .click-hint { color: #7c5cbf; border-color: #e2dce8; }
+        .pin-icon { animation: pin-breathe 3s ease-in-out 1s 3; }
+        @keyframes pin-breathe { 0%,100%{ transform: scale(1); } 50%{ transform: scale(1.15); } }
+
+        /* ========== 经典水平滚动跑马灯 ========== */
+        .marquee-wrap {
+            display: flex; align-items: center; gap: 12px;
+            background: var(--bg-card); border: 1px solid var(--border-color);
+            border-radius: var(--radius-card); padding: 10px 16px;
+            overflow: hidden; height: 54px;
+        }
+        .marquee-icon { flex-shrink: 0; font-size: 20px; background: var(--bg-input); padding: 4px 10px; border-radius: 6px; }
+        .marquee-track { flex: 1; overflow: hidden; position: relative; height: 100%; }
+        .marquee-content {
+            display: flex; align-items: center; gap: 24px;
+            white-space: nowrap; position: absolute; left: 0; top: 0; height: 100%;
+            will-change: transform;
+        }
+        .marquee-content.scrolling {
+            animation: marquee-scroll linear infinite;
+        }
+        @keyframes marquee-scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-100%); }
+        }
+        .marquee-item { display: inline-flex; align-items: center; gap: 8px; }
+        .marquee-item .tag {
+            display: inline-block; padding: 2px 10px; border-radius: 4px;
+            font-size: 12px; font-weight: 700;
+        }
+        .marquee-item .tag.future { background: rgba(16,185,129,0.2); color: #10b981; }
+        .marquee-item .tag.today { background: rgba(255,176,0,0.25); color: var(--text-warning); }
+        .marquee-item .school { font-weight: 500; }
+        .marquee-item .school:not(:last-child)::after { content: '、'; }
+        .marquee-item .date-text { color: var(--text-muted); }
+        body.theme-glass .marquee-item .tag.future { background: rgba(77,175,122,0.15); color: #4daf7a; }
+        body.theme-glass .marquee-item .tag.today { background: rgba(196,132,74,0.15); color: #c4844a; }
+        body.theme-glass .marquee-item .school { color: var(--text-primary); }
+
+        /* ========== 浮动气泡卡片 ========== */
+        .popover-card {
+            position: fixed; z-index: 9999;
+            max-width: 500px; max-height: 360px; overflow-y: auto;
+            background: var(--bg-card); border: 1px solid var(--border-color);
+            border-radius: 10px; padding: 16px 20px;
+            font-size: 15px; line-height: 1.7; white-space: pre-wrap; word-break: break-word;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+            pointer-events: auto; display: none;
+        }
+        .popover-card.show { display: block; }
+        .popover-card .popover-close {
+            position: sticky; top: 0; float: right; cursor: pointer;
+            font-size: 16px; opacity: 0.5; transition: 0.15s;
+            background: var(--bg-card); padding: 2px 8px; border-radius: 4px;
+        }
+        .popover-card .popover-close:hover { opacity: 1; }
+        body.theme-glass .popover-card { box-shadow: 0 4px 20px rgba(42,36,56,0.12); }
+    </style>
+</head>
+<body>
+<div class="app-container">
+    <header class="crt-header">
+        <div class="title-main">
+            <span class="blink-cursor">📋 AMY WANG访校记录 · 中考信息看板</span>
+        </div>
+        <div style="display:flex; align-items:center; gap:16px; flex-wrap:wrap;">
+            <span class="update-badge">数据更新：2026-05-13</span>
+            <span class="live-badge">● LIVE</span>
+            <div class="theme-selector">
+                <label for="themeSelect">THEME</label>
+                <select id="themeSelect" class="theme-dropdown">
+                    <option value="terminal">🖥️ TERMINAL</option>
+                    <option value="glass">✨ LIGHT</option>
+                </select>
+            </div>
+        </div>
+    </header>
+
+    <div class="marquee-wrap" id="marqueeWrap">
+        <div class="marquee-icon">📅</div>
+        <div class="marquee-track" id="marqueeTrack">
+            <div class="marquee-content" id="marqueeContent"></div>
+        </div>
+    </div>
+
+    <section class="head-dashboard">
+        <div class="card" id="radarCard">
+            <div class="card-title">🎯 学生分数雷达</div>
+            <div class="radar-wrap">
+                <div class="radar-container"><svg class="radar-svg" viewBox="0 0 200 200" id="radarSvg"></svg></div>
+                <div class="predict-score">📍所属区域：高新区 &nbsp;|&nbsp; 2026中考预测分：584.9（二诊 447.5×1.24+30）</div>
+            </div>
+        </div>
+        <div class="card stats-panel">
+            <div class="card-title">📊 访校与签约看板</div>
+            <div class="big-numbers">
+                <div class="num-card"><span class="num-value" id="numTarget" style="color:var(--text-primary);">--</span><span class="num-label">目标学校</span></div>
+                <div class="num-card"><span class="num-value" id="numVisited" style="color:var(--text-warning);">--</span><span class="num-label">已访校</span></div>
+                <div class="num-card"><span class="num-value" id="numSigned" style="color:#10b981;">--</span><span class="num-label">已签约</span></div>
+                <div class="num-card"><span class="num-value" id="numUnvisited" style="color:var(--text-danger);">--</span><span class="num-label">未访校</span></div>
+            </div>
+            <div class="progress-group">
+                <div class="progress-item">
+                    <div class="progress-label"><span>🏫 访校进度</span><span id="progressVisitText">0/0 (0%)</span></div>
+                    <div class="progress-bar-track"><div class="progress-fill visit" id="progressVisitFill"></div></div>
+                </div>
+                <div class="progress-item">
+                    <div class="progress-label"><span>✍️ 签约进度</span><span id="progressSignText">0/0 (0%)</span></div>
+                    <div class="progress-bar-track"><div class="progress-fill sign" id="progressSignFill"></div></div>
+                </div>
+            </div>
+            <div class="big-numbers" style="margin-top:12px;grid-template-columns:repeat(4,1fr);">
+                <div class="num-card"><span class="num-value" id="numSignRate" style="color:#10b981;">--</span><span class="num-label">签约转化率</span></div>
+                <div class="num-card"><span class="num-value" id="numContactRate" style="color:var(--text-info);">--</span><span class="num-label">信息渠道率</span></div>
+                <div class="num-card"><span class="num-value" id="numNew2026" style="color:var(--text-warning);">--</span><span class="num-label">2026新校</span></div>
+                <div class="num-card"><span class="num-value" id="numNewSchools" style="color:var(--text-primary);">--</span><span class="num-label">新增学位</span></div>
+            </div>
+        </div>
+        <div class="card" id="trendCard">
+            <div class="card-title">📈 升学定位与趋势</div>
+            <div style="display:flex;flex-direction:column;gap:12px;flex:1;">
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+                    <div style="background:var(--bg-input);border:1px solid var(--border-color);border-radius:8px;padding:10px;text-align:center;">
+                        <span style="font-size:10px;color:var(--text-muted);display:block;text-transform:uppercase;letter-spacing:0.3px;">2026公式</span>
+                        <span style="font-size:15px;font-weight:bold;display:block;margin-top:2px;color:var(--text-info);">二诊×1.24+30</span>
+                    </div>
+                    <div style="background:var(--bg-input);border:1px solid var(--border-color);border-radius:8px;padding:10px;text-align:center;">
+                        <span style="font-size:10px;color:var(--text-muted);display:block;text-transform:uppercase;letter-spacing:0.3px;">2025对比</span>
+                        <span style="font-size:15px;font-weight:bold;display:block;margin-top:2px;color:var(--text-secondary);">二诊×1.22+35</span>
+                    </div>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:6px;">
+                    <div style="background:var(--bg-input);border:1px solid var(--border-color);border-radius:8px;padding:10px;">
+                        <div style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.3px;">📌 分数段定位</div>
+                        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:4px;">
+                            <span style="font-size:13px;">二诊 <strong style="color:var(--text-info);font-size:16px;">447.5</strong></span>
+                            <span style="font-size:13px;color:var(--text-warning);">≥ 390</span>
+                            <span style="font-size:11px;color:var(--text-muted);">🎯 公办/优质民办普高</span>
+                        </div>
+                        <div style="display:flex;justify-content:space-between;margin-top:2px;">
+                            <span style="font-size:10px;color:var(--text-muted);">二诊350-389 → 三圈层民办</span>
+                            <span style="font-size:10px;color:var(--text-muted);">二诊<350 → 职教高考班</span>
+                        </div>
+                    </div>
+                    <div style="background:var(--bg-input);border:1px solid var(--border-color);border-radius:8px;padding:10px;">
+                        <div style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:0.3px;">📰 2026新政利好</div>
+                        <div style="display:flex;gap:10px;margin-top:4px;flex-wrap:wrap;">
+                            <span style="font-size:11px;color:var(--text-primary);">➕ 新增 <strong style="color:var(--text-warning);">14</strong> 所公办普高</span>
+                            <span style="font-size:11px;color:var(--text-primary);">🪪 约 <strong style="color:var(--text-warning);">8500</strong> 个学位</span>
+                            <span style="font-size:11px;color:var(--text-primary);">🔄 民办补录全市通录</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="control-bar">
+        <input class="vintage-input" id="searchInput" placeholder="🔍 搜索学校或备注...">
+        <select class="vintage-select" id="districtSelect"><option value="">全部区域</option></select>
+        <button class="vintage-btn" id="btnReset">⟳ 重置</button>
+        <button class="vintage-btn" id="btnToggleSigned">✓ 仅已签约</button>
+        <button class="vintage-btn" id="btnSortScore">📊 统招线排序</button>
+        <span style="margin-left:auto;font-size:12px;color:var(--text-muted);" id="resultCount"></span>
+    </div>
+
+    <div class="popover-card" id="popoverCard">
+        <span class="popover-close" id="popoverClose">✕</span>
+        <div id="popoverContent"></div>
+    </div>
+    <div class="click-hint"><span>📍</span> 点击学校名旁的 <strong>📍图标</strong> 可查看开车 & 地铁交通距离</div>
+    <div class="table-wrapper">
+        <table id="dataTable">
+            <thead>
+            <tr>
+                <th data-sort="school" style="cursor:help;" title="📍点击图标查看开车/地铁交通距离">学校名称 ↕</th>
+                <th data-sort="date">访校日期 ↕</th>
+                <th>签约状态</th>
+                <th>联系方式</th>
+                <th>班型</th>
+                <th>项目班</th>
+                <th>2025统招线</th>
+                <th>2025位次</th>
+                <th>中签率</th>
+                <th>备注</th>
+            </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+    <footer>● 中签率v2.0 基于分数差距+位次竞争+签约/访校因子，2026新校有首年降分预期，仅供参考 ●</footer>
+</div>
+
+<script>
+(() => {
+    // 主题切换
+    const themeSelect = document.getElementById('themeSelect');
+    function applyTheme(theme) {
+        if (theme === 'glass') document.body.classList.add('theme-glass');
+        else document.body.classList.remove('theme-glass');
+        localStorage.setItem('dashboardTheme', theme);
+    }
+    themeSelect.addEventListener('change', (e) => applyTheme(e.target.value));
+    const savedTheme = localStorage.getItem('dashboardTheme') || 'terminal';
+    themeSelect.value = savedTheme;
+    applyTheme(savedTheme);
+
+    // 数据定义
+    const ERZHEN_SCORE = 447.5;
+    const PREDICTED_SCORE = Math.round(ERZHEN_SCORE * 1.24 + 30);
+    const examinee = {
+        total: ERZHEN_SCORE, totalFull: 570,
+        subjects: [
+            { name: '语文', score: 112.5, full: 150 },
+            { name: '数学', score: 110, full: 150 },
+            { name: '英语', score: 131, full: 150 },
+            { name: '物理', score: 56.5, full: 70 },
+            { name: '化学', score: 37.5, full: 50 }
+        ]
+    };
+
+    // 距离数据
+    const distanceRaw = [
+        {school:"市教科院附属学校",straight:0.77,driveDist:1,driveTime:17,metroDist:0.9,metroTime:26},
+        {school:"成都市教科院附中",straight:1.64,driveDist:2.13,driveTime:19,metroDist:1.92,metroTime:27},
+        {school:"墨池书院中学",straight:2.17,driveDist:2.82,driveTime:20,metroDist:2.54,metroTime:28},
+        {school:"省教科院附属实验中学",straight:4.31,driveDist:5.6,driveTime:33,metroDist:5.04,metroTime:36},
+        {school:"北二外成都附中",straight:6.75,driveDist:8.78,driveTime:38,metroDist:7.9,metroTime:39},
+        {school:"四川天府新区第四中学",straight:8.11,driveDist:9.73,driveTime:39,metroDist:8.76,metroTime:40},
+        {school:"石室锦官中学",straight:9.47,driveDist:12.31,driveTime:43,metroDist:11.08,metroTime:43},
+        {school:"锦江区嘉祥外国语高级中学",straight:10.44,driveDist:15.66,driveTime:55,metroDist:14.09,metroTime:46},
+        {school:"七中育才东湖校区",straight:10.61,driveDist:13.79,driveTime:45,metroDist:12.41,metroTime:44},
+        {school:"成都玉林中学",straight:10.85,driveDist:14.11,driveTime:46,metroDist:12.69,metroTime:45},
+        {school:"电子科大实验中学",straight:11.27,driveDist:14.65,driveTime:46,metroDist:13.19,metroTime:45},
+        {school:"七中育才白鹭湾",straight:11.71,driveDist:15.22,driveTime:55,metroDist:13.7,metroTime:46},
+        {school:"成都十二中(四川大学附属中学)",straight:11.8,driveDist:15.34,driveTime:55,metroDist:13.81,metroTime:46},
+        {school:"盐道街中学(南区)",straight:11.83,driveDist:15.38,driveTime:55,metroDist:13.84,metroTime:46},
+        {school:"四川师大附中(东区)",straight:12.46,driveDist:16.2,driveTime:56,metroDist:14.58,metroTime:47},
+        {school:"盐道街中学",straight:12.9,driveDist:16.77,driveTime:56,metroDist:15.09,metroTime:55},
+        {school:"成都二中(红星校区)",straight:14.03,driveDist:18.24,driveTime:58,metroDist:16.42,metroTime:56},
+        {school:"青羊区教科附",straight:14.81,driveDist:20.73,driveTime:60,metroDist:18.66,metroTime:58},
+        {school:"树德协进中学",straight:14.89,driveDist:19.36,driveTime:59,metroDist:17.42,metroTime:57},
+        {school:"列五中学",straight:15.03,driveDist:19.54,driveTime:59,metroDist:17.59,metroTime:57},
+        {school:"石室132",straight:15.3,driveDist:19.89,driveTime:59,metroDist:17.9,metroTime:57},
+        {school:"成都十八中",straight:16.67,driveDist:21.67,driveTime:61,metroDist:19.5,metroTime:59},
+        {school:"成都铁中",straight:17.25,driveDist:22.43,driveTime:62,metroDist:20.18,metroTime:60},
+        {school:"成都四十九中",straight:17.4,driveDist:22.62,driveTime:62,metroDist:20.36,metroTime:60},
+        {school:"成华区嘉祥外国语高级中学",straight:18.27,driveDist:27.41,driveTime:67,metroDist:24.66,metroTime:64},
+        {school:"树德实验明远学校",straight:18.38,driveDist:23.89,driveTime:63,metroDist:21.5,metroTime:61},
+        {school:"成都英才学校",straight:18.66,driveDist:24.26,driveTime:64,metroDist:21.83,metroTime:61},
+        {school:"石室联合弘文学校",straight:19.18,driveDist:24.93,driveTime:64,metroDist:22.44,metroTime:62},
+        {school:"七中万达学校",straight:19.98,driveDist:25.97,driveTime:65,metroDist:23.38,metroTime:63},
+        {school:"树德实验高中清波校区",straight:20.07,driveDist:26.09,driveTime:66,metroDist:23.48,metroTime:63},
+        {school:"成都二十中",straight:21.54,driveDist:28,driveTime:68,metroDist:25.2,metroTime:65},
+        {school:"七中八一学校",straight:22.31,driveDist:29,driveTime:69,metroDist:26.1,metroTime:66},
+        {school:"成都二中(凤凰校区)",straight:23.33,driveDist:30.33,driveTime:70,metroDist:27.3,metroTime:67},
+        {school:"成都外国语学校本部",straight:25.15,driveDist:32.7,driveTime:72,metroDist:29.43,metroTime:69},
+        {school:"温江区菁才中学",straight:26.01,driveDist:41.62,driveTime:81,metroDist:37.45,metroTime:77}
+    ];
+    const distMap = new Map(distanceRaw.map(d => [d.school, d]));
+    const MAX_DRIVE = 41.62, MAX_METRO = 37.45;
+
+    const raw = [
+        { school:"成都二中(红星校区)", date:"4月10日", visitSign:"是/是", contact:"有群", classInfo:"红星和凤凰两个招生代码，各招200人；", project:"数+物≥199", notes:"", score:626, rank:4011, district:"锦江区" },
+        { school:"四川师大附中(东区)", date:"", visitSign:"", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"锦江区" },
+        { school:"七中万达学校", date:"5月14日上午", visitSign:"", contact:"", classInfo:"", project:"", notes:"", score:623, rank:4527, district:"金牛区" },
+        { school:"七中育才东湖校区", date:"", visitSign:"", contact:"", classInfo:"", project:"", notes:"", score:623, rank:4527, district:"锦江区" },
+        { school:"成都英才学校", date:"", visitSign:"是/是", contact:"有群", classInfo:"签约强基实验班。10个班6种班型：竞赛/强基/综合素质/专项计划/艺体(如美术方向清北)/高考", project:"航空特色班/科创特色项目班", notes:"高考场上招生210,分层教学,强走班,数学英语分层走班.硬件好,食堂好，午休回寝室，地点在机车厂。七中领办，和七林考试同步，备课同步。p.s.七林领办：英才,781，东部，墨池，菁才", score:621, rank:4861, district:"成华区" },
+        { school:"石室联合弘文学校", date:"", visitSign:"", contact:"", classInfo:"", project:"", notes:"", score:620, rank:5043, district:"青羊区", yearTag:"2024" },
+        { school:"七中八一学校", date:"5月16日 9:00", visitSign:"", contact:"有群", classInfo:"", project:"", notes:"", score:618, rank:5371, district:"金牛区" },
+        { school:"成都十二中(四川大学附属中学)", date:"5月5日上午", visitSign:"是/是", contact:"有群", classInfo:"17个班，批量登记，如填报志愿+3分计算；", project:"数+物≥195", notes:"", score:616, rank:5743, district:"武侯区" },
+        { school:"树德实验高中清波校区", date:"", visitSign:"", contact:"", classInfo:"", project:"", notes:"", score:613, rank:6276, district:"青羊区", yearTag:"2024" },
+        { school:"墨池书院中学", date:"", visitSign:"", contact:"有群", classInfo:"已填登记资料", project:"", notes:"", score:613, rank:6276, district:"高新区" },
+        { school:"石室锦官中学", date:"5月12日 下午", visitSign:"是/是", contact:"有群", classInfo:"卓越领军博雅三个班型（每个两个班），签约了领军，并发放了签约凭证", project:"无", notes:"场上招生约100余人；共六个班；宿舍六人间，满足100%住校，但是教室改造的", score:612, rank:6451, district:"武侯区", yearTag:"2024" },
+        { school:"盐道街中学", date:"", visitSign:"", contact:"有群", classInfo:"已填登记资料", project:"", notes:"", score:611, rank:6626, district:"锦江区" },
+        { school:"北二外成都附中", date:"5月10日 9:30", visitSign:"是/否", contact:"有群", classInfo:"三种班型，竞技强基/科创基地(92%211)/双语基地(82%双一流+qs前200的国外院校)，450人9个班，未能签约", project:"数英260-270", notes:"宿舍一般，6-8人间，50%住校，午休在教室", score:610, rank:6771, district:"武侯区" },
+        { school:"列五中学", date:"5月10日 8:30", visitSign:"是/是", contact:"有群", classInfo:"签约C9班型；C9有3-4个班，出口情况十个左右C9，50%985，70%211", project:"", notes:"宿舍有点差,8人间", score:609, rank:6929, district:"成华区" },
+        { school:"成都二十中", date:"5月7日 晚", visitSign:"是/是", contact:"有群", classInfo:"签的985班，入学考试有可能升强基班，班型强基班/985实验一/实验二。", project:"体育项目班", notes:"硬件好，有恒温泳池；", score:607, rank:7284, district:"金牛区" },
+        { school:"成都四十九中", date:"5月10日 11:00", visitSign:"是/是", contact:"", classInfo:"签约实验班；班型：实验班(又分强基班，高考班一共5个班)。出口：实验班80%能上600分，35-45% 211。24-25年400人有152人600以上，实验班100%特控线", project:"无", notes:"26年场内招生217人,去年场内7444位,90分普高线上", score:606, rank:7444, district:"成华区" },
+        { school:"盐道街中学(南区)", date:"5月12日 9:30", visitSign:"是/否", contact:"有群", classInfo:"八个班 院士AB，实验三种班型", project:"物理加生物190", notes:"高一,高二周末正常休息,周天下午18:00返校,早上7:30上学,暑假不上课", score:606, rank:7444, district:"锦江区" },
+        { school:"成都铁中", date:"5月8日 / 5月10日", visitSign:"是/是", contact:"有群", classInfo:"10个班500人，三种班型，浙大基地班，创新实验班，实验班，89.6%特控线，96.3%本科，签班型只管第一学期，会降班；签的实验班；", project:"体育/武术班", notes:"硬件很一般，在教室午休", score:603, rank:7925, district:"金牛区" },
+        { school:"电子科大实验中学", date:"5月9日上午", visitSign:"是/是", contact:"有群", classInfo:"签的钱2，比录取线高五分能进钱1班，班型钱123+1个项目班,共10/11个班", project:"", notes:"", score:602, rank:8110, district:"高新区" },
+        { school:"成都二中(凤凰校区)", date:"", visitSign:"是/是", contact:"有群", classInfo:"签约资格与红星校区通用，单独代码，约200人；", project:"", notes:"", score:null, rank:null, district:"金牛区", yearTag:"2026" },
+        { school:"省教科院附属实验中学", date:"4月19日", visitSign:"是/是", contact:"有群/有老师", classInfo:"贯通班,所有指标到校学生都是贯通班，6个班", project:"预估无", notes:"校方自估统招线620，新校首年扣10分预估610", score:null, rank:null, district:"高新区", yearTag:"2026", estScore:610 },
+        { school:"市教科院附属学校", date:"4月25日", visitSign:"是/无", contact:"", classInfo:"6个班", project:"预估无", notes:"", score:null, rank:null, district:"高新区", yearTag:"2026", estScore:585 },
+        { school:"石室132", date:"", visitSign:"", contact:"", classInfo:"", project:"", notes:"", score:null, rank:null, district:"成华区", yearTag:"2026", estScore:595 },
+        { school:"成都玉林中学", date:"5月2日", visitSign:"是/无", contact:"有群", classInfo:"11个班550人，", project:"艺术美术书法篮球", notes:"", score:599, rank:8601, district:"武侯区" },
+        { school:"青羊区教科附", date:"5月13日上午", visitSign:"", contact:"有群", classInfo:"", project:"", notes:"锦西路66号（7号线金沙遗址博物馆A口）", score:595, rank:9202, district:"青羊区" },
+        { school:"树德协进中学", date:"5月4日", visitSign:"是/是", contact:"有群", classInfo:"签的红一，红一/红二/网班三种班型，共十个班", project:"", notes:"", score:589, rank:10073, district:"青羊区" },
+        { school:"树德实验明远学校", date:"5月8日", visitSign:"是/否", contact:"有群", classInfo:"场内72人，不提前签 ，共6个班，每个班型2个班，能进中等班 ", project:"", notes:"暑假东马棚，开学新校区；512消息：高新区只接待460以上下周可以来咨询", score:null, rank:null, district:"金牛区", yearTag:"2026", estScore:590 },
+        { school:"四川天府新区第四中学", date:"5月17日 8:40", visitSign:"已预约", contact:"", classInfo:"", project:"", notes:"", score:null, rank:null, district:"天府新区", yearTag:"2026", estScore:580 },
+        { school:"成都十八中", date:"5月2日", visitSign:"是/是", contact:"有群", classInfo:"签了强基班型,10个班；三个班型：强基/实验/平行", project:"法语/足球/体育", notes:"", score:588, rank:10207, district:"金牛区" },
+        { school:"七中育才白鹭湾", date:"", visitSign:"", contact:"", classInfo:"", project:"", notes:"学校未完工未交付", score:null, rank:null, district:"锦江区", yearTag:"2026", estScore:595 },
+        { school:"成都外国语学校本部", date:"4月20日/5月9日上午", visitSign:"是/是", contact:"有老师", classInfo:"3种班型，钱/C9/实验 (4-5个班)签的实验，如610进C9(优惠10分)", project:"数+英≥260 不单独成班", notes:"已交5000订金；中考620+有奖学金；学费5.9万/年", score:577, rank:12810, district:"郫都区" },
+        { school:"锦江区嘉祥外国语高级中学", date:"4月16日", visitSign:"是/否", contact:"有老师", classInfo:"统招140 人", project:"", notes:"", score:619, rank:5210, district:"锦江区" },
+        { school:"成华区嘉祥外国语高级中学", date:"4月18日", visitSign:"是/否", contact:"有老师", classInfo:"创新/精品/实验/平行，分数可签精品，统招100+人。", project:"", notes:"实际学费约3w+/年", score:577, rank:11900, district:"成华区" },
+        { school:"温江区菁才中学", date:"5月3日", visitSign:"是/无", contact:"有群", classInfo:"三种班型，7中班/英才班/实验班,共300+人，场内约100人；", project:"", notes:"", score:null, rank:null, district:"温江区", yearTag:"2026", estScore:580 },
+        { school:"成都市教科院附中", date:"3月14日", visitSign:"是/否", contact:"无", classInfo:"348 人（含指标到校 174 人）", project:"", notes:"", score:630, rank:3345, district:"高新区" },
+        // 备选
+        { school:"七万通锦", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:591, rank:null, district:"金牛区" },
+        { school:"棠湖", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:591, rank:null, district:"其他" },
+        { school:"石室成飞", date:"", visitSign:"备选", contact:"", classInfo:"", project:"", notes:"备选", score:598, rank:null, district:"青羊区" },
+        { school:"川大附新城", date:"", visitSign:"备选", contact:"", classInfo:"", project:"", notes:"备选", score:585, rank:null, district:"其他" },
+        { school:"西北", date:"", visitSign:"备选", contact:"", classInfo:"", project:"", notes:"备选", score:581, rank:null, district:"其他" },
+        { school:"石天", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" },
+        { school:"石室北湖", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" },
+        { school:"八中", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" },
+        { school:"西南交大附中", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" },
+        { school:"华西", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" },
+        { school:"中和", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" },
+        { school:"石室东部", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"", score:null, rank:null, district:"其他" }
+    ];
+
+    function parseStatus(str) {
+        const s = (str||'').trim();
+        if (s === '备选') return { visited:false, signed:false, isBackup:true };
+        if (s === '已预约') return { visited:true, signed:false, isBackup:false };
+        if (s.includes('/')) {
+            const [v,g] = s.split('/');
+            return { visited:v==='是', signed:g==='是', isBackup:false };
+        }
+        return { visited:false, signed:false, isBackup:false };
+    }
+
+    const schools = raw.map((item, idx) => {
+        const { visited, signed, isBackup } = parseStatus(item.visitSign);
+        const dateStr = item.date.trim() || '--';
+        const contact = item.contact || '--';
+        const yearTag = item.yearTag || null;
+        const missing = !isBackup && dateStr === '--' && contact === '--';
+        const dist = distMap.get(item.school) || null;
+        // 使用估分(estScore)补充无score的新校
+        const effectiveScore = item.score || item.estScore || null;
+        return {
+            id: idx, school: item.school, date: dateStr,
+            visited, signed, isBackup,
+            contact, classInfo: item.classInfo || '--', project: item.project || '--',
+            score: item.score, rank: item.rank,
+            effectiveScore, // 用于中签率计算
+            notes: item.notes || '--',
+            yearTag, missing, distance: dist,
+            district: item.district || '其他',
+            hasBonusSign: item.project?.includes('+3分') || null,
+        };
+    });
+
+    // ===== **升级版中签率模型 v2.0** =====
+    // 核心逻辑：50% baseline ± 分数差因子 ± 位次竞争因子 + 签约/访校加成
+    // 新增因素：位次竞争梯度、签约加分承诺、2026新校首年降分
+    function calcRate(s) {
+        if (s.isBackup) return null;
+
+        // 使用effectiveScore（有score用score，没有则用估分）
+        const sc = s.effectiveScore;
+        if (sc == null) return null; // 实在没数据
+
+        // 1. 基础分差因子：每差1分 = ±1.6%
+        let base = 50 + (PREDICTED_SCORE - sc) * 1.6;
+
+        // 2. 位次竞争因子
+        if (s.rank != null) {
+            if (s.rank < 3000) base -= 10;          // 顶尖竞争
+            else if (s.rank < 5000) base -= 5;       // 强竞争
+            else if (s.rank < 8000) base -= 2;       // 中等竞争
+            else if (s.rank > 12000) base += 3;       // 低竞争
+        }
+
+        // 3. 签约+访校因子
+        if (s.signed) {
+            base += 12;  // 签约基础加成
+            // 特殊加分：十二中"如填报志愿+3分计算"
+            if (s.school === '成都十二中(四川大学附属中学)') base += 6;
+            // 成外 "如610进C9(优惠10分)"
+            if (s.school === '成都外国语学校本部') base += 8;
+        } else if (s.visited) {
+            base += 4;   // 仅访校加成（比签约小）
+        }
+
+        // 4. 2026新校首年降分预期
+        if (s.yearTag === '2026' && s.score == null) {
+            base += 10;  // 首年招生通常分数线偏低
+        }
+
+        // 5. 无联系方式扣分
+        if (s.contact === '--' || s.contact === '无') base -= 5;
+
+        // 6. 预约也算正向信号
+        if (s.contact === '已预约' && !s.visited && !s.signed) base += 3;
+
+        return Math.min(98, Math.max(2, Math.round(base)));
+    }
+
+    function scoreClass(rate) {
+        if (rate >= 80) return 'score-high';
+        if (rate >= 60) return 'score-mid';
+        if (rate >= 40) return 'score-low';
+        return 'score-verylow';
+    }
+
+    // ===== 经典水平滚动跑马灯 =====
+    function buildMarquee() {
+        const contentEl = document.getElementById('marqueeContent');
+        const now = new Date(2026, 4, 13);
+        const dateMap = {};
+        schools.forEach(s => {
+            if (s.date === '--' || s.isBackup) return;
+            let day = null;
+            const m = s.date.match(/(\d+)月(\d+)日/);
+            if (m) day = new Date(2026, parseInt(m[1])-1, parseInt(m[2]));
+            if (!day) return;
+            const key = day.getTime();
+            if (!dateMap[key]) dateMap[key] = { date: day, schools: [] };
+            dateMap[key].schools.push(s.school);
+        });
+        const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+        const upcoming = Object.values(dateMap).filter(d => d.date >= today).sort((a,b) => a.date - b.date);
+        if (upcoming.length === 0) {
+            contentEl.innerHTML = '<span style="color:var(--text-muted);padding:4px 0;">🎉 暂无即将到访的学校</span>';
+            return;
+        }
+        // 构建全部日程：按时间顺序由近到远全部展示
+        let html = '';
+        upcoming.forEach((d, i) => {
+            const diffDays = Math.round((d.date - now) / (1000*60*60*24));
+            const isToday = diffDays <= 0;
+            const tagClass = isToday ? 'today' : 'future';
+            const tagText = isToday ? '🗓️ 今天' : '待访';
+            const monthDay = `${d.date.getMonth()+1}月${d.date.getDate()}日`;
+            if (i > 0) html += '<span class="marquee-sep" style="color:var(--border-color);">│</span>';
+            html += `<span class="marquee-item"><span class="tag ${tagClass}">${tagText}</span><span class="date-text">${monthDay}</span><span class="school">${d.schools.join('、')}</span></span>`;
+            if (!isToday) html += `<span class="countdown" style="font-size:12px;color:var(--text-warning);font-weight:700;margin-left:2px;">⏳${diffDays}天后</span>`;
+        });
+        contentEl.innerHTML = html;
+        // 检测是否超出容器宽度，超出则启动水平滚动
+        contentEl.classList.remove('scrolling');
+        clearTimeout(contentEl._marqueeTimer);
+        setTimeout(() => {
+            const track = document.getElementById('marqueeTrack');
+            if (contentEl.scrollWidth > track.clientWidth) {
+                // 克隆一份内容实现无缝衔接
+                contentEl.innerHTML += `<span class="marquee-clone">${html}</span>`;
+                const duration = contentEl.scrollWidth / 40; // 40px/s 速度
+                contentEl.style.animationDuration = duration + 's';
+                contentEl.classList.add('scrolling');
+            } else {
+                contentEl.style.animationDuration = '0s';
+            }
+        }, 100);
+    }
+    buildMarquee();
+
+    // ===== 雷达图（放大版） =====
+    function drawRadar() {
+        const svg = document.getElementById('radarSvg');
+        const cx=100, cy=100, r=85;
+        const subs = examinee.subjects;
+        const n = subs.length;
+        const angles = subs.map((_,i) => (Math.PI*2*i/n) - Math.PI/2);
+        const displayRatios = subs.map(s => {
+            let raw = s.score / s.full;
+            if (s.name === '数学') raw *= 0.92;
+            if (s.name === '化学') raw *= 0.88;
+            return raw;
+        });
+        let grid = '';
+        for (let lv=0.2; lv<=1; lv+=0.2) {
+            const pts = angles.map(a => `${cx + r*lv*Math.cos(a)},${cy + r*lv*Math.sin(a)}`).join(' ');
+            grid += `<polygon points="${pts}" fill="none" stroke="var(--radar-grid)" stroke-width="0.5"/>`;
+        }
+        let axes = '';
+        angles.forEach((a,i) => {
+            const x = cx + r*Math.cos(a), y = cy + r*Math.sin(a);
+            axes += `<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}" stroke="var(--radar-grid)" stroke-width="0.8"/>`;
+            const lx = cx + (r+10)*Math.cos(a), ly = cy + (r+10)*Math.sin(a);
+            const isWeak = subs[i].name === '数学' || subs[i].name === '化学';
+            axes += `<text x="${lx}" y="${ly}" fill="${isWeak ? 'var(--text-danger)' : 'var(--text-muted)'}" font-size="7" text-anchor="middle">${subs[i].name}</text>`;
+        });
+        let labels = '';
+        displayRatios.forEach((p,i) => {
+            const x = cx + (r*p+5)*Math.cos(angles[i]), y = cy + (r*p+5)*Math.sin(angles[i]);
+            labels += `<text x="${x}" y="${y}" fill="${subs[i].name==='数学'||subs[i].name==='化学'?'var(--text-danger)':'var(--text-primary)'}" font-size="6" text-anchor="middle">${subs[i].score}/${subs[i].full}</text>`;
+        });
+        const points = displayRatios.map((p,i) => `${cx + r*p*Math.cos(angles[i])},${cy + r*p*Math.sin(angles[i])}`).join(' ');
+        svg.innerHTML = grid + axes + `<polygon points="${points}" fill="var(--radar-fill)" stroke="var(--radar-stroke)" stroke-width="1.5"/>` + labels;
+    }
+
+    // ===== 统计 =====
+    const target = schools.filter(s => !s.isBackup);
+    const totalTarget = target.length;
+    const visitedCount = target.filter(s => s.visited).length;
+    const signedCount = target.filter(s => s.signed).length;
+    const unvisitedCount = totalTarget - visitedCount;
+
+    function updateStats() {
+        document.getElementById('numTarget').textContent = totalTarget;
+        document.getElementById('numVisited').textContent = visitedCount;
+        document.getElementById('numSigned').textContent = signedCount;
+        document.getElementById('numUnvisited').textContent = unvisitedCount;
+        const vp = totalTarget ? Math.round(visitedCount/totalTarget*100) : 0;
+        const sp = totalTarget ? Math.round(signedCount/totalTarget*100) : 0;
+        document.getElementById('progressVisitFill').style.width = vp+'%';
+        document.getElementById('progressSignFill').style.width = sp+'%';
+        document.getElementById('progressVisitText').textContent = `${visitedCount}/${totalTarget} (${vp}%)`;
+        document.getElementById('progressSignText').textContent = `${signedCount}/${totalTarget} (${sp}%)`;
+
+        const visitedWithData = target.filter(s => s.visited);
+        const signRate = visitedWithData.length ? Math.round(signedCount/visitedWithData.length*100) : 0;
+        document.getElementById('numSignRate').textContent = visitedWithData.length ? `${signRate}%` : '--';
+        document.getElementById('numSignRate').title = `${signedCount}已签 / ${visitedWithData.length}已访`;
+
+        const contactCount = target.filter(s => s.contact !== '--' && s.contact !== '').length;
+        const contactRate = Math.round(contactCount/totalTarget*100);
+        document.getElementById('numContactRate').textContent = totalTarget ? `${contactRate}%` : '--';
+        document.getElementById('numContactRate').title = `${contactCount}有群/有老师 / ${totalTarget}目标`;
+
+        const new2026Count = target.filter(s => s.yearTag === '2026').length;
+        document.getElementById('numNew2026').textContent = new2026Count;
+        document.getElementById('numNewSchools').textContent = '14所';
+    }
+
+    let sortBy = null, sortAsc = true, showSignedOnly = false;
+
+    function applySort(data) {
+        if (!sortBy) return data;
+        return [...data].sort((a,b) => {
+            if (sortBy==='score') {
+                const va = a.score ?? -1, vb = b.score ?? -1;
+                return sortAsc ? va - vb : vb - va;
+            }
+            if (sortBy==='date') {
+                const va = a.date==='--'?'9999':a.date, vb = b.date==='--'?'9999':b.date;
+                return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
+            }
+            if (sortBy==='school') return sortAsc ? a.school.localeCompare(b.school,'zh') : b.school.localeCompare(a.school,'zh');
+            return 0;
+        });
+    }
+
+    function renderTable(data) {
+        const tbody = document.getElementById('tableBody');
+        if (data.length===0) { tbody.innerHTML = '<tr><td colspan="10" style="text-align:center;padding:20px;">📭 无匹配记录</td></tr>'; return; }
+        let html = '';
+        data.forEach(s => {
+            const hl = (s.missing && !s.isBackup) ? 'highlight-missing' : '';
+            const rate = calcRate(s);
+            const sc = scoreClass(rate);
+            const dist = s.distance;
+            const badges = s.yearTag ? `<span class="badge badge-year">${s.yearTag}</span>` : '';
+            html += `<tr class="${hl}" data-id="${s.id}">
+                <td class="cell-school"><span class="school-name">${s.school} ${badges}<span class="pin-icon" data-id="${s.id}">📍</span></span></td>
+                <td>${s.date}</td>
+                <td>${s.isBackup ? '<span class="badge badge-amber">备选</span>' : (s.visited?'<span class="badge badge-green">已访</span> ':'<span class="badge badge-amber">未访</span> ')+(s.signed?'<span class="badge badge-green">已签</span>':'<span class="badge badge-amber">未签</span>')}</td>
+                <td>${s.contact==='有群'?'<span class="badge badge-contact">有群</span>':s.contact==='有老师'?'<span class="badge badge-contact">有老师</span>':s.contact==='有群/有老师'?'<span class="badge badge-contact">有群</span> <span class="badge badge-contact">有老师</span>':'--'}</td>
+                <td class="cell-class">${s.classInfo}</td>
+                <td>${s.project}</td>
+                <td>${s.score??'--'}</td>
+                <td>${s.rank??'--'}</td>
+                <td><span class="score-num ${sc}">${rate!=null ? rate : '--'}</span></td>
+                <td class="cell-notes">${s.notes}</td>
+            </tr>`;
+            if (dist) {
+                const dp = (dist.driveDist / MAX_DRIVE * 100).toFixed(0), mp = (dist.metroDist / MAX_METRO * 100).toFixed(0);
+                html += `<tr class="distance-detail" data-parent="${s.id}"><td colspan="10" style="padding:6px 12px;"><div style="display:flex; gap:20px; font-size:12px;"><div style="flex:1;">🚗 开车 ${dist.driveDist}km / ${dist.driveTime}min <div class="dist-mini-bar"><div class="dist-mini-fill drive" style="width:${dp}%;"></div></div></div><div style="flex:1;">🚇 地铁 ${dist.metroDist}km / ${dist.metroTime}min <div class="dist-mini-bar"><div class="dist-mini-fill metro" style="width:${mp}%;"></div></div></div></div></td></tr>`;
+            }
+        });
+        tbody.innerHTML = html;
+
+        const popoverCard = document.getElementById('popoverCard'), popoverContent = document.getElementById('popoverContent'), popoverClose = document.getElementById('popoverClose');
+        let activePopover = { cell: null };
+        function hidePopover() { popoverCard.classList.remove('show'); if (activePopover.cell) { activePopover.cell.style.outline = 'none'; activePopover.cell = null; } }
+        popoverClose.addEventListener('click', hidePopover);
+        document.addEventListener('click', function(e) { if (!popoverCard.contains(e.target) && !e.target.closest('.cell-class') && !e.target.closest('.cell-notes')) hidePopover(); });
+        tbody.querySelectorAll('.cell-class, .cell-notes').forEach(cell => {
+            cell.style.cursor = 'zoom-in'; cell.title = '点击查看完整内容';
+            cell.addEventListener('click', function(e) {
+                e.stopPropagation(); hidePopover();
+                const text = this.textContent.trim();
+                if (!text || text === '--') return;
+                const label = this.classList.contains('cell-class') ? '📋 班型详情' : '📝 备注详情';
+                const sn = this.closest('tr').querySelector('.cell-school')?.textContent?.trim() || '';
+                popoverContent.innerHTML = `<div style="margin-bottom:6px;font-size:11px;color:var(--text-muted);">${label} · ${sn}</div><div>${this.textContent}</div>`;
+                const rect = this.getBoundingClientRect(), pw = popoverCard.offsetWidth || 400;
+                let left = rect.left + rect.width/2 - pw/2, top = rect.bottom + 6;
+                if (left < 10) left = 10; if (left + pw > window.innerWidth - 10) left = window.innerWidth - pw - 10;
+                if (top + 320 > window.innerHeight) top = rect.top - 324; if (top < 10) top = 10;
+                popoverCard.style.left = left+'px'; popoverCard.style.top = top+'px'; popoverCard.classList.add('show');
+                this.style.outline = '2px solid var(--text-warning)'; activePopover.cell = this;
+            });
+        });
+        tbody.querySelectorAll('.pin-icon').forEach(icon => {
+            icon.addEventListener('click', function(e) {
+                e.stopPropagation(); hidePopover();
+                const detailRow = document.querySelector(`tr.distance-detail[data-parent="${this.dataset.id}"]`);
+                if (detailRow) detailRow.style.display = detailRow.style.display === 'table-row' ? 'none' : 'table-row';
+            });
+        });
+        document.getElementById('resultCount').textContent = `显示 ${data.length} / ${schools.length} 条`;
+    }
+
+    function applyFilters() {
+        let data = [...schools];
+        const q = document.getElementById('searchInput').value.trim().toLowerCase();
+        const district = document.getElementById('districtSelect').value;
+        if (showSignedOnly) data = data.filter(s => s.signed && !s.isBackup);
+        if (q) data = data.filter(s => s.school.toLowerCase().includes(q) || s.notes.toLowerCase().includes(q) || s.classInfo.toLowerCase().includes(q));
+        if (district) data = data.filter(s => s.district === district);
+        return applySort(data);
+    }
+
+    function renderAll() { const data = applyFilters(); renderTable(data); updateStats(); }
+
+    const districts = [...new Set(schools.map(s => s.district))].filter(d => d !== '其他').sort();
+    document.getElementById('districtSelect').innerHTML += districts.map(d => `<option value="${d}">${d}</option>`).join('') + '<option value="其他">其他</option>';
+
+    document.getElementById('searchInput').addEventListener('input', renderAll);
+    document.getElementById('districtSelect').addEventListener('change', renderAll);
+    document.getElementById('btnReset').addEventListener('click', ()=>{
+        document.getElementById('searchInput').value=''; document.getElementById('districtSelect').value='';
+        showSignedOnly=false; sortBy=null; sortAsc=true;
+        document.getElementById('btnToggleSigned').classList.remove('vintage-btn--active');
+        document.getElementById('btnSortScore').classList.remove('vintage-btn--active');
+        document.getElementById('btnSortScore').textContent = '📊 统招线排序';
+        renderAll();
+    });
+    document.getElementById('btnToggleSigned').addEventListener('click', function(){ showSignedOnly=!showSignedOnly; this.classList.toggle('vintage-btn--active',showSignedOnly); renderAll(); });
+    document.getElementById('btnSortScore').addEventListener('click', function(){
+        if (sortBy==='score') sortAsc=!sortAsc; else { sortBy='score'; sortAsc=false; }
+        this.classList.add('vintage-btn--active'); this.textContent = sortAsc ? '📊 统招线 ↑' : '📊 统招线 ↓';
+        renderAll();
+    });
+
+    drawRadar();
+    updateStats();
+    renderAll();
+})();
+</script>
+</body>
+</html>
