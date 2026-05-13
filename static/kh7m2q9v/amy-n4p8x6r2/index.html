@@ -29,6 +29,8 @@
             --radar-grid: rgba(124,255,107,0.15);
             --radar-fill: rgba(124,255,107,0.10);
             --radar-stroke: #7CFF6B;
+            --radar-stroke2: #FFB300;
+            --radar-fill2: rgba(255,179,0,0.08);
             --table-header-bg: #1B201B;
             --table-row-hover: rgba(124,255,107,0.05);
             --button-bg: #1B201B;
@@ -44,7 +46,7 @@
         body.theme-default .crt-header { background:#1B201B; border-color:#2D3A2D; border-top:2px solid #7CFF6B; padding:16px 24px; }
         body.theme-default .title-main { color:#7CFF6B; text-shadow:0 0 10px rgba(124,255,107,0.25); letter-spacing:3px; font-weight:700; }
         body.theme-default .update-badge { color:#5A7A5A; letter-spacing:1px; font-weight:700; }
-        body.theme-default .live-badge { color:#7CFF6B; text-shadow:0 0 8px rgba(124,255,107,0.35); font-weight:700; }
+        body.theme-default .live-badge { color:#3B82F6; text-shadow:0 0 8px rgba(59,130,246,0.35); font-weight:700; }
         body.theme-default .theme-dropdown { background:#1B201B; border-color:#2D3A2D; color:#7CFF6B; border-radius:2px; padding:6px 10px; font-family:inherit; font-weight:700; }
         body.theme-default .theme-selector label { color:#5A7A5A; letter-spacing:1.5px; font-weight:700; }
         body.theme-default .card { background:#1B201B; border:1px solid #2D3A2D; border-top:2px solid rgba(124,255,107,0.2); border-radius:4px; padding:20px 24px; box-shadow:0 0 12px rgba(124,255,107,0.02); }
@@ -197,7 +199,7 @@
         body.theme-lite .crt-header { background:#F2F2F2; border:1px solid #CCCCCC; border-top:2px solid #333333; padding:16px 24px; }
         body.theme-lite .title-main { color:#333333; letter-spacing:2px; font-weight:700; }
         body.theme-lite .update-badge { color:#999999; letter-spacing:1px; font-weight:400; }
-        body.theme-lite .live-badge { color:#333333; font-weight:700; }
+        body.theme-lite .live-badge { color:#10b981; font-weight:700; }
         body.theme-lite .theme-dropdown { background:#F2F2F2; border:1px solid #CCCCCC; color:#333333; border-radius:2px; padding:6px 10px; font-family:inherit; font-weight:700; }
         body.theme-lite .theme-selector label { color:#999999; letter-spacing:1px; font-weight:400; }
         body.theme-lite .card { background:#F2F2F2; border:1px solid #CCCCCC; border-top:2px solid #333333; border-radius:4px; padding:20px 24px; }
@@ -291,7 +293,7 @@
         body.theme-amber .crt-header { background:#1A1A1A; border-color:#3E2723; border-top:2px solid #FFCA28; padding:16px 24px; }
         body.theme-amber .title-main { color:#FFCA28; text-shadow:0 0 12px rgba(255,202,40,0.2); letter-spacing:3px; font-weight:700; }
         body.theme-amber .update-badge { color:#B26A00; letter-spacing:1px; font-weight:700; }
-        body.theme-amber .live-badge { color:#FFCA28; text-shadow:0 0 10px rgba(255,202,40,0.3); font-weight:700; }
+        body.theme-amber .live-badge { color:#3B82F6; text-shadow:0 0 10px rgba(59,130,246,0.3); font-weight:700; }
         body.theme-amber .theme-dropdown { background:#1A1A1A; border-color:#3E2723; color:#FFCA28; border-radius:2px; padding:6px 10px; font-family:inherit; font-weight:700; }
         body.theme-amber .theme-selector label { color:#B26A00; letter-spacing:1.5px; font-weight:700; }
         body.theme-amber .card { background:#1A1A1A; border:1px solid #3E2723; border-top:2px solid rgba(255,202,40,0.2); border-radius:4px; padding:20px 24px; box-shadow:0 0 10px rgba(255,202,40,0.02); }
@@ -374,6 +376,7 @@
             display: flex; flex-direction: column; align-items: center;
             transition: background 0.3s, color 0.3s;
         }
+
         .app-container { max-width: 1600px; width: 100%; padding: 24px; display: flex; flex-direction: column; gap: 24px; position: relative; z-index: 1; }
         .crt-header { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-card); padding: 20px 28px; box-shadow: var(--card-shadow); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
         .title-main { font-size: 22px; display: flex; align-items: center; gap: 8px; text-transform: uppercase; font-weight: bold; color: var(--text-primary); }
@@ -922,39 +925,79 @@
         }, 100);
     }
 
-    // ===== 雷达图 =====
+    // ===== 雷达图（双层） =====
     function drawRadar() {
         const svg = document.getElementById('radarSvg');
         const cx=100, cy=100, r=85;
-        const subs = examinee.subjects;
-        const n = subs.length;
-        const angles = subs.map((_,i) => (Math.PI*2*i/n) - Math.PI/2);
-        const displayRatios = subs.map(s => {
-            let raw = s.score / s.full;
-            if (s.name === '数学') raw *= 0.92;
-            if (s.name === '化学') raw *= 0.88;
-            return raw;
-        });
+        const n = 5;
+        const angles = Array.from({length:n}, (_,i) => (Math.PI*2*i/n) - Math.PI/2);
+
+        // 第一层数据（二诊一：现有成绩 447.5）
+        const subs1 = [
+            { name: '语文', score: 112.5, full: 150 },
+            { name: '数学', score: 110, full: 150 },
+            { name: '英语', score: 131, full: 150 },
+            { name: '物理', score: 56.5, full: 70 },
+            { name: '化学', score: 37.5, full: 50 }
+        ];
+        // 第二层数据（二诊二：新成绩 454）
+        const subs2 = [
+            { name: '语文', score: 110.5, full: 150 },
+            { name: '数学', score: 118.5, full: 150 },
+            { name: '英语', score: 127.3, full: 150 },
+            { name: '物理', score: 56.8, full: 70 },
+            { name: '化学', score: 41, full: 50 }
+        ];
+
+        function calcRatios(subs) {
+            return subs.map(s => s.score / s.full);
+        }
+        const ratios1 = calcRatios(subs1);
+        const ratios2 = calcRatios(subs2);
+
+        // 网格
         let grid = '';
         for (let lv=0.2; lv<=1; lv+=0.2) {
             const pts = angles.map(a => `${cx + r*lv*Math.cos(a)},${cy + r*lv*Math.sin(a)}`).join(' ');
             grid += `<polygon points="${pts}" fill="none" stroke="var(--radar-grid)" stroke-width="0.5"/>`;
         }
+
+        // 轴 + 标签
         let axes = '';
         angles.forEach((a,i) => {
             const x = cx + r*Math.cos(a), y = cy + r*Math.sin(a);
             axes += `<line x1="${cx}" y1="${cy}" x2="${x}" y2="${y}" stroke="var(--radar-grid)" stroke-width="0.8"/>`;
             const lx = cx + (r+10)*Math.cos(a), ly = cy + (r+10)*Math.sin(a);
-            const isWeak = subs[i].name === '数学' || subs[i].name === '化学';
-            axes += `<text x="${lx}" y="${ly}" fill="${isWeak ? 'var(--text-danger)' : 'var(--text-muted)'}" font-size="7" text-anchor="middle">${subs[i].name}</text>`;
+            const isWeak = subs1[i].name === '数学' || subs1[i].name === '化学';
+            axes += `<text x="${lx}" y="${ly}" fill="${isWeak ? 'var(--text-danger)' : 'var(--text-muted)'}" font-size="7" text-anchor="middle">${subs1[i].name}</text>`;
         });
-        let labels = '';
-        displayRatios.forEach((p,i) => {
+
+        // 第二层多边形（二诊二 · 琥珀色，位于下方/更饱满）
+        const points2 = ratios2.map((p,i) => `${cx + r*p*Math.cos(angles[i])},${cy + r*p*Math.sin(angles[i])}`).join(' ');
+        const poly2 = `<polygon points="${points2}" fill="var(--radar-fill2)" stroke="var(--radar-stroke2)" stroke-width="1.2" stroke-dasharray="3,2"/>`;
+
+        // 第二层标签（二诊二分数 · 琥珀色，稍微靠外）
+        let labels2 = '';
+        ratios2.forEach((p,i) => {
+            const x = cx + (r*p+6)*Math.cos(angles[i]), y = cy + (r*p+6)*Math.sin(angles[i]);
+            labels2 += `<text x="${x}" y="${y}" fill="var(--radar-stroke2)" font-size="5.5" text-anchor="middle">${subs2[i].score}</text>`;
+        });
+
+        // 第一层多边形（二诊一 · 荧光绿，位于上方）
+        const points1 = ratios1.map((p,i) => `${cx + r*p*Math.cos(angles[i])},${cy + r*p*Math.sin(angles[i])}`).join(' ');
+        const poly1 = `<polygon points="${points1}" fill="var(--radar-fill)" stroke="var(--radar-stroke)" stroke-width="1.5"/>`;
+
+        // 第一层标签（二诊一分数 · 绿色）
+        let labels1 = '';
+        ratios1.forEach((p,i) => {
             const x = cx + (r*p+5)*Math.cos(angles[i]), y = cy + (r*p+5)*Math.sin(angles[i]);
-            labels += `<text x="${x}" y="${y}" fill="${subs[i].name==='数学'||subs[i].name==='化学'?'var(--text-danger)':'var(--text-primary)'}" font-size="6" text-anchor="middle">${subs[i].score}/${subs[i].full}</text>`;
+            labels1 += `<text x="${x}" y="${y}" fill="${subs1[i].name==='数学'||subs1[i].name==='化学'?'var(--text-danger)':'var(--text-primary)'}" font-size="6" text-anchor="middle">${subs1[i].score}</text>`;
         });
-        const points = displayRatios.map((p,i) => `${cx + r*p*Math.cos(angles[i])},${cy + r*p*Math.sin(angles[i])}`).join(' ');
-        svg.innerHTML = grid + axes + `<polygon points="${points}" fill="var(--radar-fill)" stroke="var(--radar-stroke)" stroke-width="1.5"/>` + labels;
+
+        // 组装：网格 → 轴 → 第二层多边形（底层） → 第一层多边形（上层） → 两套标签 → 图例
+        svg.innerHTML = grid + axes + poly2 + poly1 + labels2 + labels1 +
+            `<text x="60" y="192" fill="var(--radar-stroke)" font-size="6" text-anchor="middle">◆ 二诊 ${subs1.reduce((a,s)=>a+s.score,0)}</text>` +
+            `<text x="140" y="192" fill="var(--radar-stroke2)" font-size="6" text-anchor="middle">◇ 一诊 ${subs2.reduce((a,s)=>a+s.score,0)}</text>`;
     }
 
     // ===== 统计 =====
