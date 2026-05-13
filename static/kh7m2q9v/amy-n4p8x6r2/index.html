@@ -6,50 +6,100 @@
     <meta name="robots" content="noindex, nofollow, noarchive">
     <title>AMY WANG访校记录 · 中考信息看板</title>
     <style>
-        /* ========== 全局基础与终端主题变量 (默认) ========== */
+        /* ========== 基础变量 & DEFAULT 主题（深墨绿 · 荧光草绿 · 柠檬黄 · 坚固感） ========== */
         :root {
-            --bg-primary: #0a0a0a;
-            --bg-card: #1a1a1a;
-            --bg-input: #0a0a0a;
-            --border-color: #333;
-            --border-glow: #c0c0c0;
-            --text-primary: #00ff41;
-            --text-secondary: #00cc33;
-            --text-warning: #ffb000;
-            --text-danger: #ff2d00;
-            --text-info: #00bfff;
-            --text-muted: #c0c0c0;
-            --progress-bg: #0a0a0a;
-            --progress-visit: linear-gradient(90deg, #00cc33, #00ff41);
-            --progress-sign: linear-gradient(90deg, #ffb000, #ff2d00);
-            --badge-success: #00ff41;
-            --badge-warning: #ffb000;
-            --badge-danger: #ff2d00;
-            --badge-info: #00bfff;
-            --badge-muted: #c0c0c0;
-            --radar-grid: rgba(0,255,65,0.2);
-            --radar-fill: rgba(0,255,65,0.25);
-            --radar-stroke: #00ff41;
-            --table-header-bg: #0a0a0a;
-            --table-row-hover: rgba(0,255,65,0.05);
-            --button-bg: linear-gradient(135deg, #333, #222);
-            --button-active-bg: #00ff41;
-            --button-active-text: #0a0a0a;
-            --font-mono: 'SF Mono', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', monospace;
+            --bg-primary: #1B201B;
+            --bg-card: #1B201B;
+            --bg-input: #1B201B;
+            --border-color: #2D3A2D;
+            --text-primary: #7CFF6B;
+            --text-secondary: #7CFF6B;
+            --text-warning: #E5FF00;
+            --text-danger: #FF6B6B;
+            --text-info: #7CFF6B;
+            --text-muted: #5A7A5A;
+            --progress-bg: #1B201B;
+            --progress-visit: #7CFF6B;
+            --progress-sign: #E5FF00;
+            --badge-success: #7CFF6B;
+            --badge-warning: #E5FF00;
+            --badge-danger: #FF6B6B;
+            --badge-info: #7CFF6B;
+            --badge-muted: #5A7A5A;
+            --radar-grid: rgba(124,255,107,0.15);
+            --radar-fill: rgba(124,255,107,0.10);
+            --radar-stroke: #7CFF6B;
+            --table-header-bg: #1B201B;
+            --table-row-hover: rgba(124,255,107,0.05);
+            --button-bg: #1B201B;
+            --button-active-bg: #E5FF00;
+            --button-active-text: #1B201B;
+            --card-shadow: 0 4px 30px rgba(0,0,0,0.5), 0 0 10px rgba(124,255,107,0.03);
+            --radius-card: 4px;
+            --radius-sm: 2px;
+            --font-mono: 'Roboto Mono', 'SF Mono', 'Menlo', 'Consolas', monospace;
             --font-sans: -apple-system, 'SF Pro Text', 'Helvetica Neue', system-ui, sans-serif;
-            --radius-card: 10px;
-            --radius-sm: 6px;
-            --transition: 0.2s ease;
-            --card-shadow: 0 2px 10px rgba(0,0,0,0.4);
+            color-scheme: dark;
         }
+        body.theme-default .crt-header { background:#1B201B; border-color:#2D3A2D; border-top:2px solid #7CFF6B; padding:16px 24px; }
+        body.theme-default .title-main { color:#7CFF6B; text-shadow:0 0 10px rgba(124,255,107,0.25); letter-spacing:3px; font-weight:700; }
+        body.theme-default .update-badge { color:#5A7A5A; letter-spacing:1px; font-weight:700; }
+        body.theme-default .live-badge { color:#7CFF6B; text-shadow:0 0 8px rgba(124,255,107,0.35); font-weight:700; }
+        body.theme-default .theme-dropdown { background:#1B201B; border-color:#2D3A2D; color:#7CFF6B; border-radius:2px; padding:6px 10px; font-family:inherit; font-weight:700; }
+        body.theme-default .theme-selector label { color:#5A7A5A; letter-spacing:1.5px; font-weight:700; }
+        body.theme-default .card { background:#1B201B; border:1px solid #2D3A2D; border-top:2px solid rgba(124,255,107,0.2); border-radius:4px; padding:20px 24px; box-shadow:0 0 12px rgba(124,255,107,0.02); }
+        body.theme-default .card-title { color:#7CFF6B; font-weight:700; letter-spacing:2px; font-size:12px; border-bottom:2px solid rgba(124,255,107,0.12); padding-bottom:8px; margin-bottom:14px; }
+        body.theme-default .predict-score { color:#7CFF6B; border-top-color:rgba(124,255,107,0.12); font-weight:700; }
+        body.theme-default .num-card { background:#1B201B; border:1px solid #2D3A2D; border-radius:2px; padding:14px 8px; }
+        body.theme-default .num-card:hover { border-color:#7CFF6B; }
+        body.theme-default .num-value { font-weight:700; letter-spacing:1.5px; }
+        body.theme-default .num-label { letter-spacing:1.5px; color:#5A7A5A; font-weight:700; }
+        body.theme-default .progress-bar-track { background:#1B201B; border:1px solid rgba(124,255,107,0.12); border-radius:0; height:8px; overflow:hidden; }
+        body.theme-default .progress-fill.visit { background:var(--progress-visit); }
+        body.theme-default .progress-fill.sign { background:var(--progress-sign); }
+        body.theme-default .control-bar { background:#1B201B; border-color:#2D3A2D; border-top:2px solid rgba(124,255,107,0.2); border-radius:4px; padding:14px 20px; }
+        body.theme-default .vintage-input { background:#1B201B; border-color:#2D3A2D; color:#7CFF6B; border-radius:2px; font-family:inherit; font-size:13px; padding:8px 12px; letter-spacing:0.8px; font-weight:700; }
+        body.theme-default .vintage-input:focus { border-color:#7CFF6B; box-shadow:0 0 6px rgba(124,255,107,0.15); }
+        body.theme-default .vintage-btn { background:#1B201B; border:2px solid #2D3A2D; color:#7CFF6B; border-radius:2px; font-family:inherit; font-size:11px; padding:8px 14px; letter-spacing:1.2px; text-transform:uppercase; font-weight:700; }
+        body.theme-default .vintage-btn:hover { border-color:#7CFF6B; background:#1B201B; }
+        body.theme-default .vintage-btn--active { background:#E5FF00; color:#1B201B; border-color:#E5FF00; font-weight:700; }
+        body.theme-default select.vintage-select { background:#1B201B; border-color:#2D3A2D; color:#7CFF6B; border-radius:2px; font-family:inherit; font-size:12px; font-weight:700; }
+        body.theme-default .table-wrapper { background:#1B201B; border-color:#2D3A2D; border-top:2px solid rgba(124,255,107,0.2); border-radius:4px; }
+        body.theme-default thead th { background:#1B201B; color:#7CFF6B; font-weight:700; letter-spacing:1.2px; font-size:12px; border-bottom:2px solid rgba(124,255,107,0.12); padding:12px 10px; }
+        body.theme-default tbody td { border-bottom:1px solid rgba(124,255,107,0.06); padding:10px 10px; color:#C8D6C8; }
+        body.theme-default tbody tr:hover { background:rgba(124,255,107,0.04); }
+        body.theme-default tr.highlight-missing { background:rgba(255,107,107,0.08)!important; border-left:3px solid #FF6B6B; }
+        body.theme-default .cell-school { color:#7CFF6B; font-weight:700; }
+        body.theme-default .pin-icon:hover { color:#E5FF00; }
+        body.theme-default .badge { border-radius:2px; font-size:10px; letter-spacing:0.8px; border-width:1px; font-weight:700; }
+        body.theme-default .badge-green { color:#7CFF6B; border-color:rgba(124,255,107,0.5); }
+        body.theme-default .badge-amber { color:#E5FF00; border-color:rgba(229,255,0,0.5); }
+        body.theme-default .badge-red { color:#FF6B6B; border-color:rgba(255,107,107,0.5); }
+        body.theme-default .badge-contact { color:#5A7A5A; border-color:rgba(90,122,90,0.5); }
+        body.theme-default .badge-year { color:#7CFF6B; border-color:rgba(124,255,107,0.4); }
+        body.theme-default .score-high { color:#7CFF6B; font-weight:700; }
+        body.theme-default .score-mid { color:#7CFF6B; font-weight:700; }
+        body.theme-default .score-low { color:#E5FF00; font-weight:700; }
+        body.theme-default .score-verylow { color:#FF6B6B; font-weight:700; }
+        body.theme-default .click-hint { color:#E5FF00; border-color:#2D3A2D; background:#1B201B; border:1px solid #2D3A2D; border-radius:2px; animation:none; font-weight:700; letter-spacing:0.8px; }
+        body.theme-default .marquee-wrap { background:#1B201B; border-color:#2D3A2D; border-top:2px solid rgba(124,255,107,0.2); border-radius:4px; height:52px; }
+        body.theme-default .marquee-icon { background:#1B201B; border-radius:2px; border:1px solid #2D3A2D; }
+        body.theme-default .marquee-item .tag.future { background:rgba(124,255,107,0.12); color:#7CFF6B; font-weight:700; }
+        body.theme-default .marquee-item .tag.today { background:rgba(229,255,0,0.12); color:#E5FF00; font-weight:700; }
+        body.theme-default .marquee-item .date-text { color:#5A7A5A; font-weight:700; }
+        body.theme-default .popover-card { background:#1B201B; border:1px solid #2D3A2D; border-top:2px solid rgba(124,255,107,0.2); border-radius:4px; box-shadow:0 8px 40px rgba(0,0,0,0.5), 0 0 20px rgba(124,255,107,0.03); }
+        body.theme-default .pin-icon::after { background:#1B201B; color:#5A7A5A; border-color:#2D3A2D; font-weight:700; }
+        body.theme-default footer { color:#5A7A5A; font-weight:700; }
+        body.theme-default tr.distance-detail { background:#1B201B; }
+        body.theme-default .dist-mini-fill.drive { background:#7CFF6B; }
+        body.theme-default .dist-mini-fill.metro { background:#7CFF6B; opacity:0.6; }
 
-        /* ========== 浅色现代设计主题 (当 body 带有 theme-glass 类时生效) ========== */
+        /* ========== GLASS 主题 ========== */
         body.theme-glass {
             --bg-primary: #f3f0f7;
             --bg-card: #ffffff;
             --bg-input: #f3f0f7;
             --border-color: #e2dce8;
-            --border-glow: #d5cde0;
             --text-primary: #2a2438;
             --text-secondary: #5e5670;
             --text-warning: #c4844a;
@@ -76,61 +126,246 @@
             color-scheme: light;
             font-family: var(--font-sans);
         }
+        body.theme-glass .crt-header { background:#fff; border-bottom:2px solid #7c5cbf; }
+        body.theme-glass .vintage-btn { color:var(--text-primary); font-weight:500; background:#fff; border-color:#e2dce8; }
+        body.theme-glass .vintage-btn:hover { border-color:#7c5cbf; color:#7c5cbf; }
+        body.theme-glass .vintage-btn--active { color:#fff; background:#7c5cbf; border-color:#7c5cbf; }
+        body.theme-glass .vintage-input { background:#fff; }
+        body.theme-glass .vintage-input:focus { border-color:#7c5cbf; box-shadow:0 0 0 2px rgba(124,92,191,0.12); }
+        body.theme-glass .theme-dropdown { background:#fff; }
+        body.theme-glass .card-title { color:#7c5cbf; border-bottom-color:rgba(124,92,191,0.15); }
+        body.theme-glass .predict-score { color:#4daf7a; border-top-color:rgba(77,175,122,0.2); }
+        body.theme-glass .badge-green { color:#4daf7a; border-color:#4daf7a; }
+        body.theme-glass .badge-amber { color:#c4844a; border-color:#c4844a; }
+        body.theme-glass .badge-red { color:#d94f4f; border-color:#d94f4f; }
+        body.theme-glass .badge-contact { color:#7c5cbf; border-color:#7c5cbf; }
+        body.theme-glass .badge-year { color:#9185a3; border-color:#9185a3; }
+        body.theme-glass .score-high { color:#4daf7a; }
+        body.theme-glass .score-mid { color:#7c5cbf; }
+        body.theme-glass .score-low { color:#c4844a; }
+        body.theme-glass .score-verylow { color:#d94f4f; }
+        body.theme-glass .num-card { background:#fff; border-color:#e2dce8; }
+        body.theme-glass .num-card:hover { border-color:#7c5cbf; }
+        body.theme-glass thead th { color:#7c5cbf; }
+        body.theme-glass select.vintage-select { background:#fff; }
+        body.theme-glass .pin-icon:hover { color:#7c5cbf; }
+        body.theme-glass tr.highlight-missing { background:rgba(224,90,90,0.06)!important; border-left:3px solid #e05a5a; }
+        body.theme-glass .pin-icon::after { background:#fff; color:#9185a3; }
+        body.theme-glass .marquee-item .tag.future { background:rgba(77,175,122,0.15); color:#4daf7a; }
+        body.theme-glass .marquee-item .tag.today { background:rgba(196,132,74,0.15); color:#c4844a; }
+        body.theme-glass .popover-card { box-shadow:0 4px 20px rgba(42,36,56,0.12); }
+        body.theme-glass .title-main { color:#7c5cbf; }
+        body.theme-glass .click-hint { color:#7c5cbf; border-color:#e2dce8; }
+        body.theme-glass .live-badge { color:#4daf7a; }
+        body.theme-glass .marquee-item .school { color:var(--text-primary); }
+        body.theme-glass::before { display:none; }
 
-        body.theme-glass .crt-header {
-            background: #ffffff;
-            backdrop-filter: none;
-            -webkit-backdrop-filter: none;
-            border-bottom: 2px solid #7c5cbf;
+        /* ========== LITE 主题（冷白 · 深石墨灰 · 警示红 · 疏密线条科技感） ========== */
+        body.theme-lite {
+            --bg-primary: #F2F2F2;
+            --bg-card: #F2F2F2;
+            --bg-input: #F2F2F2;
+            --border-color: #CCCCCC;
+            --text-primary: #333333;
+            --text-secondary: #555555;
+            --text-warning: #333333;
+            --text-danger: #D32F2F;
+            --text-info: #333333;
+            --text-muted: #999999;
+            --progress-bg: #F2F2F2;
+            --progress-visit: #333333;
+            --progress-sign: #D32F2F;
+            --badge-success: #333333;
+            --badge-warning: #333333;
+            --badge-danger: #D32F2F;
+            --badge-info: #333333;
+            --badge-muted: #999999;
+            --radar-grid: rgba(51,51,51,0.12);
+            --radar-fill: rgba(51,51,51,0.04);
+            --radar-stroke: #333333;
+            --table-header-bg: #F2F2F2;
+            --table-row-hover: rgba(51,51,51,0.03);
+            --button-bg: #F2F2F2;
+            --button-active-bg: #333333;
+            --button-active-text: #F2F2F2;
+            --card-shadow: 0 1px 3px rgba(0,0,0,0.04);
+            --radius-card: 4px;
+            --radius-sm: 2px;
+            color-scheme: light;
+            font-family: 'Roboto Mono', 'SF Mono', 'Menlo', 'Consolas', monospace;
         }
+        body.theme-lite .crt-header { background:#F2F2F2; border:1px solid #CCCCCC; border-top:2px solid #333333; padding:16px 24px; }
+        body.theme-lite .title-main { color:#333333; letter-spacing:2px; font-weight:700; }
+        body.theme-lite .update-badge { color:#999999; letter-spacing:1px; font-weight:400; }
+        body.theme-lite .live-badge { color:#333333; font-weight:700; }
+        body.theme-lite .theme-dropdown { background:#F2F2F2; border:1px solid #CCCCCC; color:#333333; border-radius:2px; padding:6px 10px; font-family:inherit; font-weight:700; }
+        body.theme-lite .theme-selector label { color:#999999; letter-spacing:1px; font-weight:400; }
+        body.theme-lite .card { background:#F2F2F2; border:1px solid #CCCCCC; border-top:2px solid #333333; border-radius:4px; padding:20px 24px; }
+        body.theme-lite .card-title { color:#333333; font-weight:700; letter-spacing:1.5px; font-size:11px; border-bottom:1px solid rgba(51,51,51,0.15); padding-bottom:8px; margin-bottom:14px; }
+        body.theme-lite .predict-score { color:#333333; border-top:1px solid rgba(51,51,51,0.1); padding-top:12px; font-weight:400; }
+        body.theme-lite .num-card { background:#F2F2F2; border:1px solid #CCCCCC; border-radius:2px; padding:14px 8px; }
+        body.theme-lite .num-card:hover { border-color:#333333; }
+        body.theme-lite .num-value { font-weight:700; letter-spacing:1px; }
+        body.theme-lite .num-label { letter-spacing:1px; color:#999999; font-weight:400; }
+        body.theme-lite .progress-bar-track { background:#E8E8E8; border:1px solid #CCCCCC; border-radius:0; height:6px; overflow:hidden; }
+        body.theme-lite .progress-fill { height:100%; border-radius:0; }
+        body.theme-lite .progress-fill.visit { background:#3B82F6; }
+        body.theme-lite .progress-fill.sign { background:#D32F2F; }
+        body.theme-lite .control-bar { background:#F2F2F2; border:1px solid #CCCCCC; border-top:2px solid #333333; border-radius:4px; padding:14px 20px; }
+        body.theme-lite .vintage-input { background:#F2F2F2; border:1px solid #CCCCCC; color:#333333; border-radius:2px; font-family:inherit; font-size:13px; padding:8px 12px; letter-spacing:0.5px; font-weight:400; }
+        body.theme-lite .vintage-input:focus { border-color:#333333; }
+        body.theme-lite .vintage-btn { background:#F2F2F2; border:1px solid #CCCCCC; color:#333333; border-radius:2px; font-family:inherit; font-size:11px; padding:8px 14px; letter-spacing:1px; text-transform:uppercase; font-weight:700; }
+        body.theme-lite .vintage-btn:hover { border-color:#333333; background:#F2F2F2; }
+        body.theme-lite .vintage-btn--active { background:#333333; color:#F2F2F2; border-color:#333333; font-weight:700; }
+        body.theme-lite select.vintage-select { background:#F2F2F2; border:1px solid #CCCCCC; color:#333333; border-radius:2px; font-family:inherit; font-size:12px; font-weight:700; }
+        body.theme-lite .table-wrapper { background:#F2F2F2; border:1px solid #CCCCCC; border-top:2px solid #333333; border-radius:4px; }
+        body.theme-lite thead th { background:#F2F2F2; color:#333333; font-weight:700; letter-spacing:1px; font-size:11px; border-bottom:1px solid #CCCCCC; padding:12px 10px; }
+        body.theme-lite tbody td { border-bottom:1px solid rgba(51,51,51,0.06); padding:10px 10px; color:#555555; }
+        body.theme-lite tbody tr:hover { background:rgba(51,51,51,0.03); }
+        body.theme-lite tr.highlight-missing { background:rgba(211,47,47,0.04)!important; border-left:3px solid #D32F2F; }
+        body.theme-lite .cell-school { color:#333333; font-weight:700; }
+        body.theme-lite .pin-icon:hover { color:#D32F2F; }
+        body.theme-lite .badge { border-radius:2px; font-size:10px; letter-spacing:0.5px; border-width:1px; font-weight:700; }
+        body.theme-lite .badge-green { color:#333333; border-color:rgba(51,51,51,0.5); }
+        body.theme-lite .badge-amber { color:#333333; border-color:rgba(51,51,51,0.5); }
+        body.theme-lite .badge-red { color:#D32F2F; border-color:rgba(211,47,47,0.5); }
+        body.theme-lite .badge-contact { color:#999999; border-color:rgba(153,153,153,0.5); }
+        body.theme-lite .badge-year { color:#333333; border-color:rgba(51,51,51,0.4); }
+        body.theme-lite .score-high { color:#333333; font-weight:700; }
+        body.theme-lite .score-mid { color:#333333; font-weight:700; }
+        body.theme-lite .score-low { color:#D32F2F; font-weight:700; }
+        body.theme-lite .score-verylow { color:#D32F2F; font-weight:700; }
+        body.theme-lite .click-hint { color:#D32F2F; border:1px solid #CCCCCC; background:#F2F2F2; border-radius:2px; animation:none; font-weight:400; letter-spacing:0.5px; }
+        body.theme-lite .marquee-wrap { background:#F2F2F2; border:1px solid #CCCCCC; border-top:2px solid #333333; border-radius:4px; height:52px; }
+        body.theme-lite .marquee-icon { background:#F2F2F2; border-radius:2px; border:1px solid #CCCCCC; }
+        body.theme-lite .marquee-item .tag.future { background:rgba(51,51,51,0.08); color:#333333; font-weight:700; }
+        body.theme-lite .marquee-item .tag.today { background:rgba(211,47,47,0.08); color:#D32F2F; font-weight:700; }
+        body.theme-lite .marquee-item .date-text { color:#999999; font-weight:400; }
+        body.theme-lite .popover-card { background:#F2F2F2; border:1px solid #CCCCCC; border-top:2px solid #333333; border-radius:4px; box-shadow:0 8px 40px rgba(0,0,0,0.08); }
+        body.theme-lite .pin-icon::after { background:#F2F2F2; color:#999999; border:1px solid #CCCCCC; font-weight:400; }
+        body.theme-lite footer { color:#999999; font-weight:400; }
+        body.theme-lite tr.distance-detail { background:#F2F2F2; }
+        body.theme-lite .dist-mini-fill.drive { background:#3B82F6; }
+        body.theme-lite .dist-mini-fill.metro { background:#3B82F6; opacity:0.5; }
+        body.theme-lite::before { display:none; }
 
-        body.theme-glass .vintage-btn {
-            color: var(--text-primary);
-            font-weight: 500;
-            background: #ffffff;
-            border-color: #e2dce8;
+        /* ========== AMBER 主题（哑光炭黑 · 暖琥珀 · 夕阳红 · 电子管收音机风 / 层级配色） ========== */
+        /* 配色层级：
+           1. 核心文字 #FFCA28 暖琥珀 —— 学校名称/主数值
+           2. 重点强调 #FF4500 夕阳红 —— 警告/紧急/指针
+           3. 次要信息 #B26A00 暗琥珀 —— 备注/表头/灰
+           4. 辅助底色 #3E2723 深巧克力 —— 边框/表格线 */
+        body.theme-amber {
+            --bg-primary: #1A1A1A;
+            --bg-card: #1A1A1A;
+            --bg-input: #1A1A1A;
+            --border-color: #3E2723;
+            --text-primary: #FFCA28;
+            --text-secondary: #FFCA28;
+            --text-warning: #FFB300;
+            --text-danger: #FF4500;
+            --text-info: #FFCA28;
+            --text-muted: #B26A00;
+            --progress-bg: #1A1A1A;
+            --progress-visit: #FFCA28;
+            --progress-sign: #FF4500;
+            --badge-success: #FFCA28;
+            --badge-warning: #FFB300;
+            --badge-danger: #FF4500;
+            --badge-info: #FFCA28;
+            --badge-muted: #B26A00;
+            --radar-grid: rgba(255,202,40,0.15);
+            --radar-fill: rgba(255,202,40,0.08);
+            --radar-stroke: #FFCA28;
+            --table-header-bg: #1A1A1A;
+            --table-row-hover: rgba(255,202,40,0.04);
+            --button-bg: #1A1A1A;
+            --button-active-bg: #FF4500;
+            --button-active-text: #1A1A1A;
+            --card-shadow: 0 4px 30px rgba(0,0,0,0.5), 0 0 8px rgba(255,202,40,0.03);
+            --radius-card: 4px;
+            --radius-sm: 2px;
+            color-scheme: dark;
+            font-family: 'Roboto Mono', 'SF Mono', 'Menlo', 'Consolas', monospace;
         }
+        body.theme-amber .crt-header { background:#1A1A1A; border-color:#3E2723; border-top:2px solid #FFCA28; padding:16px 24px; }
+        body.theme-amber .title-main { color:#FFCA28; text-shadow:0 0 12px rgba(255,202,40,0.2); letter-spacing:3px; font-weight:700; }
+        body.theme-amber .update-badge { color:#B26A00; letter-spacing:1px; font-weight:700; }
+        body.theme-amber .live-badge { color:#FFCA28; text-shadow:0 0 10px rgba(255,202,40,0.3); font-weight:700; }
+        body.theme-amber .theme-dropdown { background:#1A1A1A; border-color:#3E2723; color:#FFCA28; border-radius:2px; padding:6px 10px; font-family:inherit; font-weight:700; }
+        body.theme-amber .theme-selector label { color:#B26A00; letter-spacing:1.5px; font-weight:700; }
+        body.theme-amber .card { background:#1A1A1A; border:1px solid #3E2723; border-top:2px solid rgba(255,202,40,0.2); border-radius:4px; padding:20px 24px; box-shadow:0 0 10px rgba(255,202,40,0.02); }
+        body.theme-amber .card-title { color:#FFCA28; font-weight:700; letter-spacing:2px; font-size:12px; border-bottom:2px solid rgba(255,202,40,0.12); padding-bottom:8px; margin-bottom:14px; }
+        body.theme-amber .predict-score { color:#FFCA28; border-top-color:rgba(255,202,40,0.12); font-weight:700; }
+        body.theme-amber .num-card { background:#1A1A1A; border:1px solid #3E2723; border-radius:2px; padding:14px 8px; }
+        body.theme-amber .num-card:hover { border-color:#FFCA28; }
+        body.theme-amber .num-value { font-weight:700; letter-spacing:1.5px; }
+        body.theme-amber .num-label { letter-spacing:1.5px; color:#B26A00; font-weight:700; }
+        body.theme-amber .progress-bar-track { background:#1A1A1A; border:1px solid rgba(255,202,40,0.12); border-radius:0; height:8px; overflow:hidden; }
+        body.theme-amber .progress-fill.visit { background:var(--progress-visit); }
+        body.theme-amber .progress-fill.sign { background:var(--progress-sign); }
+        body.theme-amber .control-bar { background:#1A1A1A; border-color:#3E2723; border-top:2px solid rgba(255,202,40,0.2); border-radius:4px; padding:14px 20px; }
+        body.theme-amber .vintage-input { background:#1A1A1A; border-color:#3E2723; color:#FFCA28; border-radius:2px; font-family:inherit; font-size:13px; padding:8px 12px; letter-spacing:0.8px; font-weight:700; }
+        body.theme-amber .vintage-input:focus { border-color:#FFCA28; box-shadow:0 0 6px rgba(255,202,40,0.15); }
+        body.theme-amber .vintage-btn { background:#1A1A1A; border:2px solid #3E2723; color:#FFCA28; border-radius:2px; font-family:inherit; font-size:11px; padding:8px 14px; letter-spacing:1.2px; text-transform:uppercase; font-weight:700; }
+        body.theme-amber .vintage-btn:hover { border-color:#FFCA28; background:#1A1A1A; }
+        body.theme-amber .vintage-btn--active { background:#FF4500; color:#1A1A1A; border-color:#FF4500; font-weight:700; }
+        body.theme-amber select.vintage-select { background:#1A1A1A; border-color:#3E2723; color:#FFCA28; border-radius:2px; font-family:inherit; font-size:12px; font-weight:700; }
+        body.theme-amber .table-wrapper { background:#1A1A1A; border-color:#3E2723; border-top:2px solid rgba(255,202,40,0.2); border-radius:4px; }
+        body.theme-amber thead th { background:#1A1A1A; color:#FFCA28; font-weight:700; letter-spacing:1.2px; font-size:12px; border-bottom:2px solid rgba(255,202,40,0.12); padding:12px 10px; }
+        body.theme-amber tbody td { border-bottom:1px solid rgba(62,39,35,0.8); padding:10px 10px; color:#D4C4A0; }
+        body.theme-amber tbody tr:hover { background:rgba(255,202,40,0.04); }
+        body.theme-amber tr.highlight-missing { background:rgba(255,69,0,0.08)!important; border-left:3px solid #FF4500; }
+        body.theme-amber .cell-school { color:#FFCA28; font-weight:700; }
+        body.theme-amber .pin-icon:hover { color:#FFCA28; }
+        body.theme-amber .badge { border-radius:2px; font-size:10px; letter-spacing:0.8px; border-width:1px; font-weight:700; }
+        body.theme-amber .badge-green { color:#FFCA28; border-color:rgba(255,202,40,0.5); }
+        body.theme-amber .badge-amber { color:#FFB300; border-color:rgba(255,179,0,0.5); }
+        body.theme-amber .badge-red { color:#FF4500; border-color:rgba(255,69,0,0.5); }
+        body.theme-amber .badge-contact { color:#B26A00; border-color:rgba(178,106,0,0.5); }
+        body.theme-amber .badge-year { color:#FFCA28; border-color:rgba(255,202,40,0.4); }
+        body.theme-amber .score-high { color:#FFCA28; font-weight:700; }
+        body.theme-amber .score-mid { color:#FFCA28; font-weight:700; }
+        body.theme-amber .score-low { color:#FFB300; font-weight:700; }
+        body.theme-amber .score-verylow { color:#FF4500; font-weight:700; }
+        body.theme-amber .click-hint { color:#FFCA28; border-color:#3E2723; background:#1A1A1A; border:1px solid #3E2723; border-radius:2px; animation:none; font-weight:700; letter-spacing:0.8px; }
+        body.theme-amber .marquee-wrap { background:#1A1A1A; border-color:#3E2723; border-top:2px solid rgba(255,202,40,0.2); border-radius:4px; height:52px; }
+        body.theme-amber .marquee-icon { background:#1A1A1A; border-radius:2px; border:1px solid #3E2723; }
+        body.theme-amber .marquee-item .tag.future { background:rgba(255,202,40,0.12); color:#FFCA28; font-weight:700; }
+        body.theme-amber .marquee-item .tag.today { background:rgba(255,69,0,0.12); color:#FF4500; font-weight:700; }
+        body.theme-amber .marquee-item .date-text { color:#B26A00; font-weight:700; }
+        body.theme-amber .popover-card { background:#1A1A1A; border:1px solid #3E2723; border-top:2px solid rgba(255,202,40,0.2); border-radius:4px; box-shadow:0 8px 40px rgba(0,0,0,0.5), 0 0 20px rgba(255,202,40,0.03); }
+        body.theme-amber .pin-icon::after { background:#1A1A1A; color:#B26A00; border-color:#3E2723; font-weight:700; }
+        body.theme-amber footer { color:#B26A00; font-weight:700; }
+        body.theme-amber tr.distance-detail { background:#1A1A1A; }
+        body.theme-amber .dist-mini-fill.drive { background:#FFCA28; }
+        body.theme-amber .dist-mini-fill.metro { background:#FFCA28; opacity:0.6; }
 
-        body.theme-glass .vintage-btn:hover {
-            border-color: #7c5cbf;
-            color: #7c5cbf;
-        }
+        /* ========== 各主题大数字四色配色覆盖 ========== */
+        /* LITE（石墨灰 · 天空蓝 · 暖黄 · 警示红） */
+        body.theme-lite #numTarget { color:#333333 !important; }
+        body.theme-lite #numVisited { color:#2563EB !important; }
+        body.theme-lite #numSigned { color:#E8B832 !important; }
+        body.theme-lite #numUnvisited { color:#D32F2F !important; }
+        body.theme-lite #numSignRate { color:#E8B832 !important; }
+        body.theme-lite #numContactRate { color:#2563EB !important; }
+        body.theme-lite #numNew2026 { color:#D32F2F !important; }
+        body.theme-lite #numNewSchools { color:#333333 !important; }
+        /* AMBER（蓝色 · 荧光橙 · 荧光绿 · 夕阳红） */
+        body.theme-amber #numTarget { color:#3B82F6 !important; }
+        body.theme-amber #numVisited { color:#FF6600 !important; }
+        body.theme-amber #numSigned { color:#10b981 !important; }
+        body.theme-amber #numUnvisited { color:#FF4500 !important; }
+        body.theme-amber #numSignRate { color:#10b981 !important; }
+        body.theme-amber #numContactRate { color:#FFCA28 !important; }
+        body.theme-amber #numNew2026 { color:#FF6600 !important; }
+        body.theme-amber #numNewSchools { color:#3B82F6 !important; }
 
-        body.theme-glass .vintage-btn--active {
-            color: white;
-            background: #7c5cbf;
-            border-color: #7c5cbf;
-        }
-
-        body.theme-glass .vintage-input { background: #ffffff; }
-        body.theme-glass .vintage-input:focus {
-            border-color: #7c5cbf;
-            box-shadow: 0 0 0 2px rgba(124,92,191,0.12);
-        }
-        body.theme-glass .theme-dropdown { background: #ffffff; }
-        body.theme-glass .card-title { color: #7c5cbf; border-bottom-color: rgba(124,92,191,0.15); }
-        body.theme-glass .predict-score { color: #4daf7a; border-top-color: rgba(77,175,122,0.2); }
-        body.theme-glass .num-value { font-weight: 700; }
-        body.theme-glass .badge-green { color: #4daf7a; border-color: #4daf7a; }
-        body.theme-glass .badge-amber { color: #c4844a; border-color: #c4844a; }
-        body.theme-glass .badge-red { color: #d94f4f; border-color: #d94f4f; }
-        body.theme-glass .badge-contact { color: #7c5cbf; border-color: #7c5cbf; }
-        body.theme-glass .badge-year { color: #9185a3; border-color: #9185a3; }
-        body.theme-glass .score-high { color: #4daf7a; }
-        body.theme-glass .score-mid { color: #7c5cbf; }
-        body.theme-glass .score-low { color: #c4844a; }
-        body.theme-glass .score-verylow { color: #d94f4f; }
-        body.theme-glass .num-card { background: #ffffff; border-color: #e2dce8; }
-        body.theme-glass .num-card:hover { border-color: #7c5cbf; }
-        body.theme-glass thead th { color: #7c5cbf; }
-        body.theme-glass select.vintage-select { background: #ffffff; }
-        body.theme-glass .pin-icon:hover { color: #7c5cbf; }
-        body.theme-glass tr.highlight-missing { background: rgba(224,90,90,0.06) !important; border-left: 3px solid #e05a5a; }
-
+        /* ========== 全局基础样式 ========== */
         * { box-sizing: border-box; margin: 0; padding: 0; }
         html { scroll-behavior: smooth; background: var(--bg-primary); }
         body {
-            font-family: var(--font-mono);
+            font-family: 'Roboto Mono', 'SF Mono', 'Menlo', 'Consolas', monospace;
             background: var(--bg-primary);
             color: var(--text-primary);
             font-size: 14px;
@@ -139,142 +374,52 @@
             display: flex; flex-direction: column; align-items: center;
             transition: background 0.3s, color 0.3s;
         }
-        body::before {
-            content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0,0,0,0.015);
-            pointer-events: none; z-index: 9999;
-        }
-        body.theme-glass::before { display: none; }
-
-        .app-container {
-            max-width: 1600px; width: 100%; padding: 24px;
-            display: flex; flex-direction: column; gap: 24px; position: relative; z-index: 1;
-        }
-
-        .crt-header {
-            background: var(--bg-card); border: 1px solid var(--border-color);
-            border-radius: var(--radius-card); padding: 20px 28px;
-            box-shadow: var(--card-shadow);
-            display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px;
-        }
-        .title-main {
-            font-size: 22px; display: flex; align-items: center; gap: 8px;
-            text-transform: uppercase; font-weight: bold; color: var(--text-primary);
-        }
+        .app-container { max-width: 1600px; width: 100%; padding: 24px; display: flex; flex-direction: column; gap: 24px; position: relative; z-index: 1; }
+        .crt-header { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-card); padding: 20px 28px; box-shadow: var(--card-shadow); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+        .title-main { font-size: 22px; display: flex; align-items: center; gap: 8px; text-transform: uppercase; font-weight: bold; color: var(--text-primary); }
         .blink-cursor::after { content: '█'; animation: blink 1s step-end infinite; margin-left: 2px; }
         @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:0;} }
-
         .update-badge { font-size: 14px; color: var(--text-muted); letter-spacing: 0.5px; }
-        .live-badge {
-            font-size: 14px; color: var(--badge-success); font-weight: 600;
-            animation: live-pulse 2s ease-in-out infinite;
-        }
+        .live-badge { font-size: 14px; color: var(--badge-success); font-weight: 600; animation: live-pulse 2s ease-in-out infinite; }
         @keyframes live-pulse { 0%,100%{ opacity:1; } 50%{ opacity:0.4; } }
-        body.theme-glass .live-badge { color: #4daf7a; }
-
         .theme-selector { display: flex; align-items: center; gap: 8px; }
         .theme-selector label { font-size: 12px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
-        .theme-dropdown {
-            background: var(--bg-input); border: 1px solid var(--border-color);
-            color: var(--text-primary); font-family: inherit; padding: 6px 10px; border-radius: 6px;
-            font-size: 12px; cursor: pointer; outline: none;
-        }
-
-        .head-dashboard {
-            display: grid;
-            grid-template-columns: 1fr 1.5fr 1.5fr;
-            gap: 20px;
-        }
+        .theme-dropdown { background: var(--bg-input); border: 1px solid var(--border-color); color: var(--text-primary); font-family: inherit; padding: 6px 10px; border-radius: 6px; font-size: 12px; cursor: pointer; outline: none; }
+        .head-dashboard { display: grid; grid-template-columns: 1fr 1.5fr 1.5fr; gap: 20px; }
         @media (max-width: 1024px) { .head-dashboard { grid-template-columns: 1fr 1fr; } }
         @media (max-width: 768px) { .head-dashboard { grid-template-columns: 1fr; } }
-
-        .card {
-            background: var(--bg-card); border: 1px solid var(--border-color);
-            border-radius: var(--radius-card); padding: 24px;
-            box-shadow: var(--card-shadow);
-            display: flex; flex-direction: column;
-            will-change: transform;
-        }
-        .card-title {
-            font-size: 13px; text-transform: uppercase; letter-spacing: 1px;
-            color: var(--text-warning); margin-bottom: 16px;
-            border-bottom: 1px dashed rgba(128,128,128,0.3); padding-bottom: 8px;
-        }
-        .radar-wrap {
-            display: flex; flex-direction: column; align-items: center; justify-content: center; flex: 1;
-        }
+        .card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-card); padding: 24px; box-shadow: var(--card-shadow); display: flex; flex-direction: column; }
+        .card-title { font-size: 13px; text-transform: uppercase; letter-spacing: 1px; color: var(--text-warning); margin-bottom: 16px; border-bottom: 1px dashed rgba(128,128,128,0.3); padding-bottom: 8px; }
+        .radar-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; flex: 1; }
         .radar-container { width: 100%; max-width: 280px; }
         .radar-svg { width: 100%; height: auto; }
-        .predict-score {
-            text-align: center; font-size: 12px; color: var(--text-warning);
-            margin-top: 12px; border-top: 1px dashed rgba(128,128,128,0.2); padding-top: 12px;
-        }
-
+        .predict-score { text-align: center; font-size: 12px; color: var(--text-warning); margin-top: 12px; border-top: 1px dashed rgba(128,128,128,0.2); padding-top: 12px; }
         .stats-panel { display: flex; flex-direction: column; gap: 20px; }
-        .big-numbers {
-            display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
-        }
-        .num-card {
-            background: var(--bg-input); border: 1px solid var(--border-color); border-radius: 8px;
-            padding: 12px 8px; text-align: center;
-        }
-        .num-value {
-            font-size: 28px; font-weight: bold; display: block; line-height: 1.2;
-        }
-        .num-label {
-            font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px;
-        }
+        .big-numbers { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+        .num-card { background: var(--bg-input); border: 1px solid var(--border-color); border-radius: 8px; padding: 12px 8px; text-align: center; }
+        .num-value { font-size: 28px; font-weight: bold; display: block; line-height: 1.2; }
+        .num-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; }
         .progress-group { display: flex; flex-direction: column; gap: 12px; }
         .progress-item { display: flex; flex-direction: column; gap: 4px; }
         .progress-label { font-size: 12px; color: var(--text-muted); display: flex; justify-content: space-between; }
-        .progress-bar-track {
-            background: var(--progress-bg); border-radius: 4px; height: 10px; overflow: hidden; border: 1px solid var(--border-color);
-        }
-        .progress-fill { height: 100%; width: 0%; transition: width 0.4s ease; }
+        .progress-bar-track { background: var(--progress-bg); border-radius: 4px; height: 10px; overflow: hidden; border: 1px solid var(--border-color); }
+        .progress-fill { height: 100%; width: 0%; transition: width 0.4s ease; border-radius: 0; }
         .progress-fill.visit { background: var(--progress-visit); }
         .progress-fill.sign { background: var(--progress-sign); }
-
-        .control-bar {
-            display: flex; flex-wrap: wrap; gap: 12px; align-items: center;
-            background: var(--bg-card); padding: 16px; border-radius: var(--radius-card);
-            border: 1px solid var(--border-color);
-            will-change: transform;
-        }
-        .vintage-input {
-            background: var(--bg-input); border: 1px solid var(--border-color); color: var(--text-primary);
-            font-family: inherit; padding: 8px 12px; border-radius: 6px; font-size: 13px; flex: 1; min-width: 160px; outline: none;
-        }
+        .control-bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; background: var(--bg-card); padding: 16px; border-radius: var(--radius-card); border: 1px solid var(--border-color); }
+        .vintage-input { background: var(--bg-input); border: 1px solid var(--border-color); color: var(--text-primary); font-family: inherit; padding: 8px 12px; border-radius: 6px; font-size: 13px; flex: 1; min-width: 160px; outline: none; }
         .vintage-input:focus { border-color: var(--text-info); }
-        .vintage-btn {
-            font-family: inherit; background: var(--button-bg); color: var(--text-primary);
-            border: 1px solid var(--border-color); border-radius: 6px; padding: 8px 14px;
-            cursor: pointer; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-size: 11px;
-            white-space: nowrap; transition: all 0.15s;
-        }
+        .vintage-btn { font-family: inherit; background: var(--button-bg); color: var(--text-primary); border: 1px solid var(--border-color); border-radius: 6px; padding: 8px 14px; cursor: pointer; text-transform: uppercase; font-weight: 600; letter-spacing: 0.5px; font-size: 11px; white-space: nowrap; transition: all 0.15s; }
         .vintage-btn:hover { filter: brightness(1.1); }
         .vintage-btn--active { background: var(--button-active-bg); color: var(--button-active-text); border-color: transparent; }
-        select.vintage-select {
-            background: var(--bg-input); border: 1px solid var(--border-color); color: var(--text-primary);
-            font-family: inherit; padding: 6px 10px; border-radius: 6px; font-size: 12px; cursor: pointer;
-        }
-
-        .table-wrapper {
-            overflow-x: auto; border-radius: var(--radius-card);
-            border: 1px solid var(--border-color); background: var(--bg-card);
-            will-change: transform;
-        }
-        table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 1450px; }
-        thead th {
-            position: sticky; top: 0; background: var(--table-header-bg); color: var(--text-warning);
-            font-weight: 600; text-transform: uppercase;
-            padding: 12px 10px; border-bottom: 2px solid var(--border-color); z-index: 2; cursor: pointer;
-        }
-        tbody { contain: style; }
+        select.vintage-select { background: var(--bg-input); border: 1px solid var(--border-color); color: var(--text-primary); font-family: inherit; padding: 6px 10px; border-radius: 6px; font-size: 12px; cursor: pointer; }
+        .table-wrapper { overflow-x: auto; border-radius: var(--radius-card); border: 1px solid var(--border-color); background: var(--bg-card); }
+        table { width: 100%; border-collapse: collapse; font-size: 14px; min-width: 1450px; table-layout: fixed; }
+        thead th { position: sticky; top: 0; background: var(--table-header-bg); color: var(--text-warning); font-weight: 600; text-transform: uppercase; padding: 12px 10px; border-bottom: 2px solid var(--border-color); z-index: 2; cursor: pointer; }
         tbody td { padding: 12px 10px; border-bottom: 1px solid rgba(128,128,128,0.15); vertical-align: middle; }
         tbody tr { transition: background 0.15s; cursor: pointer; contain: layout style paint; }
         tbody tr:hover { background: var(--table-row-hover); }
         td.cell-class, td.cell-notes { max-width: 160px; width: 160px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-        table { table-layout: fixed; min-width: 1450px; }
         thead th:nth-child(1), td.cell-school { width: 180px; }
         thead th:nth-child(2), td:nth-child(2) { width: 110px; }
         thead th:nth-child(3), td:nth-child(3) { width: 100px; }
@@ -291,117 +436,79 @@
         .school-name { display: flex; align-items: center; gap: 4px; }
         .pin-icon { cursor: pointer; opacity: 0.7; transition: 0.2s; position: relative; }
         .pin-icon:hover { opacity: 1; color: var(--text-warning); }
-        .pin-icon::after {
-            content: "查看交通"; position: absolute; left: 50%; top: -24px; transform: translateX(-50%);
-            font-size: 10px; white-space: nowrap; background: var(--bg-card);
-            border: 1px solid var(--border-color); border-radius: 4px;
-            padding: 2px 6px; opacity: 0; pointer-events: none; transition: opacity 0.15s;
-            color: var(--text-muted); font-family: var(--font-mono);
-        }
+        .pin-icon::after { content: "查看交通"; position: absolute; left: 50%; top: -24px; transform: translateX(-50%); font-size: 10px; white-space: nowrap; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 4px; padding: 2px 6px; opacity: 0; pointer-events: none; transition: opacity 0.15s; color: var(--text-muted); font-family: var(--font-mono); }
         .pin-icon:hover::after { opacity: 1; }
-        body.theme-glass .pin-icon::after { background: #ffffff; color: #9185a3; }
-        .badge {
-            display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px;
-            font-weight: 600; letter-spacing: 0.5px; margin: 1px; border: 1px solid currentColor;
-        }
+        .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; letter-spacing: 0.5px; margin: 1px; border: 1px solid currentColor; }
         .badge-green { color: var(--badge-success); border-color: var(--badge-success); }
         .badge-amber { color: var(--badge-warning); border-color: var(--badge-warning); }
         .badge-red { color: var(--badge-danger); border-color: var(--badge-danger); }
         .badge-contact { color: var(--badge-muted); border-color: var(--badge-muted); }
         .badge-year { background: transparent; color: var(--text-secondary); border-color: var(--text-secondary); }
-
-        .score-num {
-            font-size: 18px; font-weight: bold; text-align: center; display: inline-block; min-width: 40px;
-        }
+        .score-num { font-size: 18px; font-weight: bold; text-align: center; display: inline-block; min-width: 40px; }
         .score-high { color: #059669; }
         .score-mid { color: #2563eb; }
         .score-low { color: #d97706; }
         .score-verylow { color: #dc2626; }
-        body:not(.theme-glass) .score-high { color: #00ff41; }
-        body:not(.theme-glass) .score-mid { color: #00bfff; }
-        body:not(.theme-glass) .score-low { color: #ffb000; }
-        body:not(.theme-glass) .score-verylow { color: #ff2d00; }
-
+        body.theme-default .score-high { color:#7CFF6B; }
+        body.theme-default .score-mid { color:#7CFF6B; }
+        body.theme-default .score-low { color:#E5FF00; }
+        body.theme-default .score-verylow { color:#FF6B6B; }
+        body.theme-amber .score-high { color:#FFCA28; }
+        body.theme-amber .score-mid { color:#FFCA28; }
+        body.theme-amber .score-low { color:#FFB300; }
+        body.theme-amber .score-verylow { color:#FF4500; }
+        body.theme-lite .score-high { color:#333333; }
+        body.theme-lite .score-mid { color:#333333; }
+        body.theme-lite .score-low { color:#D32F2F; }
+        body.theme-lite .score-verylow { color:#D32F2F; }
+        body.theme-glass .score-high { color:#4daf7a; }
+        body.theme-glass .score-mid { color:#7c5cbf; }
+        body.theme-glass .score-low { color:#c4844a; }
+        body.theme-glass .score-verylow { color:#d94f4f; }
         tr.distance-detail { display: none; background: rgba(0,0,0,0.03); }
-        body:not(.theme-glass) tr.distance-detail { background: rgba(0,0,0,0.3); }
+        body.theme-default tr.distance-detail { background: rgba(0,0,0,0.3); }
+        body.theme-amber tr.distance-detail { background: #1A1A1A; }
+        body.theme-lite tr.distance-detail { background: #F2F2F2; }
+        body.theme-glass tr.distance-detail { background: rgba(0,0,0,0.03); }
         tr.distance-detail td { padding: 6px 12px; }
         .dist-mini-bar { height: 4px; border-radius: 2px; background: rgba(128,128,128,0.2); margin: 2px 0; }
         .dist-mini-fill { height: 100%; border-radius: 2px; }
         .dist-mini-fill.drive { background: #10b981; }
         .dist-mini-fill.metro { background: #3b82f6; }
-        body:not(.theme-glass) .dist-mini-fill.drive { background: #00ff41; }
-        body:not(.theme-glass) .dist-mini-fill.metro { background: #00bfff; }
-
+        body.theme-default .dist-mini-fill.drive { background: #7CFF6B; }
+        body.theme-default .dist-mini-fill.metro { background: #7CFF6B; opacity:0.6; }
+        body.theme-amber .dist-mini-fill.drive { background: #FFCA28; }
+        body.theme-amber .dist-mini-fill.metro { background: #FFCA28; opacity:0.6; }
+        body.theme-lite .dist-mini-fill.drive { background: #3B82F6; }
+        body.theme-lite .dist-mini-fill.metro { background: #3B82F6; opacity:0.5; }
+        body.theme-glass .dist-mini-fill.drive { background: #7c5cbf; }
+        body.theme-glass .dist-mini-fill.metro { background: #7c5cbf; opacity:0.6; }
         footer { text-align: center; opacity: 0.6; margin-top: 16px; font-size: 12px; }
-
-        .click-hint {
-            display: flex; align-items: center; gap: 6px;
-            font-size: 11px; color: var(--text-warning);
-            margin-bottom: 4px; padding: 4px 10px;
-            background: var(--bg-input); border-radius: 6px;
-            border: 1px dashed var(--border-color);
-            width: fit-content; letter-spacing: 0.3px;
-            animation: hint-glow 2s ease-in-out infinite;
-        }
+        .click-hint { display: flex; align-items: center; gap: 6px; font-size: 11px; color: var(--text-warning); margin-bottom: 4px; padding: 4px 10px; background: var(--bg-input); border-radius: 6px; border: 1px dashed var(--border-color); width: fit-content; letter-spacing: 0.3px; animation: hint-glow 2s ease-in-out infinite; }
         .click-hint span { font-size: 14px; }
         @keyframes hint-glow { 0%,100%{ opacity: 0.8; } 50%{ opacity: 1; } }
-        body.theme-glass .click-hint { color: #7c5cbf; border-color: #e2dce8; }
         .pin-icon { animation: pin-breathe 3s ease-in-out 1s 3; }
         @keyframes pin-breathe { 0%,100%{ transform: scale(1); } 50%{ transform: scale(1.15); } }
 
-        /* ========== 经典水平滚动跑马灯 ========== */
-        .marquee-wrap {
-            display: flex; align-items: center; gap: 12px;
-            background: var(--bg-card); border: 1px solid var(--border-color);
-            border-radius: var(--radius-card); padding: 10px 16px;
-            overflow: hidden; height: 54px;
-        }
+        /* 跑马灯 */
+        .marquee-wrap { display: flex; align-items: center; gap: 12px; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-card); padding: 10px 16px; overflow: hidden; height: 54px; }
         .marquee-icon { flex-shrink: 0; font-size: 20px; background: var(--bg-input); padding: 4px 10px; border-radius: 6px; }
         .marquee-track { flex: 1; overflow: hidden; position: relative; height: 100%; }
-        .marquee-content {
-            display: flex; align-items: center; gap: 24px;
-            white-space: nowrap; position: absolute; left: 0; top: 0; height: 100%;
-            will-change: transform;
-        }
-        .marquee-content.scrolling {
-            animation: marquee-scroll linear infinite;
-        }
-        @keyframes marquee-scroll {
-            0% { transform: translateX(0); }
-            100% { transform: translateX(-100%); }
-        }
+        .marquee-content { display: flex; align-items: center; gap: 24px; white-space: nowrap; position: absolute; left: 0; top: 0; height: 100%; will-change: transform; }
+        .marquee-content.scrolling { animation: marquee-scroll linear infinite; }
+        @keyframes marquee-scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-100%); } }
         .marquee-item { display: inline-flex; align-items: center; gap: 8px; }
-        .marquee-item .tag {
-            display: inline-block; padding: 2px 10px; border-radius: 4px;
-            font-size: 12px; font-weight: 700;
-        }
+        .marquee-item .tag { display: inline-block; padding: 2px 10px; border-radius: 4px; font-size: 12px; font-weight: 700; }
         .marquee-item .tag.future { background: rgba(16,185,129,0.2); color: #10b981; }
         .marquee-item .tag.today { background: rgba(255,176,0,0.25); color: var(--text-warning); }
         .marquee-item .school { font-weight: 500; }
-        .marquee-item .school:not(:last-child)::after { content: '、'; }
         .marquee-item .date-text { color: var(--text-muted); }
-        body.theme-glass .marquee-item .tag.future { background: rgba(77,175,122,0.15); color: #4daf7a; }
-        body.theme-glass .marquee-item .tag.today { background: rgba(196,132,74,0.15); color: #c4844a; }
-        body.theme-glass .marquee-item .school { color: var(--text-primary); }
 
-        /* ========== 浮动气泡卡片 ========== */
-        .popover-card {
-            position: fixed; z-index: 9999;
-            max-width: 500px; max-height: 360px; overflow-y: auto;
-            background: var(--bg-card); border: 1px solid var(--border-color);
-            border-radius: 10px; padding: 16px 20px;
-            font-size: 15px; line-height: 1.7; white-space: pre-wrap; word-break: break-word;
-            box-shadow: 0 8px 30px rgba(0,0,0,0.25);
-            pointer-events: auto; display: none;
-        }
+        /* popover */
+        .popover-card { position: fixed; z-index: 9999; max-width: 500px; max-height: 360px; overflow-y: auto; background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 10px; padding: 16px 20px; font-size: 15px; line-height: 1.7; white-space: pre-wrap; word-break: break-word; box-shadow: 0 8px 30px rgba(0,0,0,0.25); pointer-events: auto; display: none; }
         .popover-card.show { display: block; }
-        .popover-card .popover-close {
-            position: sticky; top: 0; float: right; cursor: pointer;
-            font-size: 16px; opacity: 0.5; transition: 0.15s;
-            background: var(--bg-card); padding: 2px 8px; border-radius: 4px;
-        }
+        .popover-card .popover-close { position: sticky; top: 0; float: right; cursor: pointer; font-size: 16px; opacity: 0.5; transition: 0.15s; background: var(--bg-card); padding: 2px 8px; border-radius: 4px; }
         .popover-card .popover-close:hover { opacity: 1; }
-        body.theme-glass .popover-card { box-shadow: 0 4px 20px rgba(42,36,56,0.12); }
     </style>
 </head>
 <body>
@@ -416,8 +523,10 @@
             <div class="theme-selector">
                 <label for="themeSelect">THEME</label>
                 <select id="themeSelect" class="theme-dropdown">
-                    <option value="terminal">🖥️ TERMINAL</option>
+                    <option value="default">💚 GRID</option>
                     <option value="glass">✨ LIGHT</option>
+                    <option value="lite">⚪ LITE</option>
+                    <option value="amber">🔥 AMBER</option>
                 </select>
             </div>
         </div>
@@ -485,8 +594,8 @@
                             <span style="font-size:11px;color:var(--text-muted);">🎯 公办/优质民办普高</span>
                         </div>
                         <div style="display:flex;justify-content:space-between;margin-top:2px;">
-                            <span style="font-size:10px;color:var(--text-muted);">二诊350-389 → 三圈层民办</span>
-                            <span style="font-size:10px;color:var(--text-muted);">二诊<350 → 职教高考班</span>
+                            <span style="font-size:10px;color:var(--text-warning);">450+ → 可冲二中线（626）</span>
+                            <span style="font-size:10px;color:var(--text-muted);">≈ 430 → 610分段保底</span>
                         </div>
                     </div>
                     <div style="background:var(--bg-input);border:1px solid var(--border-color);border-radius:8px;padding:10px;">
@@ -523,12 +632,11 @@
         <span class="popover-close" id="popoverClose">✕</span>
         <div id="popoverContent"></div>
     </div>
-    <div class="click-hint"><span>📍</span> 点击学校名旁的 <strong>📍图标</strong> 可查看开车 & 地铁交通距离</div>
+    <div class="click-hint"><span>📍</span> 点击学校名旁的 <strong>📍图标</strong> 可查看开车 & 交通距离</div>
     <div class="table-wrapper">
         <table id="dataTable">
-            <thead>
-            <tr>
-                <th data-sort="school" style="cursor:help;" title="📍点击图标查看开车/地铁交通距离">学校名称 ↕</th>
+            <thead><tr>
+                <th data-sort="school" style="cursor:help;" title="📍点击图标查看开车/交通距离">学校名称 ↕</th>
                 <th data-sort="date">访校日期 ↕</th>
                 <th>签约状态</th>
                 <th>联系方式</th>
@@ -538,29 +646,34 @@
                 <th>2025位次</th>
                 <th>中签率</th>
                 <th>备注</th>
-            </tr>
-            </thead>
+            </tr></thead>
             <tbody id="tableBody"></tbody>
         </table>
     </div>
-    <footer>● 中签率v2.0 基于分数差距+位次竞争+签约/访校因子，2026新校有首年降分预期，仅供参考 ●</footer>
+    <footer>● 中签率v2.1 基于分数差距+位次竞争+签约（按统招线分段），2026新校+5%，仅供参考 ●</footer>
 </div>
 
 <script>
 (() => {
-    // 主题切换
+    // ===== 主题切换 =====
     const themeSelect = document.getElementById('themeSelect');
+    const validThemes = new Set(['default', 'glass', 'lite', 'amber']);
     function applyTheme(theme) {
+        document.body.classList.remove('theme-glass', 'theme-lite', 'theme-amber', 'theme-default');
         if (theme === 'glass') document.body.classList.add('theme-glass');
-        else document.body.classList.remove('theme-glass');
+        else if (theme === 'lite') document.body.classList.add('theme-lite');
+        else if (theme === 'amber') document.body.classList.add('theme-amber');
+        else document.body.classList.add('theme-default');
         localStorage.setItem('dashboardTheme', theme);
     }
     themeSelect.addEventListener('change', (e) => applyTheme(e.target.value));
-    const savedTheme = localStorage.getItem('dashboardTheme') || 'glass';
+    const storedTheme = localStorage.getItem('dashboardTheme');
+    const migratedTheme = storedTheme === 'terminal' ? 'default' : storedTheme;
+    const savedTheme = validThemes.has(migratedTheme) ? migratedTheme : 'glass';
     themeSelect.value = savedTheme;
     applyTheme(savedTheme);
 
-    // 数据定义
+    // ===== 数据定义 =====
     const ERZHEN_SCORE = 447.5;
     const PREDICTED_SCORE = Math.round(ERZHEN_SCORE * 1.24 + 30);
     const examinee = {
@@ -574,8 +687,7 @@
         ]
     };
 
-    // 距离数据
-    // mode: "metro" = 地铁直达（出站步行可达）, "transit" = 地铁+公交/其他
+    // ===== 距离数据 =====
     const distanceRaw = [
         {school:"市教科院附属学校",straight:0.77,driveDist:1,driveTime:17,transitDist:0.9,transitTime:26,mode:"metro"},
         {school:"成都市教科院附中",straight:1.64,driveDist:2.13,driveTime:19,transitDist:1.92,transitTime:27,mode:"metro"},
@@ -654,10 +766,8 @@
         { school:"成华区嘉祥外国语高级中学", date:"4月18日", visitSign:"是/否", contact:"有老师", classInfo:"创新/精品/实验/平行，分数可签精品，统招100+人。", project:"", notes:"实际学费约3w+/年", score:577, rank:11900, district:"成华区" },
         { school:"温江区菁才中学", date:"5月3日", visitSign:"是/无", contact:"有群", classInfo:"三种班型，7中班/英才班/实验班,共300+人，场内约100人；", project:"", notes:"", score:null, rank:null, district:"温江区", yearTag:"2026", estScore:580 },
         { school:"成都市教科院附中", date:"3月14日", visitSign:"是/否", contact:"无", classInfo:"348 人（含指标到校 174 人）", project:"", notes:"", score:630, rank:3345, district:"高新区" },
-        // 新增考察学校（双流、棠湖纳入范围）
         { school:"双流中学（紫东校区）", date:"", visitSign:"", contact:"无", classInfo:"", project:"", notes:"调剂线604，咨询时间周一至周五：17:00-20:00，周六、周日：8:30-18:00，招生办", score:583, rank:9200, district:"其他" },
         { school:"棠湖中学（双江路校区）", date:"", visitSign:"", contact:"无", classInfo:"", project:"", notes:"调剂线594，电话联系说中考后才有访校", score:570, rank:9790, district:"其他" },
-        // 备选
         { school:"七中万达通锦校区", date:"", visitSign:"备选", contact:"", classInfo:"", project:"", notes:"备选", score:590, rank:9850, district:"金牛区" },
         { school:"石室成飞中学", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:598, rank:8746, district:"青羊区" },
         { school:"川大附中新城分校", date:"", visitSign:"备选", contact:"有群", classInfo:"", project:"", notes:"备选", score:585, rank:10200, district:"其他" },
@@ -688,64 +798,39 @@
         const yearTag = item.yearTag || null;
         const missing = !isBackup && dateStr === '--' && contact === '--';
         const dist = distMap.get(item.school) || null;
-        // 使用估分(estScore)补充无score的新校
         const effectiveScore = item.score || item.estScore || null;
         return {
             id: idx, school: item.school, date: dateStr,
             visited, signed, isBackup,
             contact, classInfo: item.classInfo || '--', project: item.project || '--',
             score: item.score, rank: item.rank,
-            effectiveScore, // 用于中签率计算
+            effectiveScore,
             notes: item.notes || '--',
             yearTag, missing, distance: dist,
             district: item.district || '其他',
-            hasBonusSign: item.project?.includes('+3分') || null,
         };
     });
 
-    // ===== **升级版中签率模型 v2.0** =====
-    // 核心逻辑：50% baseline ± 分数差因子 ± 位次竞争因子 + 签约/访校加成
-    // 新增因素：位次竞争梯度、签约加分承诺、2026新校首年降分
+    // ===== 中签率模型 v2.1 =====
     function calcRate(s) {
         if (s.isBackup) return null;
-
-        // 使用effectiveScore（有score用score，没有则用估分）
         const sc = s.effectiveScore;
-        if (sc == null) return null; // 实在没数据
-
-        // 1. 基础分差因子：每差1分 = ±1.6%
+        if (sc == null) return null;
         let base = 50 + (PREDICTED_SCORE - sc) * 1.6;
-
-        // 2. 位次竞争因子
         if (s.rank != null) {
-            if (s.rank < 3000) base -= 10;          // 顶尖竞争
-            else if (s.rank < 5000) base -= 5;       // 强竞争
-            else if (s.rank < 8000) base -= 2;       // 中等竞争
-            else if (s.rank > 12000) base += 3;       // 低竞争
+            if (s.rank < 3000) base -= 10;
+            else if (s.rank < 5000) base -= 5;
+            else if (s.rank < 8000) base -= 2;
+            else if (s.rank > 12000) base += 3;
         }
-
-        // 3. 签约+访校因子
         if (s.signed) {
-            base += 12;  // 签约基础加成
-            // 特殊加分：十二中"如填报志愿+3分计算"
-            if (s.school === '成都十二中(四川大学附属中学)') base += 6;
-            // 成外 "如610进C9(优惠10分)"
-            if (s.school === '成都外国语学校本部') base += 8;
-        } else if (s.visited) {
-            base += 4;   // 仅访校加成（比签约小）
+            if (sc <= 590) base += 10;
+            else if (sc < 600) base += 5;
+            else base += 2;
         }
-
-        // 4. 2026新校首年降分预期
-        if (s.yearTag === '2026' && s.score == null) {
-            base += 10;  // 首年招生通常分数线偏低
-        }
-
-        // 5. 无联系方式扣分
+        if (s.yearTag === '2026' && s.score == null) base += 5;
         if (s.contact === '--' || s.contact === '无') base -= 5;
-
-        // 6. 预约也算正向信号
         if (s.contact === '已预约' && !s.visited && !s.signed) base += 3;
-
         return Math.min(98, Math.max(2, Math.round(base)));
     }
 
@@ -756,7 +841,7 @@
         return 'score-verylow';
     }
 
-    // ===== 经典水平滚动跑马灯 =====
+    // ===== 跑马灯 =====
     function buildMarquee() {
         const contentEl = document.getElementById('marqueeContent');
         const now = new Date(2026, 4, 13);
@@ -771,13 +856,20 @@
             if (!dateMap[key]) dateMap[key] = { date: day, schools: [] };
             dateMap[key].schools.push(s.school);
         });
+        // 手动添加宣讲活动
+        const eventDate = new Date(2026, 4, 15);
+        const eventKey = eventDate.getTime();
+        if (!dateMap[eventKey]) {
+            dateMap[eventKey] = { date: eventDate, schools: [], eventTime: '14:00', isEvent: true };
+        }
+        dateMap[eventKey].schools.push('🚏 12所高中进校园宣讲');
+
         const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
         const upcoming = Object.values(dateMap).filter(d => d.date >= today).sort((a,b) => a.date - b.date);
         if (upcoming.length === 0) {
             contentEl.innerHTML = '<span style="color:var(--text-muted);padding:4px 0;">🎉 暂无即将到访的学校</span>';
             return;
         }
-        // 构建全部日程：按时间顺序由近到远全部展示
         let html = '';
         upcoming.forEach((d, i) => {
             const diffDays = Math.round((d.date - now) / (1000*60*60*24));
@@ -786,19 +878,17 @@
             const tagText = isToday ? '🗓️ 今天' : '待访';
             const monthDay = `${d.date.getMonth()+1}月${d.date.getDate()}日`;
             if (i > 0) html += '<span class="marquee-sep" style="color:var(--border-color);">│</span>';
-            html += `<span class="marquee-item"><span class="tag ${tagClass}">${tagText}</span><span class="date-text">${monthDay}</span><span class="school">${d.schools.join('、')}</span></span>`;
+            html += `<span class="marquee-item"><span class="tag ${tagClass}">${tagText}</span><span class="date-text">${monthDay}${d.eventTime ? ' ' + d.eventTime : ''}</span><span class="school">${d.schools.join('、')}</span></span>`;
             if (!isToday) html += `<span class="countdown" style="font-size:12px;color:var(--text-warning);font-weight:700;margin-left:2px;">⏳${diffDays}天后</span>`;
         });
         contentEl.innerHTML = html;
-        // 检测是否超出容器宽度，超出则启动水平滚动
         contentEl.classList.remove('scrolling');
         clearTimeout(contentEl._marqueeTimer);
         setTimeout(() => {
             const track = document.getElementById('marqueeTrack');
             if (contentEl.scrollWidth > track.clientWidth) {
-                // 克隆一份内容实现无缝衔接
                 contentEl.innerHTML += `<span class="marquee-clone">${html}</span>`;
-                const duration = contentEl.scrollWidth / 40; // 40px/s 速度
+                const duration = contentEl.scrollWidth / 40;
                 contentEl.style.animationDuration = duration + 's';
                 contentEl.classList.add('scrolling');
             } else {
@@ -806,9 +896,8 @@
             }
         }, 100);
     }
-    buildMarquee();
 
-    // ===== 雷达图（放大版） =====
+    // ===== 雷达图 =====
     function drawRadar() {
         const svg = document.getElementById('radarSvg');
         const cx=100, cy=100, r=85;
@@ -865,32 +954,39 @@
         const visitedWithData = target.filter(s => s.visited);
         const signRate = visitedWithData.length ? Math.round(signedCount/visitedWithData.length*100) : 0;
         document.getElementById('numSignRate').textContent = visitedWithData.length ? `${signRate}%` : '--';
-        document.getElementById('numSignRate').title = `${signedCount}已签 / ${visitedWithData.length}已访`;
-
-        const contactCount = target.filter(s => s.contact !== '--' && s.contact !== '').length;
-        const contactRate = Math.round(contactCount/totalTarget*100);
-        document.getElementById('numContactRate').textContent = totalTarget ? `${contactRate}%` : '--';
-        document.getElementById('numContactRate').title = `${contactCount}有群/有老师 / ${totalTarget}目标`;
-
+        document.getElementById('numContactRate').textContent = totalTarget ? `${Math.round(target.filter(s => s.contact!=='--'&&s.contact!=='').length/totalTarget*100)}%` : '--';
         const new2026Count = target.filter(s => s.yearTag === '2026').length;
         document.getElementById('numNew2026').textContent = new2026Count;
         document.getElementById('numNewSchools').textContent = '14所';
     }
 
     let sortBy = null, sortAsc = true, showSignedOnly = false;
+    const popoverCard = document.getElementById('popoverCard');
+    const popoverContent = document.getElementById('popoverContent');
+    const popoverClose = document.getElementById('popoverClose');
+    let activePopover = { cell: null };
+
+    function hidePopover() {
+        popoverCard.classList.remove('show');
+        if (activePopover.cell) {
+            activePopover.cell.style.outline = 'none';
+            activePopover.cell = null;
+        }
+    }
+
+    popoverClose.addEventListener('click', hidePopover);
+    document.addEventListener('click', function(e) {
+        if (!popoverCard.contains(e.target) && !e.target.closest('.cell-class') && !e.target.closest('.cell-notes')) {
+            hidePopover();
+        }
+    });
 
     function applySort(data) {
         if (!sortBy) return data;
         return [...data].sort((a,b) => {
-            if (sortBy==='score') {
-                const va = a.score ?? -1, vb = b.score ?? -1;
-                return sortAsc ? va - vb : vb - va;
-            }
-            if (sortBy==='date') {
-                const va = a.date==='--'?'9999':a.date, vb = b.date==='--'?'9999':b.date;
-                return sortAsc ? va.localeCompare(vb) : vb.localeCompare(va);
-            }
-            if (sortBy==='school') return sortAsc ? a.school.localeCompare(b.school,'zh') : b.school.localeCompare(a.school,'zh');
+            if (sortBy==='score') { const va=a.score??-1,vb=b.score??-1; return sortAsc?va-vb:vb-va; }
+            if (sortBy==='date') { const va=a.date==='--'?'9999':a.date,vb=b.date==='--'?'9999':b.date; return sortAsc?va.localeCompare(vb):vb.localeCompare(va); }
+            if (sortBy==='school') return sortAsc?a.school.localeCompare(b.school,'zh'):b.school.localeCompare(a.school,'zh');
             return 0;
         });
     }
@@ -905,18 +1001,7 @@
             const sc = scoreClass(rate);
             const dist = s.distance;
             const badges = s.yearTag ? `<span class="badge badge-year">${s.yearTag}</span>` : '';
-            html += `<tr class="${hl}" data-id="${s.id}">
-                <td class="cell-school"><span class="school-name">${s.school} ${badges}<span class="pin-icon" data-id="${s.id}">📍</span></span></td>
-                <td>${s.date}</td>
-                <td>${s.isBackup ? '<span class="badge badge-amber">备选</span>' : (s.visited?'<span class="badge badge-green">已访</span> ':'<span class="badge badge-amber">未访</span> ')+(s.signed?'<span class="badge badge-green">已签</span>':'<span class="badge badge-amber">未签</span>')}</td>
-                <td>${s.contact==='有群'?'<span class="badge badge-contact">有群</span>':s.contact==='有老师'?'<span class="badge badge-contact">有老师</span>':s.contact==='有群/有老师'?'<span class="badge badge-contact">有群</span> <span class="badge badge-contact">有老师</span>':'--'}</td>
-                <td class="cell-class">${s.classInfo}</td>
-                <td>${s.project}</td>
-                <td>${s.score??'--'}</td>
-                <td>${s.rank??'--'}</td>
-                <td><span class="score-num ${sc}">${rate!=null ? rate : '--'}</span></td>
-                <td class="cell-notes">${s.notes}</td>
-            </tr>`;
+            html += `<tr class="${hl}" data-id="${s.id}"><td class="cell-school"><span class="school-name">${s.school} ${badges}<span class="pin-icon" data-id="${s.id}">📍</span></span></td><td>${s.date}</td><td>${s.isBackup ? '<span class="badge badge-amber">备选</span>' : (s.visited?'<span class="badge badge-green">已访</span> ':'<span class="badge badge-amber">未访</span> ')+(s.signed?'<span class="badge badge-green">已签</span>':'<span class="badge badge-amber">未签</span>')}</td><td>${s.contact==='有群'?'<span class="badge badge-contact">有群</span>':s.contact==='有老师'?'<span class="badge badge-contact">有老师</span>':s.contact==='有群/有老师'?'<span class="badge badge-contact">有群</span> <span class="badge badge-contact">有老师</span>':'--'}</td><td class="cell-class">${s.classInfo}</td><td>${s.project}</td><td>${s.score??'--'}</td><td>${s.rank??'--'}</td><td><span class="score-num ${sc}">${rate!=null ? rate : '--'}</span></td><td class="cell-notes">${s.notes}</td></tr>`;
             if (dist) {
                 const dp = (dist.driveDist / MAX_DRIVE * 100).toFixed(0);
                 const mp = (dist.transitDist / MAX_TRANSIT * 100).toFixed(0);
@@ -926,12 +1011,6 @@
             }
         });
         tbody.innerHTML = html;
-
-        const popoverCard = document.getElementById('popoverCard'), popoverContent = document.getElementById('popoverContent'), popoverClose = document.getElementById('popoverClose');
-        let activePopover = { cell: null };
-        function hidePopover() { popoverCard.classList.remove('show'); if (activePopover.cell) { activePopover.cell.style.outline = 'none'; activePopover.cell = null; } }
-        popoverClose.addEventListener('click', hidePopover);
-        document.addEventListener('click', function(e) { if (!popoverCard.contains(e.target) && !e.target.closest('.cell-class') && !e.target.closest('.cell-notes')) hidePopover(); });
         tbody.querySelectorAll('.cell-class, .cell-notes').forEach(cell => {
             cell.style.cursor = 'zoom-in'; cell.title = '点击查看完整内容';
             cell.addEventListener('click', function(e) {
@@ -994,6 +1073,9 @@
     drawRadar();
     updateStats();
     renderAll();
+    buildMarquee();
+    // 更换主题时重建跑马灯
+    document.getElementById('themeSelect').addEventListener('change', () => setTimeout(buildMarquee, 50));
 })();
 </script>
 </body>
