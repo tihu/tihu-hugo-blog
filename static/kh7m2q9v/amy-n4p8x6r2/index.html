@@ -872,7 +872,7 @@
     // ===== 跑马灯 =====
     function buildMarquee() {
         const contentEl = document.getElementById('marqueeContent');
-        const now = new Date(2026, 4, 13);
+        const now = new Date();
         const dateMap = {};
         schools.forEach(s => {
             if (s.date === '--' || s.isBackup) return;
