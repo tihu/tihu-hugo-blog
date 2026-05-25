@@ -103,6 +103,53 @@ tihu-hugo-blog/
 - 文件名主要服务本地维护与 git 管理，不承担完整标题功能
 - 历史文章如改过文件名，为避免旧 URL 失效，应在 front matter 保留对应 `slug`
 
+### 统一 Front Matter
+
+新文章默认使用精简 YAML 头部，不再添加 `typora-root-url`。
+
+标准格式：
+
+```yaml
+---
+title: "文章标题"
+date: 2026-04-21T00:21:00+08:00
+draft: false
+tags: ["标签"]
+categories: ["分类"]
+---
+```
+
+约定：
+
+- `date` 使用带时区的完整格式：`YYYY-MM-DDTHH:MM:SS+08:00`
+- `draft` 正式发布时设为 `false`
+- `tags` 和 `categories` 必须填写，使用一行数组格式
+- `typora-root-url` 不再用于新文章；图片统一按「图片规则」处理
+- `slug` 默认不写；仅在需要保留旧链接、迁移旧文章或明确自定义 URL 时添加
+- 英文覆盖范围内的文章需另加 `translationKey`，并与英文页保持一致
+
+常用示例：
+
+```yaml
+---
+title: "五月第2期新书盘点|从文博会科幻展到昆仑石刻新书"
+date: 2026-05-22T00:20:58+08:00
+draft: false
+tags: ["六州杂记"]
+categories: ["读书笔记"]
+---
+```
+
+```yaml
+---
+title: "诸仙众神 | 苏侯神传说：南朝时期的凶神崇拜"
+date: 2026-04-21T00:21:00+08:00
+draft: false
+tags: ["诸仙众神"]
+categories: ["焚字塔"]
+---
+```
+
 ### 分类与标签
 
 规则：每篇文章都要填写 `categories` 和 `tags`，不能留空。
