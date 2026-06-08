@@ -1,19 +1,19 @@
 # 醍醐堂記 Hugo Blog — AGENTS.md
 
-本文件接管并整理原 `../CLAUDE.md` 中与博客主站相关的项目知识，作为当前仓库 `tihu-hugo-blog/` 的统一协作文档。
+本文件接管并整理原 `../CLAUDE.md` 中与博客主站相关的项目知识，作为当前仓库 `tihuke` 的统一协作文档。
 
 ## 项目定位
 
 - 项目名：`醍醐堂記_TihuBlogs`
 - 仓库路径：`/Users/quintinwang/Documents/HugoBlogs/tihu-hugo-blog`
-- 线上地址：`https://tihu.github.io/tihu-hugo-blog/`
+- 线上地址：`https://tihu.github.io/tihuke/`
 - 技术栈：Hugo + PaperMod
 - 主题语言：中文主站 + 英文子站（`/en/`）
 
 ## Git 与部署
 
 - 当前主仓库分支：`main`
-- 远程仓库：`origin = git@github.com:tihu/tihu-hugo-blog.git`
+- 远程仓库：`origin = git@github.com:tihu/tihuke.git`
 - GitHub Pages 通过 `.github/workflows/deploy.yml` 自动部署
 - 部署触发方式：`git push origin main`
 - Git 已经配置完成，正常维护时不要改 remote、不要重建仓库配置
@@ -64,7 +64,7 @@ hugo --minify
 ## 关键目录
 
 ```text
-tihu-hugo-blog/
+tihuke/
 ├── content/                    # 中文内容
 ├── content.en/                 # 英文内容
 ├── layouts/                    # 自定义布局
@@ -87,7 +87,7 @@ tihu-hugo-blog/
 
 ## Hugo 配置要点
 
-- `baseURL = "https://tihu.github.io/tihu-hugo-blog/"`
+- `baseURL = "https://tihu.github.io/tihuke/"`
 - `defaultContentLanguage = "zh"`
 - 英文站放在 `/en/`
 - `paginate = 15`

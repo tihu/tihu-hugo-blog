@@ -1,4 +1,4 @@
-baseURL = "https://tihu.github.io/tihu-hugo-blog/"
+baseURL = "https://tihu.github.io/tihuke/"
 defaultContentLanguage = "zh"
 defaultContentLanguageInSubdir = false
 theme = "PaperMod"
